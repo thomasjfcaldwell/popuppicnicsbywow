@@ -25,7 +25,7 @@ class Ourstory extends Component {
 					fontFamily: 'Montserrat',
 				}}>
 				<Row>
-					<Col sm={12} lg={6} className='justify-content-center mt-4'>
+					<Col sm={12} lg={6} className='justify-content-center '>
 						<Card className='border-0'>
 							<Card.Img
 								src={groupShot}
@@ -51,7 +51,7 @@ class Ourstory extends Component {
 					</Col>
 					<Col lg={6} md={12}>
 						<Card
-							className='border-0 w-75'
+							className='border-0 w-75 bg-transparent'
 							style={{
 								width: '100%',
 								margin: '0 auto',

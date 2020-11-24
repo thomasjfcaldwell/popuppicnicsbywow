@@ -25,10 +25,10 @@ class Steps extends Component {
 		return (
 			<div>
 				<div className='d-flex align-items-center justify-content-center'>
-					<Row className='m-5'>
+					<Row className='text-center'>
 						<h1
 							style={{
-								fontSize: '3em',
+								fontSize: '2em',
 								marginTop: '2em',
 								fontWeight: 'lighter',
 								letterSpacing: '0.1em',

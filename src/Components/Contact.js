@@ -57,7 +57,7 @@ const Contact = () => {
 			style={{
 				background: '#F78F1E',
 			}}>
-			<Col>
+			<Col sm={12} >
 				<Form
 					className='form w-10 m-5'
 					style={{
@@ -147,7 +147,7 @@ const Contact = () => {
 					</div>
 				</Form>
 			</Col>
-			<Col
+			{/* <Col
 				style={{
 					position: 'relative',
 				}}>
@@ -199,7 +199,7 @@ const Contact = () => {
 						</Card.Footer>
 					</Card>
 				</CardColumns>
-			</Col>
+			</Col> */}
 		</Row>
 	);
 };

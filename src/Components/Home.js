@@ -39,7 +39,7 @@ class Home extends Component {
 					fluid
 					style={{
 						backgroundImage: `url(${background})`,
-						height: '120vh',
+						height: '100vh',
 						backgroundSize: 'cover',
 						backgroundRepeat: 'no-repeat',
 						backgroundPosition: 'center',
@@ -114,19 +114,18 @@ class Home extends Component {
 								style={{
 									width: '100%',
 									fontSize: '3em',
-									margin: '2em',
 								}}>
-								<Row className='justify-content-center'>
+							
 									<h1
 										className='text-center'
 										style={{
-											fontFamily: 'Pacifico',
-											fontSize: '1.9em',
+											fontFamily: 'sans',
+											fontSize: '1em',
 											color: '#231F20',
 										}}>
 										Treat Someone Special
 									</h1>
-								</Row>
+								
 								<Row className='justify-content-center'>
 									<Button
 										style={{
@@ -147,11 +146,11 @@ class Home extends Component {
 										</Nav.Link>
 									</Button>
 								</Row>
-								<Row className='justify-content-center d-none d-lg-block'>
+								<Row className='justify-content-center'>
 									<Image
 										src={ido}
 										style={{
-											maxWidth: '33%',
+											maxWidth: '32%',
 											boxShadow:
 												'0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)',
 										}}
@@ -159,7 +158,7 @@ class Home extends Component {
 									<Image
 										src={foodsetup}
 										style={{
-											maxWidth: '33%',
+											maxWidth: '32%',
 											boxShadow:
 												'0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)',
 										}}
@@ -167,7 +166,7 @@ class Home extends Component {
 									<Image
 										src={foodandice}
 										style={{
-											maxWidth: '33%',
+											maxWidth: '32%',
 											boxShadow:
 												'0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)',
 										}}
