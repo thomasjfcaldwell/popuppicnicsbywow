@@ -5,7 +5,7 @@ import {
 	Card,
 } from 'react-bootstrap';
 import '../styles/grid.css';
-import image1 from '../Images/12personWeb.jpg';
+import image1 from '../Images//12personWeb.jpg';
 import image2 from '../Images/Gallery/4personWeb.jpg';
 import image3 from '../Images/couple.sunset.jpg';
 import image4 from '../Images/sayidoweb.jpg';
