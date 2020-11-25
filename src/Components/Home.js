@@ -27,6 +27,7 @@ import Contact from '../Components/Contact';
 import Footer from '../Components/Footer';
 import BasicRows from './BasicRows';
 
+import '../styles/home.css'
 class Home extends Component {
 	handleClick() {
 		// do something meaningful, Promises, if/else, whatever, and then
@@ -36,6 +37,7 @@ class Home extends Component {
 		return (
 			<div>
 				<Jumbotron
+					className='topImage'
 					fluid
 					style={{
 						backgroundImage: `url(${background})`,
@@ -58,19 +60,18 @@ class Home extends Component {
 									fontSize: '1.2em',
 									fontFamily: 'Montserrat',
 								}}>
-								<Navbar expand='lg'>
+								<Navbar expand=''>
 									<Navbar.Toggle aria-controls='responsive-navbar-nav' />
 									<Navbar.Collapse id='responsive-navbar-nav'>
-										<Button
-											onClick={this.handleClick.bind(this)}
-											style={{
-												background: '#F78F1E',
-												border: 'none',
-												color: '#231F20',
-											}}>
-											Home
-										</Button>
 										<Nav className='mr-auto font-weight-bold p-5'>
+											<Nav.Link
+												onClick={this.handleClick.bind(this)}
+												style={{
+													color: '#231F20',
+													padding: '0.2em',
+												}}>
+												Return to Wow Events
+											</Nav.Link>
 											{/* <Nav.Link
 												href='/'
 												style={{
@@ -83,7 +84,7 @@ class Home extends Component {
 												href='/packages'
 												style={{
 													color: '#231F20',
-													padding: '1em',
+													padding: '0.2em',
 												}}>
 												PACKAGES & AVAILABILITY
 											</Nav.Link>
@@ -91,7 +92,7 @@ class Home extends Component {
 												href='/gallery'
 												style={{
 													color: '#231F20',
-													padding: '1em',
+													padding: '0.2em',
 												}}>
 												GALLERY
 											</Nav.Link>
@@ -99,7 +100,7 @@ class Home extends Component {
 												href='/faq'
 												style={{
 													color: '#231F20',
-													padding: '1em',
+													padding: '0.2em',
 												}}>
 												FAQ
 											</Nav.Link>
@@ -113,47 +114,36 @@ class Home extends Component {
 							<Col
 								style={{
 									width: '100%',
-									fontSize: '3em',
 								}}>
 								<h1
 									className='text-center'
 									style={{
-										marginTop: '1em',
 										fontFamily: 'Montserrat',
-										fontSize: '2em',
+										fontSize: '3em',
 										color: '#231F20',
 									}}>
 									Treat Someone Special
 								</h1>
 
-								<Row className='justify-content-center'>
+								<Row className='justify-content-center align-content-center'>
 									<Button
 										style={{
+											background: '#231f20',
 											width: '15em',
-											height: '3em',
-											backgroundColor: '#F78F1E',
-											border: '0',
-											color: '#231F20',
-											margin: '2.5em',
+											borderRadius: '25px',
+											border: '0.2em solid #F78F1E',
+											margin: '2em',
 										}}>
 										<Nav.Link
 											href='/packages'
 											style={{
-												color: '#231F20',
+												color: '#fff',
 												fontFamily: 'Montserrat',
 											}}>
 											More Information
 										</Nav.Link>
 									</Button>
 								</Row>
-							</Col>
-							<Col className='d-none d-lg-block p-5'>
-								<Image
-									src={circleimage}
-									style={{
-										maxWidth: '35em',
-									}}
-								/>
 							</Col>
 						</Row>
 					</Container>

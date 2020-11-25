@@ -175,7 +175,7 @@ const Contact = () => {
 							type='submit'
 							style={{
 								background: loader ? '#FFD700' : '#231f20',
-								width: '25%',
+								width: '5em',
 								borderRadius: '25px',
 								border: '2px solid white',
 							}}>
