@@ -65,8 +65,9 @@ const Contact = () => {
 			}}>
 			<Col sm={12}>
 				<Form
-					className='form w-10 m-5'
+					className='form'
 					style={{
+						width: '50%',
 						margin: '0 auto',
 					}}
 					onSubmit={handleSubmit}>
@@ -173,8 +174,10 @@ const Contact = () => {
 							className='border-0'
 							type='submit'
 							style={{
-								background: loader ? '#231F20' : '#F78F1E',
+								background: loader ? '#FFD700' : '#231f20',
 								width: '25%',
+								borderRadius: '25px',
+								border: '2px solid white',
 							}}>
 							Submit
 						</Button>
