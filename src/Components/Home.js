@@ -39,7 +39,7 @@ class Home extends Component {
 					fluid
 					style={{
 						backgroundImage: `url(${background})`,
-						height: '80vh',
+						height: '100vh',
 						backgroundSize: 'cover',
 						backgroundRepeat: 'no-repeat',
 						backgroundPosition: 'center',
@@ -115,17 +115,17 @@ class Home extends Component {
 									width: '100%',
 									fontSize: '3em',
 								}}>
-							
-									<h1
-										className='text-center'
-										style={{
-											fontFamily: 'sans',
-											fontSize: '1em',
-											color: '#231F20',
-										}}>
-										Treat Someone Special
-									</h1>
-								
+								<h1
+									className='text-center'
+									style={{
+										marginTop: '1em',
+										fontFamily: 'Montserrat',
+										fontSize: '2em',
+										color: '#231F20',
+									}}>
+									Treat Someone Special
+								</h1>
+
 								<Row className='justify-content-center'>
 									<Button
 										style={{
@@ -146,13 +146,12 @@ class Home extends Component {
 										</Nav.Link>
 									</Button>
 								</Row>
-								
 							</Col>
-							<Col className='d-none d-lg-block m-5'>
+							<Col className='d-none d-lg-block p-5'>
 								<Image
 									src={circleimage}
 									style={{
-										maxWidth: '40em',
+										maxWidth: '35em',
 									}}
 								/>
 							</Col>
@@ -169,4 +168,4 @@ class Home extends Component {
 	}
 }
 
-    export default Home
+export default Home;
