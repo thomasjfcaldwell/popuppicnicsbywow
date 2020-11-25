@@ -13,7 +13,7 @@ import {
 	ListGroupItem,
 } from 'react-bootstrap';
 
-import wowlogo from '../Images/WowEvents_Logo_Orange_RGB.png'
+import wowlogo from '../Images/WowEvents_Logo_Orange_RGB.png';
 
 import phoneIcon from '../Images/Icons/smartphone.png';
 import emailIcon from '../Images/Icons/email.png';
@@ -28,8 +28,8 @@ const Contact = () => {
 	const [name, setName] = useState('');
 	const [email, setEmail] = useState('');
 	const [phone, setPhone] = useState('');
-	const [date, setDate] = useState('')
-	const [location, setLocation] = useState('')
+	const [date, setDate] = useState('');
+	const [location, setLocation] = useState('');
 	const [message, setMessage] = useState('');
 	const [loader, setLoader] = useState(false);
 
@@ -190,38 +190,50 @@ const Contact = () => {
 					background: 'white',
 				}}>
 				<Card
+					sm={12}
 					style={{
 						width: '100%',
-						padding: '10em',
+						padding: '1em',
 					}}
 					className='bg-transparent border-0'>
 					<Card.Img
 						variant='top'
 						src={wowlogo}
 						style={{
-							width: '75%',
+							width: '60%',
 							margin: '0 auto',
 						}}
 					/>
-					<Card.Body className='text-center text-bold mt-5'>
+					<Card.Body
+						className='text-center text-bold mt-5'
+						style={{
+							fontSize: '1.3em',
+						}}>
 						<Card.Text>419 Main St Suite 433</Card.Text>
 						<Card.Text>Huntington Beach</Card.Text>
 						<Card.Text>CA 92648</Card.Text>
 					</Card.Body>
-					<ListGroup className='list-group-flush text-center border-0 mt-5'>
-						<ListGroupItem className='border-0'>
+					<ListGroup className='list-group-flush text-center border-0 mt-2'>
+						<ListGroupItem
+							className='border-0'
+							style={{
+								margin: '-0.5em',
+							}}>
 							<strong>Telephone</strong> 714.848.9698
 						</ListGroupItem>
-						<ListGroupItem>
+						<ListGroupItem
+							style={{
+								margin: '-0.5em',
+							}}>
 							<strong>Email</strong> hello@wowevents.com
 						</ListGroupItem>
 					</ListGroup>
-					<Card.Body className='text-center m-5'>
+					<Card.Body className='text-center'>
 						<Card.Link href='#'>
 							<Image
 								src={facebook}
 								style={{
-									width: '15%',
+									width: '10%',
 								}}
 							/>
 						</Card.Link>
@@ -229,7 +241,7 @@ const Contact = () => {
 							<Image
 								src={twitter}
 								style={{
-									width: '15%',
+									width: '10%',
 								}}
 							/>
 						</Card.Link>
@@ -237,7 +249,7 @@ const Contact = () => {
 							<Image
 								src={instagram}
 								style={{
-									width: '15%',
+									width: '10%',
 								}}
 							/>
 						</Card.Link>
