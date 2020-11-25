@@ -9,7 +9,11 @@ import {
 	Nav,
 	Image,
 	CardColumns,
+	ListGroup,
+	ListGroupItem,
 } from 'react-bootstrap';
+
+import wowlogo from '../Images/WowEvents_Logo_Orange_RGB.png'
 
 import phoneIcon from '../Images/Icons/smartphone.png';
 import emailIcon from '../Images/Icons/email.png';
@@ -62,13 +66,15 @@ const Contact = () => {
 		<Row
 			style={{
 				background: '#F78F1E',
+				marginTop: '1em',
 			}}>
-			<Col sm={12}>
+			<Col sm={12} lg={6}>
 				<Form
 					className='form'
 					style={{
-						width: '50%',
+						width: '75%',
 						margin: '0 auto',
+						textAlign: 'center',
 					}}
 					onSubmit={handleSubmit}>
 					<h1
@@ -84,8 +90,7 @@ const Contact = () => {
 					<div className='p-3'>
 						<Form.Label
 							style={{
-								fontWeight: 'bold',
-								fontSize: '1.5em',
+								fontSize: '1.3em',
 							}}>
 							Name
 						</Form.Label>
@@ -99,8 +104,7 @@ const Contact = () => {
 					<div className='p-3'>
 						<Form.Label
 							style={{
-								fontWeight: 'bold',
-								fontSize: '1.5em',
+								fontSize: '1.3em',
 							}}>
 							Email
 						</Form.Label>
@@ -113,8 +117,7 @@ const Contact = () => {
 					<div className='p-3'>
 						<Form.Label
 							style={{
-								fontWeight: 'bold',
-								fontSize: '1.5em',
+								fontSize: '1.3em',
 							}}>
 							Phone Number
 						</Form.Label>
@@ -127,8 +130,7 @@ const Contact = () => {
 					<div className='p-3'>
 						<Form.Label
 							style={{
-								fontWeight: 'bold',
-								fontSize: '1.5em',
+								fontSize: '1.3em',
 							}}>
 							Date Of Event
 						</Form.Label>
@@ -141,8 +143,7 @@ const Contact = () => {
 					<div className='p-3'>
 						<Form.Label
 							style={{
-								fontWeight: 'bold',
-								fontSize: '1.5em',
+								fontSize: '1.3em',
 							}}>
 							Location
 						</Form.Label>
@@ -155,9 +156,7 @@ const Contact = () => {
 					<div className='p-3'>
 						<Form.Label
 							style={{
-								fontWeight: 'bold',
-								fontSize: '1.5em',
-								textAlign: 'center',
+								fontSize: '1.3em',
 							}}>
 							Message
 						</Form.Label>
@@ -184,59 +183,67 @@ const Contact = () => {
 					</div>
 				</Form>
 			</Col>
-			{/* <Col
+			<Col
+				sm={12}
+				lg={6}
 				style={{
-					position: 'relative',
+					background: 'white',
 				}}>
-				<CardColumns>
-					<Card
-						className='bg-transparent border-0'
+				<Card
+					style={{
+						width: '100%',
+						padding: '10em',
+					}}
+					className='bg-transparent border-0'>
+					<Card.Img
+						variant='top'
+						src={wowlogo}
 						style={{
-							fontFamily: 'Montserrat',
-							textAlign: 'center',
-							position: 'absolute',
-							top: '50%',
-							left: '50%',
-							transform: 'translate(-50%, -50%)',
-						}}>
-						<Card.Body>
-							<Card.Text>Telephone:714.848.9698</Card.Text>
-							<Card.Text>Email:hello@wowevents.com</Card.Text>
-							<Card.Text>
-								419 Main St Suite 433 Huntington Beach, CA 92648
-							</Card.Text>
-						</Card.Body>
-						<Card.Footer className='bg-transparent border-0'>
-							<Row>
-								<Col>
-									<Image
-										src={facebook}
-										style={{
-											maxWidth: '3em',
-										}}
-									/>
-								</Col>
-								<Col>
-									<Image
-										src={instagram}
-										style={{
-											maxWidth: '3em',
-										}}
-									/>
-								</Col>
-								<Col>
-									<Image
-										src={twitter}
-										style={{
-											maxWidth: '3em',
-										}}
-									/>
-								</Col>
-							</Row>
-						</Card.Footer>
-					</Card>
-				</CardColumns>
-			</Col> */}
+							width: '75%',
+							margin: '0 auto',
+						}}
+					/>
+					<Card.Body className='text-center text-bold mt-5'>
+						<Card.Text>419 Main St Suite 433</Card.Text>
+						<Card.Text>Huntington Beach</Card.Text>
+						<Card.Text>CA 92648</Card.Text>
+					</Card.Body>
+					<ListGroup className='list-group-flush text-center border-0 mt-5'>
+						<ListGroupItem className='border-0'>
+							<strong>Telephone</strong> 714.848.9698
+						</ListGroupItem>
+						<ListGroupItem>
+							<strong>Email</strong> hello@wowevents.com
+						</ListGroupItem>
+					</ListGroup>
+					<Card.Body className='text-center m-5'>
+						<Card.Link href='#'>
+							<Image
+								src={facebook}
+								style={{
+									width: '15%',
+								}}
+							/>
+						</Card.Link>
+						<Card.Link href='#'>
+							<Image
+								src={twitter}
+								style={{
+									width: '15%',
+								}}
+							/>
+						</Card.Link>
+						<Card.Link href='#'>
+							<Image
+								src={instagram}
+								style={{
+									width: '15%',
+								}}
+							/>
+						</Card.Link>
+					</Card.Body>
+				</Card>
+			</Col>
 		</Row>
 	);
 };
