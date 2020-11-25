@@ -24,6 +24,8 @@ const Contact = () => {
 	const [name, setName] = useState('');
 	const [email, setEmail] = useState('');
 	const [phone, setPhone] = useState('');
+	const [date, setDate] = useState('')
+	const [location, setLocation] = useState('')
 	const [message, setMessage] = useState('');
 	const [loader, setLoader] = useState(false);
 
@@ -36,6 +38,8 @@ const Contact = () => {
 				name: name,
 				email: email,
 				phone: phone,
+				date: date,
+				location: location,
 				message: message,
 			})
 			.then(() => {
@@ -49,6 +53,8 @@ const Contact = () => {
 		setName('');
 		setEmail('');
 		setPhone('');
+		setDate('');
+		setLocation('');
 		setMessage('');
 	};
 
@@ -57,7 +63,7 @@ const Contact = () => {
 			style={{
 				background: '#F78F1E',
 			}}>
-			<Col sm={12} >
+			<Col sm={12}>
 				<Form
 					className='form w-10 m-5'
 					style={{
@@ -115,6 +121,34 @@ const Contact = () => {
 							placeholder='Number'
 							value={phone}
 							onChange={(e) => setPhone(e.target.value)}
+						/>
+					</div>
+					<div className='p-3'>
+						<Form.Label
+							style={{
+								fontWeight: 'bold',
+								fontSize: '1.5em',
+							}}>
+							Date Of Event
+						</Form.Label>
+						<Form.Control
+							placeholder='date of event'
+							value={date}
+							onChange={(e) => setDate(e.target.value)}
+						/>
+					</div>
+					<div className='p-3'>
+						<Form.Label
+							style={{
+								fontWeight: 'bold',
+								fontSize: '1.5em',
+							}}>
+							Location
+						</Form.Label>
+						<Form.Control
+							placeholder='Preferred location'
+							value={location}
+							onChange={(e) => setLocation(e.target.value)}
 						/>
 					</div>
 					<div className='p-3'>
