@@ -39,7 +39,7 @@ class Home extends Component {
 					fluid
 					style={{
 						backgroundImage: `url(${background})`,
-						height: '100vh',
+						height: '80vh',
 						backgroundSize: 'cover',
 						backgroundRepeat: 'no-repeat',
 						backgroundPosition: 'center',
@@ -146,32 +146,7 @@ class Home extends Component {
 										</Nav.Link>
 									</Button>
 								</Row>
-								<Row className='justify-content-center'>
-									<Image
-										src={ido}
-										style={{
-											maxWidth: '32%',
-											boxShadow:
-												'0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)',
-										}}
-									/>
-									<Image
-										src={foodsetup}
-										style={{
-											maxWidth: '32%',
-											boxShadow:
-												'0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)',
-										}}
-									/>
-									<Image
-										src={foodandice}
-										style={{
-											maxWidth: '32%',
-											boxShadow:
-												'0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)',
-										}}
-									/>
-								</Row>
+								
 							</Col>
 							<Col className='d-none d-lg-block m-5'>
 								<Image

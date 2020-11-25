@@ -243,8 +243,8 @@ class Packages extends Component {
 				</div>
 				<div
 					style={{
-						border: 'solid 0.7em #F78F1E',
-						margin: '4em',
+						border: 'solid 0.3em #F78F1E',
+						margin: '2em',
 					}}>
 					<Row
 						style={{
@@ -298,7 +298,7 @@ class Packages extends Component {
 								{/* <Buttons /> */}
 							</Card>
 						</Col>
-						<Col xs={6} sm={6} md={6} lg={3}>
+						<Col xs={12} sm={6} md={6} lg={3}>
 							<Card className='p-2 border-0 m-5'>
 								<Card.Title className='text-center'>
 									Teepee Cozy Corner <small>(with Throw and Decor)</small> $60
@@ -319,7 +319,7 @@ class Packages extends Component {
 							alignItems: 'center',
 							justifyContent: 'center',
 						}}>
-						<Col xs={6} sm={6} md={6} lg={3}>
+						<Col xs={12} sm={6} md={6} lg={3}>
 							<Card className='p-2 border-0 m-5'>
 								<Card.Title className='text-center'>
 									Umbrella with Stand @ 100
@@ -334,7 +334,7 @@ class Packages extends Component {
 								{/* <Buttons /> */}
 							</Card>
 						</Col>
-						<Col xs={6} sm={6} md={6} lg={3}>
+						<Col xs={12} sm={6} md={6} lg={3}>
 							<Card className='p-2 border-0 m-5'>
 								<Card.Title className='text-center'>
 									Dessert Platter @ $40
@@ -349,7 +349,7 @@ class Packages extends Component {
 								{/* <Buttons /> */}
 							</Card>
 						</Col>
-						<Col xs={6} sm={6} md={6} lg={3}>
+						<Col xs={12} sm={6} md={6} lg={3}>
 							<Card className='p-2 border-0 m-5'>
 								<Card.Title className='text-center'>
 									Cheese box @ $50
@@ -364,7 +364,7 @@ class Packages extends Component {
 								{/* <Buttons /> */}
 							</Card>
 						</Col>
-						<Col xs={6} sm={6} md={6} lg={3}>
+						<Col xs={12} sm={6} md={6} lg={3}>
 							<Card className='p-2 border-0 m-5'>
 								<Card.Title className='text-center'>
 									Medit-Platter @ $50
@@ -386,7 +386,7 @@ class Packages extends Component {
 							alignItems: 'center',
 							justifyContent: 'center',
 						}}>
-						<Col xs={6} sm={6} md={6} lg={3}>
+						<Col xs={12} sm={6} md={6} lg={3}>
 							<Card className='p-2 border-0 m-5'>
 								<Card.Title className='text-center'>
 									Cheese and Meat Platter @ $60
@@ -401,7 +401,7 @@ class Packages extends Component {
 								{/* <Buttons /> */}
 							</Card>
 						</Col>
-						<Col xs={6} sm={6} md={6} lg={3}>
+						<Col xs={12} sm={6} md={6} lg={3}>
 							<Card className='p-2 border-0 m-5'>
 								<Card.Title className='text-center'>
 									Live Music 2 hours
@@ -416,7 +416,7 @@ class Packages extends Component {
 								{/* <Buttons /> */}
 							</Card>
 						</Col>
-						<Col xs={6} sm={6} md={6} lg={3}>
+						<Col xs={12} sm={6} md={6} lg={3}>
 							<Card className='p-2 border-0 m-5'>
 								<Card.Title className='text-center'>one added hour</Card.Title>
 								<Card.Img
@@ -429,7 +429,7 @@ class Packages extends Component {
 								{/* <Buttons /> */}
 							</Card>
 						</Col>
-						<Col xs={6} sm={6} md={6} lg={3}>
+						<Col xs={12} sm={6} md={6} lg={3}>
 							<Card className='p-2 border-0 m-5'>
 								<Card.Title className='text-center'>
 									Blue Tooth Speaker rental
