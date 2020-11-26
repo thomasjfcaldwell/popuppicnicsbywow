@@ -4,18 +4,16 @@ import {
 	Row,
 	Col,
 	Card,
-	CardGroup,
 	Jumbotron,
 	Container,
 	ListGroup,
-	Image,
 	Navbar,
 	Nav,
-	NavDropdown,
-	Button,
+	
 } from 'react-bootstrap';
+import  '../styles/sea.css';
 
-import Buttons from '../Components/Buttons';
+
 
 
 
@@ -58,7 +56,21 @@ class Packages extends Component {
 			<div>
 				<Jumbotron className='bg-white'>
 					<Row>
-						<Col className='text-center'>
+						<div id="top">
+        <div className ="container">
+          <div className="row">
+            <div className="col-lg-6 offer mb-3 mb-lg-0"><a href="#" className="btn btn-sm">Packages</a><a href="#" className="ml-1"></a></div>
+            <div className="col-lg-6 text-center text-lg-right">
+              <ul className="menu list-inline mb-0">
+                <li className="list-inline-item"><a href="register.html">Home</a></li>
+                <li className="list-inline-item"><a href="">Contact</a></li>
+                <li className="list-inline-item"><a href="">FAQs</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        
+						{/* <Col className='text-center'>
 							<h1
 								style={{
 									fontSize: '3em',
@@ -86,7 +98,8 @@ class Packages extends Component {
 									</Nav>
 								</Navbar.Collapse>
 							</Navbar>
-						</Col>
+						</Col> */}
+						</div>
 					</Row>
 				</Jumbotron>
 				<Row className='border-0'>
@@ -103,6 +116,7 @@ class Packages extends Component {
 								}}>
 								Simply Savvy $160 - 2 hours
 							</Card.Title>
+							<Card.Body>
 							<Card.Img
 								src={basicPackage}
 								style={{
@@ -110,7 +124,6 @@ class Packages extends Component {
 									margin: '0 auto',
 									padding: '1em',
 								}}></Card.Img>
-							<Card.Body>
 								<Card.Text className='border-0 text-center'>
 									<h3
 										style={{
@@ -465,320 +478,9 @@ class Packages extends Component {
 					style={{
 						width: '90%',
 					}}>
-					<Row style={{ alignItems: 'center', justifyContent: 'center' }}>
-						<Col lg={4} md={4} sm={12}>
-							<h1
-								className='text-center'
-								style={{
-									fontSize: '2em',
-									marginTop: '2em',
-									fontWeight: 'lighter',
-									letterSpacing: '0.1em',
-									margin: '0 auto',
-								}}>
-								Huntington Beach
-							</h1>
-						</Col>
-						<Col lg={4} md={4} sm={12}>
-							<Card className='border-0 align-items-center mt-3'>
-								<Card.Title>City Beach ($30)</Card.Title>
-								<Card.Body>
-									<Card.Img
-										src={HuntCity}
-										style={{
-											maxWidth: '25em',
-											margin: '0 auto',
-										}}
-									/>
-									<Row>
-										<Card.Img
-											src={Potty}
-											style={{
-												maxWidth: '5em',
-												margin: '0 auto',
-												padding: '1.5em',
-											}}
-										/>
-										<Card.Img
-											src={Parking}
-											style={{
-												maxWidth: '5em',
-												margin: '0 auto',
-												padding: '1.5em',
-											}}
-										/>
-									</Row>
-								</Card.Body>
-								{/* <Buttons /> */}
-							</Card>
-						</Col>
-						<Col lg={4} md={4} sm={12}>
-							<Card className='border-0 align-items-center'>
-								<Card.Title>State Beach ($20)</Card.Title>
-								<Card.Body>
-									<Card.Img
-										src={HuntState}
-										style={{
-											maxWidth: '25em',
-											margin: '0 auto',
-										}}
-									/>
-									<Row>
-										<Card.Img
-											src={Potty}
-											style={{
-												maxWidth: '5em',
-												margin: '0 auto',
-												padding: '1.5em',
-											}}
-										/>
-										<Card.Img
-											src={Parking}
-											style={{
-												maxWidth: '5em',
-												margin: '0 auto',
-												padding: '1.5em',
-											}}
-										/>
-										<Card.Img
-											src={Disability}
-											style={{
-												maxWidth: '5em',
-												margin: '0 auto',
-												padding: '1.5em',
-											}}
-										/>
-									</Row>
-								</Card.Body>
-								{/* <Buttons /> */}
-							</Card>
-						</Col>
-					</Row>
+					
 				</Container>
-				<Row
-					style={{
-						alignItems: 'center',
-						margin: '2em',
-						justifyContent: 'center',
-					}}>
-					<Col lg={4} md={4} sm={12}>
-						<div className='text-center'>
-							<h1
-								style={{
-									fontSize: '2em',
-									marginTop: '2em',
-									fontWeight: 'lighter',
-									letterSpacing: '0.1em',
-									margin: '0 auto',
-								}}>
-								Doheny
-							</h1>
-						</div>
-					</Col>
-					<Col lg={4} md={4} sm={12}>
-						<Card className='border-0 align-items-center'>
-							<Card.Title>Doheny State Beach ($50)</Card.Title>
-							<Card.Body>
-								<Card.Img
-									src={Doheny}
-									style={{
-										maxWidth: '25em',
-										margin: '0 auto',
-									}}
-								/>
-								<Row>
-									<Card.Img
-										src={Potty}
-										style={{
-											maxWidth: '5em',
-											margin: '0 auto',
-											padding: '1.5em',
-										}}
-									/>
-									<Card.Img
-										src={Parking}
-										style={{
-											maxWidth: '5em',
-											margin: '0 auto',
-											padding: '1.5em',
-										}}
-									/>
-								</Row>
-							</Card.Body>
-							{/* <Buttons /> */}
-						</Card>
-					</Col>
-					<Col lg={4} md={4} sm={12}>
-						<Card className='border-0 align-items-center'>
-							<Card.Title>Doheny State Park ($50)</Card.Title>
-							<Card.Body>
-								<Card.Img
-									src={DohenySP}
-									style={{
-										maxWidth: '25em',
-										margin: '0 auto',
-									}}
-								/>
-								<Row>
-									<Card.Img
-										src={Potty}
-										style={{
-											maxWidth: '5em',
-											margin: '0 auto',
-											padding: '1.5em',
-										}}
-									/>
-									<Card.Img
-										src={Parking}
-										style={{
-											maxWidth: '5em',
-											margin: '0 auto',
-											padding: '1.5em',
-										}}
-									/>
-									<Card.Img
-										src={Disability}
-										style={{
-											maxWidth: '5em',
-											margin: '0 auto',
-											padding: '1.5em',
-										}}
-									/>
-								</Row>
-							</Card.Body>
-							{/* <Buttons /> */}
-						</Card>
-					</Col>
-				</Row>
-				<Row
-					style={{
-						alignItems: 'center',
-						justifyContent: 'center',
-						margin: '5em',
-					}}>
-					<Col lg={3} md={6} sm={12} className='text-center'>
-						<h1
-							style={{
-								fontSize: '2em',
-								marginTop: '2em',
-								fontWeight: 'lighter',
-								letterSpacing: '0.1em',
-								margin: '0 auto',
-							}}>
-							San Clemente
-						</h1>
-					</Col>
-					<Col lg={3} md={6} sm={12}>
-						<Card className='border-0 align-items-center'>
-							<Card.Title>Salt Creek Beach ($55)</Card.Title>
-							<Card.Body>
-								<Card.Img
-									src={Saltcreek}
-									style={{
-										maxWidth: '25em',
-										margin: '0 auto',
-									}}
-								/>
-
-								<Row>
-									<Card.Img
-										src={Parking}
-										style={{
-											maxWidth: '5em',
-											margin: '0 auto',
-											padding: '1.5em',
-										}}
-									/>
-								</Row>
-							</Card.Body>
-							{/* <Buttons /> */}
-						</Card>
-					</Col>
-					<Col lg={3} md={6} sm={12}>
-						<Card className='border-0 align-items-center'>
-							<Card.Title>Salt Creek Park ($50)</Card.Title>
-							<Card.Body>
-								<Card.Img
-									src={Saltcreekpark}
-									style={{
-										maxWidth: '25em',
-										margin: '0 auto',
-									}}
-								/>
-
-								<Row>
-									<Card.Img
-										src={Parking}
-										style={{
-											maxWidth: '5em',
-											margin: '0 auto',
-											padding: '1.5em',
-										}}
-									/>
-									<Card.Img
-										src={Potty}
-										style={{
-											maxWidth: '5em',
-											margin: '0 auto',
-											padding: '1.5em',
-										}}
-									/>
-									<Card.Img
-										src={Disability}
-										style={{
-											maxWidth: '5em',
-											margin: '0 auto',
-											padding: '1.5em',
-										}}
-									/>
-									<Card.Img
-										src={Pets}
-										style={{
-											maxWidth: '5em',
-											margin: '0 auto',
-											padding: '1.5em',
-										}}
-									/>
-								</Row>
-							</Card.Body>
-							{/* <Buttons /> */}
-						</Card>
-					</Col>
-					<Col lg={3} md={6} sm={12}>
-						<Card className='border-0 align-items-center'>
-							<Card.Title>Calafia Beach ($55)</Card.Title>
-							<Card.Body>
-								<Card.Img
-									src={Calafia}
-									style={{
-										maxWidth: '25em',
-										margin: '0 auto',
-									}}
-								/>
-
-								<Row>
-									<Card.Img
-										src={Parking}
-										style={{
-											maxWidth: '5em',
-											margin: '0 auto',
-											padding: '1.5em',
-										}}
-									/>
-									<Card.Img
-										src={Potty}
-										style={{
-											maxWidth: '5em',
-											margin: '0 auto',
-											padding: '1.5em',
-										}}
-									/>
-								</Row>
-							</Card.Body>
-							{/* <Buttons /> */}
-						</Card>
-					</Col>
-				</Row>
+				
 				<Row
 					style={{
 						alignItems: 'center',
@@ -813,7 +515,7 @@ class Packages extends Component {
 									style={{
 										maxWidth: '5em',
 										margin: '0 auto',
-										padding: '1.5em',
+										
 									}}
 								/>
 								<Card.Img
@@ -821,7 +523,7 @@ class Packages extends Component {
 									style={{
 										maxWidth: '5em',
 										margin: '0 auto',
-										padding: '1.5em',
+										
 									}}
 								/>
 							</Row>
@@ -844,7 +546,6 @@ class Packages extends Component {
 									style={{
 										maxWidth: '5em',
 										margin: '0 auto',
-										padding: '1.5em',
 									}}
 								/>
 								<Card.Img
@@ -852,7 +553,6 @@ class Packages extends Component {
 									style={{
 										maxWidth: '5em',
 										margin: '0 auto',
-										padding: '1.5em',
 									}}
 								/>
 							</Row>
@@ -876,7 +576,7 @@ class Packages extends Component {
 									style={{
 										maxWidth: '5em',
 										margin: '0 auto',
-										padding: '1.5em',
+										
 									}}
 								/>
 								<Card.Img
@@ -884,7 +584,7 @@ class Packages extends Component {
 									style={{
 										maxWidth: '5em',
 										margin: '0 auto',
-										padding: '1.5em',
+										
 									}}
 								/>
 								<Card.Img
@@ -892,7 +592,7 @@ class Packages extends Component {
 									style={{
 										maxWidth: '5em',
 										margin: '0 auto',
-										padding: '1.5em',
+										
 									}}
 								/>
 							</Row>
@@ -916,7 +616,6 @@ class Packages extends Component {
 									style={{
 										maxWidth: '5em',
 										margin: '0 auto',
-										padding: '1.5em',
 									}}
 								/>
 							</Row>
@@ -948,7 +647,6 @@ class Packages extends Component {
 									style={{
 										maxWidth: '5em',
 										margin: '0 auto',
-										padding: '1.5em',
 									}}
 								/>
 							</Row>
@@ -972,7 +670,6 @@ class Packages extends Component {
 									style={{
 										maxWidth: '5em',
 										margin: '0 auto',
-										padding: '1.5em',
 									}}
 								/>
 								<Card.Img
@@ -980,7 +677,6 @@ class Packages extends Component {
 									style={{
 										maxWidth: '5em',
 										margin: '0 auto',
-										padding: '1.5em',
 									}}
 								/>
 							</Row>
@@ -1022,7 +718,6 @@ class Packages extends Component {
 										style={{
 											maxWidth: '5em',
 											margin: '0 auto',
-											padding: '1.5em',
 										}}
 									/>
 									<Card.Img
@@ -1030,7 +725,6 @@ class Packages extends Component {
 										style={{
 											maxWidth: '5em',
 											margin: '0 auto',
-											padding: '1.5em',
 										}}
 									/>
 								</Row>

@@ -13,82 +13,199 @@ import {
 	NavDropdown,
 	Button,
 	Carousel,
+	ListGroupItem,
 } from 'react-bootstrap';
+import Disability from '../Images/Icons/disability.png';
+import HuntCity from '../Images/Locations/HuntingtonCityWeb.jpg';
+import HuntState from '../Images/Locations/HuntingtonStateWeb.jpg';
+import '../styles/locations.css'
+import Potty from '../Images/Icons/toilets.png';
+import Parking from '../Images/Icons/parking-area.png';
+import freeParking from '../Images/Icons/free-parking.png';
+
+import Doheny from '../Images/Locations/doheneyBeachWeb.jpg';
+import DohenySP from '../Images/Locations/DohenyStateParkWeb.jpg';
+import Calafia from '../Images/Locations/calafiaBeachWeb.jpg';
+import Saltcreek from '../Images/Locations/saltcreekbeachWeb.jpg';
+import Saltcreekpark from '../Images/Locations/slatcreekparkWeb.jpg';
 
 class Footer extends Component {
 	render() {
 		return (
-			<div className='container-fluids pb-0 mb-0 justify-content-center text-light '>
-				<div className='row my-5 justify-content-center py-5'>
-					<div className='col-11'>
-						<div className='row '>
-							<div className='col-xl-8 col-md-4 col-sm-4 col-12 my-auto mx-auto a'>
-								<h3 className='mb-md-0 mb-5 bold-text'>WOW Events</h3>
-							</div>
-							<div className='col-xl-2 col-md-4 col-sm-4 col-12'>
-								<h6 className='mb-3 mb-lg-4 bold-text '>
-									<b>MENU</b>
-								</h6>
-								<ul className='list-unstyled'>
-									<li>Home</li>
-									<li>Packages</li>
-									<li>Gallery</li>
-									<li>FAQs</li>
-								</ul>
-							</div>
-							<div className='col-xl-2 col-md-4 col-sm-4 col-12'>
-								<h6 className='mb-3 mb-lg-4 bold-text mt-sm-0 mt-5'>
-									<b>ADDRESS</b>
-								</h6>
-								<p className='mb-1'>16152 Beach Blvd #231</p>
-								<p>Huntington Beach, CA 92647</p>
-							</div>
+			<div>
+				<Container fluid className='mt-1' />
+				<Row>
+					<Col
+						sm={12}
+						md={4}
+						lg={2}
+						style={{
+							background: '#555',
+							color: 'white',
+							alignItems: 'center',
+							justifyContent: 'center',
+							textAlign: 'center',
+						}}>
+						<div class='locationsHeader'>
+							<h1>Huntington Beach</h1>
 						</div>
-						<div className='row '>
-							<div className='col-xl-8 col-md-4 col-sm-4 col-auto my-md-0 mt-5 order-sm-1 order-3 align-self-end'>
-								<p className='social text-muted mb-0 pb-0 bold-text'>
-									{' '}
-									<span className='mx-2'>
-										<i className='fa fa-facebook' aria-hidden='true'></i>
-									</span>{' '}
-									<span className='mx-2'>
-										<i className='fa fa-linkedin-square' aria-hidden='true'></i>
-									</span>{' '}
-									<span className='mx-2'>
-										<i className='fa fa-twitter' aria-hidden='true'></i>
-									</span>{' '}
-									<span className='mx-2'>
-										<i className='fa fa-instagram' aria-hidden='true'> </i>
-									</span>{' '}
-								</p>
-
-							</div>
-							<div className='col-xl-2 col-md-4 col-sm-4 col-auto order-1 align-self-end '>
-								<h6 className='mt-55 mt-2 text-muted bold-text'>
-									<b>TELEPHONE</b>
-								</h6>
-								<small>
-									{' '}
-									<span>
-										<i className='fa fa-envelope' aria-hidden='true'></i>
-									</span>{' '}
-									714.228.2882
-								</small>
-							</div>
-							<div className='col-xl-2 col-md-4 col-sm-4 col-auto order-2 align-self-end mt-3 '>
-								<h6 className='bold-text'>
-									<b>EMAIL</b>
-								</h6>
-								<small>
-									<span>
-										<i className='fa fa-envelope' aria-hidden='true'></i>
-									</span>{' '}
-									melissa@wowevents.com
-								</small>
-							</div>
+					</Col>
+					<Col
+						sm={12}
+						md={4}
+						lg={5}
+						style={{
+							alignItems: 'center',
+							justifyContent: 'center',
+							textAlign: 'center',
+						}}>
+						<Image src={HuntCity} className='images' />
+						<Card.Title>City Beach</Card.Title>
+						<p>Public Bathroom</p>
+						<img src={Potty} className='smallicons' />
+						<p>Parking</p>
+						<img src={Parking} className='smallicons' />
+					</Col>
+					<Col
+						sm={12}
+						md={4}
+						lg={5}
+						style={{
+							alignItems: 'center',
+							justifyContent: 'center',
+							textAlign: 'center',
+						}}>
+						<Image src={HuntState} className='images' />
+						<Card.Title>State Beach</Card.Title>
+						<p>Public Bathroom</p>
+						<img src={Potty} className='smallicons' />
+						<p>Parking</p>
+						<img src={Parking} className='smallicons' />
+					</Col>
+				</Row>
+				<Container />
+				<Container fluid className='mt-1' />
+				<Row>
+					<Col
+						sm={12}
+						md={4}
+						lg={2}
+						style={{
+							background: '#F78F1E',
+							color: '#231F20',
+							alignItems: 'center',
+							justifyContent: 'center',
+							textAlign: 'center',
+						}}>
+						<div class='locationsHeader'>
+							<h1>Doheny</h1>
 						</div>
-					</div>
-				</div>
+					</Col>
+					<Col
+						sm={12}
+						md={4}
+						lg={5}
+						style={{
+							alignItems: 'center',
+							justifyContent: 'center',
+							textAlign: 'center',
+						}}>
+						<Image src={Doheny} className='images' />
+						<Card.Title>Doheny State Beach </Card.Title>
+						<p>Public Bathroom</p>
+						<img src={Potty} className='smallicons' />
+						<p>Parking</p>
+						<img src={Parking} className='smallicons' />
+					</Col>
+					<Col
+						sm={12}
+						md={4}
+						lg={5}
+						style={{
+							alignItems: 'center',
+							justifyContent: 'center',
+							textAlign: 'center',
+						}}>
+						<Image src={DohenySP} className='images' />
+						<Card.Title>Doheny State Park </Card.Title>
+						<p>Public Bathroom</p>
+						<img src={Potty} className='smallicons' />
+						<p>Parking</p>
+						<img src={Parking} className='smallicons' />
+						<p>Access for Disabled</p>
+						<img src={Disability} className='smallicons' />
+					</Col>
+				</Row>
+				<Container />
+				<Container fluid className='mt-1' />
+				<Row>
+					<Col
+						sm={12}
+						md={4}
+						lg={2}
+						style={{
+							background: '#555',
+							color: 'white',
+							alignItems: 'center',
+							justifyContent: 'center',
+							textAlign: 'center',
+						}}>
+						<div class='locationsHeader'>
+							<h1>San Clemente</h1>
+						</div>
+					</Col>
+					<Col
+						sm={12}
+						md={4}
+						lg={3}
+						style={{
+							alignItems: 'center',
+							justifyContent: 'center',
+							textAlign: 'center',
+						}}>
+						<Image src={Saltcreek} className='images' />
+						<Card.Title>Salt Creek Beach ($55) </Card.Title>
+						<p>Parking</p>
+						<img src={Parking} className='smallicons' />
+					</Col>
+					<Col
+						sm={12}
+						md={4}
+						lg={3}
+						style={{
+							alignItems: 'center',
+							justifyContent: 'center',
+							textAlign: 'center',
+						}}>
+						<Image src={Saltcreekpark} className='images' />
+						<Card.Title>Salt Creek Park ($50)</Card.Title>
+						<p>Public Bathroom</p>
+						<img src={Potty} className='smallicons' />
+						<p>Parking</p>
+						<img src={Parking} className='smallicons' />
+						<p>Access for Disabled</p>
+						<img src={Disability} className='smallicons' />
+						<p>Free Parking</p>
+						<img src={freeParking} className='smallicons' />
+					</Col>
+					<Col
+						sm={12}
+						md={12}
+						lg={3}
+						style={{
+							alignItems: 'center',
+							justifyContent: 'center',
+							textAlign: 'center',
+						}}>
+						<Image src={Calafia} className='images' />
+						<Card.Title>Calafia Beach ($55)</Card.Title>
+						<p>Public Bathroom</p>
+						<img src={Potty} className='smallicons' />
+						<p>Parking</p>
+						<img src={Parking} className='smallicons' />
+					</Col>
+				</Row>
+				<Container />
 			</div>
 		);
 	}
