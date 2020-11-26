@@ -153,7 +153,6 @@ class Home extends Component {
 				<Steps />
 				<Testimonals />
 				<Contact />
-				<Footer />
 			</div>
 		);
 	}

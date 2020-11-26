@@ -13,6 +13,8 @@ import {
 } from 'react-bootstrap';
 import  '../styles/sea.css';
 
+import Footer from '../Components/Footer'
+import Contact from '../Components/Footer';
 
 
 
@@ -34,21 +36,9 @@ import MeatCheese from '../Images/Packages/meat.jpg';
 import Multi from '../Images/Packages/medetrainann.jpg';
 import Teepee from '../Images/Packages/teepee.11.23jpg.jpg';
 import Umbrella from '../Images/Packages/umbrella.jpg';
-import cheeseBox from '../Images/Packages/cheesebox.jpg'
+import cheeseBox from '../Images/Packages/cheesebox.jpg';
 
-import Calafia from '../Images/Locations/calafiaBeachWeb.jpg';
-import Doheny from '../Images/Locations/doheneyBeachWeb.jpg';
-import Harbour from '../Images/Locations/haborPatrolWeb.jpg';
-import Hilltop from '../Images/Locations/HillTopParkWeb.jpg';
-import Saltcreek from '../Images/Locations/saltcreekbeachWeb.jpg';
-import Wedge from '../Images/Locations/theWedgeWeb.jpg';
-import Street15 from '../Images/Locations/15thstreetWeb.jpg';
-import Bstreet from '../Images/Locations/BstreetWeb.jpg';
-import DohenySP from '../Images/Locations/DohenyStateParkWeb.jpg';
-import Saltcreekpark from '../Images/Locations/slatcreekparkWeb.jpg';
-import Corona from '../Images/Locations/coronaDelMarWeb.jpg';
-import HuntCity from '../Images/Locations/HuntingtonCityWeb.jpg';
-import HuntState from '../Images/Locations/HuntingtonStateWeb.jpg';
+
 
 class Packages extends Component {
 	render() {
@@ -56,49 +46,30 @@ class Packages extends Component {
 			<div>
 				<Jumbotron className='bg-white'>
 					<Row>
-						<div id="top">
-        <div className ="container">
-          <div className="row">
-            <div className="col-lg-6 offer mb-3 mb-lg-0"><a href="#" className="btn btn-sm">Packages</a><a href="#" className="ml-1"></a></div>
-            <div className="col-lg-6 text-center text-lg-right">
-              <ul className="menu list-inline mb-0">
-                <li className="list-inline-item"><a href="register.html">Home</a></li>
-                <li className="list-inline-item"><a href="">Contact</a></li>
-                <li className="list-inline-item"><a href="">FAQs</a></li>
-              </ul>
-            </div>
-          </div>
-        </div>
-        
-						{/* <Col className='text-center'>
-							<h1
-								style={{
-									fontSize: '3em',
-									marginTop: '2em',
-									fontWeight: 'lighter',
-									letterSpacing: '0.1em',
-									margin: '0 auto',
-								}}>
-								Packages
-							</h1>
-						</Col>
-						<Col
-							style={{
-								fontSize: '1.2em',
-								fontFamily: 'Montserrat',
-							}}>
-							<Navbar expand='md'>
-								<Navbar.Toggle aria-controls='responsive-navbar-nav' />
-								<Navbar.Collapse id='responsive-navbar-nav'>
-									<Nav className='mr-auto'>
-										<Nav.Link href='/'>Home</Nav.Link>
-										<Nav.Link href='/gallery'>Gallery</Nav.Link>
-										<Nav.Link href='/faq'>FAQs</Nav.Link>
-										<Nav.Link href='/contact'>Book Now</Nav.Link>
-									</Nav>
-								</Navbar.Collapse>
-							</Navbar>
-						</Col> */}
+						<div id='top'>
+							<div className='container'>
+								<div className='row'>
+									<div className='col-lg-6 offer mb-3 mb-lg-0'>
+										<a href='#' className='btn btn-sm'>
+											Packages
+										</a>
+										<a href='#' className='ml-1'></a>
+									</div>
+									<div className='col-lg-6 text-center text-lg-right'>
+										<ul className='menu list-inline mb-0'>
+											<li className='list-inline-item'>
+												<a href='/'>Home</a>
+											</li>
+											<li className='list-inline-item'>
+												<a href='/contact'>Contact</a>
+											</li>
+											<li className='list-inline-item'>
+												<a href='/faq'>FAQs</a>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</div>
 						</div>
 					</Row>
 				</Jumbotron>
@@ -117,13 +88,13 @@ class Packages extends Component {
 								Simply Savvy $160 - 2 hours
 							</Card.Title>
 							<Card.Body>
-							<Card.Img
-								src={basicPackage}
-								style={{
-									width: '80%',
-									margin: '0 auto',
-									padding: '1em',
-								}}></Card.Img>
+								<Card.Img
+									src={basicPackage}
+									style={{
+										width: '80%',
+										margin: '0 auto',
+										padding: '1em',
+									}}></Card.Img>
 								<Card.Text className='border-0 text-center'>
 									<h3
 										style={{
@@ -459,280 +430,7 @@ class Packages extends Component {
 						</Col>
 					</Row>
 				</div>
-
-				<Jumbotron className='mt-5 bg-white'>
-					<h1
-						className='d-flex align-items-center justify-content-center h-100'
-						style={{
-							fontSize: '3em',
-							marginTop: '2em',
-							fontWeight: 'lighter',
-							letterSpacing: '0.1em',
-							margin: '0 auto',
-						}}>
-						Locations
-					</h1>
-				</Jumbotron>
-				<Container
-					fluid
-					style={{
-						width: '90%',
-					}}>
-					
-				</Container>
-				
-				<Row
-					style={{
-						alignItems: 'center',
-						justifyContent: 'center',
-					}}>
-					<div className='text-center'>
-						<h1
-							style={{
-								fontSize: '2em',
-								marginTop: '2em',
-								fontWeight: 'lighter',
-								letterSpacing: '0.1em',
-								margin: '0 auto',
-							}}>
-							Newport Beach/Corona Del Mar
-						</h1>
-					</div>
-					<Card className='border-0 align-items-center mt-5'>
-						<Card.Title>B Street in Newport Beach ($40)</Card.Title>
-						<Card.Body>
-							<Card.Img
-								src={Bstreet}
-								style={{
-									maxWidth: '25em',
-									margin: '0 auto',
-								}}
-							/>
-
-							<Row>
-								<Card.Img
-									src={Parking}
-									style={{
-										maxWidth: '5em',
-										margin: '0 auto',
-										
-									}}
-								/>
-								<Card.Img
-									src={Potty}
-									style={{
-										maxWidth: '5em',
-										margin: '0 auto',
-										
-									}}
-								/>
-							</Row>
-						</Card.Body>
-						{/* <Buttons /> */}
-					</Card>
-					<Card className='border-0 align-items-center mt-5'>
-						<Card.Title>15th Street ($40)</Card.Title>
-						<Card.Body>
-							<Card.Img
-								src={Street15}
-								style={{
-									maxWidth: '25em',
-									margin: '0 auto',
-								}}
-							/>
-							<Row>
-								<Card.Img
-									src={Parking}
-									style={{
-										maxWidth: '5em',
-										margin: '0 auto',
-									}}
-								/>
-								<Card.Img
-									src={Potty}
-									style={{
-										maxWidth: '5em',
-										margin: '0 auto',
-									}}
-								/>
-							</Row>
-						</Card.Body>
-						{/* <Buttons /> */}
-					</Card>
-					<Card className='border-0 align-items-center mt-5'>
-						<Card.Title>Harbour Patrol Beach ($45)</Card.Title>
-						<Card.Body>
-							<Card.Img
-								src={Harbour}
-								style={{
-									maxWidth: '25em',
-									margin: '0 auto',
-								}}
-							/>
-
-							<Row>
-								<Card.Img
-									src={Parking}
-									style={{
-										maxWidth: '5em',
-										margin: '0 auto',
-										
-									}}
-								/>
-								<Card.Img
-									src={freeParking}
-									style={{
-										maxWidth: '5em',
-										margin: '0 auto',
-										
-									}}
-								/>
-								<Card.Img
-									src={Potty}
-									style={{
-										maxWidth: '5em',
-										margin: '0 auto',
-										
-									}}
-								/>
-							</Row>
-						</Card.Body>
-						{/* <Buttons /> */}
-					</Card>
-					<Card className='border-0 align-items-center mt-5'>
-						<Card.Title>The Wedge Beach ($45)</Card.Title>
-						<Card.Body>
-							<Card.Img
-								src={Wedge}
-								style={{
-									maxWidth: '25em',
-									margin: '0 auto',
-								}}
-							/>
-
-							<Row>
-								<Card.Img
-									src={freeParking}
-									style={{
-										maxWidth: '5em',
-										margin: '0 auto',
-									}}
-								/>
-							</Row>
-						</Card.Body>
-						{/* <Buttons /> */}
-					</Card>
-					<Card className='border-0 align-items-center mt-5'>
-						<Card.Title>Corona Del Mar Beach ($55)</Card.Title>
-						<Card.Body>
-							<Card.Img
-								src={Corona}
-								style={{
-									maxWidth: '25em',
-									margin: '0 auto',
-								}}
-							/>
-
-							<Row>
-								<Card.Img
-									src={freeParking}
-									style={{
-										maxWidth: '5em',
-										margin: '0 auto',
-										padding: '1.5em',
-									}}
-								/>
-								<Card.Img
-									src={Potty}
-									style={{
-										maxWidth: '5em',
-										margin: '0 auto',
-									}}
-								/>
-							</Row>
-						</Card.Body>
-						{/* <Buttons /> */}
-					</Card>
-					<Card className='border-0 align-items-center mt-5'>
-						<Card.Title>The Wedge Park ($45)</Card.Title>
-						<Card.Body>
-							<Card.Img
-								src={Wedge}
-								style={{
-									maxWidth: '25em',
-									margin: '0 auto',
-								}}
-							/>
-
-							<Row>
-								<Card.Img
-									src={freeParking}
-									style={{
-										maxWidth: '5em',
-										margin: '0 auto',
-									}}
-								/>
-								<Card.Img
-									src={Disability}
-									style={{
-										maxWidth: '5em',
-										margin: '0 auto',
-									}}
-								/>
-							</Row>
-						</Card.Body>
-						{/* <Buttons /> */}
-					</Card>
-				</Row>
-				<Container>
-					<Row
-						style={{
-							alignItems: 'center',
-							justifyContent: 'center',
-						}}>
-						<div className='text-center'>
-							<h1
-								style={{
-									fontSize: '2em',
-									marginTop: '2em',
-									fontWeight: 'lighter',
-									letterSpacing: '0.1em',
-									margin: '0 auto',
-								}}>
-								Signal Hill
-							</h1>
-						</div>
-						<Card className='border-0 align-items-center m-5'>
-							<Card.Title>Hilltop Park in Signal Hill ($45)</Card.Title>
-							<Card.Body>
-								<Card.Img
-									src={Hilltop}
-									style={{
-										maxWidth: '25em',
-										margin: '0 auto',
-									}}
-								/>
-								<Row>
-									<Card.Img
-										src={freeParking}
-										style={{
-											maxWidth: '5em',
-											margin: '0 auto',
-										}}
-									/>
-									<Card.Img
-										src={Disability}
-										style={{
-											maxWidth: '5em',
-											margin: '0 auto',
-										}}
-									/>
-								</Row>
-							</Card.Body>
-							{/* <Buttons /> */}
-						</Card>
-					</Row>
-				</Container>
+				<Footer />
 			</div>
 		);
 	}

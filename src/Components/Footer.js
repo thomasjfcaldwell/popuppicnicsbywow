@@ -3,17 +3,11 @@ import {
 	Row,
 	Col,
 	Card,
-	CardGroup,
-	Jumbotron,
+	
 	Container,
-	ListGroup,
+
 	Image,
-	Navbar,
-	Nav,
-	NavDropdown,
-	Button,
-	Carousel,
-	ListGroupItem,
+
 } from 'react-bootstrap';
 import Disability from '../Images/Icons/disability.png';
 import HuntCity from '../Images/Locations/HuntingtonCityWeb.jpg';
@@ -28,6 +22,12 @@ import DohenySP from '../Images/Locations/DohenyStateParkWeb.jpg';
 import Calafia from '../Images/Locations/calafiaBeachWeb.jpg';
 import Saltcreek from '../Images/Locations/saltcreekbeachWeb.jpg';
 import Saltcreekpark from '../Images/Locations/slatcreekparkWeb.jpg';
+import Bstreet from '../Images/Locations/BstreetWeb.jpg';
+import Street15 from '../Images/Locations/15thstreetWeb.jpg';
+import Harbour from '../Images/Locations/haborPatrolWeb.jpg';
+import Wedge from '../Images/Locations/theWedgeWeb.jpg';
+import Corona from '../Images/Locations/coronaDelMarWeb.jpg';
+import Hilltop from '../Images/Locations/HillTopParkWeb.jpg';
 
 class Footer extends Component {
 	render() {
@@ -59,12 +59,16 @@ class Footer extends Component {
 							justifyContent: 'center',
 							textAlign: 'center',
 						}}>
-						<Image src={HuntCity} className='images' />
+						<Image
+							src={HuntCity}
+							alt='huntington beach city beach'
+							className='images'
+						/>
 						<Card.Title>City Beach</Card.Title>
 						<p>Public Bathroom</p>
-						<img src={Potty} className='smallicons' />
+						<img src={Potty} alt='icon for bathroom' className='smallicons' />
 						<p>Parking</p>
-						<img src={Parking} className='smallicons' />
+						<img src={Parking} alt='icon for parking' className='smallicons' />
 					</Col>
 					<Col
 						sm={12}
@@ -75,12 +79,16 @@ class Footer extends Component {
 							justifyContent: 'center',
 							textAlign: 'center',
 						}}>
-						<Image src={HuntState} className='images' />
+						<Image
+							src={HuntState}
+							alt='huntington beach state beach'
+							className='images'
+						/>
 						<Card.Title>State Beach</Card.Title>
 						<p>Public Bathroom</p>
-						<img src={Potty} className='smallicons' />
+						<img src={Potty} alt='icon for bathroom' className='smallicons' />
 						<p>Parking</p>
-						<img src={Parking} className='smallicons' />
+						<img src={Parking} alt='icon for parking' className='smallicons' />
 					</Col>
 				</Row>
 				<Container />
@@ -110,12 +118,12 @@ class Footer extends Component {
 							justifyContent: 'center',
 							textAlign: 'center',
 						}}>
-						<Image src={Doheny} className='images' />
+						<Image src={Doheny} alt='Doheny State Beach' className='images' />
 						<Card.Title>Doheny State Beach </Card.Title>
 						<p>Public Bathroom</p>
-						<img src={Potty} className='smallicons' />
+						<img src={Potty} alt='icon for bathroom' className='smallicons' />
 						<p>Parking</p>
-						<img src={Parking} className='smallicons' />
+						<img src={Parking} alt='icon for parking' className='smallicons' />
 					</Col>
 					<Col
 						sm={12}
@@ -126,14 +134,18 @@ class Footer extends Component {
 							justifyContent: 'center',
 							textAlign: 'center',
 						}}>
-						<Image src={DohenySP} className='images' />
+						<Image src={DohenySP} alt='Doheny State Park' className='images' />
 						<Card.Title>Doheny State Park </Card.Title>
 						<p>Public Bathroom</p>
-						<img src={Potty} className='smallicons' />
+						<img src={Potty} alt='icon for bathroom' className='smallicons' />
 						<p>Parking</p>
-						<img src={Parking} className='smallicons' />
+						<img src={Parking} alt='icon for parking' className='smallicons' />
 						<p>Access for Disabled</p>
-						<img src={Disability} className='smallicons' />
+						<img
+							src={Disability}
+							alt='icon for disability access'
+							className='smallicons'
+						/>
 					</Col>
 				</Row>
 				<Container />
@@ -163,10 +175,10 @@ class Footer extends Component {
 							justifyContent: 'center',
 							textAlign: 'center',
 						}}>
-						<Image src={Saltcreek} className='images' />
+						<Image src={Saltcreek} alt='Salt Creek Beach' className='images' />
 						<Card.Title>Salt Creek Beach ($55) </Card.Title>
 						<p>Parking</p>
-						<img src={Parking} className='smallicons' />
+						<img src={Parking} alt='icon for parking' className='smallicons' />
 					</Col>
 					<Col
 						sm={12}
@@ -177,16 +189,28 @@ class Footer extends Component {
 							justifyContent: 'center',
 							textAlign: 'center',
 						}}>
-						<Image src={Saltcreekpark} className='images' />
+						<Image
+							src={Saltcreekpark}
+							alt='saltcreek park image'
+							className='images'
+						/>
 						<Card.Title>Salt Creek Park ($50)</Card.Title>
 						<p>Public Bathroom</p>
-						<img src={Potty} className='smallicons' />
+						<img src={Potty} alt='icon for bathroom' className='smallicons' />
 						<p>Parking</p>
-						<img src={Parking} className='smallicons' />
+						<img src={Parking} alt='icon for parking' className='smallicons' />
 						<p>Access for Disabled</p>
-						<img src={Disability} className='smallicons' />
+						<img
+							src={Disability}
+							alt='icon for disability access'
+							className='smallicons'
+						/>
 						<p>Free Parking</p>
-						<img src={freeParking} className='smallicons' />
+						<img
+							src={freeParking}
+							alt='icon for free parking'
+							className='smallicons'
+						/>
 					</Col>
 					<Col
 						sm={12}
@@ -197,12 +221,241 @@ class Footer extends Component {
 							justifyContent: 'center',
 							textAlign: 'center',
 						}}>
-						<Image src={Calafia} className='images' />
+						<Image
+							src={Calafia}
+							alt='Image of Calafia Beach'
+							className='images'
+						/>
 						<Card.Title>Calafia Beach ($55)</Card.Title>
 						<p>Public Bathroom</p>
-						<img src={Potty} className='smallicons' />
+						<img src={Potty} alt='icon for bathroom' className='smallicons' />
 						<p>Parking</p>
-						<img src={Parking} className='smallicons' />
+						<img src={Parking} alt='icon for parking' className='smallicons' />
+					</Col>
+				</Row>
+				<Container />
+				<Container fluid className='mt-1' />
+				<Row>
+					<Col
+						sm={12}
+						md={4}
+						lg={2}
+						style={{
+							background: '#F78F1E',
+							color: '#231F20',
+							alignItems: 'center',
+							justifyContent: 'center',
+							textAlign: 'center',
+						}}>
+						<div class='locationsHeader'>
+							<h1>Newport Beach</h1>
+						</div>
+					</Col>
+					<Col
+						sm={12}
+						md={4}
+						lg={5}
+						style={{
+							alignItems: 'center',
+							justifyContent: 'center',
+							textAlign: 'center',
+						}}>
+						<Image
+							src={Bstreet}
+							alt='image of bstreet in Newport'
+							className='images'
+						/>
+						<Card.Title>B Street in Newport Beach ($40)</Card.Title>
+						<p>Public Bathroom</p>
+						<img src={Potty} alt='icon for bathroom' className='smallicons' />
+						<p>Parking</p>
+						<img src={Parking} alt='icon for parking' className='smallicons' />
+					</Col>
+					<Col
+						sm={12}
+						md={4}
+						lg={5}
+						style={{
+							alignItems: 'center',
+							justifyContent: 'center',
+							textAlign: 'center',
+						}}>
+						<Image
+							src={Street15}
+							alt='image of 15th street Newport Beach'
+							className='images'
+						/>
+						<Card.Title>15th Street ($40)</Card.Title>
+						<p>Public Bathroom</p>
+						<img src={Potty} alt='icon for bathroom' className='smallicons' />
+						<p>Parking</p>
+						<img src={Parking} alt='icon for parking' className='smallicons' />
+					</Col>
+					<Col
+						sm={12}
+						md={4}
+						lg={4}
+						style={{
+							alignItems: 'center',
+							justifyContent: 'center',
+							textAlign: 'center',
+						}}>
+						<Image
+							src={Harbour}
+							alt='image of harbour in Newport Beach'
+							className='images'
+						/>
+						<Card.Title>Harbour Patrol Beach ($45)</Card.Title>
+						<p>Public Bathroom</p>
+						<img src={Potty} alt='icon for bathroom' className='smallicons' />
+						<p>Parking</p>
+						<img src={Parking} alt='icon for parking' className='smallicons' />
+						<p>Free Parking</p>
+						<img
+							src={freeParking}
+							alt='icon for free parking'
+							className='smallicons'
+						/>
+					</Col>
+					<Col
+						sm={12}
+						md={4}
+						lg={4}
+						style={{
+							alignItems: 'center',
+							justifyContent: 'center',
+							textAlign: 'center',
+						}}>
+						<Image
+							src={Wedge}
+							alt='image of the Wedge in Newport Beach'
+							className='images'
+						/>
+						<Card.Title>The Wedge Beach ($45)</Card.Title>
+						<img
+							src={Parking}
+							alt='icon for free parking'
+							className='smallicons'
+						/>
+						<p>Free Parking</p>
+					</Col>
+					<Col
+						sm={12}
+						md={4}
+						lg={4}
+						style={{
+							alignItems: 'center',
+							justifyContent: 'center',
+							textAlign: 'center',
+						}}>
+						<Image
+							src={Wedge}
+							alt='image of the Wedge in Newport Beach'
+							className='images'
+						/>
+						<Card.Title>The Wedge Park ($45)</Card.Title>
+						<img
+							src={Parking}
+							alt='icon for free parking'
+							className='smallicons'
+						/>
+						<p>Free Parking</p>
+						<p>Access for Disabled</p>
+						<img
+							src={Disability}
+							alt='icon for Disabled Access'
+							className='smallicons'
+						/>
+					</Col>
+				</Row>
+				<Container />
+				<Container fluid className='mt-1' />
+				<Row>
+					<Col
+						sm={12}
+						md={4}
+						lg={2}
+						style={{
+							background: '#F78F1E',
+							color: '#231F20',
+							alignItems: 'center',
+							justifyContent: 'center',
+							textAlign: 'center',
+						}}>
+						<div class='locationsHeader'>
+							<h1>Corona Del Mar</h1>
+						</div>
+					</Col>
+					<Col
+						sm={12}
+						md={8}
+						lg={10}
+						style={{
+							alignItems: 'center',
+							justifyContent: 'center',
+							textAlign: 'center',
+						}}>
+						<Image
+							src={Corona}
+							alt='Image of Corona Del Mar'
+							className='images'
+						/>
+						<Card.Title>Corona Del Mar Beach ($55)</Card.Title>
+						<p>Public Bathroom</p>
+						<img src={Potty} alt='icon for bathroom' className='smallicons' />
+						<p>Free Parking</p>
+						<img
+							src={Parking}
+							alt='icon for free parking'
+							className='smallicons'
+						/>
+					</Col>
+				</Row>
+				<Container />
+				<Container fluid className='mt-1' />
+				<Row>
+					<Col
+						sm={12}
+						md={4}
+						lg={2}
+						style={{
+							background: '#555',
+							color: 'white',
+							alignItems: 'center',
+							justifyContent: 'center',
+							textAlign: 'center',
+						}}>
+						<div class='locationsHeader'>
+							<h1>Signal Hill</h1>
+						</div>
+					</Col>
+					<Col
+						sm={12}
+						md={8}
+						lg={10}
+						style={{
+							alignItems: 'center',
+							justifyContent: 'center',
+							textAlign: 'center',
+						}}>
+						<Image
+							src={Hilltop}
+							alt='Image of the Hilltop Park in Signal Hill'
+							className='images'
+						/>
+						<Card.Title>Hilltop Park in Signal Hill ($45)</Card.Title>
+						<p>Access for Disabled</p>
+						<img
+							src={Disability}
+							alt='icon for Disabled Access'
+							className='smallicons'
+						/>
+						<p>Free Parking</p>
+						<img
+							src={Parking}
+							alt='icon for Parking'
+							className='smallicons'
+						/>
 					</Col>
 				</Row>
 				<Container />
