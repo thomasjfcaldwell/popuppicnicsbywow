@@ -1,5 +1,12 @@
 @media only screen and (min-width: 600px) {
   /* For tablets: */
-  .topImage {height: 100vh}
+  .topImage {height: 20vh}
   
+}
+
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+.topImage {}
 }

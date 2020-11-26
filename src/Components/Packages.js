@@ -14,7 +14,6 @@ import {
 import  '../styles/sea.css';
 
 import Footer from '../Components/Footer'
-import Contact from '../Components/Footer';
 
 
 
@@ -23,11 +22,6 @@ import basicPackage from '../Images/Packages/savvy.jpg';
 import bells from '../Images/bell.jpg';
 import speaker from '../Images/Packages/bluetooth.jpg';
 import blanket from '../Images/Packages/blankets.jpg';
-import Potty from '../Images/Icons/toilets.png';
-import freeParking from '../Images/Icons/free-parking.png';
-import Parking from '../Images/Icons/parking-area.png';
-import Pets from '../Images/Icons/pet-friendly.png';
-import Disability from '../Images/Icons/disability.png';
 
 import Beverages from '../Images/Packages/beveragepackage.11.23.jpg';
 import Dessert from '../Images/Packages/dessert.jpg';

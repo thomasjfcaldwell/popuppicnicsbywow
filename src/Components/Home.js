@@ -27,7 +27,7 @@ import Contact from '../Components/Contact';
 import Footer from '../Components/Footer';
 import BasicRows from './BasicRows';
 
-import '../styles/home.css'
+import '../styles/home.css';
 class Home extends Component {
 	handleClick() {
 		// do something meaningful, Promises, if/else, whatever, and then
@@ -41,50 +41,46 @@ class Home extends Component {
 					fluid
 					style={{
 						backgroundImage: `url(${background})`,
-						height: '100vh',
+						height: '80vh',
 						backgroundSize: 'cover',
 						backgroundRepeat: 'no-repeat',
 						backgroundPosition: 'center',
 					}}>
 					<Container fluid>
-						<Row className='m-1'>
-							<Col className='text-center' sm={6} md={6}>
+						<Row>
+							<Col className='text-center' sm={12} md={4} lg={6}>
 								<Image
 									src={wowlogo}
-									className='d-inline-block align-top w-50 m-3'
+									className='d-inline-block w-50'
 									alt='wowevents logo'
 								/>
 							</Col>
 							<Col
 								style={{
-									fontSize: '1.2em',
+									fontSize: '1em',
 									fontFamily: 'Montserrat',
-								}}>
-								<Navbar expand=''>
+									fontWeight: '100',
+								}}
+								sm={12}
+								md={4}
+								lg={6}>
+								<Navbar expand='lg'>
 									<Navbar.Toggle aria-controls='responsive-navbar-nav' />
 									<Navbar.Collapse id='responsive-navbar-nav'>
-										<Nav className='mr-auto font-weight-bold p-5'>
+										<Nav className='mr-auto'>
 											<Nav.Link
 												onClick={this.handleClick.bind(this)}
 												style={{
 													color: '#231F20',
-													padding: '0.2em',
+													padding: '0.5em',
 												}}>
 												Return to Wow Events
 											</Nav.Link>
-											{/* <Nav.Link
-												href='/'
-												style={{
-													color: '#231F20',
-													padding: '1em',
-												}}>
-												
-											</Nav.Link> */}
 											<Nav.Link
 												href='/packages'
 												style={{
 													color: '#231F20',
-													padding: '0.2em',
+													padding: '0.5em',
 												}}>
 												PACKAGES & AVAILABILITY
 											</Nav.Link>
@@ -92,7 +88,7 @@ class Home extends Component {
 												href='/gallery'
 												style={{
 													color: '#231F20',
-													padding: '0.2em',
+													padding: '0.5em',
 												}}>
 												GALLERY
 											</Nav.Link>
@@ -100,7 +96,7 @@ class Home extends Component {
 												href='/faq'
 												style={{
 													color: '#231F20',
-													padding: '0.2em',
+													padding: '0.5em',
 												}}>
 												FAQ
 											</Nav.Link>
@@ -109,42 +105,46 @@ class Home extends Component {
 								</Navbar>
 							</Col>
 						</Row>
-
-						<Row>
-							<Col
+						<Row
+							style={{
+								width: '100%',
+								alignItems: 'center',
+								justifyContent: 'center',
+								margin: '1em',
+							}}>
+							<h1
+								className='text-center'
 								style={{
-									width: '100%',
+									fontFamily: 'Montserrat',
+									fontSize: '3em',
+									color: '#231F20',
 								}}>
-								<h1
-									className='text-center'
+								Treat Someone Special
+							</h1>
+						</Row>
+						<Row
+							style={{
+								width: '100%',
+								alignItems: 'center',
+								justifyContent: 'center',
+								margin: '1em',
+							}}>
+							<Button
+								style={{
+									background: '#231f20',
+									width: '15em',
+									borderRadius: '25px',
+									border: '0.2em solid #F78F1E',
+								}}>
+								<Nav.Link
+									href='/packages'
 									style={{
+										color: '#fff',
 										fontFamily: 'Montserrat',
-										fontSize: '3em',
-										color: '#231F20',
 									}}>
-									Treat Someone Special
-								</h1>
-
-								<Row className='justify-content-center align-content-center'>
-									<Button
-										style={{
-											background: '#231f20',
-											width: '15em',
-											borderRadius: '25px',
-											border: '0.2em solid #F78F1E',
-											margin: '2em',
-										}}>
-										<Nav.Link
-											href='/packages'
-											style={{
-												color: '#fff',
-												fontFamily: 'Montserrat',
-											}}>
-											More Information
-										</Nav.Link>
-									</Button>
-								</Row>
-							</Col>
+									More Information
+								</Nav.Link>
+							</Button>
 						</Row>
 					</Container>
 				</Jumbotron>
