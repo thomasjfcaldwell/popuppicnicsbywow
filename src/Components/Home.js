@@ -41,14 +41,13 @@ class Home extends Component {
 					fluid
 					style={{
 						backgroundImage: `url(${background})`,
-						height: '80vh',
+						height: '70vh',
 						backgroundSize: 'cover',
 						backgroundRepeat: 'no-repeat',
 						backgroundPosition: 'center',
 					}}>
-					<Container fluid>
-						<Row>
-							<Col className='text-center' sm={12} md={4} lg={6}>
+						<Row className='m-1'>
+							<Col className='text-center' sm={12} md={6} lg={4}>
 								<Image
 									src={wowlogo}
 									className='d-inline-block w-50'
@@ -57,12 +56,12 @@ class Home extends Component {
 							</Col>
 							<Col
 								style={{
-									fontSize: '1em',
-									fontFamily: 'Montserrat',
-									fontWeight: '100',
+									fontSize: '1.5em',
+									fontFamily: 'Montserrat, sans-serif',
+									fontWeight: 'lighter'
 								}}
 								sm={12}
-								md={4}
+								md={6}
 								lg={6}>
 								<Navbar expand='lg'>
 									<Navbar.Toggle aria-controls='responsive-navbar-nav' />
@@ -74,7 +73,7 @@ class Home extends Component {
 													color: '#231F20',
 													padding: '0.5em',
 												}}>
-												Return to Wow Events
+												WowEvents.com
 											</Nav.Link>
 											<Nav.Link
 												href='/packages'
@@ -105,17 +104,18 @@ class Home extends Component {
 								</Navbar>
 							</Col>
 						</Row>
+												
 						<Row
 							style={{
 								width: '100%',
 								alignItems: 'center',
 								justifyContent: 'center',
-								margin: '1em',
+								margin: '0.5em',
 							}}>
 							<h1
 								className='text-center'
 								style={{
-									fontFamily: 'Montserrat',
+									fontFamily: 'Montserrat, sans-serif',
 									fontSize: '3em',
 									color: '#231F20',
 								}}>
@@ -127,7 +127,7 @@ class Home extends Component {
 								width: '100%',
 								alignItems: 'center',
 								justifyContent: 'center',
-								margin: '1em',
+								margin: '2em',
 							}}>
 							<Button
 								style={{
@@ -146,7 +146,6 @@ class Home extends Component {
 								</Nav.Link>
 							</Button>
 						</Row>
-					</Container>
 				</Jumbotron>
 				<Ourstory />
 				<BasicRows />
