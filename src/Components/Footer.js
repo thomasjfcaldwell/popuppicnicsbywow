@@ -3,11 +3,8 @@ import {
 	Row,
 	Col,
 	Card,
-	
 	Container,
-
 	Image,
-
 } from 'react-bootstrap';
 import Disability from '../Images/Icons/disability.png';
 import HuntCity from '../Images/Locations/HuntingtonCityWeb.jpg';
@@ -33,7 +30,7 @@ class Footer extends Component {
 	render() {
 		return (
 			<div>
-				<Container fluid className='mt-1' />
+				<Container className='mt-1' />
 				<Row>
 					<Col
 						sm={12}
@@ -150,7 +147,7 @@ class Footer extends Component {
 				</Row>
 				<Container />
 				<Container fluid className='mt-1' />
-				<Row>
+				<Row >
 					<Col
 						sm={12}
 						md={4}
@@ -451,11 +448,7 @@ class Footer extends Component {
 							className='smallicons'
 						/>
 						<p>Free Parking</p>
-						<img
-							src={Parking}
-							alt='icon for Parking'
-							className='smallicons'
-						/>
+						<img src={Parking} alt='icon for Parking' className='smallicons' />
 					</Col>
 				</Row>
 				<Container />

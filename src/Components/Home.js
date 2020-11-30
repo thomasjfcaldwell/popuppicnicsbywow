@@ -24,7 +24,7 @@ import Testimonals from '../Components/Testimonals';
 import Steps from '../Components/Steps';
 import Contact from '../Components/Contact';
 
-import Footer from '../Components/Footer';
+import Addon from '../Components/Addon';
 import BasicRows from './BasicRows';
 
 import '../styles/home.css';
