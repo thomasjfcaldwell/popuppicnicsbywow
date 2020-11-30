@@ -24,7 +24,11 @@ class Ourstory extends Component {
 				style={{
 					fontFamily: 'Montserrat',
 				}}>
-				<Row>
+				<Row
+					className='mt-5'
+					style={{
+						alignItems: 'center',
+					}}>
 					<Col sm={12} lg={6} className='justify-content-center '>
 						<Card className='border-0'>
 							<Card.Img
@@ -63,7 +67,7 @@ class Ourstory extends Component {
 									marginTop: '2em',
 									fontWeight: 'lighter',
 									letterSpacing: '0.1em',
-									fontFamily: 'sans-serif'
+									fontFamily: 'sans-serif',
 								}}>
 								About Us
 							</Card.Title>

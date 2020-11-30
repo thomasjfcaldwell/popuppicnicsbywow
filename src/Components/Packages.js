@@ -4,11 +4,6 @@ import {
 	Row,
 	Col,
 	Card,
-	Jumbotron,
-	Container,
-	ListGroup,
-	Navbar,
-	Nav,
 	CardImg,
 	
 } from 'react-bootstrap';
@@ -94,7 +89,7 @@ class Packages extends Component {
 						<div>
 							<Card className='border-0 m-5 text-center bg-transparent'>
 								<Card.Title>Bells and Whistle $260 - 2 hours</Card.Title>
-								<CardImg src={basicPackage} />
+								<CardImg src={bells} />
 								<Card.Text>
 									<ul className='nobullets'>
 										<li>Everything included in Savvy PLUS</li>

@@ -1,17 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;500;600;900&display=swap');
 
 
-@media only screen and (min-width: 600px)
-and (max-width:850px) {
-
-  /* For tablets: */
-  .topImage {height: 100vh}
-  
+.bgimage {
+  width:100%;
+  height:30em;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:cover;
+  background-attachment: fixed;
+  align-items: center;
+  align-content: center;
 }
+.bgimage h1 {
+  color:white;
+  text-shadow:2px 2px #333;
+  font-size: 3em;
+  font-family: Montserrat;
+ text-transform: uppercase;
+ font-weight: 500;
+ text-align: center;
 
-@media only screen 
-  and (min-device-width: 320px) 
-  and (max-device-width: 480px)
-  and (-webkit-min-device-pixel-ratio: 2) {
-.topImage {}
 }
