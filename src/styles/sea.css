@@ -13,6 +13,8 @@
 }
 .nobullets{
    list-style-type: none;
+   padding: 2em;
+   font-size: 0.8em;
 }
 
 #top .offer {

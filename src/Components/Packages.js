@@ -5,9 +5,13 @@ import {
 	Col,
 	Card,
 	CardImg,
+	Nav,
+	Navbar,
+	Image
 	
 } from 'react-bootstrap';
 import  '../styles/sea.css';
+import '../App.css'
 import Addon from '../Components/Addon'
 
 import Footer from '../Components/Footer'
@@ -22,47 +26,102 @@ import bells from '../Images/bell.jpg';
 
 
 class Packages extends Component {
+	handleClick() {
+		// do something meaningful, Promises, if/else, whatever, and then
+		window.location.assign('https://www.wowevents.com/');
+	}
 	render() {
 		return (
 			<div>
-				<Row>
-					<div id='top'>
-						<div className='container'>
-							<div className='row'>
-								<div className='col-lg-6 offer mb-3 mb-lg-0'>
-									<a href='#' className='btn btn-sm' />
-							PACKAGES
-									<a href='#' className='ml-1' />
-								</div>
-								<div className='col-lg-6 text-center text-lg-right'>
-									<ul className='menu list-inline mb-0'>
-										<li className='list-inline-item'>
-											<a href='/'>Home</a>
-										</li>
-										<li className='list-inline-item'>
-											<a href='/contact'>Contact</a>
-										</li>
-										<li className='list-inline-item'>
-											<a href='/faq'>FAQs</a>
-										</li>
-									</ul>
-								</div>
-							</div>
-						</div>
-					</div>
+				<Row
+					style={{
+						alignItems: 'center',
+						justifyContent: 'center',
+						margin: '3em',
+					}}>
+					<Navbar expand='lg'>
+						<Navbar.Brand>
+							<h1
+								className='text-center'
+								style={{
+									fontFamily: 'Montserrat',
+									fontWeight: '500',
+									letterSpacing: '0.1em',
+									margin: '0 auto',
+									width: '100%',
+								}}>
+								PACKAGES
+							</h1>
+						</Navbar.Brand>
+						<Navbar.Toggle aria-controls='responsive-navbar-nav' />
+						<Navbar.Collapse id='responsive-navbar-nav'>
+							<Nav
+								className='mr-auto'
+								style={{
+									fontFamily: 'Montserrat',
+									fontWeight: '500',
+									letterSpacing: '0.1em',
+									textAlign: 'right',
+								}}>
+								<Nav.Link
+									onClick={this.handleClick.bind(this)}
+									style={{
+										color: '#231F20',
+										padding: '0.5em',
+									}}>
+									WOWEVENTS.COM
+								</Nav.Link>
+								<Nav.Link
+									href='/packages'
+									style={{
+										color: '#231F20',
+										padding: '0.5em',
+									}}>
+									PACKAGES & AVAILABILITY
+								</Nav.Link>
+								<Nav.Link
+									href='/gallery'
+									style={{
+										color: '#231F20',
+										padding: '0.5em',
+									}}>
+									GALLERY
+								</Nav.Link>
+								<Nav.Link
+									href='/faq'
+									style={{
+										color: '#231F20',
+										padding: '0.5em',
+									}}>
+									FAQ
+								</Nav.Link>
+							</Nav>
+						</Navbar.Collapse>
+					</Navbar>
 				</Row>
-				<Row className='mt-1'>
-					<Col
-						sm={12}
-						lg={6}
-						style={{
-							background: '#F78F1E',
-							color: '#231F20',
-						}}>
+
+				<Row className='packages'>
+					<Col sm={12} lg={6}>
 						<div>
 							<Card className='border-0 m-5 text-center bg-transparent'>
-								<Card.Title>Simply Savvy $160 - 2 hours</Card.Title>
-								<CardImg src={basicPackage} />
+								<h2
+									className='text-center'
+									style={{
+										marginTop: '1em',
+										fontFamily: 'Montserrat',
+										fontWeight: '500',
+										letterSpacing: '0.1em',
+									}}>
+									SIMPLY SAVVY - $160 - 2 HOURS
+								</h2>
+								<CardImg
+									src={basicPackage}
+									style={{
+										width: '75%',
+										margin: '0 auto',
+										padding: '0.5em',
+									}}
+								/>
 								<Card.Text>
 									<ul className='nobullets'>
 										<li>Personalized Welcome Sign</li>
@@ -79,17 +138,27 @@ class Packages extends Component {
 							</Card>
 						</div>
 					</Col>
-					<Col
-						sm={12}
-						lg={6}
-						style={{
-							background: '#555',
-							color: 'white',
-						}}>
+					<Col sm={12} lg={6} style={{}}>
 						<div>
 							<Card className='border-0 m-5 text-center bg-transparent'>
-								<Card.Title>Bells and Whistle $260 - 2 hours</Card.Title>
-								<CardImg src={bells} />
+								<h2
+									className='text-center'
+									style={{
+										marginTop: '1em',
+										fontFamily: 'Montserrat',
+										fontWeight: '500',
+										letterSpacing: '0.1em',
+									}}>
+									BELLS AND WHISTLES $260 - 2 HOURS
+								</h2>
+								<CardImg
+									src={bells}
+									style={{
+										width: '75%',
+										margin: '0 auto',
+										padding: '0.5em',
+									}}
+								/>
 								<Card.Text>
 									<ul className='nobullets'>
 										<li>Everything included in Savvy PLUS</li>

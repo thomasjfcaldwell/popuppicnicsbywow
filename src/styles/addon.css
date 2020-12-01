@@ -1,11 +1,18 @@
-.addoncard{
-    text-align: center;
-    align-items: center;
-    margin: 1em;
-   }
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;500;600;900&display=swap');
+
+
 
 .addonimg{
     margin: auto 0;
-    padding: 1em;
     
+    
+}
+
+.addons{
+
+    font-family: 'Montserrat';
+    font-size: 0.5em;
+    text-align: center;
+    align-items: center;
+
 }

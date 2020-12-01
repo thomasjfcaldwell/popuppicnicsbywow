@@ -36,24 +36,24 @@ class Home extends Component {
 					<Row>
 						<Col>
 							<Navbar expand='lg'>
-								<Navbar.Toggle aria-controls='responsive-navbar-nav' />
-								<Navbar.Collapse id='responsive-navbar-nav'>
 									<Navbar.Brand>
 										<Image
 											src={wowlogo}
 											style={{
-												width: '45%',
-												margin: '2em'
+												width: '35%',
+												
 											}}
 										/>
 									</Navbar.Brand>
+								<Navbar.Toggle aria-controls='responsive-navbar-nav' />
+								<Navbar.Collapse id='responsive-navbar-nav'>
 									<Nav
 										className='mr-auto'
 										style={{
 											fontFamily: 'Montserrat',
 											fontWeight: '500',
 											letterSpacing: '0.1em',
-											width: '55%'
+											
 										}}>
 										<Nav.Link
 											onClick={this.handleClick.bind(this)}
