@@ -32,7 +32,6 @@ class Steps extends Component {
 							style={{
 								fontFamily: 'Montserrat',
 								fontWeight: '500',
-								letterSpacing: '0.1em',
 								
 							}}>
 							STEPS TO YOUR PICNIC

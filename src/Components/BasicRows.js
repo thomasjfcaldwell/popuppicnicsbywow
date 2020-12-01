@@ -20,7 +20,7 @@ class BasicRows extends Component {
 	render() {
 		return (
 			<div>
-				<Row className='justify-content-center'>
+				<Row className='justify-content-center mt-5'>
 					<h1
 						className='text-center'
 						style={{

@@ -56,7 +56,7 @@ class Ourstory extends Component {
 					</Col>
 					<Col lg={6} md={12}>
 						<Card
-							className='border-0 w-75 bg-transparent'
+							className='border-0 w-100 bg-transparent'
 							style={{
 								width: '100%',
 								margin: '0 auto',
@@ -77,15 +77,16 @@ class Ourstory extends Component {
 								}}>
 								<Card.Text
 									style={{
-										fontSize: '1.7em',
-										marginTop: '2em',
+										fontSize: '1.5em',
+										marginTop: '1em',
+										fontWeight: '600'
 									}}>
-									<strong>
+									
 										{' '}
 										What happens when you take a group of talented, busy,
 										passionate event planners and you introduce them to a world
 										wide pandemic…………{' '}
-									</strong>
+									
 								</Card.Text>
 								<Card.Text>
 									Well, our group of girls took a deep breath, had a
