@@ -20,6 +20,8 @@ import step2 from '../Images/Steps/step2.png';
 import step3 from '../Images/Steps/step3.png';
 import step4 from '../Images/Steps/step4.png';
 
+import '../App.css'
+
 class Steps extends Component {
 	render() {
 		return (
@@ -28,17 +30,16 @@ class Steps extends Component {
 					<Row className='text-center'>
 						<h1
 							style={{
-								fontSize: '2em',
-								marginTop: '2em',
-								fontWeight: 'lighter',
+								fontFamily: 'Montserrat',
+								fontWeight: '500',
 								letterSpacing: '0.1em',
-								fontFamily: 'sans-serif',
+								
 							}}>
-							Steps to your Picnic
+							STEPS TO YOUR PICNIC
 						</h1>
 					</Row>
 				</div>
-				<Container fluid className='w-75'>
+				<Container fluid className='w-10 '>
 					<Row className='row align-items-center p-2 m-1'>
 						<Col sm={6} lg={3}>
 							<Image src={step1} className='img-fluid' alt='Responsive image' />

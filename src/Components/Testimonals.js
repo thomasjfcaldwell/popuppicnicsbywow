@@ -19,28 +19,29 @@ import birthday from '../Images/Testimonals/template.jpg';
 import anniversary from '../Images/Testimonals/anniversary.jpg';
 import proposal from '../Images/Testimonals/proposal.jpg';
 
+import '../App.css'
+
 
 class Testimonals extends Component {
 	render() {
 		return (
 			<>
-				<Row className='mt-5'>
-					<Card.Title
+				<Row>
+					<h1
 						className='text-center'
 						style={{
-							fontSize: '3em',
-							marginTop: '2em',
-							fontWeight: 'lighter',
+							fontFamily: 'Montserrat',
+							fontWeight: '500',
 							letterSpacing: '0.1em',
 							margin: '0 auto',
 						}}>
-						Testimonals
-					</Card.Title>
+						TESTIMONIALS
+					</h1>
 				</Row>
 				<Container
 					fluid
 					style={{
-						marginTop: ' 8em',
+						marginTop: '4em',
 
 						fontFamily: 'Montserrat',
 					}}>
@@ -57,16 +58,16 @@ class Testimonals extends Component {
 										boxShadow: '5px 5px 10px rgba(0, 0, 0, 0.5)',
 									}}
 								/>
-								<Card.Title
+								<h2
 									className='text-center'
 									style={{
-										fontSize: '2em',
 										marginTop: '1em',
-										fontWeight: 'lighter',
-										fontFamily: 'sans-serif',
+										fontFamily: 'Montserrat',
+										fontWeight: '500',
+										letterSpacing: '0.1em',
 									}}>
-									Birthday Party
-								</Card.Title>
+									BIRTHDAY PARTY
+								</h2>
 								<Card.Body className='w-75 text-center'>
 									<Card.Text>
 										I was looking for a unique idea for my sister’s bridal
@@ -95,16 +96,16 @@ class Testimonals extends Component {
 										boxShadow: '5px 5px 10px rgba(0, 0, 0, 0.5)',
 									}}
 								/>
-								<Card.Title
+								<h2
 									className='text-center'
 									style={{
-										fontSize: '2em',
 										marginTop: '1em',
-										fontWeight: 'lighter',
-										fontFamily: 'sans-serif',
+										fontFamily: 'Montserrat',
+										fontWeight: '500',
+										letterSpacing: '0.1em',
 									}}>
-									Anniversary – “Just the Two of Us”
-								</Card.Title>
+									ANNIVERSARY
+								</h2>
 								<Card.Body className='w-75 text-center'>
 									<Card.Text>
 										I wanted to plan something special for our 10-year wedding
@@ -136,16 +137,16 @@ class Testimonals extends Component {
 										boxShadow: '5px 5px 10px rgba(0, 0, 0, 0.5)',
 									}}
 								/>
-								<Card.Title
+								<h2
 									className='text-center'
 									style={{
-										fontSize: '2em',
 										marginTop: '1em',
-										fontWeight: 'lighter',
-										fontFamily: 'sans-serif',
+										fontFamily: 'Montserrat',
+										fontWeight: '500',
+										letterSpacing: '0.1em',
 									}}>
-									Marriage Proposal
-								</Card.Title>
+									MARRIAGE PROPOSAL
+								</h2>
 								<Card.Body className='w-75 text-center'>
 									<Card.Text>
 										Proposing is stressful enough, doing it during the Ome of

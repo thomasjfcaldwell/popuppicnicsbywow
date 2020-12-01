@@ -42,7 +42,8 @@ class Home extends Component {
 										<Image
 											src={wowlogo}
 											style={{
-												width: '30%',
+												width: '45%',
+												margin: '2em'
 											}}
 										/>
 									</Navbar.Brand>
@@ -50,8 +51,9 @@ class Home extends Component {
 										className='mr-auto'
 										style={{
 											fontFamily: 'Montserrat',
-											fontWeight: '300',
+											fontWeight: '500',
 											letterSpacing: '0.1em',
+											width: '55%'
 										}}>
 										<Nav.Link
 											onClick={this.handleClick.bind(this)}
@@ -96,8 +98,8 @@ class Home extends Component {
 							alignItems: 'center',
 							justifyContent: 'center',
 						}}>
-						<div className='col-lg-12 col-md-12 col-sm-12 col-xs-12'>
-							<h1>Treat</h1> <h1>Someone </h1><h1>Special</h1>
+						<div>
+							<h1>Treat Someone Special</h1>
 						</div>
 					</Row>
 				</Container>

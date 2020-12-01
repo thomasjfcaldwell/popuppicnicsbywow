@@ -16,6 +16,7 @@ import {
 
 import groupShot from '../Images/Aboutus/aboutsus.1.jpg';
 import southSide from '../Images/Aboutus/aboutsus.2.jpg';
+import '../App.css'
 
 class Ourstory extends Component {
 	render() {
@@ -30,23 +31,23 @@ class Ourstory extends Component {
 						alignItems: 'center',
 					}}>
 					<Col sm={12} lg={6} className='justify-content-center '>
-						<Card className='border-0'>
+						<Card className='border-0 p-3'>
 							<Card.Img
 								src={groupShot}
 								style={{
 									margin: '0 auto',
-									maxWidth: '50em',
+									maxWidth: '35em',
 									border: 'solid 0.2em #F78F1E',
 									boxShadow: '5px 5px 10px rgba(0, 0, 0, 0.5)',
 								}}
 							/>
 						</Card>
-						<Card className='border-0 mt-4'>
+						<Card className='border-0 mt-4 p-3'>
 							<Card.Img
 								src={southSide}
 								style={{
 									margin: '0 auto',
-									maxWidth: '50em',
+									maxWidth: '35em',
 									border: 'solid 0.2em #F78F1E',
 									boxShadow: '5px 5px 10px rgba(0, 0, 0, 0.5)',
 								}}
@@ -60,17 +61,16 @@ class Ourstory extends Component {
 								width: '100%',
 								margin: '0 auto',
 							}}>
-							<Card.Title
+							<h1
 								className='text-center'
 								style={{
-									fontSize: '3em',
-									marginTop: '2em',
-									fontWeight: 'lighter',
+									fontFamily: 'Montserrat',
+									fontWeight: '500',
 									letterSpacing: '0.1em',
-									fontFamily: 'sans-serif',
+									margin: '0 auto',
 								}}>
-								About Us
-							</Card.Title>
+								ABOUT US
+							</h1>
 							<Card.Body
 								style={{
 									margin: '0 auto',

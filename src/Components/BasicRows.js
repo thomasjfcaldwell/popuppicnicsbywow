@@ -5,6 +5,7 @@ import {
 	Card,
 } from 'react-bootstrap';
 import '../styles/grid.css';
+import '../App.css'
 import image1 from '../Images//12personWeb.jpg';
 import image2 from '../Images/Gallery/4personWeb.jpg';
 import image3 from '../Images/couple.sunset.jpg';
@@ -20,16 +21,16 @@ class BasicRows extends Component {
 		return (
 			<div>
 				<Row className='justify-content-center'>
-					<Card.Title
+					<h1
 						className='text-center'
 						style={{
-							fontSize: '3em',
-							marginTop: '2em',
-							fontWeight: 'lighter',
+							fontFamily: 'Montserrat',
+							fontWeight: '500',
 							letterSpacing: '0.1em',
+							margin: '0 auto',
 						}}>
-						Gallery
-					</Card.Title>
+						GALLERY
+					</h1>
 				</Row>
 				<div fluid className='gallery-block grid-gallery'>
 					<div className='container'>
