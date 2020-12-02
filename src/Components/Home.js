@@ -24,67 +24,63 @@ class Home extends Component {
 	render() {
 		return (
 			<div>
-				<Container
-					fluid
-					className='bgimage'>
+				<Container fluid className='bgimage'>
 					<Row>
-						<Col>
-							<Navbar expand='lg'>
-									<Navbar.Brand>
-										<Image
-											src={wowlogo}
-											style={{
-												width: '35%',
-												
-											}}
-										/>
-									</Navbar.Brand>
-								<Navbar.Toggle aria-controls='responsive-navbar-nav' />
-								<Navbar.Collapse id='responsive-navbar-nav'>
-									<Nav
-										className='mr-auto'
-										style={{
-											fontFamily: 'Montserrat',
-											fontWeight: '500',
-											letterSpacing: '0.1em',
-											
-										}}>
-										<Nav.Link
-											onClick={this.handleClick.bind(this)}
-											style={{
-												color: '#231F20',
-												padding: '0.5em',
-											}}>
-											WOWEVENTS.COM
-										</Nav.Link>
-										<Nav.Link
-											href='/packages'
-											style={{
-												color: '#231F20',
-												padding: '0.5em',
-											}}>
-											PACKAGES & AVAILABILITY
-										</Nav.Link>
-										<Nav.Link
-											href='/gallery'
-											style={{
-												color: '#231F20',
-												padding: '0.5em',
-											}}>
-											GALLERY
-										</Nav.Link>
-										<Nav.Link
-											href='/faq'
-											style={{
-												color: '#231F20',
-												padding: '0.5em',
-											}}>
-											FAQ
-										</Nav.Link>
-									</Nav>
-								</Navbar.Collapse>
-							</Navbar>
+						<Col lg={6} sm={12}>
+							<Navbar.Brand>
+								<Image
+									src={wowlogo}
+									style={{
+										width: '50%',
+										margin: '2em',
+										webkitFilter: 'drop-shadow(1px 1px 2px #FFFFFF)',
+										filter: 'drop-shadow(1px 1px 2px #FFFFFF)',
+									}}
+								/>
+							</Navbar.Brand>
 						</Col>
+						<Navbar expand='lg'>
+							<Navbar.Toggle
+								aria-controls='responsive-navbar-nav'
+								className='color-white'
+							/>
+							<Navbar.Collapse id='responsive-navbar-nav'>
+								<Nav className='mr-auto'>
+									<Nav.Link
+										onClick={this.handleClick.bind(this)}
+										style={{
+											padding: '0.2em',
+											color: 'white',
+										}}>
+										WOWEVENTS.COM
+									</Nav.Link>
+									<Nav.Link
+										href='/packages'
+										style={{
+											color: 'white',
+											padding: '0.2em',
+										}}>
+										PACKAGES & AVAILABILITY
+									</Nav.Link>
+									<Nav.Link
+										href='/gallery'
+										style={{
+											color: 'white',
+											padding: '0.2em',
+										}}>
+										GALLERY
+									</Nav.Link>
+									<Nav.Link
+										href='/faq'
+										style={{
+											color: 'white',
+											padding: '0.2em',
+										}}>
+										FAQ
+									</Nav.Link>
+								</Nav>
+							</Navbar.Collapse>
+						</Navbar>
 					</Row>
 
 					<Row
@@ -92,10 +88,8 @@ class Home extends Component {
 							alignItems: 'center',
 							justifyContent: 'center',
 						}}>
-						<div>
-							<h1 style={{
-								fontSize:'5em'
-							}}>Treat Someone Special</h1>
+						<div className='headline'>
+							<h1>Treat Someone Special</h1>
 						</div>
 					</Row>
 				</Container>
