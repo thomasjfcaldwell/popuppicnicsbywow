@@ -72,12 +72,12 @@ class Packages extends Component {
 									WOWEVENTS.COM
 								</Nav.Link>
 								<Nav.Link
-									href='/packages'
+									href='/'
 									style={{
 										color: '#231F20',
 										padding: '0.5em',
 									}}>
-									PACKAGES & AVAILABILITY
+									HOME PAGE
 								</Nav.Link>
 								<Nav.Link
 									href='/gallery'

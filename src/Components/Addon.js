@@ -40,46 +40,46 @@ class Addon extends Component {
 						width: '80%',
 					}}>
 					<Row className='m-4'>
-						<Col sm={4} md={2} lg={2}>
+						<Col sm={4} md={4} lg={2}>
 							<Card className='border-0 '>
-								<p>Blanket Basket Rental</p>
-								<Card.Img className='addonimg' src={blanket} />
+								<p className='m-1'>Blanket Basket Rental</p>
 								<h5 className='addonimg'> $45</h5>
+								<Card.Img className='addonimg' src={blanket} />
 							</Card>
 						</Col>
-						<Col sm={4} md={2} lg={2}>
+						<Col sm={4} md={4} lg={2}>
 							<Card className='border-0'>
-								<p>Beverage Package for 2</p>
-								<Card.Img className='addonimg' src={Beverages} />
+								<p className='m-1'>Beverage Package for 2</p>
 								<h5 className='addonimg'>$30</h5>
-							</Card>
-						</Col>
-						<Col sm={4} md={2} lg={2}>
-							<Card className='border-0'>
-								<p>Additional Guest for Beverages </p>
 								<Card.Img className='addonimg' src={Beverages} />
+							</Card>
+						</Col>
+						<Col sm={4} md={4} lg={2}>
+							<Card className='border-0'>
+								<p className='m-1'>Additional Guest for Beverages </p>
 								<h5 className='addonimg'>$5</h5>
+								<Card.Img className='addonimg' src={Beverages} />
 							</Card>
 						</Col>
-						<Col sm={4} md={2} lg={2}>
+						<Col sm={4} md={4} lg={2}>
 							<Card className='border-0'>
-								<p>Teepee Cozy Corner (with Throw and Decor)</p>
+								<p className='m-1'>Teepee Cozy Corner (with Throw and Decor)</p>
+								<h5 className='addonimg'>$40</h5>
 								<Card.Img className='addonimg' src={Teepee} />
-								<h5 className='addonimg'>$40</h5>
 							</Card>
 						</Col>
-						<Col sm={4} md={2} lg={2}>
+						<Col sm={4} md={4} lg={2}>
 							<Card className='border-0'>
-								<p>Umbrella With Stand</p>
-								<Card.Img className='addonimg' src={Umbrella} />
+								<p className='m-1'>Umbrella With Stand</p>
 								<h5 className='addonimg'>$45</h5>
+								<Card.Img className='addonimg' src={Umbrella} />
 							</Card>
 						</Col>
-						<Col sm={4} md={2} lg={2}>
+						<Col sm={4} md={4} lg={2}>
 							<Card className='border-0'>
-								<p>Dessert Platter </p>
-								<Card.Img className='addonimg' src={Dessert} />
+								<p className='m-1'>Dessert Platter </p>
 								<h5 className='addonimg'>$40</h5>
+								<Card.Img className='addonimg' src={Dessert} />
 							</Card>
 						</Col>
 					</Row>
@@ -90,46 +90,46 @@ class Addon extends Component {
 						width: '80%',
 					}}>
 					<Row className='m-4'>
-						<Col sm={4} md={2} lg={2}>
+						<Col sm={4} md={4} lg={2}>
 							<Card className='border-0'>
-								<p>Cheese Box</p>
+								<p className='m-1'>Cheese Box</p>
+								<h5 className='addonimg'>$50</h5>
 								<Card.Img className='addonimg' src={cheeseBox} />
-								<h5 className='addonimg'>$50</h5>
 							</Card>
 						</Col>
-						<Col sm={4} md={2} lg={2}>
+						<Col sm={4} md={4} lg={2}>
 							<Card className='border-0'>
-								<p>Mediterranean Box </p>
+								<p className='m-1'>Mediterranean Box </p>
+								<h5 className='addonimg'>$50</h5>
 								<Card.Img className='addonimg' src={Multi} />
-								<h5 className='addonimg'>$50</h5>
 							</Card>
 						</Col>
-						<Col sm={4} md={2} lg={2}>
+						<Col sm={4} md={4} lg={2}>
 							<Card className='border-0'>
-								<p>Cheese & Meat Box </p>
-								<Card.Img className='addonimg' src={MeatCheese} />
+								<p className='m-1'>Cheese & Meat Box </p>
 								<h5 className='addonimg'>$40</h5>
+								<Card.Img className='addonimg' src={MeatCheese} />
 							</Card>
 						</Col>
-						<Col sm={4} md={2} lg={2}>
+						<Col sm={4} md={4} lg={2}>
 							<Card className='border-0'>
-								<p>Live Music</p>
-								<Card.Img className='addonimg' src={Music} />
+								<p className='m-1'>Live Music</p>
 								<h5 className='addonimg'>$300</h5>
+								<Card.Img className='addonimg' src={Music} />
 							</Card>
 						</Col>
-						<Col sm={4} md={2} lg={2}>
+						<Col sm={4} md={4} lg={2}>
 							<Card className='border-0'>
-								<p>Extra Hour</p>
-								<Card.Img className='addonimg' src={Umbrella} />
+								<p className='m-1'>Extra Hour</p>
 								<h5 className='addonimg'>$100</h5>
+								<Card.Img className='addonimg' src={Umbrella} />
 							</Card>
 						</Col>
-						<Col sm={4} md={2} lg={2}>
+						<Col sm={4} md={4} lg={2}>
 							<Card className='border-0'>
-								<p>BlueTooth Speaker</p>
-								<Card.Img className='addonimg' src={speaker} />
+								<p className='m-1'>BlueTooth Speaker</p>
 								<h5 className='addonimg'>$10</h5>
+								<Card.Img className='addonimg' src={speaker} />
 							</Card>
 						</Col>
 					</Row>
