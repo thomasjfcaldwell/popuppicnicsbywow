@@ -7,7 +7,6 @@ import {
 	CardImg,
 	Nav,
 	Navbar,
-	Image
 	
 } from 'react-bootstrap';
 import  '../styles/sea.css';

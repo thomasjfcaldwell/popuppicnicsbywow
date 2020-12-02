@@ -2,14 +2,11 @@ import React, { Component } from 'react';
 import {
 	Row,
 	Col,
-	Jumbotron,
 	Image,
 	Navbar,
 	Nav,
-	Button,
 	Container,
 } from 'react-bootstrap';
-import background from '../Images/pierviewandsetupopacityLOW.jpg';
 import wowlogo from '../Images/WowEvents_Logo_Orange_RGB.png';
 import Ourstory from '../Components/Ourstory';
 import Testimonals from '../Components/Testimonals';
@@ -29,10 +26,7 @@ class Home extends Component {
 			<div>
 				<Container
 					fluid
-					className='bgimage'
-					style={{
-						backgroundImage: `url(${background})`,
-					}}>
+					className='bgimage'>
 					<Row>
 						<Col>
 							<Navbar expand='lg'>
@@ -99,7 +93,9 @@ class Home extends Component {
 							justifyContent: 'center',
 						}}>
 						<div>
-							<h1>Treat Someone Special</h1>
+							<h1 style={{
+								fontSize:'5em'
+							}}>Treat Someone Special</h1>
 						</div>
 					</Row>
 				</Container>

@@ -10,6 +10,7 @@
   background-attachment: fixed;
   align-items: center;
   align-content: center;
+  background-image: url('../Images/pierviewandsetupopacityLOW.jpg');
 }
 .bgimage h1 {
   color:white;
