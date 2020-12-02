@@ -80,12 +80,15 @@ const Contact = () => {
 					<h1
 						style={{
 							fontSize: '3em',
-							marginTop: '2em',
-							fontWeight: 'lighter',
+							fontFamily: 'Montserrat',
+							fontWeight: '500',
 							letterSpacing: '0.1em',
-							textAlign: 'center',
+							margin: '0 auto',
+
+							color: 'white',
+							padding: '0.4em',
 						}}>
-						Contact Us
+						CONTACT US
 					</h1>
 					<div className='p-3'>
 						<Form.Label

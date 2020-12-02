@@ -28,6 +28,9 @@ class Footer extends Component {
 								fontFamily: 'Montserrat',
 								fontWeight: '500',
 								letterSpacing: '0.1em',
+								background: '#231f20',
+								color: 'white',
+								padding: '0.4em',
 							}}>
 							LOCATIONS
 						</h1>
@@ -43,6 +46,9 @@ class Footer extends Component {
 										fontFamily: 'Montserrat',
 										fontWeight: '500',
 										letterSpacing: '0.1em',
+										background: '#231f20',
+										color: 'white',
+										 padding: '0.2em',
 									}}>
 									HUNTINGTON BEACH
 								</h3>
@@ -66,6 +72,9 @@ class Footer extends Component {
 									fontFamily: 'Montserrat',
 									fontWeight: '500',
 									letterSpacing: '0.1em',
+									background: '#231f20',
+									color: 'white',
+									padding: '0.2em',
 								}}>
 								DOHENY
 							</h3>
@@ -86,6 +95,9 @@ class Footer extends Component {
 									fontFamily: 'Montserrat',
 									fontWeight: '500',
 									letterSpacing: '0.1em',
+									background: '#231f20',
+									color: 'white',
+									padding: '0.2em',
 								}}>
 								SAN CLEMENTE
 							</h3>
@@ -111,6 +123,9 @@ class Footer extends Component {
 									fontFamily: 'Montserrat',
 									fontWeight: '500',
 									letterSpacing: '0.1em',
+									background: '#231f20',
+									color: 'white',
+									padding: '0.2em',
 								}}>
 								NEWPORT BEACH
 							</h3>
@@ -147,6 +162,9 @@ class Footer extends Component {
 									fontFamily: 'Montserrat',
 									fontWeight: '500',
 									letterSpacing: '0.1em',
+									background: '#231f20',
+									color: 'white',
+									padding: '0.2em',
 								}}>
 								CORONA DEL MAR
 							</h3>
@@ -168,6 +186,9 @@ class Footer extends Component {
 									fontFamily: 'Montserrat',
 									fontWeight: '500',
 									letterSpacing: '0.1em',
+									background: '#231f20',
+									color: 'white',
+									padding: '0.2em',
 								}}>
 								SIGNAL HILL
 							</h3>

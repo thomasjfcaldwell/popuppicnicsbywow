@@ -34,6 +34,9 @@ class Testimonals extends Component {
 							fontWeight: '500',
 							letterSpacing: '0.1em',
 							margin: '0 auto',
+							background: '#231f20',
+							color: 'white',
+							padding: '0.2em',
 						}}>
 						TESTIMONIALS
 					</h1>
@@ -65,6 +68,9 @@ class Testimonals extends Component {
 										fontFamily: 'Montserrat',
 										fontWeight: '500',
 										letterSpacing: '0.1em',
+										background: '#231f20',
+										color: 'white',
+										padding: '0.1em',
 									}}>
 									BIRTHDAY PARTY
 								</h2>
@@ -103,6 +109,9 @@ class Testimonals extends Component {
 										fontFamily: 'Montserrat',
 										fontWeight: '500',
 										letterSpacing: '0.1em',
+										background: '#231f20',
+										color: 'white',
+										padding: '0.1em',
 									}}>
 									ANNIVERSARY
 								</h2>
@@ -144,6 +153,9 @@ class Testimonals extends Component {
 										fontFamily: 'Montserrat',
 										fontWeight: '500',
 										letterSpacing: '0.1em',
+										background: '#231f20',
+										color: 'white',
+										padding: '0.1em',
 									}}>
 									MARRIAGE PROPOSAL
 								</h2>

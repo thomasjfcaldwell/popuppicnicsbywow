@@ -32,7 +32,9 @@ class Steps extends Component {
 							style={{
 								fontFamily: 'Montserrat',
 								fontWeight: '500',
-								
+								background: '#231f20',
+								color: 'white',
+								padding: '0.2em',
 							}}>
 							STEPS TO YOUR PICNIC
 						</h1>

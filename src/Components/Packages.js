@@ -36,7 +36,9 @@ class Packages extends Component {
 					style={{
 						alignItems: 'center',
 						justifyContent: 'center',
-						margin: '3em',
+						background: '#231f20',
+						width: '100%',
+						height: '15em',
 					}}>
 					<Navbar expand='lg'>
 						<Navbar.Brand>
@@ -44,6 +46,7 @@ class Packages extends Component {
 								className='text-center'
 								style={{
 									fontFamily: 'Montserrat',
+									color: 'white',
 									fontWeight: '500',
 									letterSpacing: '0.1em',
 									margin: '0 auto',
@@ -55,17 +58,16 @@ class Packages extends Component {
 						<Navbar.Toggle aria-controls='responsive-navbar-nav' />
 						<Navbar.Collapse id='responsive-navbar-nav'>
 							<Nav
-								className='mr-auto'
+								// className='mr-auto'
 								style={{
 									fontFamily: 'Montserrat',
 									fontWeight: '500',
 									letterSpacing: '0.1em',
-									textAlign: 'right',
 								}}>
 								<Nav.Link
 									onClick={this.handleClick.bind(this)}
 									style={{
-										color: '#231F20',
+										color: 'white',
 										padding: '0.5em',
 									}}>
 									WOWEVENTS.COM
@@ -73,7 +75,7 @@ class Packages extends Component {
 								<Nav.Link
 									href='/'
 									style={{
-										color: '#231F20',
+										color: 'white',
 										padding: '0.5em',
 									}}>
 									HOME PAGE
@@ -81,7 +83,7 @@ class Packages extends Component {
 								<Nav.Link
 									href='/gallery'
 									style={{
-										color: '#231F20',
+										color: 'white',
 										padding: '0.5em',
 									}}>
 									GALLERY
@@ -89,7 +91,7 @@ class Packages extends Component {
 								<Nav.Link
 									href='/faq'
 									style={{
-										color: '#231F20',
+										color: 'white',
 										padding: '0.5em',
 									}}>
 									FAQ
@@ -110,6 +112,9 @@ class Packages extends Component {
 										fontFamily: 'Montserrat',
 										fontWeight: '500',
 										letterSpacing: '0.1em',
+										background: '#231f20',
+										color: 'white',
+										padding: '0.2em',
 									}}>
 									SIMPLY SAVVY - $160 - 2 HOURS
 								</h2>
@@ -147,6 +152,9 @@ class Packages extends Component {
 										fontFamily: 'Montserrat',
 										fontWeight: '500',
 										letterSpacing: '0.1em',
+										background: '#231f20',
+										color: 'white',
+										padding: '0.2em',
 									}}>
 									BELLS AND WHISTLES $260 - 2 HOURS
 								</h2>

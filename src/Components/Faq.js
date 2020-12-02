@@ -27,68 +27,73 @@ class Faq extends Component {
 		return (
 			<div>
 				<Container fluid>
-					<Row className='m-5 text-center'>
-						<Col>
-							<Navbar expand='lg'>
-								<Navbar.Brand>
-									<h1
-										className='text-center'
+					<Row
+						style={{
+							alignItems: 'center',
+							justifyContent: 'center',
+							background: '#231f20',
+							width: '100%',
+							height: '15em',
+						}}>
+						<Navbar expand='lg'>
+							<Navbar.Brand>
+								<h1
+									className='text-center'
+									style={{
+										fontFamily: 'Montserrat',
+										color: 'white',
+										fontWeight: '500',
+										letterSpacing: '0.1em',
+										margin: '0 auto',
+										width: '100%',
+									}}>
+									FQAs
+								</h1>
+							</Navbar.Brand>
+							<Navbar.Toggle aria-controls='responsive-navbar-nav' />
+							<Navbar.Collapse id='responsive-navbar-nav'>
+								<Nav
+									// className='mr-auto'
+									style={{
+										fontFamily: 'Montserrat',
+										fontWeight: '500',
+										letterSpacing: '0.1em',
+									}}>
+									<Nav.Link
+										onClick={this.handleClick.bind(this)}
 										style={{
-											fontFamily: 'Montserrat',
-											fontWeight: '500',
-											letterSpacing: '0.1em',
-											margin: '0 auto',
-											width: '100%',
+											color: 'white',
+											padding: '0.5em',
 										}}>
-										FREQUENTLY ASKED QUESTIONS
-									</h1>
-								</Navbar.Brand>
-								<Navbar.Toggle aria-controls='responsive-navbar-nav' />
-								<Navbar.Collapse id='responsive-navbar-nav'>
-									<Nav
-										className='mr-auto'
+										WOWEVENTS.COM
+									</Nav.Link>
+									<Nav.Link
+										href='/'
 										style={{
-											fontFamily: 'Montserrat',
-											fontWeight: '500',
-											letterSpacing: '0.1em',
-											textAlign: 'right',
+											color: 'white',
+											padding: '0.5em',
 										}}>
-										<Nav.Link
-											onClick={this.handleClick.bind(this)}
-											style={{
-												color: '#231F20',
-												padding: '0.5em',
-											}}>
-											WOWEVENTS.COM
-										</Nav.Link>
-										<Nav.Link
-											href='/packages'
-											style={{
-												color: '#231F20',
-												padding: '0.5em',
-											}}>
-											PACKAGES & AVAILABILITY
-										</Nav.Link>
-										<Nav.Link
-											href='/gallery'
-											style={{
-												color: '#231F20',
-												padding: '0.5em',
-											}}>
-											GALLERY
-										</Nav.Link>
-										<Nav.Link
-											href='/'
-											style={{
-												color: '#231F20',
-												padding: '0.5em',
-											}}>
-											GO HOME
-										</Nav.Link>
-									</Nav>
-								</Navbar.Collapse>
-							</Navbar>
-						</Col>
+										HOME PAGE
+									</Nav.Link>
+									<Nav.Link
+										href='/gallery'
+										style={{
+											color: 'white',
+											padding: '0.5em',
+										}}>
+										GALLERY
+									</Nav.Link>
+									<Nav.Link
+										href='/packages'
+										style={{
+											color: 'white',
+											padding: '0.5em',
+										}}>
+										PACKAGES
+									</Nav.Link>
+								</Nav>
+							</Navbar.Collapse>
+						</Navbar>
 					</Row>
 				</Container>
 				<Container>

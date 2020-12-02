@@ -68,6 +68,9 @@ class Ourstory extends Component {
 									fontWeight: '500',
 									letterSpacing: '0.1em',
 									margin: '0 auto',
+									background: '#231f20',
+									color: 'white',
+									padding: '0.2em',
 								}}>
 								ABOUT US
 							</h1>
@@ -79,14 +82,12 @@ class Ourstory extends Component {
 									style={{
 										fontSize: '1.5em',
 										marginTop: '1em',
-										fontWeight: '600'
+										fontWeight: '600',
 									}}>
-									
-										{' '}
-										What happens when you take a group of talented, busy,
-										passionate event planners and you introduce them to a world
-										wide pandemic…………{' '}
-									
+									{' '}
+									What happens when you take a group of talented, busy,
+									passionate event planners and you introduce them to a world
+									wide pandemic…………{' '}
 								</Card.Text>
 								<Card.Text>
 									Well, our group of girls took a deep breath, had a
