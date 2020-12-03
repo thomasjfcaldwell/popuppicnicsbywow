@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
 import {
 	Row,
-
-	Card,
 } from 'react-bootstrap';
 import '../styles/grid.css';
 import '../App.css'

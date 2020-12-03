@@ -1,18 +1,11 @@
 import React, { Component } from 'react';
 import {
 	Row,
-	Col,
 	Card,
 	CardGroup,
-	Jumbotron,
+
 	Container,
-	ListGroup,
-	Image,
-	Navbar,
-	Nav,
-	NavDropdown,
-	Button,
-	Carousel,
+
 } from 'react-bootstrap';
 
 import birthday from '../Images/Testimonals/template.jpg';
@@ -61,7 +54,7 @@ class Testimonals extends Component {
 										boxShadow: '5px 5px 10px rgba(0, 0, 0, 0.5)',
 									}}
 								/>
-								<h2
+								<h4
 									className='text-center'
 									style={{
 										marginTop: '1em',
@@ -70,10 +63,10 @@ class Testimonals extends Component {
 										letterSpacing: '0.1em',
 										background: '#231f20',
 										color: 'white',
-										padding: '0.1em',
+										padding: '0.5em',
 									}}>
 									BIRTHDAY PARTY
-								</h2>
+								</h4>
 								<Card.Body className='w-75 text-center'>
 									<Card.Text>
 										I was looking for a unique idea for my sister’s bridal
@@ -102,7 +95,7 @@ class Testimonals extends Component {
 										boxShadow: '5px 5px 10px rgba(0, 0, 0, 0.5)',
 									}}
 								/>
-								<h2
+								<h4
 									className='text-center'
 									style={{
 										marginTop: '1em',
@@ -111,10 +104,10 @@ class Testimonals extends Component {
 										letterSpacing: '0.1em',
 										background: '#231f20',
 										color: 'white',
-										padding: '0.1em',
+										padding:'0.5em',
 									}}>
 									ANNIVERSARY
-								</h2>
+								</h4>
 								<Card.Body className='w-75 text-center'>
 									<Card.Text>
 										I wanted to plan something special for our 10-year wedding
@@ -146,7 +139,7 @@ class Testimonals extends Component {
 										boxShadow: '5px 5px 10px rgba(0, 0, 0, 0.5)',
 									}}
 								/>
-								<h2
+								<h4
 									className='text-center'
 									style={{
 										marginTop: '1em',
@@ -155,10 +148,10 @@ class Testimonals extends Component {
 										letterSpacing: '0.1em',
 										background: '#231f20',
 										color: 'white',
-										padding: '0.1em',
+										padding: '0.5em',
 									}}>
 									MARRIAGE PROPOSAL
-								</h2>
+								</h4>
 								<Card.Body className='w-75 text-center'>
 									<Card.Text>
 										Proposing is stressful enough, doing it during the Ome of

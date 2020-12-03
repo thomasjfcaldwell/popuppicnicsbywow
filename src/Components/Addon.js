@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Row, Col, Card, Container, Image } from 'react-bootstrap';
+import { Row, Col, Card, Container,} from 'react-bootstrap';
 import '../styles/addon.css'
 import blanket from '../Images/Packages/blankets.jpg';
 import Beverages from '../Images/Packages/beveragepackage.11.23.jpg';

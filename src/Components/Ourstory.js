@@ -3,15 +3,7 @@ import {
 	Row,
 	Col,
 	Card,
-	CardGroup,
-	Jumbotron,
-	Container,
-	ListGroup,
-	Image,
-	Navbar,
-	Nav,
-	NavDropdown,
-	Button,
+
 } from 'react-bootstrap';
 
 import groupShot from '../Images/Aboutus/aboutsus.1.jpg';
@@ -56,9 +48,9 @@ class Ourstory extends Component {
 					</Col>
 					<Col lg={6} md={12}>
 						<Card
-							className='border-0 w-100 bg-transparent'
+							className='border-0 bg-transparent'
 							style={{
-								width: '100%',
+								width: '90%',
 								margin: '0 auto',
 							}}>
 							<h1

@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;500;600;900&display=swap');
+
 .footer {
   width: 100%;
   text-align: left;
@@ -13,6 +15,15 @@
 .footer .footer-right {
   display: inline-block;
   vertical-align: top;
+}
+
+.socialmedia {
+  width: 10%;
+}
+@media only screen and (max-width: 600px) {
+	.socialmedia {
+		width: 15%;
+	}
 }
 
 
