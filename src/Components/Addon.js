@@ -117,7 +117,7 @@ class Addon extends Component {
 						<Col sm={4} md={4} lg={2}>
 							<Card className='border-0'>
 								<p className='m-1'>Live Music</p>
-								<h5 className='addonimg'>$300</h5>
+								<h5 className='addonimg'>$300+</h5>
 								<Card.Img className='addonimg' src={Music} />
 							</Card>
 						</Col>

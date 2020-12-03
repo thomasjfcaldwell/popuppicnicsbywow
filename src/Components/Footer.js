@@ -22,6 +22,17 @@ class Footer extends Component {
 						textAlign: 'center',
 					}}>
 					<div class='locationsHeader'>
+						<h3
+							style={{
+								marginTop: '1em',
+								fontFamily: 'Montserrat',
+								fontWeight: '500',
+								letterSpacing: '0.1em',
+								color: '#231f20',
+								padding: '0.5em',
+							}}>
+							SELECT
+						</h3>
 						<h1
 							style={{
 								marginTop: '1em',
@@ -32,7 +43,7 @@ class Footer extends Component {
 								color: 'white',
 								padding: '0.4em',
 							}}>
-							LOCATIONS
+							LOCATION
 						</h1>
 					</div>
 				</Row>
@@ -48,7 +59,7 @@ class Footer extends Component {
 										letterSpacing: '0.1em',
 										background: '#231f20',
 										color: 'white',
-										 padding: '0.2em',
+										padding: '0.2em',
 									}}>
 									HUNTINGTON BEACH
 								</h3>
@@ -59,7 +70,7 @@ class Footer extends Component {
 								alt='huntington beach state beach'
 								className='images'
 							/>
-							<h5 className='m-3'>State Beach</h5>
+							<h5 className='m-3'>State Beach ($30)</h5>
 							<p>Public Bathroom, Parking</p>
 						</Card>
 					</Col>
@@ -80,10 +91,10 @@ class Footer extends Component {
 							</h3>
 						</div>
 						<Image src={Doheny} alt='Doheny State Beach' className='images' />
-						<Card.Title className='m-3'>Doheny State Beach </Card.Title>
+						<Card.Title className='m-3'>Doheny State Beach($45) </Card.Title>
 						<p>Public Bathroom, Parking</p>
 
-						<Card.Title>Doheny State Park </Card.Title>
+						<Card.Title>Doheny State Park($45) </Card.Title>
 						<p>Public Bathroom, Parking, Access for Disabled</p>
 					</Col>
 

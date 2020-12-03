@@ -14,6 +14,7 @@ import '../App.css'
 import Addon from '../Components/Addon'
 
 import Footer from '../Components/Footer'
+import Contact from '../Components/Contact'
 
 
 
@@ -116,7 +117,7 @@ class Packages extends Component {
 										color: 'white',
 										padding: '0.2em',
 									}}>
-									SIMPLY SAVVY - $160 - 2 HOURS
+									SIMPLY SAVVY - $160 + - 2 HOURS
 								</h2>
 								<CardImg
 									src={basicPackage}
@@ -131,10 +132,9 @@ class Packages extends Component {
 										<li>Personalized Welcome Sign</li>
 										<li>Hand Crafted Wooden table</li>{' '}
 										<li>Seat Pillow For Everyone</li>{' '}
-										<li>Flatware/ plates/White Cloth Napkins</li>{' '}
+										<li>Flatware/Plates/White Cloth Napkins</li>{' '}
 										<li>Metal Goblets</li> <li>Table Décor</li>{' '}
 										<li>Blanket or Rug (floor covering) </li>
-										<li>Side Table or Storage Area Perimeter Decor</li>{' '}
 										<li>Add An Additional Person At $30</li>{' '}
 										<li>Each Add Additional Hour $75</li>
 									</ul>
@@ -156,7 +156,7 @@ class Packages extends Component {
 										color: 'white',
 										padding: '0.2em',
 									}}>
-									BELLS AND WHISTLES $260 - 2 HOURS
+									BELLS AND WHISTLES $260 + - 2 HOURS
 								</h2>
 								<CardImg
 									src={bells}
@@ -169,10 +169,11 @@ class Packages extends Component {
 								<Card.Text>
 									<ul className='nobullets'>
 										<li>Everything included in Savvy PLUS</li>
-										<li>Choice of One Picnic Platter</li>{' '}
-										<li>Beverage Package for 2</li> <li>Bluetooth Speakers</li>{' '}
+										<li>Small artisian cheese box</li>{' '}
+										<li>Beverage Package for 2</li> <li>Bluetooth Speaker</li>{' '}
 										<li>Decorative Umbrella or Styled Teepee Corner</li>{' '}
-										<li>Add an additional person at $30 each</li>{' '}
+										<li>Side Table or Storage Area Perimeter Decor</li>{' '}
+										<li>Add An Additional Person At $30</li>{' '}
 										<li>Each Add Additional Hour $75</li>
 									</ul>
 								</Card.Text>
@@ -180,9 +181,25 @@ class Packages extends Component {
 						</div>
 					</Col>
 				</Row>
+				<Row
+					style={{
+						alignItems: 'center',
+						justifyContent: 'center',
+						textAlign: 'center',
+					}}>
+					<p
+						style={{
+							fontFamily: 'Montserrat',
+							fontWeight: '500',
+							width: '100%',
+						}}>
+						20% Service Charge and Sales Tax to be added
+					</p>
+				</Row>
 
 				<Addon />
 				<Footer />
+				<Contact />
 			</div>
 		);
 	}

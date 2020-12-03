@@ -197,8 +197,8 @@ class Faq extends Component {
 								A: All Packages include a Picnic Table, Beach Blanket, Pillows,
 								Table and Floor Décor, Plates, service ware, Napkins, Delivery,
 								Set-Up and Clean-Up……………. The “Bells and Whistles” Package also
-								includes Umbrella, Teepee, Choice of Platter, Bucket of Ice with
-								scoop, Beverage Package and Blanket Basket.
+								includes Umbrella or Teepee, Small Cheese Box, Bucket of Ice
+								with scoop, Beverage Package and Blanket Basket.
 							</Card.Text>
 							<Card.Title
 								style={{
@@ -288,8 +288,7 @@ class Faq extends Component {
 								the kids tend to run around and or sit on parents’ laps and we
 								do not charge extra for this. If you would like a place set at
 								the table for any children, we suggest including them in your
-								headcount. (I don’t suggest a kid’s price or limiting the kids
-								age included as this will get complicated.)
+								headcount.
 							</Card.Text>
 							<Card.Title
 								style={{
@@ -312,9 +311,9 @@ class Faq extends Component {
 							</Card.Title>
 							<Card.Text>
 								A: Check out our website which offers a variety of food and
-								beverage options: (include link here). You are also welcome to
-								bring your own food and beverages. Alcohol is not permitted at
-								public parks and beaches.
+								beverage options. You are also welcome to bring your own food
+								and beverages. Alcohol is not permitted at public parks and
+								beaches.
 							</Card.Text>
 							<Card.Title
 								style={{
@@ -345,7 +344,7 @@ class Faq extends Component {
 									style={{
 										color: '#F78F1E',
 									}}
-									href='https://drive.google.com/file/d/1CIAx6jusOy7F14PfGu1d405W76NdDKeM/view?usp=sharing'>
+									href='https://drive.google.com/file/d/1hMFH8QIacQqcMDuuAaMUssqPi2dhXsLH/view?usp=sharing'>
 									HERE{' '}
 								</a>
 							</Card.Text>
