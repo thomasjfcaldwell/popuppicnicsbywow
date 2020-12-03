@@ -66,7 +66,7 @@ const Contact = () => {
 			<Row
 				style={{
 					background: '#F78F1E',
-					marginTop: '1em',
+					marginTop: '0.5em',
 				}}>
 				<Col sm={12} lg={6}>
 					<Form
@@ -90,7 +90,7 @@ const Contact = () => {
 							}}>
 							CONTACT US
 						</h1>
-						<div className='p-3'>
+						<div className='p-1'>
 							<Form.Label
 								style={{
 									fontSize: '1.3em',
@@ -104,7 +104,7 @@ const Contact = () => {
 							/>
 						</div>
 
-						<div className='p-3'>
+						<div className='p-1'>
 							<Form.Label
 								style={{
 									fontSize: '1.3em',
@@ -117,7 +117,7 @@ const Contact = () => {
 								onChange={(e) => setEmail(e.target.value)}
 							/>
 						</div>
-						<div className='p-3'>
+						<div className='p-1'>
 							<Form.Label
 								style={{
 									fontSize: '1.3em',
@@ -130,7 +130,7 @@ const Contact = () => {
 								onChange={(e) => setPhone(e.target.value)}
 							/>
 						</div>
-						<div className='p-3'>
+						<div className='p-1'>
 							<Form.Label
 								style={{
 									fontSize: '1.3em',
@@ -143,7 +143,7 @@ const Contact = () => {
 								onChange={(e) => setDate(e.target.value)}
 							/>
 						</div>
-						<div className='p-3'>
+						<div className='p-1'>
 							<Form.Label
 								style={{
 									fontSize: '1.3em',
@@ -156,7 +156,7 @@ const Contact = () => {
 								onChange={(e) => setLocation(e.target.value)}
 							/>
 						</div>
-						<div className='p-3'>
+						<div className='p-1'>
 							<Form.Label
 								style={{
 									fontSize: '1.3em',
@@ -171,7 +171,7 @@ const Contact = () => {
 								onChange={(e) => setMessage(e.target.value)}
 							/>
 						</div>
-						<div className='text-center m-5'>
+						<div className='text-center m-1'>
 							<Button
 								className='border-0'
 								type='submit'
