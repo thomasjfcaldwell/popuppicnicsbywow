@@ -29,11 +29,11 @@ class Addon extends Component {
 								fontFamily: 'Montserrat',
 								fontWeight: '500',
 								letterSpacing: '0.1em',
-								background: '#231f20',
+								background: '#727272',
 								color: 'white',
 								padding: '0.4em',
 							}}>
-							ADD ON ITEMS
+							A LA CART ITEMS
 						</h1>
 					</div>
 				</Row>
@@ -45,8 +45,8 @@ class Addon extends Component {
 					<Row className='m-4'>
 						<Col sm={4} md={4} lg={2}>
 							<Card className='border-0 '>
-								<p className='m-1'>Blanket Basket Rental</p>
-								<h5 className='addonimg'> $45</h5>
+								<p className='m-1'>Cozy Blanket Basket</p>
+								<h5 className='addonimg'> $25</h5>
 								<Card.Img className='addonimg' src={blanket} />
 							</Card>
 						</Col>
@@ -59,21 +59,21 @@ class Addon extends Component {
 						</Col>
 						<Col sm={4} md={4} lg={2}>
 							<Card className='border-0'>
-								<p className='m-1'>Additional Guest for Beverages </p>
+								<p className='m-1'>Additional Beverages for One Guest</p>
 								<h5 className='addonimg'>$5</h5>
 								<Card.Img className='addonimg' src={Beverages} />
 							</Card>
 						</Col>
 						<Col sm={4} md={4} lg={2}>
 							<Card className='border-0'>
-								<p className='m-1'>Teepee Cozy Corner (with Throw and Decor)</p>
+								<p className='m-1'>Tepee Package</p>
 								<h5 className='addonimg'>$40</h5>
 								<Card.Img className='addonimg' src={Teepee} />
 							</Card>
 						</Col>
 						<Col sm={4} md={4} lg={2}>
 							<Card className='border-0'>
-								<p className='m-1'>Umbrella With Stand</p>
+								<p className='m-1'>Posh Umbrella with Tassels</p>
 								<h5 className='addonimg'>$45</h5>
 								<Card.Img className='addonimg' src={Umbrella} />
 							</Card>
@@ -95,35 +95,35 @@ class Addon extends Component {
 					<Row className='m-4'>
 						<Col sm={4} md={4} lg={2}>
 							<Card className='border-0'>
-								<p className='m-1'>Cheese Box</p>
+								<p className='m-1'>Cheese Charcutier Box</p>
 								<h5 className='addonimg'>$50</h5>
 								<Card.Img className='addonimg' src={cheeseBox} />
 							</Card>
 						</Col>
 						<Col sm={4} md={4} lg={2}>
 							<Card className='border-0'>
-								<p className='m-1'>Mediterranean Box </p>
+								<p className='m-1'>Mediterranean Charcutier Box</p>
 								<h5 className='addonimg'>$50</h5>
 								<Card.Img className='addonimg' src={Multi} />
 							</Card>
 						</Col>
 						<Col sm={4} md={4} lg={2}>
 							<Card className='border-0'>
-								<p className='m-1'>Cheese & Meat Box </p>
+								<p className='m-1'>Meat & Cheese Charcutier Box</p>
 								<h5 className='addonimg'>$60</h5>
 								<Card.Img className='addonimg' src={MeatCheese} />
 							</Card>
 						</Col>
 						<Col sm={4} md={4} lg={2}>
 							<Card className='border-0'>
-								<p className='m-1'>Live Music</p>
+								<p className='m-1'>Live Music Entertainment</p>
 								<h5 className='addonimg'>$300+</h5>
 								<Card.Img className='addonimg' src={Music} />
 							</Card>
 						</Col>
 						<Col sm={4} md={4} lg={2}>
 							<Card className='border-0'>
-								<p className='m-1'>Extra Hour</p>
+								<p className='m-1'>Additional Hour for Picnic</p>
 								<h5 className='addonimg'>$75</h5>
 								<Card.Img className='addonimg' src={Umbrella} />
 							</Card>
@@ -135,6 +135,22 @@ class Addon extends Component {
 								<Card.Img className='addonimg' src={speaker} />
 							</Card>
 						</Col>
+					</Row>
+					<Row
+						style={{
+							alignItems: 'center',
+							justifyContent: 'center',
+							textAlign: 'center',
+						}}>
+						<p
+							style={{
+								fontFamily: 'Montserrat',
+								fontWeight: '500',
+								width: '100%',
+								color: '#727272'
+							}}>
+							NOTE: 20% Service Fee and Sales tax will be added to all pricing
+						</p>
 					</Row>
 				</Container>
 			</div>

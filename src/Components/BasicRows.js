@@ -26,7 +26,7 @@ class BasicRows extends Component {
 							fontWeight: '500',
 							letterSpacing: '0.1em',
 							margin: '0 auto',
-							background: '#231f20',
+							background: '#727272',
 							color: 'white',
 							padding: '0.2em',
 						}}>

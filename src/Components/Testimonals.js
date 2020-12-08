@@ -27,7 +27,7 @@ class Testimonals extends Component {
 							fontWeight: '500',
 							letterSpacing: '0.1em',
 							margin: '0 auto',
-							background: '#231f20',
+							background: '#727272',
 							color: 'white',
 							padding: '0.2em',
 						}}>
@@ -40,6 +40,7 @@ class Testimonals extends Component {
 						marginTop: '4em',
 
 						fontFamily: 'Montserrat',
+						color: '#727272',
 					}}>
 					<Row>
 						<CardGroup>
@@ -61,7 +62,7 @@ class Testimonals extends Component {
 										fontFamily: 'Montserrat',
 										fontWeight: '500',
 										letterSpacing: '0.1em',
-										background: '#231f20',
+										background: '#727272',
 										color: 'white',
 										padding: '0.5em',
 									}}>
@@ -102,9 +103,9 @@ class Testimonals extends Component {
 										fontFamily: 'Montserrat',
 										fontWeight: '500',
 										letterSpacing: '0.1em',
-										background: '#231f20',
+										background: '#727272',
 										color: 'white',
-										padding:'0.5em',
+										padding: '0.5em',
 									}}>
 									ANNIVERSARY
 								</h4>
@@ -146,7 +147,7 @@ class Testimonals extends Component {
 										fontFamily: 'Montserrat',
 										fontWeight: '500',
 										letterSpacing: '0.1em',
-										background: '#231f20',
+										background: '#727272',
 										color: 'white',
 										padding: '0.5em',
 									}}>

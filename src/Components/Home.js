@@ -16,6 +16,7 @@ import Contact from '../Components/Contact';
 import BasicRows from './BasicRows';
 
 import '../styles/home.css';
+import ContactForm from './ContactForm';
 class Home extends Component {
 	handleClick() {
 		// do something meaningful, Promises, if/else, whatever, and then
@@ -49,24 +50,25 @@ class Home extends Component {
 									<Nav.Link
 										onClick={this.handleClick.bind(this)}
 										style={{
-											padding: '0.2em',
+											padding: '1em',
 											color: 'white',
 										}}>
-										WOWEVENTS.COM
+										WOWEVENTS HOME
 									</Nav.Link>
+									<p></p>
 									<Nav.Link
 										href='/packages'
 										style={{
 											color: 'white',
-											padding: '0.2em',
+											padding: '1em',
 										}}>
-										PACKAGES & AVAILABILITY
+										BOOK A PICNIC
 									</Nav.Link>
 									<Nav.Link
 										href='/gallery'
 										style={{
 											color: 'white',
-											padding: '0.2em',
+											padding: '1em',
 										}}>
 										GALLERY
 									</Nav.Link>
@@ -74,7 +76,7 @@ class Home extends Component {
 										href='/faq'
 										style={{
 											color: 'white',
-											padding: '0.2em',
+											padding: '1em',
 										}}>
 										FAQ
 									</Nav.Link>

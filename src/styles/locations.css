@@ -3,6 +3,7 @@
 .locations {
 	font-family: 'Montserrat';
 	text-align: center;
+	color: #727272;
 }
 
 .locationsHeader {
@@ -15,10 +16,12 @@
 	-webkit-align-items: center;
 	align-items: center;
 	justify-content: center;
+	padding: 1em
+	
 }
 
 .images {
-	width: 70%;
-margin: 0 auto;
+	margin: 1em;
+width: 90%;
 	box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
 }

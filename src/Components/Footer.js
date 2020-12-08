@@ -1,9 +1,7 @@
 import React, { Component } from 'react';
-import { Row, Col, Card, Container, Image } from 'react-bootstrap';
-import HuntCity from '../Images/Locations/HuntingtonCityWeb.jpg';
+import { Row, Col, Card, Image } from 'react-bootstrap';
 import HuntState from '../Images/Locations/HuntingtonStateWeb.jpg';
 import '../styles/locations.css';
-
 
 import Doheny from '../Images/Locations/doheneyBeachWeb.jpg';
 import Saltcreek from '../Images/Locations/saltcreekbeachWeb.jpg';
@@ -22,28 +20,17 @@ class Footer extends Component {
 						textAlign: 'center',
 					}}>
 					<div class='locationsHeader'>
-						<h3
-							style={{
-								marginTop: '1em',
-								fontFamily: 'Montserrat',
-								fontWeight: '500',
-								letterSpacing: '0.1em',
-								color: '#231f20',
-								padding: '0.5em',
-							}}>
-							SELECT
-						</h3>
 						<h1
 							style={{
 								marginTop: '1em',
 								fontFamily: 'Montserrat',
 								fontWeight: '500',
 								letterSpacing: '0.1em',
-								background: '#231f20',
+								background: '#727272',
 								color: 'white',
 								padding: '0.4em',
 							}}>
-							LOCATION
+							SELECT A PICNIC LOCATION
 						</h1>
 					</div>
 				</Row>
@@ -53,11 +40,10 @@ class Footer extends Component {
 							<div class='locationsHeader'>
 								<h3
 									style={{
-										marginTop: '1em',
 										fontFamily: 'Montserrat',
 										fontWeight: '500',
 										letterSpacing: '0.1em',
-										background: '#231f20',
+										background: '#f7901e',
 										color: 'white',
 										padding: '0.2em',
 									}}>
@@ -79,66 +65,14 @@ class Footer extends Component {
 						<div class='locationsHeader'>
 							<h3
 								style={{
-									marginTop: '1em',
 									fontFamily: 'Montserrat',
 									fontWeight: '500',
 									letterSpacing: '0.1em',
-									background: '#231f20',
+									background: '#f7901e',
 									color: 'white',
 									padding: '0.2em',
 								}}>
-								DOHENY
-							</h3>
-						</div>
-						<Image src={Doheny} alt='Doheny State Beach' className='images' />
-						<Card.Title className='m-3'>Doheny State Beach($45) </Card.Title>
-						<p>Public Bathroom, Parking</p>
-
-						<Card.Title>Doheny State Park($45) </Card.Title>
-						<p>Public Bathroom, Parking, Access for Disabled</p>
-					</Col>
-
-					<Col lg={4}>
-						<div class='locationsHeader'>
-							<h3
-								style={{
-									marginTop: '1em',
-									fontFamily: 'Montserrat',
-									fontWeight: '500',
-									letterSpacing: '0.1em',
-									background: '#231f20',
-									color: 'white',
-									padding: '0.2em',
-								}}>
-								SAN CLEMENTE
-							</h3>
-						</div>
-
-						<Image src={Saltcreek} alt='Salt Creek Beach' className='images' />
-						<Card.Title className='m-3'>Salt Creek Beach ($55) </Card.Title>
-						<p>Parking</p>
-						<Card.Title>Salt Creek Park ($50)</Card.Title>
-						<p>Public Bathroom, Access for Disabled, Free Parking</p>
-
-						<Card.Title>Calafia Beach ($55)</Card.Title>
-						<p>Public Bathroom ,Parking</p>
-					</Col>
-				</Row>
-
-				<Row className='m-5'>
-					<Col lg={4}>
-						<div class='locationsHeader'>
-							<h3
-								style={{
-									marginTop: '1em',
-									fontFamily: 'Montserrat',
-									fontWeight: '500',
-									letterSpacing: '0.1em',
-									background: '#231f20',
-									color: 'white',
-									padding: '0.2em',
-								}}>
-								NEWPORT BEACH
+								NEWPORT BEACHES/PARKS
 							</h3>
 						</div>
 
@@ -164,20 +98,18 @@ class Footer extends Component {
 						<Card.Title>The Wedge Park ($45)</Card.Title>
 						<p>Free Parking,Access for Disabled</p>
 					</Col>
-
 					<Col lg={4}>
 						<div class='locationsHeader'>
 							<h3
 								style={{
-									marginTop: '1em',
 									fontFamily: 'Montserrat',
 									fontWeight: '500',
 									letterSpacing: '0.1em',
-									background: '#231f20',
+									background: '#f7901e',
 									color: 'white',
 									padding: '0.2em',
 								}}>
-								CORONA DEL MAR
+								CORONA DEL MAR BEACH
 							</h3>
 						</div>
 						<Image
@@ -188,20 +120,87 @@ class Footer extends Component {
 						<Card.Title className='m-3'>Corona Del Mar Beach ($55)</Card.Title>
 						<p>Public Bathroom,Free Parking</p>
 					</Col>
+				</Row>
 
-					<Col lg={4}>
+				<Row className='m-5'>
+					<Col lg={3}>
 						<div class='locationsHeader'>
 							<h3
 								style={{
-									marginTop: '1em',
 									fontFamily: 'Montserrat',
 									fontWeight: '500',
 									letterSpacing: '0.1em',
-									background: '#231f20',
+									background: '#f7901e',
 									color: 'white',
 									padding: '0.2em',
 								}}>
-								SIGNAL HILL
+								DOHENY BEACH/PARK
+							</h3>
+						</div>
+						<Image src={Doheny} alt='Doheny State Beach' className='images' />
+						<Card.Title className='m-3'>Doheny State Beach($45) </Card.Title>
+						<p>Public Bathroom, Parking</p>
+
+						<Card.Title>Doheny State Park($45) </Card.Title>
+						<p>Public Bathroom, Parking, Access for Disabled</p>
+					</Col>
+					<Col lg={3}>
+						<div class='locationsHeader'>
+							<h3
+								style={{
+									fontFamily: 'Montserrat',
+									fontWeight: '500',
+									letterSpacing: '0.1em',
+									background: '#f7901e',
+									color: 'white',
+									padding: '0.2em',
+								}}>
+								LAGUNA BEACH/PARK
+							</h3>
+						</div>
+						<Image src={Doheny} alt='Doheny State Beach' className='images' />
+						<Card.Title className='m-3'>Heisler Park($50) </Card.Title>
+						<p>Public Bathroom, Parking</p>
+
+						<Card.Title>Heisler Beach ($55) </Card.Title>
+						<p>Public Bathroom, Parking, Access for Disabled</p>
+					</Col>
+
+					<Col lg={3}>
+						<div class='locationsHeader'>
+							<h4
+								style={{
+									fontFamily: 'Montserrat',
+									fontWeight: '500',
+									background: '#f7901e',
+									color: 'white',
+								}}>
+								SAN CLEMENTE BEACHES/PARKS
+							</h4>
+						</div>
+
+						<Image src={Saltcreek} alt='Salt Creek Beach' className='images' />
+						<Card.Title className='m-3'>Salt Creek Beach ($55) </Card.Title>
+						<p>Parking</p>
+						<Card.Title>Salt Creek Park ($50)</Card.Title>
+						<p>Public Bathroom, Access for Disabled, Free Parking</p>
+
+						<Card.Title>Calafia Beach ($55)</Card.Title>
+						<p>Public Bathroom ,Parking</p>
+					</Col>
+
+					<Col lg={3}>
+						<div class='locationsHeader'>
+							<h3
+								style={{
+									fontFamily: 'Montserrat',
+									fontWeight: '500',
+									letterSpacing: '0.1em',
+									background: '#f7901e',
+									color: 'white',
+									padding: '0.2em',
+								}}>
+								SIGNAL HILL PARK
 							</h3>
 						</div>
 						<Image
@@ -213,6 +212,41 @@ class Footer extends Component {
 							Hilltop Park in Signal Hill ($45)
 						</Card.Title>
 						<p>Access for Disabled, Free Parking</p>
+					</Col>
+				</Row>
+				<Row
+					style={{
+						alignItems: 'center',
+						justifyContent: 'center',
+						textAlign: 'center',
+					}}>
+					<p
+						style={{
+							fontFamily: 'Montserrat',
+							fontWeight: '500',
+							width: '100%',
+							color: '#727272',
+						}}>
+						NOTE: 20% Service Fee and Sales tax will be added to all pricing
+					</p>
+				</Row>
+				<Row
+					style={{
+						alignItems: 'center',
+						justifyContent: 'center',
+						textAlign: 'center',
+					}}>
+					<Col>
+						<div>
+							<iframe
+								title='bookingform'
+								src='https://docs.google.com/forms/d/e/1FAIpQLScsdtaKV8fiRyJ6FiYpl5FyB-RyOZ9lLyBzb2NbanSh3FaVOw/viewform?embedded=true'
+								frameborder='0'
+								width='640'
+								height='2000'>
+								Loading…
+							</iframe>
+						</div>
 					</Col>
 				</Row>
 			</div>

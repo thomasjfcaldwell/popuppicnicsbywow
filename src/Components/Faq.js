@@ -1,22 +1,16 @@
 import React, { Component } from 'react';
 import {
 	Row,
-	Col,
 	Card,
-	CardGroup,
-	Jumbotron,
+
 	Container,
-	ListGroup,
-	Image,
+
 	Navbar,
 	Nav,
-	NavDropdown,
-	Button,
-	Carousel,
+
 } from 'react-bootstrap';
-import { Link, Route } from 'react-router-dom';
-import Home from '../Components/Home';
 import Contact from '../Components/Contact';
+import '../styles/faq.css'
 
 class Faq extends Component {
 	handleClick() {
@@ -31,7 +25,7 @@ class Faq extends Component {
 						style={{
 							alignItems: 'center',
 							justifyContent: 'center',
-							background: '#231f20',
+							background: '#727272',
 							width: '100%',
 							height: '15em',
 						}}>
@@ -65,7 +59,7 @@ class Faq extends Component {
 											color: 'white',
 											padding: '0.5em',
 										}}>
-										WOWEVENTS.COM
+										WOW EVENTS HOME
 									</Nav.Link>
 									<Nav.Link
 										href='/'
@@ -89,7 +83,7 @@ class Faq extends Component {
 											color: 'white',
 											padding: '0.5em',
 										}}>
-										PACKAGES
+										BOOK A PICNIC
 									</Nav.Link>
 								</Nav>
 							</Navbar.Collapse>
@@ -103,16 +97,10 @@ class Faq extends Component {
 							style={{
 								fontFamily: 'Montserrat',
 							}}>
-							<Card.Title
-								style={{
-									color: '#F78F1E',
-								}}>
+							<Card.Title className='title'>
 								Q: WHAT IS YOUR CANCELLATION POLICY?
 							</Card.Title>
-							<Card.Text
-								style={{
-									color: '#231F20',
-								}}>
+							<Card.Text className='text'>
 								A: We do not offer any refunds, but we can change your
 								reservation time without penalty up to 7 days before your POP-UP
 								Picnic. A Date change less than 7 days prior will incur a $50
@@ -127,25 +115,19 @@ class Faq extends Component {
 								reschedules or a full refund of all payments made.
 							</Card.Text>
 
-							<Card.Title
-								style={{
-									color: '#F78F1E',
-								}}>
+							<Card.Title className='title'>
 								Q: ARE THERE ANY OTHER ADDITIONAL FEES ADDED TO THE ITEMS and
 								SERVICES I ORDER?
 							</Card.Title>
-							<Card.Text>
+							<Card.Text className='text'>
 								A: Yes. Applicable Sales tax and a 20% Service Fee will be added
 								on to the total amount of your order.
 							</Card.Text>
-							<Card.Title
-								style={{
-									color: '#F78F1E',
-								}}>
+							<Card.Title className='title'>
 								Q: WHAT HAPPENS IF I DAMAGE, REMOVE OR LOSE AN ITEM PROVIDED BY
 								POP-UP PICNICS BY WOW! EVENTS?
 							</Card.Title>
-							<Card.Text>
+							<Card.Text className='text'>
 								A: Any food or beverage you purchase from POP-UP Picnics by WOW!
 								Events belongs to you and you are welcome to take it with you.
 								All other equipment belongs to POP-UP Picnics by WOW! Events and
@@ -156,57 +138,42 @@ class Faq extends Component {
 								using the credit card used to make the POP-UP Picnic
 								reservation. 
 							</Card.Text>
-							<Card.Title
-								style={{
-									color: '#F78F1E',
-								}}>
+							<Card.Title className='title'>
 								Q: CAN WE HOLD OR DEPOSIT A PICNIC DATE?
 							</Card.Title>
-							<Card.Text>
+							<Card.Text className='text'>
 								A: The only way to secure a POP-UP Picnic reservation is to pay
 								in full. Once full payment is received, your reservation will be
 								confirmed and secured.
 							</Card.Text>
-							<Card.Title
-								style={{
-									color: '#F78F1E',
-								}}>
+							<Card.Title className='title'>
 								Q: IS THERE A MINIMUM ORDER REQUIRED FOR A POP-UP PICNIC?
 							</Card.Title>
-							<Card.Text>
+							<Card.Text className='text'>
 								A: We do require a minimum order of $600 for Saturday and Sunday
 								Picnics in June- September.
 							</Card.Text>
-							<Card.Title
-								style={{
-									color: '#F78F1E',
-								}}>
+							<Card.Title className='title'>
 								Q: WHAT FORM OF PAYMENT DO YOU ACCEPT?
 							</Card.Title>
-							<Card.Text>
+							<Card.Text className='text'>
 								A: We accept Credit card payments through our website. Please
 								email us for any other types of payments.
 							</Card.Text>
-							<Card.Title
-								style={{
-									color: '#F78F1E',
-								}}>
+							<Card.Title className='title'>
 								Q: WHAT IS INCLUDED IN THE POP-UP PICNICS PACKAGE?
 							</Card.Title>
-							<Card.Text>
+							<Card.Text className='text'>
 								A: All Packages include a Picnic Table, Beach Blanket, Pillows,
 								Table and Floor Décor, Plates, service ware, Napkins, Delivery,
 								Set-Up and Clean-Up……………. The “Bells and Whistles” Package also
 								includes Umbrella or Teepee, Small Cheese Box, Bucket of Ice
 								with scoop, Beverage Package and Blanket Basket.
 							</Card.Text>
-							<Card.Title
-								style={{
-									color: '#F78F1E',
-								}}>
+							<Card.Title className='title'>
 								Q: HOW DO I SELECT A PICNIC LOCATION?
 							</Card.Title>
-							<Card.Text>
+							<Card.Text className='text'>
 								A: Choose from one of our popular preferred POP-UP Picnics
 								Locations or email us to collaborate on a special picnic site
 								(including private homes or businesses). If you have an address,
@@ -219,13 +186,10 @@ class Faq extends Component {
 								viewed here (Include link to google earth for each of our
 								Preferred Picnic sites)
 							</Card.Text>
-							<Card.Title
-								style={{
-									color: '#F78F1E',
-								}}>
+							<Card.Title className='title'>
 								Q: CAN WE BRING OUR OWN FOOD AND BEVERAGES?
 							</Card.Title>
-							<Card.Text>
+							<Card.Text className='text'>
 								A: Absolutely! Although we offer a variety of food and beverage
 								options, we also understand that some people love to supply
 								their own food and beverages and that is ok! Our job is to
@@ -235,53 +199,41 @@ class Faq extends Component {
 								parks and beaches but is welcome at private residences and
 								businesses.
 							</Card.Text>
-							<Card.Title
-								style={{
-									color: '#F78F1E',
-								}}>
+							<Card.Title className='title'>
 								Q: DOES THE POP-UP PICNICS HOST STAY DURING OUR PICNIC?
 							</Card.Title>
-							<Card.Text>
+							<Card.Text className='text'>
 								A: No, we leave after we welcome you and get you settled and
 								return once your picnic reservation ends. If you need us during
 								your picnic, before your reservation ends, you can call or text
 								your POP-UP Picnics Host (whose number will be included in your
 								confirmation email and they can be there within 30 minutes.)
 							</Card.Text>
-							<Card.Title
-								style={{
-									color: '#F78F1E',
-								}}>
+							<Card.Title className='title'>
 								Q: CAN WE LEAVE WHENEVER WE WANT DURING OUR PICNIC?
 							</Card.Title>
-							<Card.Text>
+							<Card.Text className='text'>
 								A: If you would like to leave earlier than the scheduled and
 								confirmed end time, please give your POP-UP Picnic Host a
 								30-minute notice via phone call or text. You are responsible for
 								all the picnic items until we are able to return to clean up and
 								pack up.
 							</Card.Text>
-							<Card.Title
-								style={{
-									color: '#F78F1E',
-								}}>
+							<Card.Title className='title'>
 								Q: WHAT HAPPENS IF ONE OR MORE OF MY PAID GUESTS CANNOT MAKE MY
 								BOOKING ON THE DAY OF OUR POP-UP PICNIC?
 							</Card.Title>
-							<Card.Text>
+							<Card.Text className='text'>
 								A: Since we do not offer refunds, we suggest that you find
 								someone to take the place of anyone that has been paid for and
 								cannot attend. We understand that sickness and unexpected
 								situations do occur, so your best option is to find someone else
 								who can attend and enjoy this amazing POP-UP Picnic experience.
 							</Card.Text>
-							<Card.Title
-								style={{
-									color: '#F78F1E',
-								}}>
+							<Card.Title className='title'>
 								Q: SHOULD I INCLUDE MY KIDS IN THE GUEST COUNT WHEN BOOKING?
 							</Card.Title>
-							<Card.Text>
+							<Card.Text className='text'>
 								A: If you are planning a picnic for a group of adults and young
 								children, we suggest you only count the adults and add a note
 								when booking that there will be young kids. We usually find that
@@ -290,48 +242,36 @@ class Faq extends Component {
 								the table for any children, we suggest including them in your
 								headcount.
 							</Card.Text>
-							<Card.Title
-								style={{
-									color: '#F78F1E',
-								}}>
+							<Card.Title className='title'>
 								Q: DO I NEED A PERMIT FOR MY PICNIC?
 							</Card.Title>
-							<Card.Text>
+							<Card.Text className='text'>
 								A: That depends on the location, number of guests and a few
 								other factors. POP-UP Picnics Packages offered include any
 								required permits. If you request a special picnic site, not
 								offered on our website, we will let you know if you will need a
 								permit and can help you with the process.
 							</Card.Text>
-							<Card.Title
-								style={{
-									color: '#F78F1E',
-								}}>
+							<Card.Title className='title'>
 								Q: WHAT ARE THE FOOD AND BEVERAGE OPTIONS?
 							</Card.Title>
-							<Card.Text>
+							<Card.Text className='text'>
 								A: Check out our website which offers a variety of food and
 								beverage options. You are also welcome to bring your own food
 								and beverages. Alcohol is not permitted at public parks and
 								beaches.
 							</Card.Text>
-							<Card.Title
-								style={{
-									color: '#F78F1E',
-								}}>
+							<Card.Title className='title'>
 								Q: DO YOU OFFER VEGAN, VEGETARIAN OR GLUTEN FREE, DAIRY FREE,
 								LOW SUGAR OPTIONS?
 							</Card.Title>
-							<Card.Text>
+							<Card.Text className='text'>
 								A: YES! Our food options include something for everyone.
 							</Card.Text>
-							<Card.Title
-								style={{
-									color: '#F78F1E',
-								}}>
+							<Card.Title className='title'>
 								Q: WHAT ABOUT BAD WEATHER?
 							</Card.Title>
-							<Card.Text>
+							<Card.Text className='text'>
 								A: While it is rare, we sometimes need to move locations or
 								change your picnic date due to bad weather. If it looks like it
 								may affect your reservation, we will contact you in advance of

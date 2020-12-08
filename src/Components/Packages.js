@@ -37,68 +37,70 @@ class Packages extends Component {
 					style={{
 						alignItems: 'center',
 						justifyContent: 'center',
-						background: '#231f20',
+						background: '#727272',
 						width: '100%',
 						height: '15em',
 					}}>
 					<Navbar expand='lg'>
-						<Navbar.Brand>
-							<h1
-								className='text-center'
-								style={{
-									fontFamily: 'Montserrat',
-									color: 'white',
-									fontWeight: '500',
-									letterSpacing: '0.1em',
-									margin: '0 auto',
-									width: '100%',
-								}}>
-								PACKAGES
-							</h1>
-						</Navbar.Brand>
-						<Navbar.Toggle aria-controls='responsive-navbar-nav' />
-						<Navbar.Collapse id='responsive-navbar-nav'>
-							<Nav
-								// className='mr-auto'
-								style={{
-									fontFamily: 'Montserrat',
-									fontWeight: '500',
-									letterSpacing: '0.1em',
-								}}>
-								<Nav.Link
-									onClick={this.handleClick.bind(this)}
+						<Row>
+							<Navbar.Brand>
+								<h1
+									className='text-center'
 									style={{
+										fontFamily: 'Montserrat',
 										color: 'white',
-										padding: '0.5em',
+										fontWeight: '500',
+										letterSpacing: '0.1em',
+										margin: '0 auto',
+										width: '100%',
 									}}>
-									WOWEVENTS.COM
-								</Nav.Link>
-								<Nav.Link
-									href='/'
+									BOOK A PICNIC
+								</h1>
+							</Navbar.Brand>
+							<Navbar.Toggle aria-controls='responsive-navbar-nav' />
+							<Navbar.Collapse id='responsive-navbar-nav'>
+								<Nav
+									// className='mr-auto'
 									style={{
-										color: 'white',
-										padding: '0.5em',
+										fontFamily: 'Montserrat',
+										fontWeight: '500',
+										letterSpacing: '0.1em',
 									}}>
-									HOME PAGE
-								</Nav.Link>
-								<Nav.Link
-									href='/gallery'
-									style={{
-										color: 'white',
-										padding: '0.5em',
-									}}>
-									GALLERY
-								</Nav.Link>
-								<Nav.Link
-									href='/faq'
-									style={{
-										color: 'white',
-										padding: '0.5em',
-									}}>
-									FAQ
-								</Nav.Link>
-							</Nav>
-						</Navbar.Collapse>
+									<Nav.Link
+										onClick={this.handleClick.bind(this)}
+										style={{
+											color: 'white',
+											padding: '0.5em',
+										}}>
+										WOWEVENTS.COM
+									</Nav.Link>
+									<Nav.Link
+										href='/'
+										style={{
+											color: 'white',
+											padding: '0.5em',
+										}}>
+										HOME PAGE
+									</Nav.Link>
+									<Nav.Link
+										href='/gallery'
+										style={{
+											color: 'white',
+											padding: '0.5em',
+										}}>
+										GALLERY
+									</Nav.Link>
+									<Nav.Link
+										href='/faq'
+										style={{
+											color: 'white',
+											padding: '0.5em',
+										}}>
+										FAQ
+									</Nav.Link>
+								</Nav>
+							</Navbar.Collapse>
+						</Row>
 					</Navbar>
 				</Row>
 
@@ -113,11 +115,11 @@ class Packages extends Component {
 										fontFamily: 'Montserrat',
 										fontWeight: '500',
 										letterSpacing: '0.1em',
-										background: '#231f20',
+										background: '#f7901e',
 										color: 'white',
 										padding: '0.2em',
 									}}>
-									SIMPLY SAVVY - $160 + - 2 HOURS
+									SIMPLY SAVVY $160+
 								</h2>
 								<CardImg
 									src={basicPackage}
@@ -129,6 +131,7 @@ class Packages extends Component {
 								/>
 								<Card.Text>
 									<ul className='nobullets'>
+										<li>Two Hour POP-UP Picnic</li>
 										<li>Personalized Welcome Sign</li>
 										<li>Hand Crafted Wooden table</li>{' '}
 										<li>Seat Pillow For Everyone</li>{' '}
@@ -152,11 +155,11 @@ class Packages extends Component {
 										fontFamily: 'Montserrat',
 										fontWeight: '500',
 										letterSpacing: '0.1em',
-										background: '#231f20',
+										background: '#f7901e',
 										color: 'white',
 										padding: '0.2em',
 									}}>
-									BELLS AND WHISTLES $260 + - 2 HOURS
+									BELLS AND WHISTLES $260+
 								</h2>
 								<CardImg
 									src={bells}
@@ -168,6 +171,7 @@ class Packages extends Component {
 								/>
 								<Card.Text>
 									<ul className='nobullets'>
+										<li>Two Hour POP-UP Picnic</li>
 										<li>Everything included in Savvy PLUS</li>
 										<li>Small artisian cheese box</li>{' '}
 										<li>Beverage Package for 2</li> <li>Bluetooth Speaker</li>{' '}
@@ -193,13 +197,12 @@ class Packages extends Component {
 							fontWeight: '500',
 							width: '100%',
 						}}>
-						20% Service Charge and Sales Tax to be added
+						NOTE: 20% Service Fee and Sales tax will be added to all pricing
 					</p>
 				</Row>
 
 				<Addon />
 				<Footer />
-				<Contact />
 			</div>
 		);
 	}

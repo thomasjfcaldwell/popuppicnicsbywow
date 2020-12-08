@@ -18,7 +18,7 @@ class Steps extends Component {
 							style={{
 								fontFamily: 'Montserrat',
 								fontWeight: '500',
-								background: '#231f20',
+								background: '#727272',
 								color: 'white',
 								padding: '0.2em',
 							}}>

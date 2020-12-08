@@ -16,6 +16,7 @@ class Ourstory extends Component {
 			<div
 				style={{
 					fontFamily: 'Montserrat',
+					color: '#727272',
 				}}>
 				<Row
 					className='mt-5'
@@ -60,7 +61,7 @@ class Ourstory extends Component {
 									fontWeight: '500',
 									letterSpacing: '0.1em',
 									margin: '0 auto',
-									background: '#231f20',
+									background: '#727272',
 									color: 'white',
 									padding: '0.2em',
 								}}>
