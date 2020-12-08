@@ -1,14 +1,9 @@
 import React, { Component } from 'react';
-import {
-	Row,
-	Col,
-	Card,
-
-} from 'react-bootstrap';
+import { Row, Col, Card } from 'react-bootstrap';
 
 import groupShot from '../Images/Aboutus/aboutsus.1.jpg';
 import southSide from '../Images/Aboutus/aboutsus.2.jpg';
-import '../App.css'
+import '../App.css';
 
 class Ourstory extends Component {
 	render() {
@@ -86,7 +81,7 @@ class Ourstory extends Component {
 									Well, our group of girls took a deep breath, had a
 									brainstorming session about all the ways we could utilize our
 									best skills to continue to do what we love……..PLAN EVENTS
-									together (just a little more intimate than we were use to)!
+									together (just a little more intimate than we were used to)!
 								</Card.Text>
 								<Card.Text>
 									The end result was the launch of POP-UP Picnics by WOW!
