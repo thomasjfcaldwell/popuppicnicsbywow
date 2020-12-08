@@ -39,25 +39,28 @@ class Packages extends Component {
 						justifyContent: 'center',
 						background: '#727272',
 						width: '100%',
-						height: '15em',
+						height: '17em',
 					}}>
 					<Navbar expand='lg'>
 						<Row>
 							<Navbar.Brand>
 								<h1
-									className='text-center'
 									style={{
 										fontFamily: 'Montserrat',
 										color: 'white',
 										fontWeight: '500',
-										letterSpacing: '0.1em',
 										margin: '0 auto',
-										width: '100%',
+										width: '80%',
 									}}>
 									BOOK A PICNIC
 								</h1>
 							</Navbar.Brand>
-							<Navbar.Toggle aria-controls='responsive-navbar-nav' />
+							<Navbar.Toggle
+								aria-controls='responsive-navbar-nav'
+								style={{
+									marginLeft: '0.8em',
+								}}
+							/>
 							<Navbar.Collapse id='responsive-navbar-nav'>
 								<Nav
 									// className='mr-auto'
@@ -65,6 +68,7 @@ class Packages extends Component {
 										fontFamily: 'Montserrat',
 										fontWeight: '500',
 										letterSpacing: '0.1em',
+										marginLeft: '1.9em',
 									}}>
 									<Nav.Link
 										onClick={this.handleClick.bind(this)}
@@ -203,6 +207,21 @@ class Packages extends Component {
 
 				<Addon />
 				<Footer />
+				<Row
+					style={{
+						alignItems: 'center',
+						justifyContent: 'center',
+					}}>
+					<iframe
+						src='https://docs.google.com/forms/d/e/1FAIpQLScsdtaKV8fiRyJ6FiYpl5FyB-RyOZ9lLyBzb2NbanSh3FaVOw/viewform?embedded=true'
+						width='640'
+						height='2326'
+						frameborder='0'
+						marginheight='0'
+						marginwidth='0'>
+						Loading…
+					</iframe>
+				</Row>
 			</div>
 		);
 	}

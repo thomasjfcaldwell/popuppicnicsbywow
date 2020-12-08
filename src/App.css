@@ -3,3 +3,10 @@
 .packages{
     font-family: 'Montserrat';
 }
+
+
+@media screen and (max-width: 480px) {
+  .rowbackground {
+    height: 80vh;
+  }
+}
