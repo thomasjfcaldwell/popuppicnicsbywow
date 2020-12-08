@@ -237,16 +237,44 @@ class Footer extends Component {
 						textAlign: 'center',
 					}}>
 					<Col>
-						<div>
-							<iframe
-								title='bookingform'
-								src='https://docs.google.com/forms/d/e/1FAIpQLScsdtaKV8fiRyJ6FiYpl5FyB-RyOZ9lLyBzb2NbanSh3FaVOw/viewform?embedded=true'
-								frameborder='0'
-								width='640'
-								height='2000'>
-								Loading…
-							</iframe>
+						<div class='modal' tabindex='-1' role='dialog'>
+							<div class='modal-dialog' role='document'>
+								<div class='modal-content'>
+									<div class='modal-header'>
+										<h5 class='modal-title'>Modal title</h5>
+										<button
+											type='button'
+											class='close'
+											data-dismiss='modal'
+											aria-label='Close'>
+											<span aria-hidden='true'>&times;</span>
+										</button>
+									</div>
+									<div class='modal-body'>
+										<iframe
+											title='bookingform'
+											src='https://docs.google.com/forms/d/e/1FAIpQLScsdtaKV8fiRyJ6FiYpl5FyB-RyOZ9lLyBzb2NbanSh3FaVOw/viewform?embedded=true'
+											frameborder='0'
+											width='640'
+											height='2000'>
+											Loading…
+										</iframe>
+									</div>
+									<div class='modal-footer'>
+										<button type='button' class='btn btn-primary'>
+											Save changes
+										</button>
+										<button
+											type='button'
+											class='btn btn-secondary'
+											data-dismiss='modal'>
+											Close
+										</button>
+									</div>
+								</div>
+							</div>
 						</div>
+						<div></div>
 					</Col>
 				</Row>
 			</div>

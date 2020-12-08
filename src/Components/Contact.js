@@ -98,7 +98,7 @@ const Contact = () => {
 								Name
 							</Form.Label>
 							<Form.Control
-								placeholder='name'
+								placeholder='Name'
 								value={name}
 								onChange={(e) => setName(e.target.value)}
 							/>
@@ -138,7 +138,7 @@ const Contact = () => {
 								Date Of Event
 							</Form.Label>
 							<Form.Control
-								placeholder='date of event'
+								placeholder='Date Of Event'
 								value={date}
 								onChange={(e) => setDate(e.target.value)}
 							/>
@@ -151,7 +151,7 @@ const Contact = () => {
 								Location
 							</Form.Label>
 							<Form.Control
-								placeholder='Preferred location'
+								placeholder='Location'
 								value={location}
 								onChange={(e) => setLocation(e.target.value)}
 							/>
@@ -223,10 +223,10 @@ const Contact = () => {
 								<Card.Link href='https://www.facebook.com/popuppicnicsbywow'>
 									<Image src={facebook} className='socialmedia' />
 								</Card.Link>
-								<Card.Link href='#'>
+								<Card.Link href='https://twitter.com/WowPopUpPicnics'>
 									<Image src={twitter} className='socialmedia' />
 								</Card.Link>
-								<Card.Link href='#'>
+								<Card.Link href='https://www.instagram.com/popuppicnicsbywow/'>
 									<Image src={instagram} className='socialmedia' />
 								</Card.Link>
 							</Card.Body>

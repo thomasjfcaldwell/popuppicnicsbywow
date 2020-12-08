@@ -12,6 +12,7 @@ import Ourstory from '../Components/Ourstory';
 import Testimonals from '../Components/Testimonals';
 import Steps from '../Components/Steps';
 import Contact from '../Components/Contact';
+import GalleryHome from '../Components/GalleryHome'
 
 import BasicRows from './BasicRows';
 
@@ -96,7 +97,7 @@ class Home extends Component {
 					</Row>
 				</Container>
 				<Ourstory />
-				<BasicRows />
+				<GalleryHome />
 				<Steps />
 				<Testimonals />
 				<Contact />
