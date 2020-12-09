@@ -18,7 +18,7 @@ class Ourstory extends Component {
 					style={{
 						alignItems: 'center',
 					}}>
-					<Col sm={12} lg={6} className='justify-content-center '>
+					<Col sm={12} lg={6} className='justify-content-center'>
 						<Card className='border-0 p-3'>
 							<Card.Img
 								src={groupShot}
