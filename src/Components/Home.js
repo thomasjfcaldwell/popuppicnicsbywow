@@ -7,6 +7,7 @@ import {
 	Nav,
 	Container,
 	Badge,
+	NavItem,
 } from 'react-bootstrap';
 import wowlogo from '../Images/WowEvents_Logo_Orange_RGB.png';
 import Ourstory from '../Components/Ourstory';
@@ -19,7 +20,7 @@ import phone from '../Images/Icons/smartphone.png';
 import email from '../Images/Icons/email.png';
 import facebook from '../Images/Icons/facebook.png';
 import instagram from '../Images/Icons/instagram.png';
-import twitter from '../Images/Icons/twitter.png'
+import twitter from '../Images/Icons/twitter.png';
 
 import BasicRows from './BasicRows';
 
@@ -78,76 +79,66 @@ class Home extends Component {
 						</div>
 					</Col>
 				</Row>
-				<Container fluid className='bgimage'>
-					<Row>
-						<Col lg={6} sm={12}>
-							<Navbar.Brand>
-								<Image
-									src={wowlogo}
-									style={{
-										width: '50%',
-										margin: '2em',
-										webkitFilter: 'drop-shadow(1px 1px 2px #FFFFFF)',
-										filter: 'drop-shadow(1px 1px 2px #FFFFFF)',
-									}}
-								/>
-							</Navbar.Brand>
-						</Col>
-						<Navbar expand='lg'>
-							<Navbar.Toggle
-								aria-controls='responsive-navbar-nav'
-								className='color-white'
-							/>
-							<Navbar.Collapse id='responsive-navbar-nav'>
-								<Nav className='mr-auto'>
-									<Nav.Link
-										onClick={this.handleClick.bind(this)}
-										style={{
-											padding: '1em',
-											color: 'white',
-										}}>
-										WOWEVENTS HOME
-									</Nav.Link>
-									<p></p>
-									<Nav.Link
-										href='/packages'
-										style={{
-											color: 'white',
-											padding: '1em',
-										}}>
-										BOOK A PICNIC
-									</Nav.Link>
-									<Nav.Link
-										href='/gallery'
-										style={{
-											color: 'white',
-											padding: '1em',
-										}}>
-										GALLERY
-									</Nav.Link>
-									<Nav.Link
-										href='/faq'
-										style={{
-											color: 'white',
-											padding: '1em',
-										}}>
-										FAQ
-									</Nav.Link>
-								</Nav>
-							</Navbar.Collapse>
-						</Navbar>
-					</Row>
+				<Row className='backgroundfont'>
+					<Nav className='navbar navbar-expand-lg'>
+						<Image
+							lg={3}
+							sm={12}
+							className='navbar-brand'
+							src={wowlogo}
+							style={{
+								width: '15%',
+								margin: '0.2em',
+								padding: '1em',
+							}}
+						/>
 
-					<Row
-						style={{
-							alignItems: 'center',
-							justifyContent: 'center',
-						}}>
-						<div className='headline'>
-							<h1>Treat Someone Special</h1>
-						</div>
-					</Row>
-				</Container>
+						<Navbar.Toggle aria-controls='responsive-navbar-nav' />
+						<Navbar.Collapse id='responsive-navbar-nav'>
+							<Nav
+								className='ml-auto'
+								style={{
+									fontFamily: 'Montserrat',
+									fontWeight: '500',
+									letterSpacing: '0.1em',
+									marginLeft: '1.9em',
+								}}>
+								<Nav.Link
+									onClick={this.handleClick.bind(this)}
+									style={{
+										color: 'white',
+										padding: '0.5em',
+									}}>
+									WOWEVENTS.COM
+								</Nav.Link>
+								<Nav.Link
+									href='/'
+									style={{
+										color: 'white',
+										padding: '0.5em',
+									}}>
+									HOME PAGE
+								</Nav.Link>
+								<Nav.Link
+									href='/gallery'
+									style={{
+										color: 'white',
+										padding: '0.5em',
+									}}>
+									GALLERY
+								</Nav.Link>
+								<Nav.Link
+									href='/faq'
+									style={{
+										color: 'white',
+										padding: '0.5em',
+									}}>
+									FAQ
+								</Nav.Link>
+							</Nav>
+						</Navbar.Collapse>
+					</Nav>
+				</Row>
 				<Ourstory />
 				<GalleryHome />
 				<Steps />

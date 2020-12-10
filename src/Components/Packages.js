@@ -57,9 +57,7 @@ class Packages extends Component {
 							</Navbar.Brand>
 							<Navbar.Toggle
 								aria-controls='responsive-navbar-nav'
-								style={{
-									marginLeft: '0.8em',
-								}}
+								
 							/>
 							<Navbar.Collapse id='responsive-navbar-nav'>
 								<Nav
