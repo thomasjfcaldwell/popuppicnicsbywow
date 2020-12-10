@@ -69,122 +69,15 @@ const Contact = () => {
 					marginTop: '0.5em',
 				}}>
 				<Col sm={12} lg={6}>
-					<Form
-						className='form'
-						style={{
-							width: '75%',
-							margin: '0 auto',
-							textAlign: 'center',
-						}}
-						onSubmit={handleSubmit}>
-						<h1
-							style={{
-								fontSize: '3em',
-								fontFamily: 'Montserrat',
-								fontWeight: '500',
-								letterSpacing: '0.1em',
-								margin: '0 auto',
-
-								color: 'white',
-								padding: '0.4em',
-							}}>
-							CONTACT US
-						</h1>
-						<div className='p-1'>
-							<Form.Label
-								style={{
-									fontSize: '1.3em',
-								}}>
-								Name
-							</Form.Label>
-							<Form.Control
-								placeholder='Name'
-								value={name}
-								onChange={(e) => setName(e.target.value)}
-							/>
-						</div>
-
-						<div className='p-1'>
-							<Form.Label
-								style={{
-									fontSize: '1.3em',
-								}}>
-								Email
-							</Form.Label>
-							<Form.Control
-								placeholder='Email'
-								value={email}
-								onChange={(e) => setEmail(e.target.value)}
-							/>
-						</div>
-						<div className='p-1'>
-							<Form.Label
-								style={{
-									fontSize: '1.3em',
-								}}>
-								Phone Number
-							</Form.Label>
-							<Form.Control
-								placeholder='Number'
-								value={phone}
-								onChange={(e) => setPhone(e.target.value)}
-							/>
-						</div>
-						<div className='p-1'>
-							<Form.Label
-								style={{
-									fontSize: '1.3em',
-								}}>
-								Date Of Event
-							</Form.Label>
-							<Form.Control
-								placeholder='Date Of Event'
-								value={date}
-								onChange={(e) => setDate(e.target.value)}
-							/>
-						</div>
-						<div className='p-1'>
-							<Form.Label
-								style={{
-									fontSize: '1.3em',
-								}}>
-								Location
-							</Form.Label>
-							<Form.Control
-								placeholder='Location'
-								value={location}
-								onChange={(e) => setLocation(e.target.value)}
-							/>
-						</div>
-						<div className='p-1'>
-							<Form.Label
-								style={{
-									fontSize: '1.3em',
-								}}>
-								Message
-							</Form.Label>
-							<Form.Control
-								as='textarea'
-								rows={3}
-								placeholder='Message'
-								value={message}
-								onChange={(e) => setMessage(e.target.value)}
-							/>
-						</div>
-						<div className='text-center m-1'>
-							<Button
-								className='border-0'
-								type='submit'
-								style={{
-									background: loader ? '#FFD700' : '#231f20',
-									width: '5em',
-									borderRadius: '25px',
-									border: '2px solid white',
-								}}>
-								Submit
-							</Button>
-						</div>
-					</Form>
+					<iframe
+						src='https://docs.google.com/forms/d/e/1FAIpQLSflDxvdodG0qGHH0qSCDLQcUeIld0Pv9iffCRIZWCt2ocHVTQ/viewform?embedded=true'
+						width='640'
+						height='808'
+						frameborder='0'
+						marginheight='0'
+						marginwidth='0'>
+						Loading…
+					</iframe>
 				</Col>
 				<Col sm={12} lg={6} className='bg-white'>
 					<Row
