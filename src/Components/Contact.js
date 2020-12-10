@@ -68,16 +68,18 @@ const Contact = () => {
 					background: '#F78F1E',
 					marginTop: '0.5em',
 				}}>
-				<Col sm={12} lg={6}>
-					<iframe
-						src='https://docs.google.com/forms/d/e/1FAIpQLSflDxvdodG0qGHH0qSCDLQcUeIld0Pv9iffCRIZWCt2ocHVTQ/viewform?embedded=true'
-						width='640'
-						height='808'
-						frameborder='0'
-						marginheight='0'
-						marginwidth='0'>
-						Loading…
-					</iframe>
+				<Col sm={6} lg={6}>
+					<div className='contactformgoogle'>
+						<iframe
+							src='https://docs.google.com/forms/d/e/1FAIpQLSflDxvdodG0qGHH0qSCDLQcUeIld0Pv9iffCRIZWCt2ocHVTQ/viewform?embedded=true'
+							width='400'
+							height='808'
+							frameborder='0'
+							marginheight='0'
+							marginwidth='auto'>
+							Loading…
+						</iframe>
+					</div>
 				</Col>
 				<Col sm={12} lg={6} className='bg-white'>
 					<Row

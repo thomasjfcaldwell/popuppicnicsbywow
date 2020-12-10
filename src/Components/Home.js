@@ -6,6 +6,7 @@ import {
 	Navbar,
 	Nav,
 	Container,
+	Carousel,
 	Badge,
 	NavItem,
 } from 'react-bootstrap';
@@ -21,11 +22,13 @@ import email from '../Images/Icons/email.png';
 import facebook from '../Images/Icons/facebook.png';
 import instagram from '../Images/Icons/instagram.png';
 import twitter from '../Images/Icons/twitter.png';
+import home from '../Images/Gallery/12personWeb.jpg'
+import Carousel1 from '../Images/Carousel/cara1.jpg'
+import Carousel2 from '../Images/Carousel/cara2.jpg'
+import Carousel3 from '../Images/Carousel/carusel3.jpg'
 
-import BasicRows from './BasicRows';
 
 import '../styles/home.css';
-import ContactForm from './ContactForm';
 class Home extends Component {
 	handleClick() {
 		// do something meaningful, Promises, if/else, whatever, and then
@@ -87,7 +90,7 @@ class Home extends Component {
 							className='navbar-brand'
 							src={wowlogo}
 							style={{
-								width: '25%',
+								width: '20%',
 								margin: '0.2em',
 								padding: '1em',
 							}}
@@ -140,6 +143,17 @@ class Home extends Component {
 						</Navbar>
 					</Nav>
 				</Row>
+				<Carousel className='m-5 p-1' lg={12} md={12} sm={12}>
+					<Carousel.Item>
+						<img className='d-block w-100' src={Carousel1} alt='First slide' />
+					</Carousel.Item>
+					<Carousel.Item>
+						<img className='d-block w-100' src={Carousel2} alt='Third slide' />
+					</Carousel.Item>
+					<Carousel.Item>
+						<img className='d-block w-100' src={Carousel3} alt='Third slide' />
+					</Carousel.Item>
+				</Carousel>
 				<Ourstory />
 				<GalleryHome />
 				<Steps />
