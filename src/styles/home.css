@@ -11,7 +11,7 @@
 	align-content: center;
 	background-image: url('../Images/headimage.jpg');
 }
-.backgroundfont{
+.backgroundfont {
 	background: #727272;
 	font-family: 'Montserrat';
 	color: white;
@@ -30,50 +30,55 @@
 .mr-auto {
 	font-family: 'Montserrat';
 	font-weight: 500;
-  letter-spacing: '0.1em';
-  font-size: 1.2em;
-  text-shadow: 2px 2px black;
-  transition: transform .2s;
+	letter-spacing: '0.1em';
+	font-size: 1.2em;
+	text-shadow: 2px 2px black;
+	transition: transform 0.2s;
 }
 .mr-auto:hover {
-  transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+	transform: scale(
+		1.2
+	); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
 
 @media only screen and (max-width: 600px) {
 	.bgimage h1 {
 		font-size: 4em;
 	}
+	.navbar-brand {
+		width: 50%;
+	}
 }
 .navbarone {
-  width: 100%;
-  background-color: #555;
-  overflow: auto;
+	width: 100%;
+	background-color: #555;
+	overflow: auto;
 }
 
 /* Navbar links */
 .navbarone a {
-  float: left;
-  text-align: center;
-  padding: 12px;
-  color: white;
-  text-decoration: none;
-  font-size: 17px;
+	float: left;
+	text-align: center;
+	padding: 12px;
+	color: white;
+	text-decoration: none;
+	font-size: 17px;
 }
 
 /* Navbar links on mouse-over */
 .navbarone a:hover {
-  background-color: #000;
+	background-color: #000;
 }
 
 /* Current/active navbar link */
 .active {
-  background-color: #4CAF50;
+	background-color: #4caf50;
 }
 
 /* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels */
 @media screen and (max-width: 500px) {
-  .navbarone a {
-    float: none;
-    display: block;
-  }
+	.navbarone a {
+		float: none;
+		display: block;
+	}
 }

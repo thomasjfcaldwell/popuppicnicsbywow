@@ -93,50 +93,51 @@ class Home extends Component {
 							}}
 						/>
 
-						<Navbar.Toggle aria-controls='responsive-navbar-nav' />
-						<Navbar.Collapse id='responsive-navbar-nav'>
-							<Nav
-								className='ml-auto'
-								style={{
-									fontFamily: 'Montserrat',
-									fontWeight: '500',
-									letterSpacing: '0.1em',
-									marginLeft: '1.9em',
-								}}>
-								<Nav.Link
-									onClick={this.handleClick.bind(this)}
+						<Navbar className='navbar-nav ml-auto' expand='lg'>
+							<Navbar.Toggle aria-controls='responsive-navbar-nav' />
+							<Navbar.Collapse id='responsive-navbar-nav'>
+								<Nav
+									// className='mr-auto'
 									style={{
-										color: 'white',
-										padding: '0.5em',
+										fontFamily: 'Montserrat',
+										fontWeight: '500',
+										letterSpacing: '0.1em',
 									}}>
-									WOWEVENTS.COM
-								</Nav.Link>
-								<Nav.Link
-									href='/'
-									style={{
-										color: 'white',
-										padding: '0.5em',
-									}}>
-									HOME PAGE
-								</Nav.Link>
-								<Nav.Link
-									href='/gallery'
-									style={{
-										color: 'white',
-										padding: '0.5em',
-									}}>
-									GALLERY
-								</Nav.Link>
-								<Nav.Link
-									href='/faq'
-									style={{
-										color: 'white',
-										padding: '0.5em',
-									}}>
-									FAQ
-								</Nav.Link>
-							</Nav>
-						</Navbar.Collapse>
+									<Nav.Link
+										onClick={this.handleClick.bind(this)}
+										style={{
+											color: 'white',
+											padding: '0.5em',
+										}}>
+										WOWEVENTS.COM
+									</Nav.Link>
+									<Nav.Link
+										href='/'
+										style={{
+											color: 'white',
+											padding: '0.5em',
+										}}>
+										HOME PAGE
+									</Nav.Link>
+									<Nav.Link
+										href='/packages'
+										style={{
+											color: 'white',
+											padding: '0.5em',
+										}}>
+										BOOK A PICNIC
+									</Nav.Link>
+									<Nav.Link
+										href='/faq'
+										style={{
+											color: 'white',
+											padding: '0.5em',
+										}}>
+										FAQ
+									</Nav.Link>
+								</Nav>
+							</Navbar.Collapse>
+						</Navbar>
 					</Nav>
 				</Row>
 				<Ourstory />
