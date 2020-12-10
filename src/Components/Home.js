@@ -87,7 +87,7 @@ class Home extends Component {
 							className='navbar-brand'
 							src={wowlogo}
 							style={{
-								width: '15%',
+								width: '25%',
 								margin: '0.2em',
 								padding: '1em',
 							}}

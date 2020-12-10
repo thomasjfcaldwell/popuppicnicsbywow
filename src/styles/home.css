@@ -41,14 +41,6 @@
 	); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
 
-@media only screen and (max-width: 600px) {
-	.bgimage h1 {
-		font-size: 4em;
-	}
-	.navbar-brand {
-		width: 50%;
-	}
-}
 .navbarone {
 	width: 100%;
 	background-color: #555;
