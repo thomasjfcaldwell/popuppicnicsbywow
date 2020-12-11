@@ -7,6 +7,7 @@ import {
 	CardImg,
 	Nav,
 	Navbar,
+	Image
 	
 } from 'react-bootstrap';
 import  '../styles/sea.css';
@@ -21,6 +22,7 @@ import Contact from '../Components/Contact'
 
 import basicPackage from '../Images/Packages/savvy.jpg';
 import bells from '../Images/bell.jpg';
+import wowlogo from '../Images/WowEvents_Logo_Orange_RGB.png'
 
 
 
@@ -33,32 +35,35 @@ class Packages extends Component {
 	render() {
 		return (
 			<div>
-				<Row
-					style={{
-						alignItems: 'center',
-						justifyContent: 'center',
-						background: '#727272',
-						width: '100%',
-						height: '17em',
-					}}>
-					<Navbar expand='lg'>
-						<Row>
-							<Navbar.Brand>
-								<h1
-									style={{
-										fontFamily: 'Montserrat',
-										color: 'white',
-										fontWeight: '500',
-										margin: '0 auto',
-										width: '80%',
-									}}>
-									BOOK A PICNIC
-								</h1>
-							</Navbar.Brand>
-							<Navbar.Toggle
-								aria-controls='responsive-navbar-nav'
-								
-							/>
+				<Row className='backgroundfont'>
+					<Nav className='navbar navbar-expand-lg'>
+						<Image
+							lg={3}
+							sm={12}
+							className='navbar-brand'
+							src={wowlogo}
+							style={{
+								width: '20%',
+								margin: '0.2em',
+								padding: '1em',
+							}}
+						/>
+						<h1
+							className='text-center'
+							style={{
+								fontFamily: 'Montserrat',
+								fontWeight: '500',
+								letterSpacing: '0.1em',
+								margin: '0 auto',
+								background: '#727272',
+								color: 'white',
+								padding: '0.2em',
+							}}>
+							BOOK A PICNIC
+						</h1>
+
+						<Navbar className='navbar-nav ml-auto' expand='lg'>
+							<Navbar.Toggle aria-controls='responsive-navbar-nav' />
 							<Navbar.Collapse id='responsive-navbar-nav'>
 								<Nav
 									// className='mr-auto'
@@ -66,7 +71,6 @@ class Packages extends Component {
 										fontFamily: 'Montserrat',
 										fontWeight: '500',
 										letterSpacing: '0.1em',
-										marginLeft: '1.9em',
 									}}>
 									<Nav.Link
 										onClick={this.handleClick.bind(this)}
@@ -102,10 +106,30 @@ class Packages extends Component {
 									</Nav.Link>
 								</Nav>
 							</Navbar.Collapse>
-						</Row>
-					</Navbar>
+						</Navbar>
+					</Nav>
 				</Row>
-
+				<Row
+					style={{
+						alignItems: 'center',
+						justifyContent: 'center',
+						textAlign: 'center',
+					}}>
+					<div class='locationsHeader'>
+						<h1
+							style={{
+								marginTop: '1em',
+								fontFamily: 'Montserrat',
+								fontWeight: '500',
+								letterSpacing: '0.1em',
+								background: '#727272',
+								color: 'white',
+								padding: '0.4em',
+							}}>
+							STEP 1: SELECT A PICNIC PACKAGE
+						</h1>
+					</div>
+				</Row>
 				<Row className='packages'>
 					<Col sm={12} lg={6}>
 						<div>

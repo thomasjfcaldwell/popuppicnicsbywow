@@ -23,31 +23,19 @@ class BasicRows extends Component {
 		return (
 			<div>
 				<Container fluid>
-					<Row className='rowbackground'
-						sm={12}
-						style={{
-							background: '#727272',
-							width: '100%',
-							height: '30vh',
-							alignItems: 'center',
-							justifyContent: 'center',
-						}}>
-						<Col sm={12} lg={6}>
-							<Navbar>
-								<Nav className='navbar navbar-expand-lg navbar-dark rounded w-100'>
-									<Image className='logo'
-										src={wowlogo}
-										style={{
-											width: '40%',
-											padding: '0.5em',
-											// margin: '0 auto',
-										}}
-									/>
-								</Nav>
-							</Navbar>
-						</Col>
-
-						<Col>
+					<Row className='backgroundfont'>
+						<Nav className='navbar navbar-expand-lg'>
+							<Image
+								lg={3}
+								sm={12}
+								className='navbar-brand'
+								src={wowlogo}
+								style={{
+									width: '20%',
+									margin: '0.2em',
+									padding: '1em',
+								}}
+							/>
 							<h1
 								className='text-center'
 								style={{
@@ -57,93 +45,16 @@ class BasicRows extends Component {
 									margin: '0 auto',
 									background: '#727272',
 									color: 'white',
+									padding: '0.2em',
 								}}>
 								GALLERY
 							</h1>
-						</Col>
 
-						<Navbar className='navbar-nav ml-auto' expand='lg'>
-							<Navbar.Toggle aria-controls='responsive-navbar-nav' />
-							<Navbar.Collapse id='responsive-navbar-nav'>
-								<Nav
-									// className='mr-auto'
-									style={{
-										fontFamily: 'Montserrat',
-										fontWeight: '500',
-										letterSpacing: '0.1em',
-									}}>
-									<Nav.Link
-										onClick={this.handleClick.bind(this)}
-										style={{
-											color: 'white',
-											padding: '0.5em',
-										}}>
-										WOWEVENTS.COM
-									</Nav.Link>
-									<Nav.Link
-										href='/'
-										style={{
-											color: 'white',
-											padding: '0.5em',
-										}}>
-										HOME PAGE
-									</Nav.Link>
-									<Nav.Link
-										href='/packages'
-										style={{
-											color: 'white',
-											padding: '0.5em',
-										}}>
-										BOOK A PICNIC
-									</Nav.Link>
-									<Nav.Link
-										href='/faq'
-										style={{
-											color: 'white',
-											padding: '0.5em',
-										}}>
-										FAQ
-									</Nav.Link>
-								</Nav>
-							</Navbar.Collapse>
-						</Navbar>
-
-						{/* <Col lg={6} sm={6}>
-							<Image
-								src={wowlogo}
-								style={{
-									width: '40%',
-
-									padding: '0.4em',
-								}}
-							/>
-						</Col>
-						<Col
-							lg={6} sm={6}
-							>
-							<Navbar
-								expand='lg'
-								style={{
-									verticalAlign: 'center',
-								}}>
-								<Navbar.Brand>
-									<h1
-										className='text-center'
-										style={{
-											fontFamily: 'Montserrat',
-											color: 'white',
-											fontWeight: '500',
-											letterSpacing: '0.1em',
-											margin: '0 auto',
-											width: '100%',
-										}}>
-										GALLERY
-									</h1>
-								</Navbar.Brand>
+							<Navbar className='navbar-nav ml-auto' expand='lg'>
 								<Navbar.Toggle aria-controls='responsive-navbar-nav' />
 								<Navbar.Collapse id='responsive-navbar-nav'>
 									<Nav
-										
+										// className='mr-auto'
 										style={{
 											fontFamily: 'Montserrat',
 											fontWeight: '500',
@@ -155,7 +66,7 @@ class BasicRows extends Component {
 												color: 'white',
 												padding: '0.5em',
 											}}>
-											WOW EVENTS HOME
+											WOWEVENTS.COM
 										</Nav.Link>
 										<Nav.Link
 											href='/'
@@ -184,7 +95,7 @@ class BasicRows extends Component {
 									</Nav>
 								</Navbar.Collapse>
 							</Navbar>
-						</Col> */}
+						</Nav>
 					</Row>
 				</Container>
 				<div fluid className='gallery-block grid-gallery'>

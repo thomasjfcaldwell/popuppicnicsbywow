@@ -31,7 +31,7 @@ class Footer extends Component {
 								color: 'white',
 								padding: '0.4em',
 							}}>
-							SELECT A PICNIC LOCATION
+							STEP 2: SELECT A PICNIC LOCATION
 						</h1>
 					</div>
 				</Row>

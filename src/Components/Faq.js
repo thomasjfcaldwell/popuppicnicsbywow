@@ -4,13 +4,14 @@ import {
 	Card,
 
 	Container,
-
+Image,
 	Navbar,
 	Nav,
 
 } from 'react-bootstrap';
 import Contact from '../Components/Contact';
-import '../styles/faq.css'
+import '../styles/faq.css';
+import wowlogo from '../Images/WowEvents_Logo_Orange_RGB.png'
 
 class Faq extends Component {
 	handleClick() {
@@ -21,73 +22,79 @@ class Faq extends Component {
 		return (
 			<div>
 				<Container fluid>
-					<Row
-						style={{
-							alignItems: 'center',
-							justifyContent: 'center',
-							background: '#727272',
-							width: '100%',
-							height: '15em',
-						}}>
-						<Navbar expand='lg'>
-							<Navbar.Brand>
-								<h1
-									className='text-center'
-									style={{
-										fontFamily: 'Montserrat',
-										color: 'white',
-										fontWeight: '500',
-										letterSpacing: '0.1em',
-										margin: '0 auto',
-										width: '100%',
-									}}>
-									FQAs
-								</h1>
-							</Navbar.Brand>
-							<Navbar.Toggle aria-controls='responsive-navbar-nav' />
-							<Navbar.Collapse id='responsive-navbar-nav'>
-								<Nav
-									// className='mr-auto'
-									style={{
-										fontFamily: 'Montserrat',
-										fontWeight: '500',
-										letterSpacing: '0.1em',
-									}}>
-									<Nav.Link
-										onClick={this.handleClick.bind(this)}
+					<Row className='backgroundfont'>
+						<Nav className='navbar navbar-expand-lg'>
+							<Image
+								lg={3}
+								sm={12}
+								className='navbar-brand'
+								src={wowlogo}
+								style={{
+									width: '20%',
+									margin: '0.2em',
+									padding: '1em',
+								}}
+							/>
+							<h1
+								className='text-center'
+								style={{
+									fontFamily: 'Montserrat',
+									fontWeight: '500',
+									letterSpacing: '0.1em',
+									margin: '0 auto',
+									background: '#727272',
+									color: 'white',
+									padding: '0.2em',
+								}}>
+								FAQs
+							</h1>
+
+							<Navbar className='navbar-nav ml-auto' expand='lg'>
+								<Navbar.Toggle aria-controls='responsive-navbar-nav' />
+								<Navbar.Collapse id='responsive-navbar-nav'>
+									<Nav
+										// className='mr-auto'
 										style={{
-											color: 'white',
-											padding: '0.5em',
+											fontFamily: 'Montserrat',
+											fontWeight: '500',
+											letterSpacing: '0.1em',
 										}}>
-										WOW EVENTS HOME
-									</Nav.Link>
-									<Nav.Link
-										href='/'
-										style={{
-											color: 'white',
-											padding: '0.5em',
-										}}>
-										HOME PAGE
-									</Nav.Link>
-									<Nav.Link
-										href='/gallery'
-										style={{
-											color: 'white',
-											padding: '0.5em',
-										}}>
-										GALLERY
-									</Nav.Link>
-									<Nav.Link
-										href='/packages'
-										style={{
-											color: 'white',
-											padding: '0.5em',
-										}}>
-										BOOK A PICNIC
-									</Nav.Link>
-								</Nav>
-							</Navbar.Collapse>
-						</Navbar>
+										<Nav.Link
+											onClick={this.handleClick.bind(this)}
+											style={{
+												color: 'white',
+												padding: '0.5em',
+											}}>
+											WOWEVENTS.COM
+										</Nav.Link>
+										<Nav.Link
+											href='/'
+											style={{
+												color: 'white',
+												padding: '0.5em',
+											}}>
+											HOME PAGE
+										</Nav.Link>
+										<Nav.Link
+											href='/packages'
+											style={{
+												color: 'white',
+												padding: '0.5em',
+											}}>
+											BOOK A PICNIC
+										</Nav.Link>
+										<Nav.Link
+											href='/gallery'
+											style={{
+												color: 'white',
+												padding: '0.5em',
+											}}>
+											GALLERY
+										</Nav.Link>
+									</Nav>
+								</Navbar.Collapse>
+							</Navbar>
+						</Nav>
 					</Row>
 				</Container>
 				<Container>

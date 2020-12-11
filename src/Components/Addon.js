@@ -33,7 +33,7 @@ class Addon extends Component {
 								color: 'white',
 								padding: '0.4em',
 							}}>
-							A LA CART ITEMS
+							STEP 3: SELECT ALA CARTE ITEMS
 						</h1>
 					</div>
 				</Row>
