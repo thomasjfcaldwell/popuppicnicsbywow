@@ -115,12 +115,12 @@ class Home extends Component {
 										WOWEVENTS.COM
 									</Nav.Link>
 									<Nav.Link
-										href='/'
+										href='/gallery'
 										style={{
 											color: 'white',
 											padding: '0.5em',
 										}}>
-										HOME PAGE
+										GALLERY
 									</Nav.Link>
 									<Nav.Link
 										href='/packages'

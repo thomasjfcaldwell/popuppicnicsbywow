@@ -203,8 +203,8 @@ class Packages extends Component {
 					</p>
 				</Row>
 
-				<Addon />
 				<Footer />
+				<Addon />
 				<Row
 					style={{
 						alignItems: 'center',
