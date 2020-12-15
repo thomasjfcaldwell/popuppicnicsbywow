@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Row, Col, Card, Container,} from 'react-bootstrap';
 import '../styles/addon.css'
 import blanket from '../Images/Packages/blankets.jpg';
-import Beverages from '../Images/Packages/beveragepackage.11.23.jpg';
+import Beverages from '../Images/Packages/beveragepackagefor2.jpg';
 import Teepee from '../Images/Packages/teepee.11.23jpg.jpg';
 import Umbrella from '../Images/Packages/umbrella.jpg';
 import Dessert from '../Images/Packages/dessert.jpg';
@@ -11,6 +11,8 @@ import cheeseBox from '../Images/Packages/cheesebox.jpg';
 import MeatCheese from '../Images/Packages/meat.jpg';
 import Music from '../Images/Packages/livemusic.jpg';
 import speaker from '../Images/Packages/bluetooth.jpg';
+import Beverages1 from '../Images/Packages/beveragepackage1.jpg'
+import extraHour from '../Images/Packages/extrahour.jpg'
 
 class Addon extends Component {
 	render() {
@@ -61,7 +63,7 @@ class Addon extends Component {
 							<Card className='border-0'>
 								<p className='m-1'>Additional Beverages for One Guest</p>
 								<h5 className='addonimg'>$5</h5>
-								<Card.Img className='addonimg' src={Beverages} />
+								<Card.Img className='addonimg' src={Beverages1} />
 							</Card>
 						</Col>
 						<Col sm={4} md={4} lg={2}>
@@ -125,7 +127,7 @@ class Addon extends Component {
 							<Card className='border-0'>
 								<p className='m-1'>Additional Hour for Picnic</p>
 								<h5 className='addonimg'>$75</h5>
-								<Card.Img className='addonimg' src={Umbrella} />
+								<Card.Img className='addonimg' src={extraHour} />
 							</Card>
 						</Col>
 						<Col sm={4} md={4} lg={2}>
@@ -147,7 +149,7 @@ class Addon extends Component {
 								fontFamily: 'Montserrat',
 								fontWeight: '500',
 								width: '100%',
-								color: '#727272'
+								color: '#727272',
 							}}>
 							NOTE: 20% Service Fee and Sales tax will be added to all pricing
 						</p>
