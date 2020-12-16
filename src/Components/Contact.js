@@ -69,6 +69,7 @@ const Contact = () => {
 				<Col sm={6} lg={6}>
 					<div className='contactformgoogle'>
 						<iframe
+						title='contact form'
 							src='https://docs.google.com/forms/d/e/1FAIpQLSflDxvdodG0qGHH0qSCDLQcUeIld0Pv9iffCRIZWCt2ocHVTQ/viewform?embedded=true'
 							width='400'
 							height='808'
