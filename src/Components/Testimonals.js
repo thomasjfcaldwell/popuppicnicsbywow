@@ -1,19 +1,11 @@
 import React, { Component } from 'react';
-import {
-	Row,
-	Card,
-	CardGroup,
-
-	Container,
-
-} from 'react-bootstrap';
+import { Row, Card, CardGroup, Container } from 'react-bootstrap';
 
 import birthday from '../Images/Testimonals/template.jpg';
 import anniversary from '../Images/Testimonals/anniversary.jpg';
 import proposal from '../Images/Testimonals/proposal.jpg';
 
-import '../App.css'
-
+import '../App.css';
 
 class Testimonals extends Component {
 	render() {
@@ -112,10 +104,10 @@ class Testimonals extends Component {
 								<Card.Body className='w-75 text-center'>
 									<Card.Text>
 										I wanted to plan something special for our 10-year wedding
-										anniversary. I proposed to my wife in a preBy awesome place
+										anniversary. I proposed to my wife in a pretty awesome place
 										overlooking the ocean, I wanted to take her back there for
 										our 10- year anniversary but didn’t want to do it with a
-										plain old picnic basket and boBle of champagne. Boring. A
+										plain old picnic basket and bottle of champagne. Boring. A
 										friend suggested calling WOW! Events to do a Pop-Up Picnic.
 										So I did, and they put together an amazing set-up in the
 										perfect location. We showed up (my wife thought I was taking
@@ -155,17 +147,17 @@ class Testimonals extends Component {
 								</h4>
 								<Card.Body className='w-75 text-center'>
 									<Card.Text>
-										Proposing is stressful enough, doing it during the Ome of
-										COVID added even more pressure! I wanted to do something
-										special, original. It needed to be memorable (assuming she
-										said YES!). And I’m not the most creative person in the
-										world, so I started looking for ideas and came across Pop-Up
-										Picnics by WOW! Events. I called them up, explained what I
-										wanted to do, they came up with some great ideas and put
-										together an amazing Pop-Up Picnic for my very surprised, and
-										very happy (she said YES!) fiancée. WOW! did a great job
-										handling everything (including my stress!), in fact I should
-										call them to see what they can do for our wedding!
+										Proposing is stressful enough, doing it during COVID added
+										even more pressure! I wanted to do something special,
+										original. It needed to be memorable (assuming she said
+										YES!). And I’m not the most creative person in the world, so
+										I started looking for ideas and came across Pop-Up Picnics
+										by WOW! Events. I called them up, explained what I wanted to
+										do, they came up with some great ideas and put together an
+										amazing Pop-Up Picnic for my very surprised, and very happy
+										(she said YES!) fiancée. WOW! did a great job handling
+										everything (including my stress!), in fact I should call
+										them to see what they can do for our wedding!
 									</Card.Text>
 								</Card.Body>
 							</Card>
