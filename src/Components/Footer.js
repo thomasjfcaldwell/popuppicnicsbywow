@@ -8,7 +8,7 @@ import Saltcreek from '../Images/Locations/saltcreekbeachWeb.jpg';
 import Bstreet from '../Images/Locations/BstreetWeb.jpg';
 import Corona from '../Images/Locations/coronaDelMarWeb.jpg';
 import Hilltop from '../Images/Locations/HillTopParkWeb.jpg';
-import Heisler from '../Images/Locations/heislerpark.jpg'
+import Heisler from '../Images/Locations/heislerpark.jpg';
 
 class Footer extends Component {
 	render() {

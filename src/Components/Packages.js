@@ -1,31 +1,15 @@
 import React, { Component } from 'react';
 
-import {
-	Row,
-	Col,
-	Card,
-	CardImg,
-	Nav,
-	Navbar,
-	Image
-	
-} from 'react-bootstrap';
-import  '../styles/sea.css';
-import '../App.css'
-import Addon from '../Components/Addon'
+import { Row, Col, Card, CardImg, Nav, Navbar, Image } from 'react-bootstrap';
+import '../styles/sea.css';
+import '../App.css';
+import Addon from '../Components/Addon';
 
-import Footer from '../Components/Footer'
-import Contact from '../Components/Contact'
-
-
-
+import Footer from '../Components/Footer';
 
 import basicPackage from '../Images/Packages/savvy.jpg';
 import bells from '../Images/bell.jpg';
-import wowlogo from '../Images/WowEvents_Logo_Orange_RGB.png'
-
-
-
+import wowlogo from '../Images/WowEvents_Logo_Orange_RGB.png';
 
 class Packages extends Component {
 	handleClick() {
@@ -235,6 +219,7 @@ class Packages extends Component {
 						justifyContent: 'center',
 					}}>
 					<iframe
+					title='contact form'
 						src='https://docs.google.com/forms/d/e/1FAIpQLScsdtaKV8fiRyJ6FiYpl5FyB-RyOZ9lLyBzb2NbanSh3FaVOw/viewform?embedded=true'
 						width='640'
 						height='2326'

@@ -105,7 +105,7 @@ class Addon extends Component {
 						<Col sm={4} md={4} lg={2}>
 							<Card className='border-0'>
 								<p className='m-1'>Mediterranean Charcutier Box</p>
-								<h5 className='addonimg'>$50</h5>
+								<h5 className='addonimg'>$60</h5>
 								<Card.Img className='addonimg' src={Multi} />
 							</Card>
 						</Col>

@@ -1,17 +1,8 @@
 import React, { Component } from 'react';
-import {
-	Row,
-	Card,
-
-	Container,
-Image,
-	Navbar,
-	Nav,
-
-} from 'react-bootstrap';
+import { Row, Card, Container, Image, Navbar, Nav } from 'react-bootstrap';
 import Contact from '../Components/Contact';
 import '../styles/faq.css';
-import wowlogo from '../Images/WowEvents_Logo_Orange_RGB.png'
+import wowlogo from '../Images/WowEvents_Logo_Orange_RGB.png';
 
 class Faq extends Component {
 	handleClick() {

@@ -1,15 +1,5 @@
 import React, { Component } from 'react';
-import {
-	Row,
-	Col,
-	Image,
-	Navbar,
-	Nav,
-	Container,
-	Carousel,
-	Badge,
-	NavItem,
-} from 'react-bootstrap';
+import { Row, Col, Image, Navbar, Nav, Carousel, Badge } from 'react-bootstrap';
 import wowlogo from '../Images/WowEvents_Logo_Orange_RGB.png';
 import Ourstory from '../Components/Ourstory';
 import Testimonals from '../Components/Testimonals';
@@ -22,11 +12,9 @@ import email from '../Images/Icons/email.png';
 import facebook from '../Images/Icons/facebook.png';
 import instagram from '../Images/Icons/instagram.png';
 import twitter from '../Images/Icons/twitter.png';
-import home from '../Images/Gallery/12personWeb.jpg'
-import Carousel1 from '../Images/Carousel/cara1.jpg'
-import Carousel2 from '../Images/Carousel/cara2.jpg'
-import Carousel3 from '../Images/Carousel/carusel3.jpg'
-
+import Carousel1 from '../Images/Carousel/cara1.jpg';
+import Carousel2 from '../Images/Carousel/cara2.jpg';
+import Carousel3 from '../Images/Carousel/carusel3.jpg';
 
 import '../styles/home.css';
 class Home extends Component {

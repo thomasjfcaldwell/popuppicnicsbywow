@@ -1,8 +1,6 @@
 import React, { useState } from 'react';
 import { db } from './Firebase';
 import {
-	Form,
-	Button,
 	Row,
 	Col,
 	Card,

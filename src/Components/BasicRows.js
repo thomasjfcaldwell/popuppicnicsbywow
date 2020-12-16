@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Row, Nav, Container, Navbar, Image, Col } from 'react-bootstrap';
+import { Row, Nav, Container, Navbar, Image, } from 'react-bootstrap';
 import '../styles/grid.css';
 import '../App.css';
 import image1 from '../Images//12personWeb.jpg';
