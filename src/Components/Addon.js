@@ -6,9 +6,9 @@ import Beverages from '../Images/Packages/beveragepackagefor2.jpg';
 import Teepee from '../Images/Packages/teepee.11.23jpg.jpg';
 import Umbrella from '../Images/Packages/umbrella.jpg';
 import Dessert from '../Images/Packages/dessert.jpg';
-import Multi from '../Images/Packages/medetrainann.jpg';
+import Multi from '../Images/Packages/medboxNew12.17.jpg';
 import cheeseBox from '../Images/Packages/cheesebox.jpg';
-import MeatCheese from '../Images/Packages/meat.jpg';
+import MeatCheese from '../Images/Packages/meatandchesseNEW12.17.jpg';
 import Music from '../Images/Packages/livemusic.jpg';
 import speaker from '../Images/Packages/bluetooth.jpg';
 import Beverages1 from '../Images/Packages/beveragepackage1.jpg'
