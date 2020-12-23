@@ -15,6 +15,7 @@ function App() {
 				<Link to='/'></Link>
 			</nav>
 			<main>
+				
 				<Route exact path='/' component={Home} />
 				<Route exact path='/packages' component={Packages} />
 				<Route exact path='/gallery' component={BasicRows} />
@@ -26,4 +27,3 @@ function App() {
 }
 
 export default App;
-

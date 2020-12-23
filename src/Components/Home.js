@@ -6,17 +6,17 @@ import Testimonals from '../Components/Testimonals';
 import Steps from '../Components/Steps';
 import Contact from '../Components/Contact';
 import GalleryHome from '../Components/GalleryHome';
+import ImageSlider from '../Components/ImageSlider'
 
 import phone from '../Images/Icons/smartphone.png';
 import email from '../Images/Icons/email.png';
 import facebook from '../Images/Icons/facebook.png';
 import instagram from '../Images/Icons/instagram.png';
 import twitter from '../Images/Icons/twitter.png';
-import Carousel1 from '../Images/Carousel/cara1.jpg';
-import Carousel2 from '../Images/Carousel/cara2.jpg';
-import Carousel3 from '../Images/Carousel/carusel3.jpg';
+
 
 import '../styles/home.css';
+import { SliderData } from './SliderData';
 class Home extends Component {
 	handleClick() {
 		// do something meaningful, Promises, if/else, whatever, and then
@@ -131,17 +131,7 @@ class Home extends Component {
 						</Navbar>
 					</Nav>
 				</Row>
-				<Carousel className='m-5 p-1' lg={12} md={12} sm={12}>
-					<Carousel.Item>
-						<img className='d-block w-100' src={Carousel1} alt='First slide' />
-					</Carousel.Item>
-					<Carousel.Item>
-						<img className='d-block w-100' src={Carousel2} alt='Third slide' />
-					</Carousel.Item>
-					<Carousel.Item>
-						<img className='d-block w-100' src={Carousel3} alt='Third slide' />
-					</Carousel.Item>
-				</Carousel>
+				<ImageSlider  slides={SliderData}/>
 				<Ourstory />
 				<GalleryHome />
 				<Steps />
