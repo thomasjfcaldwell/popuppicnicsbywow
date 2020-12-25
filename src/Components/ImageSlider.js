@@ -35,7 +35,7 @@ const ImageSlider = ({ slides }) => {
 						{id === current && (
 							<img
 								src={slide.image}
-								className='image'
+								className='imageslide'
 							/>
 						)}
 					</div>
