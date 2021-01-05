@@ -59,6 +59,8 @@ class Footer extends Component {
 							/>
 							<h5 className='m-3'>State Beach ($30)</h5>
 							<p>Public Bathroom, Parking</p>
+							<h5 className='m-3'>Huntington Central Park($20)</h5>
+							<p>Public Bathroom, Parking</p>
 						</Card>
 					</Col>
 
@@ -83,11 +85,11 @@ class Footer extends Component {
 							className='images'
 						/>
 						<Card.Title className='m-3'>
-							B Street in Newport Beach ($40)
+							B Street in Newport Beach ($45)
 						</Card.Title>
 						<p>Public Bathroom , Parking</p>
 
-						<Card.Title>15th Street ($40)</Card.Title>
+						<Card.Title>15th Street ($45)</Card.Title>
 						<p>Public Bathroom</p>
 
 						<p>Parking</p>
@@ -96,7 +98,7 @@ class Footer extends Component {
 
 						<Card.Title>The Wedge Beach ($45)</Card.Title>
 						<p>Free Parking</p>
-						<Card.Title>The Wedge Park ($45)</Card.Title>
+						<Card.Title>The Wedge Park ($40)</Card.Title>
 						<p>Free Parking,Access for Disabled</p>
 					</Col>
 					<Col lg={4}>
@@ -139,7 +141,7 @@ class Footer extends Component {
 							</h3>
 						</div>
 						<Image src={Doheny} alt='Doheny State Beach' className='images' />
-						<Card.Title className='m-3'>Doheny State Beach($45) </Card.Title>
+						<Card.Title className='m-3'>Doheny State Beach($55) </Card.Title>
 						<p>Public Bathroom, Parking</p>
 
 						<Card.Title>Doheny State Park($45) </Card.Title>
@@ -160,7 +162,7 @@ class Footer extends Component {
 							</h3>
 						</div>
 						<Image src={Heisler} alt='Doheny State Beach' className='images' />
-						<Card.Title className='m-3'>Heisler Park($50) </Card.Title>
+						<Card.Title className='m-3'>Heisler Park($45) </Card.Title>
 						<p>Public Bathroom, Parking</p>
 
 						<Card.Title>Heisler Beach ($55) </Card.Title>
@@ -183,7 +185,7 @@ class Footer extends Component {
 						<Image src={Saltcreek} alt='Salt Creek Beach' className='images' />
 						<Card.Title className='m-3'>Salt Creek Beach ($55) </Card.Title>
 						<p>Parking</p>
-						<Card.Title>Salt Creek Park ($50)</Card.Title>
+						<Card.Title>Salt Creek Park ($45)</Card.Title>
 						<p>Public Bathroom, Access for Disabled, Free Parking</p>
 
 						<Card.Title>Calafia Beach ($55)</Card.Title>

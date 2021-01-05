@@ -129,7 +129,7 @@ class Packages extends Component {
 										color: 'white',
 										padding: '0.2em',
 									}}>
-									SIMPLY SAVVY $160+
+									SIMPLY SAVVY PACKAGE $160+
 								</h2>
 								<CardImg
 									src={basicPackage}
@@ -169,7 +169,7 @@ class Packages extends Component {
 										color: 'white',
 										padding: '0.2em',
 									}}>
-									BELLS AND WHISTLES $260+
+									THE BELLS & WHISTLES PACKAGE $260+
 								</h2>
 								<CardImg
 									src={bells}
@@ -207,7 +207,7 @@ class Packages extends Component {
 							fontWeight: '500',
 							width: '100%',
 						}}>
-						NOTE: 20% Service Fee and Sales tax will be added to all pricing
+						Location fee, 20% Service Fee and Sales tax will be added to Pricing
 					</p>
 				</Row>
 
@@ -219,7 +219,7 @@ class Packages extends Component {
 						justifyContent: 'center',
 					}}>
 					<iframe
-					title='contact form'
+						title='contact form'
 						src='https://docs.google.com/forms/d/e/1FAIpQLScsdtaKV8fiRyJ6FiYpl5FyB-RyOZ9lLyBzb2NbanSh3FaVOw/viewform?embedded=true'
 						width='640'
 						height='2326'

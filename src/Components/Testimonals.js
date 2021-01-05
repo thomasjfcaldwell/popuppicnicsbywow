@@ -3,7 +3,7 @@ import { Row, Card, CardGroup, Container } from 'react-bootstrap';
 
 import birthday from '../Images/Testimonals/template.jpg';
 import anniversary from '../Images/Testimonals/anniversary.jpg';
-import proposal from '../Images/Testimonals/proposal.jpg';
+import proposal from '../Images/Testimonals/proposalnewzacpicnic.jpg';
 
 import '../App.css';
 

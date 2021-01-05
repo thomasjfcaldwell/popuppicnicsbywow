@@ -22,7 +22,7 @@ class Steps extends Component {
 								color: 'white',
 								padding: '0.2em',
 							}}>
-							STEPS TO YOUR PICNIC
+							WOW! POP-UP PICNICS PROCESS
 						</h1>
 					</Row>
 				</div>

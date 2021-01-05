@@ -35,7 +35,7 @@ class Addon extends Component {
 								color: 'white',
 								padding: '0.4em',
 							}}>
-							STEP 3: SELECT ALA CARTE ITEMS
+							STEP 3: SELECT ADDITIONAL ITEMS (OPTIONAL)
 						</h1>
 					</div>
 				</Row>
@@ -104,7 +104,7 @@ class Addon extends Component {
 						</Col>
 						<Col sm={4} md={4} lg={2}>
 							<Card className='border-0'>
-								<p className='m-1'>Mediterranean Charcutier Box</p>
+								<p className='m-1'>VEGAN/VEGETARIAN CHARCUTERIE BOX</p>
 								<h5 className='addonimg'>$60</h5>
 								<Card.Img className='addonimg' src={Multi} />
 							</Card>
@@ -151,7 +151,8 @@ class Addon extends Component {
 								width: '100%',
 								color: '#727272',
 							}}>
-							NOTE: 20% Service Fee and Sales tax will be added to all pricing
+							20% Service Fee and Sales tax & Applicable Delivery Fee will be
+							added to Pricing
 						</p>
 					</Row>
 				</Container>
