@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import { db } from './Firebase';
+import React from 'react';
+// import { db } from './Firebase';
 import {
 	Row,
 	Col,
@@ -19,42 +19,42 @@ import '../styles/Contact.css';
 import '../styles/sea.css';
 
 const Contact = () => {
-	const [name, setName] = useState('');
-	const [email, setEmail] = useState('');
-	const [phone, setPhone] = useState('');
-	const [date, setDate] = useState('');
-	const [location, setLocation] = useState('');
-	const [message, setMessage] = useState('');
-	const [loader, setLoader] = useState(false);
+	// const [name, setName] = useState('');
+	// const [email, setEmail] = useState('');
+	// const [phone, setPhone] = useState('');
+	// const [date, setDate] = useState('');
+	// const [location, setLocation] = useState('');
+	// const [message, setMessage] = useState('');
+	// const [loader, setLoader] = useState(false);
 
-	const handleSubmit = (e) => {
-		e.preventDefault();
-		setLoader(true);
+	// const handleSubmit = (e) => {
+	// 	e.preventDefault();
+	// 	setLoader(true);
 
-		db.collection('contacts')
-			.add({
-				name: name,
-				email: email,
-				phone: phone,
-				date: date,
-				location: location,
-				message: message,
-			})
-			.then(() => {
-				alert('Your message has been submitted');
-				setLoader(false);
-			})
-			.catch((error) => {
-				alert(error.message);
-				setLoader(false);
-			});
-		setName('');
-		setEmail('');
-		setPhone('');
-		setDate('');
-		setLocation('');
-		setMessage('');
-	};
+	// 	db.collection('contacts')
+	// 		.add({
+	// 			name: name,
+	// 			email: email,
+	// 			phone: phone,
+	// 			date: date,
+	// 			location: location,
+	// 			message: message,
+	// 		})
+	// 		.then(() => {
+	// 			alert('Your message has been submitted');
+	// 			setLoader(false);
+	// 		})
+	// 		.catch((error) => {
+	// 			alert(error.message);
+	// 			setLoader(false);
+	// 		});
+	// 	setName('');
+	// 	setEmail('');
+	// 	setPhone('');
+	// 	setDate('');
+	// 	setLocation('');
+	// 	setMessage('');
+	// };
 
 	return (
 		<div
@@ -73,9 +73,9 @@ const Contact = () => {
 							src='https://docs.google.com/forms/d/e/1FAIpQLSflDxvdodG0qGHH0qSCDLQcUeIld0Pv9iffCRIZWCt2ocHVTQ/viewform?embedded=true'
 							width='400'
 							height='808'
-							frameborder='0'
-							marginheight='0'
-							marginwidth='auto'>
+							frameBorder='0'
+							marginHeight='0'
+							marginWidth='auto'>
 							Loading…
 						</iframe>
 					</div>

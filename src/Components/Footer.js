@@ -20,7 +20,7 @@ class Footer extends Component {
 						justifyContent: 'center',
 						textAlign: 'center',
 					}}>
-					<div class='locationsHeader'>
+					<div className='locationsHeader'>
 						<h1
 							style={{
 								marginTop: '1em',
@@ -38,7 +38,7 @@ class Footer extends Component {
 				<Row className='m-5'>
 					<Col lg={4}>
 						<Card className='border-0'>
-							<div class='locationsHeader'>
+							<div className='locationsHeader'>
 								<h3
 									style={{
 										fontFamily: 'Montserrat',
@@ -65,7 +65,7 @@ class Footer extends Component {
 					</Col>
 
 					<Col lg={4}>
-						<div class='locationsHeader'>
+						<div className='locationsHeader'>
 							<h3
 								style={{
 									fontFamily: 'Montserrat',
@@ -102,7 +102,7 @@ class Footer extends Component {
 						<p>Free Parking,Access for Disabled</p>
 					</Col>
 					<Col lg={4}>
-						<div class='locationsHeader'>
+						<div className='locationsHeader'>
 							<h3
 								style={{
 									fontFamily: 'Montserrat',
@@ -127,7 +127,7 @@ class Footer extends Component {
 
 				<Row className='m-5'>
 					<Col lg={3}>
-						<div class='locationsHeader'>
+						<div className='locationsHeader'>
 							<h3
 								style={{
 									fontFamily: 'Montserrat',
@@ -148,7 +148,7 @@ class Footer extends Component {
 						<p>Public Bathroom, Parking, Access for Disabled</p>
 					</Col>
 					<Col lg={3}>
-						<div class='locationsHeader'>
+						<div className='locationsHeader'>
 							<h3
 								style={{
 									fontFamily: 'Montserrat',
@@ -170,7 +170,7 @@ class Footer extends Component {
 					</Col>
 
 					<Col lg={3}>
-						<div class='locationsHeader'>
+						<div className='locationsHeader'>
 							<h4
 								style={{
 									fontFamily: 'Montserrat',
@@ -240,30 +240,30 @@ class Footer extends Component {
 						textAlign: 'center',
 					}}>
 					<Col>
-						<div class='modal' tabindex='-1' role='dialog'>
-							<div class='modal-dialog' role='document'>
-								<div class='modal-content'>
-									<div class='modal-header'>
-										<h5 class='modal-title'>Modal title</h5>
+						<div className='modal' tabIndex='-1' role='dialog'>
+							<div className='modal-dialog' role='document'>
+								<div className='modal-content'>
+									<div className='modal-header'>
+										<h5 className='modal-title'>Modal title</h5>
 										<button
 											type='button'
-											class='close'
+											className='close'
 											data-dismiss='modal'
 											aria-label='Close'>
 											<span aria-hidden='true'>&times;</span>
 										</button>
 									</div>
-									<div class='modal-body'>
+									<div className='modal-body'>
 										<iframe
 											title='bookingform'
 											src='https://docs.google.com/forms/d/e/1FAIpQLScsdtaKV8fiRyJ6FiYpl5FyB-RyOZ9lLyBzb2NbanSh3FaVOw/viewform?embedded=true'
-											frameborder='0'
+											frameBorder='0'
 											width='640'
 											height='2000'>
 											Loading…
 										</iframe>
 									</div>
-									<div class='modal-footer'>
+									<div className='modal-footer'>
 										<button type='button' class='btn btn-primary'>
 											Save changes
 										</button>

@@ -99,7 +99,7 @@ class Packages extends Component {
 						justifyContent: 'center',
 						textAlign: 'center',
 					}}>
-					<div class='locationsHeader'>
+					<div className='locationsHeader'>
 						<h1
 							style={{
 								marginTop: '1em',
@@ -223,9 +223,9 @@ class Packages extends Component {
 						src='https://docs.google.com/forms/d/e/1FAIpQLScsdtaKV8fiRyJ6FiYpl5FyB-RyOZ9lLyBzb2NbanSh3FaVOw/viewform?embedded=true'
 						width='640'
 						height='2326'
-						frameborder='0'
-						marginheight='0'
-						marginwidth='0'>
+						frameBorder='0'
+						marginHeight='0'
+						marginWidth='0'>
 						Loading…
 					</iframe>
 				</Row>

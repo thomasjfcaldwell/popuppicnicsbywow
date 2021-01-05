@@ -30,7 +30,6 @@ class Testimonals extends Component {
 					fluid
 					style={{
 						marginTop: '4em',
-
 						fontFamily: 'Montserrat',
 						color: '#727272',
 					}}>

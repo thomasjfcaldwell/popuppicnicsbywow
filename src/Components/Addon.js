@@ -24,7 +24,7 @@ class Addon extends Component {
 						justifyContent: 'center',
 						textAlign: 'center',
 					}}>
-					<div class='locationsHeader'>
+					<div className='locationsHeader'>
 						<h1
 							style={{
 								marginTop: '1em',

@@ -12,7 +12,7 @@ class Faq extends Component {
 	render() {
 		return (
 			<div>
-				<Container fluid>
+				<Container fluid >
 					<Row className='backgroundfont'>
 						<Nav className='navbar navbar-expand-lg'>
 							<Image
