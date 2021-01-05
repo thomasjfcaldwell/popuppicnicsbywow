@@ -5,10 +5,10 @@ import image1 from '../Images//12personWeb.jpg';
 import image2 from '../Images/Gallery/4personWeb.jpg';
 import image3 from '../Images/couple.sunset.jpg';
 import image4 from '../Images/sayidoweb.jpg';
-// import image5 from '../Images/foodandiceweb.jpg';
+import image5 from '../Images/Gallery/coupleonbeachgalleryimage.jpg';
 import image6 from '../Images/2personWeb.jpg';
 import image7 from '../Images/beachsetup.jpg';
-// import image8 from '../Images/foodsetup1web.jpg';
+import image8 from '../Images/Gallery/coupleonbeachgalleryimage1.jpg';
 import image9 from '../Images/Testimonals/anniversary.jpg';
 
 class GalleryHome extends Component {
@@ -49,7 +49,7 @@ class GalleryHome extends Component {
 									/>
 								</a>
 							</div>
-							{/* <div className='col-md-6 col-lg-4 item'>
+							<div className='col-md-6 col-lg-4 item'>
 								<a className='lightbox' href={image5}>
 									<img
 										className='img-fluid image scale-on-hover'
@@ -57,7 +57,7 @@ class GalleryHome extends Component {
 										alt='dessertpackage'
 									/>
 								</a>
-							</div> */}
+							</div> 
 							<div className='col-md-6 col-lg-4 item'>
 								<a className='lightbox' href={image4}>
 									<img
@@ -67,7 +67,7 @@ class GalleryHome extends Component {
 									/>
 								</a>
 							</div>
-							{/* <div className='col-md-6 col-lg-4 item'>
+							<div className='col-md-6 col-lg-4 item'>
 								<a className='lightbox' href={image8}>
 									<img
 										className='img-fluid image scale-on-hover'
@@ -75,7 +75,7 @@ class GalleryHome extends Component {
 										alt='picnicsetup'
 									/>
 								</a>
-							</div> */}
+							</div>
 							<div className='col-md-6 col-lg-4 item'>
 								<a className='lightbox' href={image7}>
 									<img

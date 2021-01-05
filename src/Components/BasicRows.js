@@ -6,10 +6,10 @@ import image1 from '../Images//12personWeb.jpg';
 import image2 from '../Images/Gallery/4personWeb.jpg';
 import image3 from '../Images/couple.sunset.jpg';
 import image4 from '../Images/sayidoweb.jpg';
-import image5 from '../Images/foodandiceweb.jpg';
+import image5 from '../Images/Gallery/coupleonbeachgalleryimage.jpg';
 import image6 from '../Images/2personWeb.jpg';
 import image7 from '../Images/beachsetup.jpg';
-import image8 from '../Images/foodsetup1web.jpg';
+import image8 from '../Images/Gallery/coupleonbeachgalleryimage1.jpg';
 import image9 from '../Images/Testimonals/anniversary.jpg';
 
 import wowlogo from '../Images/WowEvents_Logo_Orange_RGB.png';
