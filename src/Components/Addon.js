@@ -105,14 +105,14 @@ class Addon extends Component {
 						<Col sm={4} md={4} lg={2}>
 							<Card className='border-0'>
 								<p className='m-1'>VEGAN/VEGETARIAN CHARCUTERIE BOX</p>
-								<h5 className='addonimg'>$60</h5>
+								<h5 className='addonimg'>$55</h5>
 								<Card.Img className='addonimg' src={Multi} />
 							</Card>
 						</Col>
 						<Col sm={4} md={4} lg={2}>
 							<Card className='border-0'>
 								<p className='m-1'>Meat & Cheese Charcutier Box</p>
-								<h5 className='addonimg'>$60</h5>
+								<h5 className='addonimg'>$55</h5>
 								<Card.Img className='addonimg' src={MeatCheese} />
 							</Card>
 						</Col>
