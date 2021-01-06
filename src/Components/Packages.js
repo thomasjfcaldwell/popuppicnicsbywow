@@ -149,7 +149,7 @@ class Packages extends Component {
 										<li>Metal Goblets</li> <li>Table Décor</li>{' '}
 										<li>Blanket or Rug (floor covering) </li>
 										<li>Add An Additional Person At $30</li>{' '}
-										<li>Each Add Additional Hour $75</li>
+										<li>Each Additional Hour $75</li>
 									</ul>
 								</Card.Text>
 							</Card>
@@ -188,7 +188,7 @@ class Packages extends Component {
 										<li>Decorative Umbrella or Styled Teepee Corner</li>{' '}
 										<li>Side Table or Storage Area Perimeter Decor</li>{' '}
 										<li>Add An Additional Person At $30</li>{' '}
-										<li>Each Add Additional Hour $75</li>
+										<li>Each Additional Hour $75</li>
 									</ul>
 								</Card.Text>
 							</Card>
