@@ -255,11 +255,11 @@ class Footer extends Component {
 									</div>
 									<div className='modal-body'>
 										<iframe
-											title='bookingForm'
+										title='bookingForm'
 											src='https://docs.google.com/forms/d/e/1FAIpQLScsdtaKV8fiRyJ6FiYpl5FyB-RyOZ9lLyBzb2NbanSh3FaVOw/viewform?embedded=true'
-											width='1640'
-											height='2421'
-											frameBorder='0'
+											width='640'
+											height='3076'
+											frameborder='0'
 											marginHeight='0'
 											marginWidth='0'>
 											Loading…
