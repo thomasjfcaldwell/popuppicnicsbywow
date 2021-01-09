@@ -139,11 +139,8 @@ class Addon extends Component {
 							</Card>
 						</Col>
 					</Row>
-					<Row
-						style={{
-							margin: '10em',
-						}}>
-						<Col lg={12}>
+					<Row >
+						<Col className='m-5'>
 							<Row
 								className='w-10'
 								style={{
@@ -152,12 +149,14 @@ class Addon extends Component {
 									textAlign: 'center',
 								}}>
 								<Col
+									sm={6}
 									style={{
 										width: '50%',
 									}}>
 									<Image fluid src={ballons} />
 								</Col>
 								<Col
+									sm={6}
 									style={{
 										width: '50%',
 									}}>
