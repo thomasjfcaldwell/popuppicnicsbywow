@@ -36,7 +36,7 @@ class Footer extends Component {
 					</div>
 				</Row>
 				<Row className='m-5'>
-					<Col lg={4}>
+					<Col lg={3}>
 						<Card className='border-0'>
 							<div className='locationsHeader'>
 								<h3
@@ -46,7 +46,7 @@ class Footer extends Component {
 										letterSpacing: '0.1em',
 										background: '#f7901e',
 										color: 'white',
-										padding: '0.2em',
+										padding: '0.7em',
 									}}>
 									HUNTINGTON BEACH
 								</h3>
@@ -64,7 +64,7 @@ class Footer extends Component {
 						</Card>
 					</Col>
 
-					<Col lg={4}>
+					<Col lg={3}>
 						<div className='locationsHeader'>
 							<h3
 								style={{
@@ -73,7 +73,7 @@ class Footer extends Component {
 									letterSpacing: '0.1em',
 									background: '#f7901e',
 									color: 'white',
-									padding: '0.2em',
+									padding: '0.7em',
 								}}>
 								NEWPORT BEACHES/PARKS
 							</h3>
@@ -101,7 +101,7 @@ class Footer extends Component {
 						<Card.Title>The Wedge Park ($40)</Card.Title>
 						<p>Free Parking,Access for Disabled</p>
 					</Col>
-					<Col lg={4}>
+					<Col lg={3}>
 						<div className='locationsHeader'>
 							<h3
 								style={{
@@ -110,7 +110,7 @@ class Footer extends Component {
 									letterSpacing: '0.1em',
 									background: '#f7901e',
 									color: 'white',
-									padding: '0.2em',
+									padding: '0.7em',
 								}}>
 								CORONA DEL MAR BEACH
 							</h3>
@@ -122,6 +122,26 @@ class Footer extends Component {
 						/>
 						<Card.Title className='m-3'>Corona Del Mar Beach ($55)</Card.Title>
 						<p>Public Bathroom,Free Parking</p>
+					</Col>
+					<Col lg={3}>
+						<div className='locationsHeader'>
+							<h3
+								style={{
+									fontFamily: 'Montserrat',
+									fontWeight: '500',
+									letterSpacing: '0.1em',
+									background: '#f7901e',
+									color: 'white',
+									padding: '1.3em',
+								}}>
+								DANA POINT
+							</h3>
+						</div>
+						<Image src={Saltcreek} alt='Salt Creek Beach' className='images' />
+						<Card.Title className='m-3'>Salt Creek Beach ($55) </Card.Title>
+						<p>Parking</p>
+						<Card.Title>Salt Creek Park ($45)</Card.Title>
+						<p>Public Bathroom, Access for Disabled, Free Parking</p>
 					</Col>
 				</Row>
 
@@ -171,24 +191,21 @@ class Footer extends Component {
 
 					<Col lg={3}>
 						<div className='locationsHeader'>
-							<h4
+							<h3
 								style={{
 									fontFamily: 'Montserrat',
 									fontWeight: '500',
+									letterSpacing: '0.1em',
 									background: '#f7901e',
 									color: 'white',
+									padding: '0.2em',
 								}}>
-								SAN CLEMENTE BEACHES/PARKS
-							</h4>
+								SAN CLEMENTE
+							</h3>
 						</div>
 
 						<Image src={Saltcreek} alt='Salt Creek Beach' className='images' />
-						<Card.Title className='m-3'>Salt Creek Beach ($55) </Card.Title>
-						<p>Parking</p>
-						<Card.Title>Salt Creek Park ($45)</Card.Title>
-						<p>Public Bathroom, Access for Disabled, Free Parking</p>
-
-						<Card.Title>Calafia Beach ($55)</Card.Title>
+						<Card.Title className='m-3'>Calafia Beach ($55)</Card.Title>
 						<p>Public Bathroom ,Parking</p>
 					</Col>
 
@@ -223,15 +240,16 @@ class Footer extends Component {
 						justifyContent: 'center',
 						textAlign: 'center',
 					}}>
-					<p
+					<h5
 						style={{
 							fontFamily: 'Montserrat',
 							fontWeight: '500',
 							width: '100%',
 							color: '#727272',
 						}}>
-						NOTE: 20% Service Fee and Sales tax will be added to all pricing
-					</p>
+						20% Service Fee and Sales tax will be
+						added to Pricing
+					</h5>
 				</Row>
 				<Row
 					style={{
@@ -255,9 +273,9 @@ class Footer extends Component {
 									</div>
 									<div className='modal-body'>
 										<iframe
-										title='bookingForm'
+											title='bookingForm'
 											src='https://docs.google.com/forms/d/e/1FAIpQLScsdtaKV8fiRyJ6FiYpl5FyB-RyOZ9lLyBzb2NbanSh3FaVOw/viewform?embedded=true'
-											width='640'
+											width='100%'
 											height='3076'
 											frameborder='0'
 											marginHeight='0'

@@ -63,19 +63,19 @@ const Contact = () => {
 			}}>
 			<Row
 				style={{
-					background: '#F78F1E',
+					// background: '#F78F1E',
 					marginTop: '0.5em',
 				}}>
-				<Col sm={6} lg={6}>
-					<div className='contactformgoogle'>
+				<Col xsm={12} sm={12} lg={6}>
+					<div className='text-center'>
 						<iframe
-						title='contact form'
-							src='https://docs.google.com/forms/d/e/1FAIpQLSflDxvdodG0qGHH0qSCDLQcUeIld0Pv9iffCRIZWCt2ocHVTQ/viewform?embedded=true'
-							width='400'
+						title='bookingform'
+							src='https://docs.google.com/forms/d/e/1FAIpQLSdXvYQmjo1WxGU4k9zgEp6JZEU0xjM1LZ7zYcknuU2Qi-jC1Q/viewform?embedded=true'
+							width='100%'
 							height='808'
-							frameBorder='0'
-							marginHeight='0'
-							marginWidth='auto'>
+							frameborder='0'
+							marginheight='0'
+							marginwidth='0'>
 							Loading…
 						</iframe>
 					</div>

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Row, Col, Card, Container,} from 'react-bootstrap';
+import { Row, Col, Card, Container, Image} from 'react-bootstrap';
 import '../styles/addon.css'
 import blanket from '../Images/Packages/blankets.jpg';
 import Beverages from '../Images/Packages/beveragepackagefor2.jpg';
@@ -13,6 +13,7 @@ import Music from '../Images/Packages/livemusic.jpg';
 import speaker from '../Images/Packages/bluetooth.jpg';
 import Beverages1 from '../Images/Packages/beveragepackage1.jpg'
 import extraHour from '../Images/Packages/extrahour.jpg'
+import ballons from '../Images/Packages/balloons.jpg'
 
 class Addon extends Component {
 	render() {
@@ -140,11 +141,45 @@ class Addon extends Component {
 					</Row>
 					<Row
 						style={{
+							margin: '10em',
+						}}>
+						<Col lg={12}>
+							<Row
+								className='w-10'
+								style={{
+									alignItems: 'center',
+									justifyContent: 'center',
+									textAlign: 'center',
+								}}>
+								<Col
+									style={{
+										width: '50%',
+									}}>
+									<Image fluid src={ballons} />
+								</Col>
+								<Col
+									style={{
+										width: '50%',
+									}}>
+									<Card className='border-0 text-center'>
+										<Card.Text
+											style={{
+												fontSize: '2.5em',
+											}}>
+											Balloon Garland for Teepee= $97.75 + $55 Delivery fee
+										</Card.Text>
+									</Card>
+								</Col>
+							</Row>
+						</Col>
+					</Row>
+					<Row
+						style={{
 							alignItems: 'center',
 							justifyContent: 'center',
 							textAlign: 'center',
 						}}>
-						<p
+						<h5
 							style={{
 								fontFamily: 'Montserrat',
 								fontWeight: '500',
@@ -153,7 +188,7 @@ class Addon extends Component {
 							}}>
 							20% Service Fee and Sales tax & Applicable Delivery Fee will be
 							added to Pricing
-						</p>
+						</h5>
 					</Row>
 				</Container>
 			</div>

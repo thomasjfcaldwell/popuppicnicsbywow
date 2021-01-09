@@ -11,7 +11,7 @@ import basicPackage from '../Images/Packages/savvy.jpg';
 import bells from '../Images/bell.jpg';
 import wowlogo from '../Images/WowEvents_Logo_Orange_RGB.png';
 
-class Packages extends Component {
+class Prices extends Component {
 	handleClick() {
 		// do something meaningful, Promises, if/else, whatever, and then
 		window.location.assign('https://www.wowevents.com/');
@@ -43,7 +43,7 @@ class Packages extends Component {
 								color: 'white',
 								padding: '0.2em',
 							}}>
-							BOOK A PICNIC
+							PRICES OF SERVICES
 						</h1>
 
 						<Navbar className='navbar-nav ml-auto' expand='lg'>
@@ -71,6 +71,14 @@ class Packages extends Component {
 											padding: '0.5em',
 										}}>
 										HOME PAGE
+									</Nav.Link>
+									<Nav.Link
+										href='/'
+										style={{
+											color: 'white',
+											padding: '0.5em',
+										}}>
+										BOOK A PICNIC
 									</Nav.Link>
 									<Nav.Link
 										href='/gallery'
@@ -201,16 +209,14 @@ class Packages extends Component {
 						justifyContent: 'center',
 						textAlign: 'center',
 					}}>
-					<h5
+					<p
 						style={{
 							fontFamily: 'Montserrat',
 							fontWeight: '500',
 							width: '100%',
-							color: '#727272',
 						}}>
-						Location Fee, 20% Service Fee and Sales tax will be
-						added to Pricing
-					</h5>
+						Location fee, 20% Service Fee and Sales tax will be added to Pricing
+					</p>
 				</Row>
 
 				<Footer />
@@ -219,21 +225,10 @@ class Packages extends Component {
 					style={{
 						alignItems: 'center',
 						justifyContent: 'center',
-					}}>
-					<iframe
-						title='contact form'
-						src='https://docs.google.com/forms/d/e/1FAIpQLScsdtaKV8fiRyJ6FiYpl5FyB-RyOZ9lLyBzb2NbanSh3FaVOw/viewform?embedded=true'
-						width='640'
-						height='2326'
-						frameBorder='0'
-						marginHeight='0'
-						marginWidth='0'>
-						Loading…
-					</iframe>
-				</Row>
+					}}></Row>
 			</div>
 		);
 	}
 }
 
-export default Packages;
+export default Prices;

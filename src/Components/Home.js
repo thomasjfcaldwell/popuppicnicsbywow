@@ -6,14 +6,13 @@ import Testimonals from '../Components/Testimonals';
 import Steps from '../Components/Steps';
 import Contact from '../Components/Contact';
 import GalleryHome from '../Components/GalleryHome';
-import ImageSlider from '../Components/ImageSlider'
+import ImageSlider from '../Components/ImageSlider';
 
 import phone from '../Images/Icons/smartphone.png';
 import email from '../Images/Icons/email.png';
 import facebook from '../Images/Icons/facebook.png';
 import instagram from '../Images/Icons/instagram.png';
 import twitter from '../Images/Icons/twitter.png';
-
 
 import '../styles/home.css';
 import { SliderData } from './SliderData';
@@ -116,7 +115,7 @@ class Home extends Component {
 											color: 'white',
 											padding: '0.5em',
 										}}>
-										BOOK A PICNIC
+										PICNIC PRICING & BOOKINGS
 									</Nav.Link>
 									<Nav.Link
 										href='/faq'
@@ -131,10 +130,34 @@ class Home extends Component {
 						</Navbar>
 					</Nav>
 				</Row>
-				<ImageSlider  slides={SliderData}/>
+				<ImageSlider slides={SliderData} />
 				<Ourstory />
 				<GalleryHome />
 				<Steps />
+				<Row>
+					<Col xsm={10} sm={10} lg={12}>
+						<Nav
+							style={{
+								alignItems: 'center',
+								justifyContent: 'center',
+								textAlign: 'center',
+							}}>
+							<Nav.Link
+								href='/packages'
+								style={{
+									fontFamily: 'Montserrat',
+									fontSize: '2em',
+									fontWeight: '500',
+									background: '#f7901e',
+									color: 'white',
+									padding: '0.7em',
+									margin: '2em',
+								}}>
+								See Pricing For Picnics here
+							</Nav.Link>
+						</Nav>
+					</Col>
+				</Row>
 				<Testimonals />
 				<Contact />
 			</div>
