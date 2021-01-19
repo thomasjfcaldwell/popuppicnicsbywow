@@ -6,8 +6,10 @@ import Prices from './Components/Prices'
 import Faq from './Components/Faq';
 import Contact from './Components/Contact';
 import { Route, BrowserRouter as Router, Link } from 'react-router-dom';
+import BookingForm from './Components/BookingForm'
 import '../src/App.css';
 import BasicRows from '../src/Components/BasicRows';
+
 
 function App() {
 	return (
@@ -16,13 +18,13 @@ function App() {
 				<Link to='/'></Link>
 			</nav>
 			<main>
-				
 				<Route exact path='/' component={Home} />
 				<Route exact path='/prices' component={Prices} />
 				<Route exact path='/packages' component={Packages} />
 				<Route exact path='/gallery' component={BasicRows} />
 				<Route exact path='/faq' component={Faq} />
 				<Route exact path='/contact' component={Contact} />
+				<Route exact path='/bookings' component={BookingForm} />
 			</main>
 		</div>
 	);

@@ -139,7 +139,7 @@ class Addon extends Component {
 							</Card>
 						</Col>
 					</Row>
-					<Row >
+					<Row>
 						<Col className='m-5'>
 							<Row
 								className='w-10'

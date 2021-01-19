@@ -7,6 +7,8 @@ import {
 	Image,
 	ListGroup,
 	ListGroupItem,
+	Form,
+	Button,
 } from 'react-bootstrap';
 
 import wowlogo from '../Images/WowEvents_Logo_Orange_RGB.png';
@@ -67,17 +69,68 @@ const Contact = () => {
 					marginTop: '0.5em',
 				}}>
 				<Col xsm={12} sm={12} lg={6}>
-					<div className='text-center'>
-						<iframe
-						title='bookingform'
-							src='https://docs.google.com/forms/d/e/1FAIpQLSdXvYQmjo1WxGU4k9zgEp6JZEU0xjM1LZ7zYcknuU2Qi-jC1Q/viewform?embedded=true'
-							width='100%'
-							height='808'
-							frameborder='0'
-							marginheight='0'
-							marginwidth='0'>
-							Loading…
-						</iframe>
+					<div className='form'>
+						<Form
+							action='https://docs.google.com/forms/u/1/d/e/1FAIpQLScj4ukKgFyRHGmluWBoJnVHSan1sGfk_Cc26ZyfUl1uceHYsA/formResponse'
+							method='post'
+							style={{
+								background: ' #F78F1E',
+								padding: '60px',
+								maxWidth: 'calc(100%-60px)',
+							}}>
+							<div
+								style={{
+									alignItems: 'center',
+									justifyContent: 'center',
+									textAlign: 'center',
+								}}>
+								<h1>Contact Us</h1>
+							</div>
+							<div className='form-element'>
+								<span>Name</span>
+								<input
+									type='text'
+									required
+									name='entry.2090504961'
+									placeholder='Name'></input>
+							</div>
+							<div className='form-element'>
+								<span>Email</span>
+								<input
+									type='email'
+									required
+									name='entry.95460220'
+									placeholder='Email Address'></input>
+							</div>
+							<div className='form-element'>
+								<span>Phone</span>
+								<input
+									type='Phone'
+									name='entry.1126141339'
+									placeholder='Phone Number'></input>
+							</div>
+							<div className='form-element'>
+								<span>Your Message</span>
+								<textarea
+									name='entry.727173671'
+									required
+									id=''
+									cols='30'
+									rows='10'></textarea>
+							</div>
+							<Button
+								type='submit'
+								style={{
+									width: '100%',
+									padding: '20px',
+									color: '#F78F1E',
+									background: 'white',
+									borderRadius: '5px',
+									border: 'none',
+								}}>
+								Send Message
+							</Button>
+						</Form>
 					</div>
 				</Col>
 				<Col sm={12} lg={6} className='bg-white'>
