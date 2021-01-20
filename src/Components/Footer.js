@@ -57,9 +57,9 @@ class Footer extends Component {
 								alt='huntington beach state beach'
 								className='images'
 							/>
-							<h5 className='m-3'>State Beach ($30)</h5>
-							<p>Public Bathroom, Parking</p>
 							<h5 className='m-3'>Huntington Central Park($20)</h5>
+							<p>Public Bathroom, Parking</p>
+							<h5 className='m-3'>State Beach ($30)</h5>
 							<p>Public Bathroom, Parking</p>
 						</Card>
 					</Col>
