@@ -149,16 +149,16 @@ class Addon extends Component {
 									textAlign: 'center',
 								}}>
 								<Col
-									sm={6}
+									sm={12} lg={6}
 									style={{
 										width: '50%',
 									}}>
-									<Image fluid src={ballons} />
+									<Image fluid src={ballons} alt='balloons' />
 								</Col>
 								<Col
-									sm={6}
+									sm={12} lg={6}
 									style={{
-										width: '50%',
+										width: '100%',
 									}}>
 									<Card className='border-0 text-center'>
 										<Card.Text

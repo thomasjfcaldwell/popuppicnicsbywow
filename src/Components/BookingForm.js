@@ -12,8 +12,10 @@ class BookingForm extends Component {
 	}
 	render() {
 		return (
-			<div className='App' ref={(el) => (this.div = el)}>
-				<div id='ff-compose'></div>
+			<div className='App' ref={(el) => (this.div = el)} style={{
+                    margin: '5em',
+                }}> 
+				<div id='ff-compose' ></div>
 				<script
 					async
 					defer
