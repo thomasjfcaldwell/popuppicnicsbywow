@@ -16,9 +16,9 @@ class Contact extends Component {
 			<Row>
 				<Col
 					sm={12}
-					lg={6}
+					lg={5}
 					style={{
-						padding: '1.5em',
+						margin: '50px',
 					}}>
 					<div className='App' ref={(el) => (this.div = el)}>
 						<div id='ff-compose'></div>
@@ -29,71 +29,24 @@ class Contact extends Component {
 					</div>
 				</Col>
 				<Col sm={12} lg={6}>
-					<Row>
-						<div
+					<div
+						style={{
+							display: 'flex',
+							flexDirection: 'column',
+							alignItems: 'center',
+							justifyContent: 'center',
+							textAlign: 'center',
+						}}>
+						<Image
+							src={wowlogo}
+							alt='wowLogo'
 							style={{
-								margin: 'auto',
-								width: '100%',
-								marginTop: '2em',
-							}}>
-							<img
-								fluid
-								src={wowlogo}
-								alt='wowlogo'
-								style={{
-									width: '40%',
-									margin: 'auto',
-									display: 'block',
-								}}
-							/>
-						</div>
-					</Row>
-					<Row>
-						<div
-							style={{
-								width: '100%',
-								alignItems: 'center',
-								justifyContent: 'center',
-								textAlign: 'center',
-								marginTop: '1em',
-							}}>
-							<p
-								style={{
-									marginTop: '-10px',
-								}}>
-								419 Main St Suite
-							</p>{' '}
-							<p
-								style={{
-									marginTop: '-10px',
-								}}>
-								{' '}
-								433 Huntington Beach
-							</p>
-							<p
-								style={{
-									marginTop: '-10px',
-								}}>
-								CA 92648
-							</p>
-						</div>
-					</Row>
-					<Row>
-						<div
-							style={{
-								width: '100%',
-								alignItems: 'center',
-								justifyContent: 'center',
-								textAlign: 'center',
-								marginTop: '1em',
-							}}>
-							<p className='d-inline'>
-								<span className='font-weight-bold'> Telephone-</span>(714)8489698{' '}
-								<span className='font-weight-bold'> Email-</span>
-								hello@wowevents.com
-							</p>
-						</div>
-					</Row>
+								flex: '1',
+								width: '50%',
+							}}
+						/>
+						<p>419 Main St Suite 433 Huntington Beach, CA 92648</p>
+					</div>
 				</Col>
 			</Row>
 		);

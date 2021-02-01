@@ -1,15 +1,15 @@
 import React, { Component } from 'react';
 import '../styles/grid.css';
 import '../App.css';
-import image1 from '../Images//12personWeb.jpg';
+import image1 from '../Images/Gallery/pinksetup.jpg';
 import image2 from '../Images/Gallery/4personWeb.jpg';
 import image3 from '../Images/couple.sunset.jpg';
 import image4 from '../Images/sayidoweb.jpg';
 import image5 from '../Images/Gallery/coupleonbeachgalleryimage.jpg';
-import image6 from '../Images/2personWeb.jpg';
-import image7 from '../Images/beachsetup.jpg';
+import image6 from '../Images/Gallery/blueandredsetup.jpg';
+import image7 from '../Images/Gallery/loveisintheair.jpg';
 import image8 from '../Images/Gallery/coupleonbeachgalleryimage1.jpg';
-import image9 from '../Images/Testimonals/anniversary.jpg';
+import image9 from '../Images/Gallery/movienight.table.jpg';
 
 class GalleryHome extends Component {
 	handleClick() {
@@ -22,7 +22,7 @@ class GalleryHome extends Component {
 				<div fluid className='gallery-block grid-gallery'>
 					<div className='container'>
 						<div className='row'>
-							<div className='col-md-6 col-lg-4 item'>
+							 <div className='col-md-6 col-lg-4 item'>
 								<a className='lightbox' href={image1}>
 									<img
 										className='img-fluid image scale-on-hover'
@@ -30,7 +30,7 @@ class GalleryHome extends Component {
 										alt='picnicsetup'
 									/>
 								</a>
-							</div>
+							</div> 
 							<div className='col-md-6 col-lg-4 item'>
 								<a className='lightbox' href={image2}>
 									<img
