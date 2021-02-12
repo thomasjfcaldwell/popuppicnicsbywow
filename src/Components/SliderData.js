@@ -1,13 +1,11 @@
 export const SliderData = [
 	{
 		id: 1,
-		image:
-			'https://i.ibb.co/wdyN5nC/beachimage.jpg',
+		image: 'https://i.ibb.co/BnnZwtP/dark-Picnic.jpg',
 	},
 	{
 		id: 2,
-		image:
-			'https://i.ibb.co/BnnZwtP/dark-Picnic.jpg',
+		image: 'https://i.ibb.co/wdyN5nC/beachimage.jpg',
 	},
 	{
 		id: 3,

@@ -1,19 +1,19 @@
 import React, { Component } from 'react';
-import { Row, Col, Card, Container, Image} from 'react-bootstrap';
-import '../styles/addon.css'
+import { Row, Col, Card, Container, Image } from 'react-bootstrap';
+import '../styles/addon.css';
 import blanket from '../Images/Packages/blankets.jpg';
 import Beverages from '../Images/Packages/beveragepackagefor2.jpg';
 import Teepee from '../Images/Packages/teepee.11.23jpg.jpg';
 import Umbrella from '../Images/Packages/umbrella.jpg';
-import Dessert from '../Images/Packages/dessert.jpg';
-import Multi from '../Images/Packages/medboxNew12.17.jpg';
-import cheeseBox from '../Images/Packages/cheesebox.jpg';
-import MeatCheese from '../Images/Packages/meatandchesseNEW12.17.jpg';
+import Dessert from '../Images/Packages/1-28-21 Dessert Box Pic7(Inside Box).jpg';
+import Multi from '../Images/Packages/Vegan-Veg Charcuterie Box (1-11-21).jpg';
+import cheeseBox from '../Images/Packages/Cheese Charcuterie Box (1-11-21).jpg';
+import MeatCheese from '../Images/Packages/Meat & Cheese Charcuterie Box (1-11-21).jpg';
 import Music from '../Images/Packages/livemusic.jpg';
 import speaker from '../Images/Packages/bluetooth.jpg';
-import Beverages1 from '../Images/Packages/beveragepackage1.jpg'
-import extraHour from '../Images/Packages/extrahour.jpg'
-import ballons from '../Images/Packages/balloons.jpg'
+import Beverages1 from '../Images/Packages/beveragepackage1.jpg';
+import extraHour from '../Images/Packages/extrahour.jpg';
+import ballons from '../Images/Packages/balloons.jpg';
 
 class Addon extends Component {
 	render() {
@@ -40,12 +40,8 @@ class Addon extends Component {
 						</h1>
 					</div>
 				</Row>
-				<Container
-					fluid
-					style={{
-						width: '80%',
-					}}>
-					<Row className='m-4'>
+				<Container fluid>
+					<Row>
 						<Col sm={4} md={4} lg={2}>
 							<Card className='border-0 '>
 								<p className='m-1'>Cozy Blanket Basket</p>
@@ -90,12 +86,8 @@ class Addon extends Component {
 						</Col>
 					</Row>
 				</Container>
-				<Container
-					fluid
-					style={{
-						width: '80%',
-					}}>
-					<Row className='m-4'>
+				<Container fluid>
+					<Row>
 						<Col sm={4} md={4} lg={2}>
 							<Card className='border-0'>
 								<p className='m-1'>Cheese Charcutier Box</p>
@@ -105,8 +97,8 @@ class Addon extends Component {
 						</Col>
 						<Col sm={4} md={4} lg={2}>
 							<Card className='border-0'>
-								<p className='m-1'>VEGAN/VEGETARIAN CHARCUTERIE BOX</p>
-								<h5 className='addonimg'>$55</h5>
+								<p className='m-1'>Vegan/Vegetarian Charcuterie Box</p>
+								<h5 className='addonimg'>$45</h5>
 								<Card.Img className='addonimg' src={Multi} />
 							</Card>
 						</Col>
@@ -149,14 +141,16 @@ class Addon extends Component {
 									textAlign: 'center',
 								}}>
 								<Col
-									sm={12} lg={6}
+									sm={12}
+									lg={6}
 									style={{
 										width: '50%',
 									}}>
 									<Image fluid src={ballons} alt='balloons' />
 								</Col>
 								<Col
-									sm={12} lg={6}
+									sm={12}
+									lg={6}
 									style={{
 										width: '100%',
 									}}>
@@ -195,5 +189,4 @@ class Addon extends Component {
 	}
 }
 
-
-export default Addon
+export default Addon;

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Row, Nav, Container, Navbar, Image, } from 'react-bootstrap';
+import { Row, Nav, Container, Navbar, Image } from 'react-bootstrap';
 import '../styles/grid.css';
 import '../App.css';
 import image1 from '../Images/Gallery/pinksetup.jpg';
@@ -22,82 +22,6 @@ class BasicRows extends Component {
 	render() {
 		return (
 			<div>
-				<Container fluid='true'>
-					<Row className='backgroundfont'>
-						<Nav className='navbar navbar-expand-lg'>
-							<Image
-								lg={3}
-								sm={12}
-								className='navbar-brand'
-								src={wowlogo}
-								style={{
-									width: '20%',
-									margin: '0.2em',
-									padding: '1em',
-								}}
-							/>
-							<h1
-								className='text-center'
-								style={{
-									fontFamily: 'Montserrat',
-									fontWeight: '500',
-									letterSpacing: '0.1em',
-									margin: '0 auto',
-									background: '#727272',
-									color: 'white',
-									padding: '0.2em',
-								}}>
-								GALLERY
-							</h1>
-
-							<Navbar className='navbar-nav ml-auto' expand='lg'>
-								<Navbar.Toggle aria-controls='responsive-navbar-nav' />
-								<Navbar.Collapse id='responsive-navbar-nav'>
-									<Nav
-										// className='mr-auto'
-										style={{
-											fontFamily: 'Montserrat',
-											fontWeight: '500',
-											letterSpacing: '0.1em',
-										}}>
-										<Nav.Link
-											onClick={this.handleClick.bind(this)}
-											style={{
-												color: 'white',
-												padding: '0.5em',
-											}}>
-											WOWEVENTS.COM
-										</Nav.Link>
-										<Nav.Link
-											href='/'
-											style={{
-												color: 'white',
-												padding: '0.5em',
-											}}>
-											HOME PAGE
-										</Nav.Link>
-										<Nav.Link
-											href='/packages'
-											style={{
-												color: 'white',
-												padding: '0.5em',
-											}}>
-											BOOK A PICNIC
-										</Nav.Link>
-										<Nav.Link
-											href='/faq'
-											style={{
-												color: 'white',
-												padding: '0.5em',
-											}}>
-											FAQ
-										</Nav.Link>
-									</Nav>
-								</Navbar.Collapse>
-							</Navbar>
-						</Nav>
-					</Row>
-				</Container>
 				<div fluid className='gallery-block grid-gallery'>
 					<div className='container'>
 						<div className='row'>

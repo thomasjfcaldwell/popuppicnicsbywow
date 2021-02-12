@@ -12,10 +12,6 @@ import image8 from '../Images/Gallery/coupleonbeachgalleryimage1.jpg';
 import image9 from '../Images/Gallery/movienight.table.jpg';
 
 class GalleryHome extends Component {
-	handleClick() {
-		// do something meaningful, Promises, if/else, whatever, and then
-		window.location.assign('https://www.wowevents.com/');
-	}
 	render() {
 		return (
 			<div>

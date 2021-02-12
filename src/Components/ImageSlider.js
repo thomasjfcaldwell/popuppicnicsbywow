@@ -6,8 +6,7 @@ import '../App.css';
 
 const ImageSlider = ({ slides }) => {
 	const [current, setCurrent] = useState(0);
-    const length = slides.length;
-    
+	const length = slides.length;
 
 	const nextSlide = () => {
 		setCurrent(current === length - 1 ? 0 : current + 1);
@@ -26,17 +25,10 @@ const ImageSlider = ({ slides }) => {
 			<FaArrowAltCircleLeft className='left-arrow' onClick={prevSlide} />
 			<FaArrowAltCircleRight className='right-arrow' onClick={nextSlide} />
 			{SliderData.map((slide, id) => {
-                
 				return (
-                   
-					<div
-                    className={id === current ? 'slide active' : 'slide'}
-                    key={id}>
+					<div className={id === current ? 'slide active' : 'slide'} key={id}>
 						{id === current && (
-							<img
-								src={slide.image}
-								className='imageslide'
-							/>
+							<img src={slide.image} className='imageslide' alt='slideImage' />
 						)}
 					</div>
 				);

@@ -1,26 +1,15 @@
 import React, { Component } from 'react';
 
-import {
-	Row,
-	Col,
-	Card,
-	CardImg,
-	Nav,
-	Navbar,
-	Image,
-	Form,
-	Button,
-} from 'react-bootstrap';
+import { Row, Col, Card, CardImg } from 'react-bootstrap';
 import '../styles/sea.css';
 import '../App.css';
 import Addon from '../Components/Addon';
-import BookingForm from '../Components/BookingForm'
+import BookingForm from '../Components/BookingForm';
 
 import Footer from '../Components/Footer';
 
 import basicPackage from '../Images/Packages/savvy.jpg';
 import bells from '../Images/bell.jpg';
-import wowlogo from '../Images/WowEvents_Logo_Orange_RGB.png';
 
 class Packages extends Component {
 	handleClick() {
@@ -30,80 +19,6 @@ class Packages extends Component {
 	render() {
 		return (
 			<div>
-				<Row className='backgroundfont'>
-					<Nav className='navbar navbar-expand-lg'>
-						<Image
-							lg={3}
-							sm={12}
-							className='navbar-brand'
-							src={wowlogo}
-							style={{
-								width: '20%',
-								margin: '0.2em',
-								padding: '1em',
-							}}
-						/>
-						<h1
-							className='text-center'
-							style={{
-								fontFamily: 'Montserrat',
-								fontWeight: '500',
-								letterSpacing: '0.1em',
-								margin: '0 auto',
-								background: '#727272',
-								color: 'white',
-								padding: '0.2em',
-							}}>
-							BOOK A PICNIC
-						</h1>
-
-						<Navbar className='navbar-nav ml-auto' expand='lg'>
-							<Navbar.Toggle aria-controls='responsive-navbar-nav' />
-							<Navbar.Collapse id='responsive-navbar-nav'>
-								<Nav
-									// className='mr-auto'
-									style={{
-										fontFamily: 'Montserrat',
-										fontWeight: '500',
-										letterSpacing: '0.1em',
-									}}>
-									<Nav.Link
-										onClick={this.handleClick.bind(this)}
-										style={{
-											color: 'white',
-											padding: '0.5em',
-										}}>
-										WOWEVENTS.COM
-									</Nav.Link>
-									<Nav.Link
-										href='/'
-										style={{
-											color: 'white',
-											padding: '0.5em',
-										}}>
-										HOME PAGE
-									</Nav.Link>
-									<Nav.Link
-										href='/gallery'
-										style={{
-											color: 'white',
-											padding: '0.5em',
-										}}>
-										GALLERY
-									</Nav.Link>
-									<Nav.Link
-										href='/faq'
-										style={{
-											color: 'white',
-											padding: '0.5em',
-										}}>
-										FAQ
-									</Nav.Link>
-								</Nav>
-							</Navbar.Collapse>
-						</Navbar>
-					</Nav>
-				</Row>
 				<Row
 					style={{
 						alignItems: 'center',
@@ -129,7 +44,7 @@ class Packages extends Component {
 					<Col sm={12} lg={6}>
 						<div>
 							<Card className='border-0 m-5 text-center bg-transparent'>
-								<h2
+								<h4
 									className='text-center'
 									style={{
 										marginTop: '1em',
@@ -141,7 +56,7 @@ class Packages extends Component {
 										padding: '0.2em',
 									}}>
 									SIMPLY SAVVY PACKAGE $160+
-								</h2>
+								</h4>
 								<CardImg
 									src={basicPackage}
 									style={{
@@ -169,7 +84,7 @@ class Packages extends Component {
 					<Col sm={12} lg={6} style={{}}>
 						<div>
 							<Card className='border-0 m-5 text-center bg-transparent'>
-								<h2
+								<h4
 									className='text-center'
 									style={{
 										marginTop: '1em',
@@ -181,7 +96,7 @@ class Packages extends Component {
 										padding: '0.2em',
 									}}>
 									THE BELLS & WHISTLES PACKAGE $260+
-								</h2>
+								</h4>
 								<CardImg
 									src={bells}
 									style={{

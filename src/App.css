@@ -9,7 +9,36 @@
 		height: 80vh;
 	}
 }
+.address {
+	margin: 10px;
+	color: white;
+}
+.footer {
+	background-color: #727272;
+	padding: 20px 0 20px 0;
+	margin-top: 30px;
+}
+.footerContainer {
+	box-sizing: border-box;
+	font-family: 'Montserrat';
+}
+.footerContainer a {
+	color: white;
+}
+.socialMediaList {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
 
+.socialMediaList img {
+	max-height: 60px;
+	padding: 10px;
+}
+.contactAddress {
+	margin-top: -20px;
+	font-weight: 800;
+}
 .slider {
 	position: relative;
 	height: 100vh;
