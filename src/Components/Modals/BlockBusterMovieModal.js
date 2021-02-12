@@ -2,8 +2,8 @@ import { Modal } from 'react-bootstrap';
 import { React, useState } from 'react';
 
 import { Button } from 'react-bootstrap';
-import '/Users/thomascaldwell/wow/popuppicnics/src/styles/modal.css';
 
+import '/Users/thomascaldwell/wow/popuppicnics/src/App.css';
 function Example() {
 	const [show, setShow] = useState(false);
 
