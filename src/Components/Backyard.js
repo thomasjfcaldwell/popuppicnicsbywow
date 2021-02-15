@@ -50,23 +50,24 @@ function Backyard() {
 						favorite Rom-Com, thriller, or whatever the kids get to choose in
 						the convenience and comfort of your own backyard. You’ll step out
 						into a theater under the stars, designed for you to have the best
-						seats available - wherever you’d like them set up! An action-packed
-						Premier Movie Night Package includes a 90” screen, projector on a
-						portable rolling cart, and two 12” speakers. It will be set up by
-						our first-rate Wow Events staff for up to three hours of viewing
-						fun. Reward your family, celebrate a birthday, or offer a screening
-						of your best friend’s favorite movie in an award-winning experience
-						on location at your own home Spoiler alert! You’ll want to
-						experience this service again and again. And for extra special
-						occasions, surprise your family and friends with an upgrade to Wow’s
-						Blockbuster Movie Night Package. You’ll be ushered into a theater of
-						your own design, complete with all the VIP amenities of your
-						favorite showplace. Special effects for your Blockbuster package
-						include exclusive seating, pillows, blankets, a treat buffet and
-						much more. You’ll be on the edge of your seat as your special movie
-						event comes to life in your very own backyard. Whatever movie you
-						choose, we guarantee an experience rated E for EXCEPTIONAL and W for
-						WOW! Contact us NOW to design your scene-stealing event!
+						seats available - wherever you’d like them set up! Our Premier
+						Package for Backyard Movie Night includes a 90” screen, projector
+						and two high quality speakers. It will be set up by our first-rate
+						WOW! Events Host for up to three hours of viewing fun. Reward your
+						family, celebrate a birthday, or offer a screening of your best
+						friend’s favorite movie in an award-winning experience on location
+						at your own home Spoiler alert! You’ll want to experience this
+						service again and again. If you are the type that prefers all the
+						“Bells & Whistles” of a VIP Movie Experience then you should
+						surprise your family and friends with Our Blockbuster Package for
+						Backyard Movie Night. You’ll be ushered into a theater of your own
+						design, complete with all the VIP amenities of your favorite
+						showplace. Special effects for your Blockbuster package include
+						exclusive seating, pillows, blankets, a Sweet & Savory Treats Buffet
+						and much more. You’ll be on the edge of your seat as your special
+						movie event comes to life in your very own backyard. Whatever movie
+						you choose, we guarantee an experience rated E for EXTRAORDINARY and
+						W for WOW! Contact us NOW to design your scene-stealing event!
 					</p>
 				</Col>
 			</Row>
