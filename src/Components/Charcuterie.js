@@ -43,15 +43,27 @@ function Charcuterie() {
 							fontWeight: '300',
 							lineHeight: '1.8em',
 						}}>
-						Hosting a party? Going to a gathering? Need to feed people? Order
-						one or more of our beautifully crafted charcuterie boxes! We have
-						many options available in various sizes that will fit all
-						requirements. Available to pick up or to be delivered straight to
-						you at your home are savory Cheese, Meat & Cheese and
-						Vegetarian/Vegan boxes. Plus for the sweet toothed of us we have a
-						special Heart Box full of delicious treats, Smores box and a regular
-						dessert box in 6x6 inch and 8x8 inch sizes. So treat yourself or WOW
-						your guests!
+						One of our newest services, Charcuterie by WOW! Events was born
+						during our worldwide pandemic when my Event Planning Company of 17
+						years, was forced to stop doing business in March of 2020. Events
+						over 10 people (family, neighbors or close friends only) were not
+						allowed in California and my talented team and I decided to pivot
+						and create new services that people could enjoy during COVID-19 and
+						beyond. We combined our love of hosting events with delicious food
+						and Charcuterie by WOW! Events was born. We prepare deliciously
+						curated and thoughtfully created made to order Cheese, Meat &
+						Cheese, Veggie/Vegan and Dessert Charcuterie Boxes for your
+						enjoyment and entertaining occasions. Our Charcuterie Boxes are
+						available for Delivery, Curbside Pick-Up or can be added to our
+						POP-UP Picnic Packages. We also offer Grazing Tables for larger
+						celebrations and that WOW! Factor. Our Charcuterie Boxes are great
+						for all occasions such as birthdays, holidays, picnics, thank you
+						gifts, corporate meetings, open house, game day, parties, date
+						nights, wine tastings, wedding party snacks or casual gatherings. We
+						use fresh, seasonal ingredients, creating scrumptious boards to suit
+						your needs. WOW! Events is a certified woman owned small business
+						enterprise (W.O.S.B.E.). We look forward to serving and creating a
+						box or board just fo
 					</p>
 				</Col>
 				<Col lg={6} sm={12}>
