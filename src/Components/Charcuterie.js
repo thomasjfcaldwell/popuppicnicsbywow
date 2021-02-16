@@ -5,10 +5,10 @@ import Flutes from '../Images/Charcuterie/flutes.jpg';
 import Jarcuterie4 from '../Images/Charcuterie/Jarcuterie4.jpg';
 import Heart from '../Images/Charcuterie/VDay Dessert Box2.jpg';
 import CharcuterieBookingForm from './CharcuterieBookingForm';
-import Dessert from '../Images/Packages/1-28-21 Dessert Box Pic7(Inside Box).jpg';
-import Multi from '../Images/Packages/Vegan-Veg Charcuterie Box (1-11-21).jpg';
-import cheeseBox from '../Images/Packages/Cheese Charcuterie Box (1-11-21).jpg';
-import MeatCheese from '../Images/Packages/Meat & Cheese Charcuterie Box (1-11-21).jpg';
+import Dessert from '../Images/Packages/dessertBox.jpg';
+import Multi from '../Images/Packages/veggieBox.jpg';
+import cheeseBox from '../Images/Packages/cheeseBox.jpg';
+import MeatCheese from '../Images/Packages/meatChesseBox.jpg';
 import treats from '../Images/Charcuterie/Smores Bar Box5.jpg';
 import '../styles/Charcuterie.css';
 
