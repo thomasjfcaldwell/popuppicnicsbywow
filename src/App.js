@@ -149,8 +149,9 @@ function App() {
 											style={{
 												backgroundColor: 'transparent',
 												border: 'none',
-												fontSize: '0.2em',
+												fontSize: '0.6em',
 												color: 'white',
+												fontWeight: '100',
 												marginTop: '-5px',
 											}}>
 											<Dropdown.Item href='https://www.wowevents.com/full-service-event-planning/'>
