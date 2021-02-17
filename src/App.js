@@ -119,7 +119,7 @@ function App() {
 											color: 'white',
 											padding: '0.5em',
 										}}>
-										PICNICS
+										POP UP PICNICS
 									</Nav.Link>
 									<Nav.Link
 										href='/backyardmovies'
