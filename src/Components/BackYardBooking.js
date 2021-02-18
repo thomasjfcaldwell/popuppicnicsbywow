@@ -13,10 +13,10 @@ class BackYardBooking extends Component {
 		return (
 			<div
 				className='App'
-				ref={(el) => (this.div = el)}
-				style={{
-					margin: '5em',
-				}}>
+				ref={(el) => (this.div = el)} sm={12} style={{
+					padding:'10px'
+				}}
+	>
 				<div id='ff-compose'></div>
 				<script
 					async

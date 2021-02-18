@@ -195,7 +195,7 @@ function App() {
 			</main>
 			<footer className='footer'>
 				<Container fluid className='footerContainer'>
-					<Row className='p-2'>
+					<Row>
 						<Col
 							lg={4}
 							sm={12}
@@ -277,47 +277,45 @@ function App() {
 								flexDirection: 'column',
 								marginTop: '50px',
 							}}>
-							<a className='grey-text text-lighten-3' href='/'>
+							<a className='linkforpage' href='/'>
 								Home
 							</a>
 
-							<a className='grey-text text-lighten-3' href='#!'>
+							<a className='linkforpage' href='/packages'>
 								Picnics
 							</a>
 
-							<a className='grey-text text-lighten-3' href='/backyardmovies'>
+							<a className='linkforpage' href='/backyardmovies'>
 								Backyard Movie Night
 							</a>
 
-							<a className='grey-text text-lighten-3' href='#!'>
+							<a className='linkforpage' href='/charcuterie'>
 								Charcuterie
 							</a>
 						</Col>
-						<Col lg={4} sm={11}>
+						<Col lg={4} sm={10}>
 							<ul
 								style={{
 									display: 'flex',
-									flexDirection: 'row',
+									flexDirection: 'column',
 									justifyContent: 'center',
 									marginTop: '50px',
 								}}>
 								<li className='socialMediaList'>
 									<img src={facebook} alt='facebookLogo' />
-									<a className='grey-text text-lighten-3' href='#!'>
+									<a className='linkTag' href='#!'>
 										Facebook
 									</a>
 								</li>
 								<li className='socialMediaList'>
 									<img src={instagram} alt='instagramLogo' />
-									<a
-										className='grey-text text-lighten-3'
-										href='/backyardmovies'>
+									<a className='linkTag' href='/backyardmovies'>
 										Instagram
 									</a>
 								</li>
 								<li className='socialMediaList'>
 									<img src={twitter} alt='twitterLogo' />
-									<a className='grey-text text-lighten-3' href='#!'>
+									<a className='linkTag' href='#!'>
 										Twitter
 									</a>
 								</li>

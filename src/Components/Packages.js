@@ -1,15 +1,12 @@
 import React, { Component } from 'react';
-
 import { Row, Col, Card, CardImg } from 'react-bootstrap';
 import '../styles/sea.css';
 import '../App.css';
 import Addon from '../Components/Addon';
 import BookingForm from '../Components/BookingForm';
-
 import Footer from '../Components/Footer';
-
-import basicPackage from '../Images/Packages/savvy.jpg';
-import bells from '../Images/bell.jpg';
+import BandWPackage from '../Images/Packages/savvy.jpg';
+import simplySavvy from '../Images/Packages/simplysavvy.jpg';
 
 class Packages extends Component {
 	handleClick() {
@@ -57,17 +54,19 @@ class Packages extends Component {
 									}}>
 									SIMPLY SAVVY PACKAGE $160+
 								</h4>
-								<CardImg
-									src={basicPackage}
-									style={{
-										width: '75%',
-										margin: '0 auto',
-										padding: '0.5em',
-									}}
-								/>
+								<div className='m-3'>
+									<CardImg
+										src={simplySavvy}
+										style={{
+											width: '75%',
+											margin: '0 auto',
+											boxShadow: '5px 5px 10px rgba(0, 0, 0, 0.5)',
+										}}
+									/>
+								</div>
 								<Card.Text>
 									<ul className='nobullets'>
-										<li>Two Hour POP-UP Picnic</li>
+										<li>Two Hour POP-UP Picnic for 2 People</li>
 										<li>Personalized Welcome Sign</li>
 										<li>Hand Crafted Wooden table</li>{' '}
 										<li>Seat Pillow For Everyone</li>{' '}
@@ -97,17 +96,20 @@ class Packages extends Component {
 									}}>
 									THE BELLS & WHISTLES PACKAGE $260+
 								</h4>
-								<CardImg
-									src={bells}
-									style={{
-										width: '75%',
-										margin: '0 auto',
-										padding: '0.5em',
-									}}
-								/>
+								<div className='m-3'>
+									<CardImg
+										src={BandWPackage}
+										style={{
+											width: '75%',
+											margin: '0 auto',
+
+											boxShadow: '5px 5px 10px rgba(0, 0, 0, 0.5)',
+										}}
+									/>
+								</div>
 								<Card.Text>
 									<ul className='nobullets'>
-										<li>Two Hour POP-UP Picnic</li>
+										<li>Two Hour POP-UP Picnic for 2 People</li>
 										<li>Everything included in Savvy PLUS</li>
 										<li>Small artisian cheese box</li>{' '}
 										<li>Beverage Package for 2</li> <li>Bluetooth Speaker</li>{' '}

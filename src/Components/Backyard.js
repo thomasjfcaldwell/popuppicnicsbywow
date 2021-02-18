@@ -13,38 +13,38 @@ import SimplyWithPremier from './Modals/SimplyWithPremier';
 import SimplyWithBlockbuster from './Modals/SimplyWithBlockbuster';
 import BellsWithPremier from './Modals/BellsWithPremier';
 import BellsWithBlockbuster from './Modals/BellsWithBlockbuster';
+import MovieVideo from './MovieVideo';
+import '../App.css';
 
 function Backyard() {
 	return (
 		<div className='body'>
-			<Row className='m-5'>
-				<Col lg={6} sm={12}>
-					<Image
-						src={blockBuster}
-						alt='movieNightImage'
-						style={{
-							width: '100%',
-						}}
-					/>
-				</Col>
+			<Row
+				style={{
+					alignItems: 'center',
+					justifyContent: 'center',
+					textAlign: 'center',
+					margin: '10px',
+				}}>
 				<Col className='text-center' lg={6} sm={12}>
 					<h1
 						style={{
-							marginTop: '1em',
 							fontFamily: 'Montserrat',
 							fontWeight: '500',
-							background: '#727272',
+							letterSpacing: '0.1em',
+							background: '#f7901e',
 							color: 'white',
-							padding: '8px',
+							padding: '0.2em',
+							marginTop: '10px',
 						}}>
-						Backyard Movies
+						BACKYARD MOVIES
 					</h1>
 					<p
 						style={{
+							margin: '10px',
 							fontSize: '0.8em',
-							padding: '40px',
 							fontWeight: '300',
-							lineHeight: '1.8em',
+							lineHeight: '1.6em',
 						}}>
 						Ready for a night at the movies? Enjoy a premiere showing of your
 						favorite Rom-Com, thriller, or whatever the kids get to choose in
@@ -71,6 +71,16 @@ function Backyard() {
 					</p>
 				</Col>
 			</Row>
+			<Row
+				style={{
+					alignItems: 'center',
+					justifyContent: 'center',
+					textAlign: 'center',
+					margin: '10px',
+				}} className='video'>
+				<MovieVideo />
+			</Row>
+
 			<div
 				style={{
 					alignItems: 'center',
@@ -122,37 +132,40 @@ function Backyard() {
 			</Row>
 
 			<Row className='m-5'>
-				<Col lg={4} sm={12}>
+				<Col lg={4} sm={4}>
 					<Image
 						fluid
 						src={treats}
 						style={{
 							width: '100%',
-							padding: '5px',
 						}}
 					/>
 				</Col>
-				<Col lg={4} sm={6}>
+				<Col lg={4} sm={4}>
 					<Image
 						fluid
 						src={sign}
 						style={{
 							width: '100%',
-							padding: '5px',
 						}}
 					/>
 				</Col>
-				<Col lg={4} sm={6}>
+				<Col lg={4} sm={4}>
 					<Image
 						fluid
 						src={table}
 						style={{
 							width: '100%',
-							padding: '5px',
 						}}
 					/>
 				</Col>
 			</Row>
+			{/* <Row
+				>
+				<div>
+					<MovieVideo fluid />
+				</div>
+			</Row> */}
 			<BackYardBooking />
 		</div>
 	);

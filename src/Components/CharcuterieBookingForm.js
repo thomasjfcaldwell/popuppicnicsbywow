@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 
-
 class CharcuterieBookingForm extends Component {
 	componentDidMount() {
 		const script = document.createElement('script');
@@ -13,11 +12,10 @@ class CharcuterieBookingForm extends Component {
 	render() {
 		return (
 			<div
-				
 				className='App'
 				ref={(el) => (this.div = el)}
 				style={{
-					marginTop: '5em',
+					padding: '10px',
 				}}>
 				<div id='ff-compose'></div>
 				<script

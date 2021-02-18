@@ -60,6 +60,9 @@
 	.slider {
 		display: none;
 	}
+	.react-player {
+		display: none;
+	}
 }
 
 @media screen and (min-width: 880px) {
@@ -109,4 +112,10 @@
 
 .btn-primary.custom-btn:hover {
 	background-color: orange;
+}
+
+
+
+.linkTag{
+	font-size: 0.7em;
 }
