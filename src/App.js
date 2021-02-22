@@ -89,8 +89,8 @@ function App() {
 							src={wowlogo}
 							style={{
 								width: '20%',
-								margin: '0.2em',
-								padding: '1em',
+								padding: '10px',
+								margin: 'auto'
 							}}
 						/>
 
@@ -293,28 +293,46 @@ function App() {
 								Charcuterie
 							</a>
 						</Col>
-						<Col lg={4} sm={10}>
-							<ul
+						<Col lg={4} sm={12}>
+							<ul className='socialList'
 								style={{
 									display: 'flex',
-									flexDirection: 'column',
+									flexDirection: 'row',
 									justifyContent: 'center',
 									marginTop: '50px',
 								}}>
 								<li className='socialMediaList'>
-									<img src={facebook} alt='facebookLogo' />
+									<img
+										src={facebook}
+										alt='facebookLogo'
+										style={{
+											maxHeight: '50px',
+										}}
+									/>
 									<a className='linkTag' href='#!'>
 										Facebook
 									</a>
 								</li>
 								<li className='socialMediaList'>
-									<img src={instagram} alt='instagramLogo' />
+									<img
+										src={instagram}
+										alt='instagramLogo'
+										style={{
+											maxHeight: '50px',
+										}}
+									/>
 									<a className='linkTag' href='/backyardmovies'>
 										Instagram
 									</a>
 								</li>
 								<li className='socialMediaList'>
-									<img src={twitter} alt='twitterLogo' />
+									<img
+										src={twitter}
+										alt='twitterLogo'
+										style={{
+											maxHeight: '50px',
+										}}
+									/>
 									<a className='linkTag' href='#!'>
 										Twitter
 									</a>

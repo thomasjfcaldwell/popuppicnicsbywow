@@ -1,45 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;500;600;900&display=swap');
 
-.bgimage {
-	width: 100%;
-	height: 55em;
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: cover;
-	background-attachment: fixed;
-	align-items: center;
-	align-content: center;
-	background-image: url('../Images/headimage.jpg');
-}
 .backgroundfont {
 	background: #727272;
 	font-family: 'Montserrat';
 	color: white;
 	font-size: 1.2em;
 }
-.bgimage h1 {
-	color: white;
-	text-shadow: 2px 2px #333;
-	font-size: 6em;
-	font-family: Montserrat;
-	text-transform: uppercase;
-	font-weight: 500;
-	text-align: center;
-	margin: 1em;
-}
-.mr-auto {
-	font-family: 'Montserrat';
-	font-weight: 500;
-	letter-spacing: '0.1em';
-	font-size: 1.2em;
-	text-shadow: 2px 2px black;
-	transition: transform 0.2s;
-}
-.mr-auto:hover {
-	transform: scale(
-		1.1
-	); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
-}
+
 
 .navbarone {
 	width: 100%;
@@ -47,27 +14,11 @@
 	overflow: auto;
 }
 
-/* Navbar links */
-.navbarone a {
-	float: left;
-	text-align: center;
-	padding: 12px;
-	color: white;
-	text-decoration: none;
-	font-size: 17px;
-}
+
 
 /* Navbar links on mouse-over */
 .navbar a:hover {
 	background-color: #f7911f;
 }
 
-/* Current/active navbar link */
 
-/* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels */
-@media screen and (max-width: 500px) {
-	.navbarone a {
-		float: none;
-		display: block;
-	}
-}

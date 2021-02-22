@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Row, Col, Card } from 'react-bootstrap';
+import { Row, Col, Card, Image } from 'react-bootstrap';
 
 import groupShot from '../Images/Aboutus/aboutsus.1.jpg';
 import southSide from '../Images/Aboutus/aboutsus.2.jpg';
@@ -13,41 +13,14 @@ class Ourstory extends Component {
 					fontFamily: 'Montserrat',
 					color: '#727272',
 				}}>
-				<Row
-					className='mt-5'
-					style={{
-						alignItems: 'center',
-					}}>
-					<Col sm={12} lg={6} className='justify-content-center'>
-						<Card className='border-0 p-3'>
-							<Card.Img
-								src={groupShot}
-								style={{
-									margin: '0 auto',
-									maxWidth: '35em',
-									border: 'solid 0.2em #F78F1E',
-									boxShadow: '5px 5px 10px rgba(0, 0, 0, 0.5)',
-								}}
-							/>
-						</Card>
-						<Card className='border-0 mt-4 p-3'>
-							<Card.Img
-								src={southSide}
-								style={{
-									margin: '0 auto',
-									maxWidth: '35em',
-									border: 'solid 0.2em #F78F1E',
-									boxShadow: '5px 5px 10px rgba(0, 0, 0, 0.5)',
-								}}
-							/>
-						</Card>
-					</Col>
+				<Row className='mt-5'>
 					<Col lg={6} md={12}>
 						<Card
 							className='border-0 bg-transparent'
 							style={{
-								width: '90%',
 								margin: '0 auto',
+								alignItems: 'center',
+								justifyContent: 'center',
 							}}>
 							<h1
 								className='text-center'
@@ -64,14 +37,12 @@ class Ourstory extends Component {
 							</h1>
 							<Card.Body
 								style={{
-									margin: '0 auto',
+									fontSize: '0.8em',
+									width: '80%',
+									alignItems: 'center',
+									justifyContent: 'center',
 								}}>
-								<Card.Text
-									style={{
-										fontSize: '1.5em',
-										marginTop: '1em',
-										fontWeight: '600',
-									}}>
+								<Card.Text>
 									{' '}
 									What happens when you take a group of talented, busy,
 									passionate event planners and you introduce them to a world
@@ -123,6 +94,33 @@ class Ourstory extends Component {
 								</Card.Text>
 							</Card.Body>
 						</Card>
+					</Col>
+					<Col
+						sm={12}
+						lg={6}
+						style={{
+							alignItems: 'center',
+							justifyContent: 'center',
+							textAlign: 'center',
+							marginTop: '10px',
+						}}>
+						<Image
+							src={groupShot}
+							style={{
+								width: '50%',
+								margin: '25px',
+								boxShadow: '5px 5px 10px rgba(0, 0, 0, 0.2)',
+							}}
+						/>
+
+						<Image
+							src={southSide}
+							style={{
+								width: '50%',
+								margin: '25px',
+								boxShadow: '5px 5px 10px rgba(0, 0, 0, 0.2)',
+							}}
+						/>
 					</Col>
 				</Row>
 			</div>

@@ -8,6 +8,9 @@
 	.rowbackground {
 		height: 80vh;
 	}
+	.socialList {
+		flex-direction: column;
+	}
 }
 .address {
 	margin: 10px;
@@ -114,8 +117,19 @@
 	background-color: orange;
 }
 
+.linkTag {
+	font-size: 0.6em;
+}
 
+.socialList {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	margin-top: 50px;
+}
 
-.linkTag{
-	font-size: 0.7em;
+@media only screen and (max-width: 600px) {
+  .navbar-brand {
+    min-width: 50%;
+  }
 }
