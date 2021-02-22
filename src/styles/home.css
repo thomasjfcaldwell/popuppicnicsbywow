@@ -7,18 +7,13 @@
 	font-size: 1.2em;
 }
 
-
 .navbarone {
 	width: 100%;
 	background-color: #555;
 	overflow: auto;
 }
 
-
-
 /* Navbar links on mouse-over */
 .navbar a:hover {
 	background-color: #f7911f;
 }
-
-

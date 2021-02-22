@@ -11,12 +11,11 @@ import '../styles/home.css';
 import { SliderData } from './SliderData';
 import ServiceOptions from './ServiceOptions';
 class Home extends Component {
-	
 	render() {
 		return (
 			<div>
 				<ServiceOptions />
-				
+
 				{/* <ImageSlider slides={SliderData} /> */}
 				<Ourstory />
 				<GalleryHome />
@@ -47,7 +46,6 @@ class Home extends Component {
 				</Row>
 				<Testimonals />
 				<Contact />
-				
 			</div>
 		);
 	}

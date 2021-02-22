@@ -146,8 +146,8 @@ class ServiceOptions extends Component {
 									style={{
 										color: '#727272',
 									}}>
-									No Mess,No Stress When you order your food with us.
-                                    Many options and Sizes available for delivery or pick up
+									No Mess,No Stress When you order your food with us. Many
+									options and Sizes available for delivery or pick up
 								</p>
 							</div>
 							<div
