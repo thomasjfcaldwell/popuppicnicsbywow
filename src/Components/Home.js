@@ -17,7 +17,7 @@ class Home extends Component {
 			<div>
 				<ServiceOptions />
 				
-				<ImageSlider slides={SliderData} />
+				{/* <ImageSlider slides={SliderData} /> */}
 				<Ourstory />
 				<GalleryHome />
 				<Steps />
