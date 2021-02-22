@@ -9,11 +9,13 @@ import GalleryHome from '../Components/GalleryHome';
 import ImageSlider from '../Components/ImageSlider';
 import '../styles/home.css';
 import { SliderData } from './SliderData';
+import ServiceOptions from './ServiceOptions';
 class Home extends Component {
 	
 	render() {
 		return (
 			<div>
+				<ServiceOptions />
 				
 				<ImageSlider slides={SliderData} />
 				<Ourstory />

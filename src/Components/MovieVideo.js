@@ -9,7 +9,7 @@ class MovieVideo extends Component {
 				<ReactPlayer
 					url='https://youtu.be/eKzIcJ-DUkQ'
 					className='react-player'
-					playing
+					// playing
 					controls={false}
 				/>
 			</div>
