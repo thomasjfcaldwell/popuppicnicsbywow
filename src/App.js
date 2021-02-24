@@ -83,7 +83,7 @@ function App() {
 				<Row className='backgroundfont'>
 					<Nav className='navbar navbar-expand-lg'>
 						<Image
-							lg={3}
+							lg={4}
 							sm={12}
 							className='navbar-brand'
 							src={wowlogo}
@@ -98,7 +98,7 @@ function App() {
 							<Navbar.Toggle aria-controls='responsive-navbar-nav' />
 							<Navbar.Collapse id='responsive-navbar-nav'>
 								<Nav
-									// className='mr-auto'
+									className='mr-auto'
 									style={{
 										fontFamily: 'Montserrat',
 										fontWeight: '500',
@@ -141,7 +141,7 @@ function App() {
 										<Dropdown.Toggle
 											variant='white'
 											id='dropdown-basic'
-											style={{ color: 'white', marginTop: '2px' }}>
+											style={{ color: 'white', marginTop: '1px' }}>
 											OTHER SERVICES
 										</Dropdown.Toggle>
 
@@ -152,7 +152,6 @@ function App() {
 												fontSize: '0.6em',
 												color: 'white',
 												fontWeight: '100',
-												marginTop: '-5px',
 											}}>
 											<Dropdown.Item href='https://www.wowevents.com/full-service-event-planning/'>
 												Full Service Event Planning

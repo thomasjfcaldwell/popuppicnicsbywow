@@ -158,53 +158,54 @@ class Addon extends Component {
 						</Col>
 					</Row>
 				</Container>
-
-				<Row
-					style={{
-						alignItems: 'center',
-						justifyContent: 'center',
-						textAlign: 'center',
-						margin: '20px',
-					}}>
-					<Col sm={12} lg={6}>
-						<Image
-							fluid
-							src={ballons}
-							alt='balloons'
-							className='balloonImage'
-							style={{ width: '75%' }}
-						/>
-					</Col>
-					<Col
-						sm={12}
-						lg={6}
+				<Container>
+					<Row
 						style={{
-							width: '100%',
+							alignItems: 'center',
+							justifyContent: 'center',
+							textAlign: 'center',
+							margin: '20px',
 						}}>
-						<Card className='border-0 text-center'>
-							<Card.Text className='m-1'>
-								Balloon Garland for Teepee= $97.75 + $55 Delivery fee
-							</Card.Text>
-						</Card>
-					</Col>
-				</Row>
-				<Row
-					style={{
-						alignItems: 'center',
-						justifyContent: 'center',
-						textAlign: 'center',
-					}}>
-					<p
+						<Col sm={12} lg={6}>
+							<Image
+								fluid
+								src={ballons}
+								alt='balloons'
+								className='balloonImage'
+								style={{ width: '75%' }}
+							/>
+						</Col>
+						<Col
+							sm={12}
+							lg={6}
+							style={{
+								width: '100%',
+							}}>
+							<Card className='border-0 text-center'>
+								<Card.Text className='m-1'>
+									Balloon Garland for Teepee= $97.75 + $55 Delivery fee
+								</Card.Text>
+							</Card>
+						</Col>
+					</Row>
+					<Row
 						style={{
-							fontFamily: 'Montserrat',
-							fontWeight: '500',
-							color: '#727272',
-							width: '75%',
+							alignItems: 'center',
+							justifyContent: 'center',
+							textAlign: 'center',
 						}}>
-						20% Service Fee,Sales tax & Applicable Delivery Fee will be added to
-						Pricing
-					</p>
-				</Row>
+						<p
+							style={{
+								fontFamily: 'Montserrat',
+								fontWeight: '500',
+								color: '#727272',
+								width: '75%',
+							}}>
+							20% Service Fee,Sales tax & Applicable Delivery Fee will be added
+							to Pricing
+						</p>
+					</Row>
+				</Container>
 			</div>
 		);
 	}
