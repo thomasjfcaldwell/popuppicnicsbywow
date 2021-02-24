@@ -5,6 +5,7 @@ import '../App.css';
 import Addon from '../Components/Addon';
 import BookingForm from '../Components/BookingForm';
 import Footer from '../Components/Footer';
+import PicnicFQA from '../Components/Modals/PicnicFQA';
 import BandWPackage from '../Images/Packages/savvy.jpg';
 import simplySavvy from '../Images/Packages/simplysavvy.jpg';
 
@@ -23,7 +24,7 @@ class Packages extends Component {
 						textAlign: 'center',
 					}}>
 					<div className='locationsHeader'>
-						<h1
+						<h5
 							style={{
 								marginTop: '1em',
 								fontFamily: 'Montserrat',
@@ -34,7 +35,7 @@ class Packages extends Component {
 								padding: '0.4em',
 							}}>
 							STEP 1: SELECT A PICNIC PACKAGE
-						</h1>
+						</h5>
 					</div>
 				</Row>
 				<Row className='packages'>
@@ -141,6 +142,15 @@ class Packages extends Component {
 				</Row>
 				<Footer />
 				<Addon />
+				<div
+					style={{
+						alignItems: 'center',
+						justifyContent: 'center',
+						textAlign: 'center',
+						margin: '50px',
+					}}>
+					<PicnicFQA />
+				</div>
 				<BookingForm />
 			</div>
 		);

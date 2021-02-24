@@ -16,12 +16,19 @@
 	-webkit-align-items: center;
 	align-items: center;
 	justify-content: center;
-	padding: 1em
-	
+	height: 100px;
+}
+.locationDetails {
+	font-size: 0.5em;
+	margin: 10px;
+}
+
+.locationPrice {
+	font-size: 1.5em;
 }
 
 .images {
-	margin: 1em;
-width: 90%;
+	margin: auto;
+	width: 75%;
 	box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
 }

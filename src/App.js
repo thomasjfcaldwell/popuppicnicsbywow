@@ -30,7 +30,7 @@ import BasicRows from '../src/Components/BasicRows';
 
 function App() {
 	return (
-		<div>
+		<div className='body'>
 			<nav>
 				<Row>
 					<Col lg={4} sm={4}>
@@ -90,7 +90,7 @@ function App() {
 							style={{
 								width: '20%',
 								padding: '10px',
-								margin: 'auto'
+								margin: 'auto',
 							}}
 						/>
 
@@ -197,7 +197,7 @@ function App() {
 				<Container fluid className='footerContainer'>
 					<Row>
 						<Col
-							lg={4}
+							lg={6}
 							sm={12}
 							style={{
 								alignItems: 'center',
@@ -225,13 +225,6 @@ function App() {
 										flexDirection: 'row',
 										alignItems: 'center',
 									}}>
-									<Image
-										src={mails}
-										style={{
-											maxHeight: '30px',
-											padding: '5px',
-										}}
-									/>
 									<address className='address'>
 										419 Main St Suite 433 Huntington Beach, CA 92648
 									</address>
@@ -242,13 +235,6 @@ function App() {
 										flexDirection: 'row',
 										alignItems: 'center',
 									}}>
-									<Image
-										src={phone}
-										style={{
-											maxHeight: '30px',
-											padding: '5px',
-										}}
-									/>
 									<a href='tel:714.848.9698'>714.848.9698</a>
 								</div>
 								<div
@@ -257,19 +243,12 @@ function App() {
 										flexDirection: 'row',
 										alignItems: 'center',
 									}}>
-									<Image
-										src={email}
-										style={{
-											maxHeight: '30px',
-											padding: '5px',
-										}}
-									/>
 									<a href='mailto:hello@wowevents.com'>hello@wowevents.com</a>
 								</div>
 							</div>
 						</Col>
 						<Col
-							lg={4}
+							lg={6}
 							sm={12}
 							style={{
 								textAlign: 'center',
@@ -292,52 +271,6 @@ function App() {
 							<a className='linkforpage' href='/charcuterie'>
 								Charcuterie
 							</a>
-						</Col>
-						<Col lg={4} sm={12}>
-							<ul className='socialList'
-								style={{
-									display: 'flex',
-									flexDirection: 'row',
-									justifyContent: 'center',
-									marginTop: '50px',
-								}}>
-								<li className='socialMediaList'>
-									<img
-										src={facebook}
-										alt='facebookLogo'
-										style={{
-											maxHeight: '50px',
-										}}
-									/>
-									<a className='linkTag' href='#!'>
-										Facebook
-									</a>
-								</li>
-								<li className='socialMediaList'>
-									<img
-										src={instagram}
-										alt='instagramLogo'
-										style={{
-											maxHeight: '50px',
-										}}
-									/>
-									<a className='linkTag' href='/backyardmovies'>
-										Instagram
-									</a>
-								</li>
-								<li className='socialMediaList'>
-									<img
-										src={twitter}
-										alt='twitterLogo'
-										style={{
-											maxHeight: '50px',
-										}}
-									/>
-									<a className='linkTag' href='#!'>
-										Twitter
-									</a>
-								</li>
-							</ul>
 						</Col>
 					</Row>
 				</Container>
