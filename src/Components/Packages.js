@@ -129,15 +129,15 @@ class Packages extends Component {
 						justifyContent: 'center',
 						textAlign: 'center',
 					}}>
-					<h5
+					<p
 						style={{
 							fontFamily: 'Montserrat',
 							fontWeight: '500',
-							width: '100%',
 							color: '#727272',
+							width: '75%',
 						}}>
 						Location Fee, 20% Service Fee and Sales tax will be added to Pricing
-					</h5>
+					</p>
 				</Row>
 				<Footer />
 				<Addon />

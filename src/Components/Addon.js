@@ -26,7 +26,7 @@ class Addon extends Component {
 						textAlign: 'center',
 					}}>
 					<div className='locationsHeader'>
-						<h1
+						<h5
 							style={{
 								marginTop: '1em',
 								fontFamily: 'Montserrat',
@@ -37,134 +37,141 @@ class Addon extends Component {
 								padding: '0.4em',
 							}}>
 							STEP 3: SELECT ADDITIONAL ITEMS (OPTIONAL)
-						</h1>
+						</h5>
 					</div>
 				</Row>
-				<Container fluid>
-					<Row>
-						<Col sm={4} md={4} lg={2}>
+				<Container>
+					<Row
+						style={{
+							display: 'flex',
+						}}>
+						<Col xs={4} sm={4} md={2} lg={2} className='addonCol'>
 							<Card className='border-0 '>
-								<p className='m-1'>Cozy Blanket Basket</p>
-								<h5 className='addonimg'> $25</h5>
+								<p className='serviceHeader'>Cozy Blanket Basket</p>
+								<h5 className='pricing'> $25</h5>
 								<Card.Img className='addonimg' src={blanket} />
 							</Card>
 						</Col>
-						<Col sm={4} md={4} lg={2}>
+						<Col xs={4} sm={4} md={2} lg={2} className='addonCol'>
 							<Card className='border-0'>
-								<p className='m-1'>Beverage Package for 2</p>
-								<h5 className='addonimg'>$30</h5>
+								<p className='serviceHeader'>Beverage Package for 2</p>
+								<h5 className='pricing'>$30</h5>
 								<Card.Img className='addonimg' src={Beverages} />
 							</Card>
 						</Col>
-						<Col sm={4} md={4} lg={2}>
+						<Col xs={4} sm={4} md={2} lg={2} className='addonCol'>
 							<Card className='border-0'>
-								<p className='m-1'>Additional Beverages for One Guest</p>
-								<h5 className='addonimg'>$5</h5>
+								<p className='serviceHeader'>
+									Additional Beverages for One Guest
+								</p>
+								<h5 className='pricing'>$5</h5>
 								<Card.Img className='addonimg' src={Beverages1} />
 							</Card>
 						</Col>
-						<Col sm={4} md={4} lg={2}>
+						<Col xs={4} sm={4} md={2} lg={2} className='addonCol'>
 							<Card className='border-0'>
-								<p className='m-1'>Tepee Package</p>
-								<h5 className='addonimg'>$40</h5>
+								<p className='serviceHeader'>Tepee Package</p>
+								<h5 className='pricing'>$40</h5>
 								<Card.Img className='addonimg' src={Teepee} />
 							</Card>
 						</Col>
-						<Col sm={4} md={4} lg={2}>
+						<Col xs={4} sm={4} md={2} lg={2} className='addonCol'>
 							<Card className='border-0'>
-								<p className='m-1'>Posh Umbrella with Tassels</p>
-								<h5 className='addonimg'>$45</h5>
+								<p className='serviceHeader'>Posh Umbrella with Tassels</p>
+								<h5 className='pricing'>$45</h5>
 								<Card.Img className='addonimg' src={Umbrella} />
 							</Card>
 						</Col>
-						<Col sm={4} md={4} lg={2}>
+						<Col xs={4} sm={4} md={2} lg={2} className='addonCol'>
 							<Card className='border-0'>
-								<p className='m-1'>Dessert Platter </p>
-								<h5 className='addonimg'>$40</h5>
+								<p className='serviceHeader'>Dessert Platter </p>
+								<h5 className='pricing'>$40</h5>
 								<Card.Img className='addonimg' src={Dessert} />
 							</Card>
 						</Col>
 					</Row>
 				</Container>
-				<Container fluid>
-					<Row>
-						<Col sm={4} md={4} lg={2}>
+				<Container>
+					<Row
+						style={{
+							display: 'flex',
+							marginTop: '20px',
+						}}>
+						<Col xs={4} sm={4} md={4} lg={2} className='addonCol'>
 							<Card className='border-0'>
-								<p className='m-1'>Cheese Charcutier Box</p>
-								<h5 className='addonimg'>$50</h5>
+								<p className='serviceHeader'>Cheese Charcuterie Box</p>
+								<h5 className='pricing'>$50</h5>
 								<Card.Img className='addonimg' src={cheeseBox} />
 							</Card>
 						</Col>
-						<Col sm={4} md={4} lg={2}>
+						<Col xs={4} sm={4} md={4} lg={2} className='addonCol'>
 							<Card className='border-0'>
-								<p className='m-1'>Vegan/Vegetarian Charcuterie Box</p>
-								<h5 className='addonimg'>$45</h5>
+								<p className='serviceHeader'>
+									Vegan/Vegetarian Charcuterie Box
+								</p>
+								<h5 className='pricing'>$45</h5>
 								<Card.Img className='addonimg' src={Multi} />
 							</Card>
 						</Col>
-						<Col sm={4} md={4} lg={2}>
+						<Col xs={4} sm={4} md={4} lg={2} className='addonCol'>
 							<Card className='border-0'>
-								<p className='m-1'>Meat & Cheese Charcutier Box</p>
-								<h5 className='addonimg'>$55</h5>
+								<p className='serviceHeader'>Meat & Cheese Charcutier Box</p>
+								<h5 className='pricing'>$55</h5>
 								<Card.Img className='addonimg' src={MeatCheese} />
 							</Card>
 						</Col>
-						<Col sm={4} md={4} lg={2}>
+						<Col xs={4} sm={4} md={4} lg={2} className='addonCol'>
 							<Card className='border-0'>
-								<p className='m-1'>Live Music Entertainment</p>
-								<h5 className='addonimg'>$300+</h5>
+								<p className='serviceHeader'>Live Music Entertainment</p>
+								<h5 className='pricing'>$300+</h5>
 								<Card.Img className='addonimg' src={Music} />
 							</Card>
 						</Col>
-						<Col sm={4} md={4} lg={2}>
+						<Col xs={4} sm={4} md={4} lg={2} className='addonCol'>
 							<Card className='border-0'>
-								<p className='m-1'>Additional Hour for Picnic</p>
-								<h5 className='addonimg'>$75</h5>
+								<p className='serviceHeader'>Additional Hour for Picnic</p>
+								<h5 className='pricing'>$75</h5>
 								<Card.Img className='addonimg' src={extraHour} />
 							</Card>
 						</Col>
-						<Col sm={4} md={4} lg={2}>
+						<Col xs={4} sm={4} md={4} lg={2} className='addonCol'>
 							<Card className='border-0'>
-								<p className='m-1'>BlueTooth Speaker</p>
-								<h5 className='addonimg'>$10</h5>
+								<p className='serviceHeader'>BlueTooth Speaker</p>
+								<h5 className='pricing'>$10</h5>
 								<Card.Img className='addonimg' src={speaker} />
 							</Card>
 						</Col>
 					</Row>
 					<Row>
-						<Col className='m-5'>
-							<Row
-								className='w-10'
+						<Row
+							style={{
+								alignItems: 'center',
+								justifyContent: 'center',
+								textAlign: 'center',
+								margin: '20px',
+							}}>
+							<Col sm={12} lg={6}>
+								<Image
+									fluid
+									src={ballons}
+									alt='balloons'
+									className='balloonImage'
+									style={{ width: '75%' }}
+								/>
+							</Col>
+							<Col
+								sm={12}
+								lg={6}
 								style={{
-									alignItems: 'center',
-									justifyContent: 'center',
-									textAlign: 'center',
+									width: '100%',
 								}}>
-								<Col
-									sm={12}
-									lg={6}
-									style={{
-										width: '50%',
-									}}>
-									<Image fluid src={ballons} alt='balloons' />
-								</Col>
-								<Col
-									sm={12}
-									lg={6}
-									style={{
-										width: '100%',
-									}}>
-									<Card className='border-0 text-center'>
-										<Card.Text
-											style={{
-												fontSize: '2.5em',
-											}}>
-											Balloon Garland for Teepee= $97.75 + $55 Delivery fee
-										</Card.Text>
-									</Card>
-								</Col>
-							</Row>
-						</Col>
+								<Card className='border-0 text-center'>
+									<Card.Text className='m-1'>
+										Balloon Garland for Teepee= $97.75 + $55 Delivery fee
+									</Card.Text>
+								</Card>
+							</Col>
+						</Row>
 					</Row>
 					<Row
 						style={{
@@ -172,16 +179,16 @@ class Addon extends Component {
 							justifyContent: 'center',
 							textAlign: 'center',
 						}}>
-						<h5
+						<p
 							style={{
 								fontFamily: 'Montserrat',
 								fontWeight: '500',
-								width: '100%',
 								color: '#727272',
+								width: '75%',
 							}}>
-							20% Service Fee and Sales tax & Applicable Delivery Fee will be
-							added to Pricing
-						</h5>
+							20% Service Fee,Sales tax & Applicable Delivery Fee will be added
+							to Pricing
+						</p>
 					</Row>
 				</Container>
 			</div>

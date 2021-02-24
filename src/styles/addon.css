@@ -1,20 +1,37 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;500;600;900&display=swap');
 
-
-
-.addonimg{
-    margin: auto 0;
-    size:50px;
-    
-    
+.addonimg {
+	margin: auto 0;
+}
+.pricing {
+	margin: 5px;
 }
 
-.addons{
+.addons {
+	font-family: 'Montserrat';
+	text-align: center;
+	align-items: center;
+	color: #727272;
+}
 
-    font-family: 'Montserrat';
-    font-size: 0.5em;
-    text-align: center;
-    align-items: center;
-    color:#727272;
+.addonCol {
+	flex: 1;
+	margin-top: 10px;
+}
 
+.serviceHeader {
+	font-size: 0.8em;
+	height: 20px;
+}
+
+@media screen and (max-width: 480px) {
+	.serviceHeader {
+		height: 25px;
+	}
+	.pricing {
+		margin-top: 32px;
+	}
+	/* .balloonImage {
+		width: 100%;
+	} */
 }

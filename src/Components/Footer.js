@@ -240,65 +240,15 @@ class Footer extends Component {
 						justifyContent: 'center',
 						textAlign: 'center',
 					}}>
-					<h5
+					<p
 						style={{
 							fontFamily: 'Montserrat',
 							fontWeight: '500',
-							width: '100%',
 							color: '#727272',
+							width: '75%',
 						}}>
-						20% Service Fee and Sales tax will be
-						added to Pricing
-					</h5>
-				</Row>
-				<Row
-					style={{
-						alignItems: 'center',
-						justifyContent: 'center',
-						textAlign: 'center',
-					}}>
-					<Col>
-						<div className='modal' tabIndex='-1' role='dialog'>
-							<div className='modal-dialog' role='document'>
-								<div className='modal-content'>
-									<div className='modal-header'>
-										<h5 className='modal-title'>Modal title</h5>
-										<button
-											type='button'
-											className='close'
-											data-dismiss='modal'
-											aria-label='Close'>
-											<span aria-hidden='true'>&times;</span>
-										</button>
-									</div>
-									<div className='modal-body'>
-										<iframe
-											title='bookingForm'
-											src='https://docs.google.com/forms/d/e/1FAIpQLScsdtaKV8fiRyJ6FiYpl5FyB-RyOZ9lLyBzb2NbanSh3FaVOw/viewform?embedded=true'
-											width='100%'
-											height='3076'
-											frameborder='0'
-											marginHeight='0'
-											marginWidth='0'>
-											Loading…
-										</iframe>
-									</div>
-									<div className='modal-footer'>
-										<button type='button' class='btn btn-primary'>
-											Save changes
-										</button>
-										<button
-											type='button'
-											class='btn btn-secondary'
-											data-dismiss='modal'>
-											Close
-										</button>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div></div>
-					</Col>
+						20% Service Fee and Sales tax will be added to Pricing
+					</p>
 				</Row>
 			</div>
 		);
