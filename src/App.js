@@ -246,15 +246,7 @@ function App() {
 								</div>
 							</div>
 						</Col>
-						<Col
-							lg={6}
-							sm={12}
-							style={{
-								textAlign: 'center',
-								display: 'flex',
-								flexDirection: 'column',
-								marginTop: '50px',
-							}}>
+						<Col lg={6} sm={12} className='footerMenu'>
 							<a className='linkforpage' href='/'>
 								Home
 							</a>

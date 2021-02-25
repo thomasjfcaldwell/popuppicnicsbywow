@@ -59,10 +59,9 @@ class Footer extends Component {
 								className='images'
 							/>
 							<div className='locationDetails'>
-								<h5 className='locationPrice'>Huntington Central Park($20)</h5>
-								<p>Public Bathroom, Parking</p>
-								<h5 className='locationPrice'>State Beach ($30)</h5>
-								<p>Public Bathroom, Parking</p>
+								<div>
+									<h5 className='locationPrice'>$30</h5>
+								</div>
 							</div>
 						</Card>
 					</Col>
@@ -88,18 +87,9 @@ class Footer extends Component {
 							className='images'
 						/>
 						<div className='locationDetails'>
-							<h5 className='locationPrice'>B Street in Newport Beach ($45)</h5>
-							<p>Public Bathroom , Parking</p>
-
-							<h5 className='locationPrice'>15th Street ($45)</h5>
-							<p>Public Bathroom, Parking</p>
-							<h5 className='locationPrice'>Harbour Patrol Beach ($45)</h5>
-							<p>Public Bathroom, Parking, Free Parking</p>
-
-							<h5 className='locationPrice'>The Wedge Beach ($45)</h5>
-							<p>Free Parking</p>
-							<h5 className='locationPrice'>The Wedge Park ($40)</h5>
-							<p>Free Parking,Access for Disabled</p>
+							<div>
+								<h5 className='locationPrice'>$45</h5>
+							</div>
 						</div>
 					</Col>
 					<Col lg={3}>
@@ -122,8 +112,9 @@ class Footer extends Component {
 							className='images'
 						/>
 						<div className='locationDetails'>
-							<h5 className='locationPrice'>Corona Del Mar Beach ($55)</h5>
-							<p>Public Bathroom,Free Parking</p>
+							<div>
+								<h5 className='locationPrice'>$55</h5>
+							</div>
 						</div>
 					</Col>
 					<Col lg={3}>
@@ -142,10 +133,9 @@ class Footer extends Component {
 						</div>
 						<Image src={Saltcreek} alt='Salt Creek Beach' className='images' />
 						<div className='locationDetails'>
-							<h5 className='locationPrice'>Salt Creek Beach ($55) </h5>
-							<p>Parking</p>
-							<h5 className='locationPrice'>Salt Creek Park ($45)</h5>
-							<p>Public Bathroom, Access for Disabled, Free Parking</p>
+							<div>
+								<h5 className='locationPrice'>$55</h5>
+							</div>
 						</div>
 					</Col>
 				</Row>
@@ -167,11 +157,9 @@ class Footer extends Component {
 						</div>
 						<Image src={Doheny} alt='Doheny State Beach' className='images' />
 						<div className='locationDetails'>
-							<h5 className='locationPrice'>Doheny State Beach($55) </h5>
-							<p>Public Bathroom, Parking</p>
-
-							<h5 className='locationPrice'>Doheny State Park($45) </h5>
-							<p>Public Bathroom, Parking, Access for Disabled</p>
+							<div>
+								<h5 className='locationPrice'>$55</h5>
+							</div>
 						</div>
 					</Col>
 					<Col lg={3}>
@@ -190,10 +178,9 @@ class Footer extends Component {
 						</div>
 						<Image src={Heisler} alt='Heisler Picnic Site' className='images' />
 						<div className='locationDetails'>
-							<h5 className='locationPrice'>Heisler Park($45) </h5>
-							<p>Public Bathroom, Parking</p>
-							<h5 className='locationPrice'>Heisler Beach ($55) </h5>
-							<p>Public Bathroom, Parking, Access for Disabled</p>
+							<div>
+								<h5 className='locationPrice'>$55</h5>
+							</div>
 						</div>
 					</Col>
 
@@ -218,8 +205,9 @@ class Footer extends Component {
 							className='images'
 						/>
 						<div className='locationDetails'>
-							<h5 className='locationPrice'>Calafia Beach ($55)</h5>
-							<p>Public Bathroom ,Parking</p>
+							<div>
+								<h5 className='locationPrice'>$55</h5>
+							</div>
 						</div>
 					</Col>
 
@@ -243,10 +231,9 @@ class Footer extends Component {
 							className='images'
 						/>
 						<div className='locationDetails'>
-							<h5 className='locationPrice'>
-								Hilltop Park in Signal Hill ($45)
-							</h5>
-							<p>Access for Disabled, Free Parking</p>
+							<div>
+								<h5 className='locationPrice'>$45</h5>
+							</div>
 						</div>
 					</Col>
 				</Row>
