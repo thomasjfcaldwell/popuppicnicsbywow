@@ -14,17 +14,23 @@ class Contact extends Component {
 	}
 	render() {
 		return (
-			<Row>
-				<Col lg={12}>
-					<div className='App' ref={(el) => (this.div = el)}>
-						<div id='ff-compose'></div>
-						<script
-							async
-							defer
-							src='https://formfacade.com/include/106160970742721697585/form/1FAIpQLScj4ukKgFyRHGmluWBoJnVHSan1sGfk_Cc26ZyfUl1uceHYsA/classic.js?div=ff-compose'></script>
-					</div>
-				</Col>
-			</Row>
+			<Container>
+				<Row>
+					<Col
+						lg={12}
+						style={{
+							margin: '10px',
+						}}>
+						<div className='App' ref={(el) => (this.div = el)}>
+							<div id='ff-compose'></div>
+							<script
+								async
+								defer
+								src='https://formfacade.com/include/106160970742721697585/form/1FAIpQLScj4ukKgFyRHGmluWBoJnVHSan1sGfk_Cc26ZyfUl1uceHYsA/classic.js?div=ff-compose'></script>
+						</div>
+					</Col>
+				</Row>
+			</Container>
 		);
 	}
 }

@@ -26,15 +26,21 @@ class ServiceOptions extends Component {
 					fontSize: '0.8em',
 				}}>
 				<Container fluid>
-					<Row className='m-5'>
-						<Col lg={4}>
-							<div>
+					<Row className='m-4'>
+						<Col lg={4} sm={4} className='serviceCols'>
+							<div
+								style={{
+									alignItems: 'center',
+									justifyContent: 'center',
+									textAlign: 'center',
+								}}>
 								<Image
+									fluid
+									className='servicesImage'
 									src={Picnic}
 									alt='picnicImage'
 									style={{
-										width: '100%',
-										margin: '10px',
+										width: '80%',
 										boxShadow: '5px 5px 10px rgba(0, 0, 0, 0.5)',
 									}}
 								/>
@@ -44,6 +50,7 @@ class ServiceOptions extends Component {
 									alignItems: 'center',
 									justifyContent: 'center',
 									textAlign: 'center',
+									height: '110px',
 									padding: '10px',
 								}}>
 								<p
@@ -75,19 +82,26 @@ class ServiceOptions extends Component {
 								</Nav.Link>
 							</div>
 						</Col>
-						<Col lg={4}>
-							<div>
+						<Col lg={4} sm={4} className='serviceCols'>
+							<div
+								style={{
+									alignItems: 'center',
+									justifyContent: 'center',
+									textAlign: 'center',
+								}}>
 								<Image
+									fluid
+									className='servicesImage'
 									src={backYard}
 									alt='BackYard Images'
 									style={{
-										width: '100%',
-										margin: '10px',
+										width: '80%',
 										boxShadow: '5px 5px 10px rgba(0, 0, 0, 0.5)',
 									}}
 								/>
 							</div>
 							<div
+								className='serviceText'
 								style={{
 									alignItems: 'center',
 									justifyContent: 'center',
@@ -99,7 +113,9 @@ class ServiceOptions extends Component {
 										color: '#727272',
 									}}>
 									Grab the Popcorn and have a private viewing of a film or
-									special events with your loved ones
+									special events with your loved ones” and say ““Grab the
+									Popcorn and have a private viewing of a film or special events
+									with your loved ones or work colleagues
 								</p>
 							</div>
 							<div
@@ -123,14 +139,20 @@ class ServiceOptions extends Component {
 								</Nav.Link>
 							</div>
 						</Col>
-						<Col lg={4}>
-							<div>
+						<Col lg={4} sm={4} className='serviceCols'>
+							<div
+								style={{
+									alignItems: 'center',
+									justifyContent: 'center',
+									textAlign: 'center',
+								}}>
 								<Image
+									fluid
+									className='servicesImage'
 									src={Delivery}
 									alt='Delivery Images'
 									style={{
-										width: '100%',
-										margin: '10px',
+										width: '80%',
 										boxShadow: '5px 5px 10px rgba(0, 0, 0, 0.5)',
 									}}
 								/>
@@ -146,8 +168,10 @@ class ServiceOptions extends Component {
 									style={{
 										color: '#727272',
 									}}>
-									No Mess,No Stress When you order your food with us. Many
-									options and Sizes available for delivery or pick up
+									No Mess, No Stress when you order your food with us. Many
+									options and sizes available for delivery or pick up” and say
+									“Bring it to a Party, Enjoy at Home for Small & Large Groups
+									or Give as a Gift to Loved Ones, Employees or Clients”
 								</p>
 							</div>
 							<div

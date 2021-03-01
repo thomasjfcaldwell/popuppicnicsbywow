@@ -5,15 +5,17 @@
 	font-family: 'Montserrat';
 	color: white;
 	font-size: 1.2em;
-	margin: 0;
 }
 
 .navbarone {
-	width: 100%;
 	background-color: #555;
 }
 
 /* Navbar links on mouse-over */
 .navbar a:hover {
 	background-color: #f7911f;
+}
+
+.homePageWrappers {
+	margin: 3em;
 }

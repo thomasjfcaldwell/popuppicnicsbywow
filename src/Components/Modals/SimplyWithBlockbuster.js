@@ -3,7 +3,6 @@ import { React, useState } from 'react';
 
 import { Button } from 'react-bootstrap';
 
-
 function Example() {
 	const [show, setShow] = useState(false);
 
@@ -39,7 +38,6 @@ function Example() {
 						<li>Three Hour Movie Night for Up to Four Guests</li>{' '}
 						<li>2 x 12” Speakers with Bluetooth System</li>{' '}
 						<li>MP3/USB/SD/FM Radio/AUX/INPUT. Wired</li>{' '}
-						<li>(1) Remote Control for Speakers</li>{' '}
 						<li>(1) 90” Movie Screen with Stand</li>{' '}
 						<li>(1) Outdoor Movie Projector</li>
 						<li>Rolling Cart for Projector</li>{' '}

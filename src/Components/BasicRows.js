@@ -8,7 +8,7 @@ import image3 from '../Images/couple.sunset.jpg';
 import image4 from '../Images/sayidoweb.jpg';
 import image5 from '../Images/Gallery/coupleonbeachgalleryimage.jpg';
 import image6 from '../Images/Gallery/blueandredsetup.jpg';
-import image7 from '../Images/Gallery/loveisintheair.jpg';
+import image7 from '../Images/Gallery/tropicSetUp.jpg';
 import image8 from '../Images/Gallery/coupleonbeachgalleryimage1.jpg';
 import image9 from '../Images/Gallery/movienight.table.jpg';
 

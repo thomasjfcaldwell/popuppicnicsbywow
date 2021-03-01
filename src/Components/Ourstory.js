@@ -1,46 +1,41 @@
 import React, { Component } from 'react';
-import { Row, Col, Card, Image } from 'react-bootstrap';
+import { Col, Card, Image, Container, Row } from 'react-bootstrap';
 
 import groupShot from '../Images/Aboutus/aboutsus.1.jpg';
 import southSide from '../Images/Aboutus/aboutsus.2.jpg';
 import '../App.css';
+import '../styles/locations.css';
 
 class Ourstory extends Component {
 	render() {
 		return (
-			<div
-				style={{
-					fontFamily: 'Montserrat',
-					color: '#727272',
-				}}>
-				<Row className='mt-5'>
-					<Col lg={6} md={12}>
-						<Card
-							className='border-0 bg-transparent'
-							style={{
-								margin: '0 auto',
-								alignItems: 'center',
-								justifyContent: 'center',
-							}}>
-							<h1
-								className='text-center'
+			<div>
+				<Container fluid>
+					<Row>
+						<Col lg={6} md={12} sm={12}>
+							<div className='locationsHeader'>
+								<h5
+									style={{
+										marginTop: '1em',
+										fontFamily: 'Montserrat',
+										fontWeight: '500',
+										letterSpacing: '0.1em',
+										background: '#727272',
+										color: 'white',
+										padding: '0.4em',
+									}}>
+									ABOUT US
+								</h5>
+							</div>
+							<div
 								style={{
-									fontFamily: 'Montserrat',
-									fontWeight: '500',
-									letterSpacing: '0.1em',
-									margin: '0 auto',
-									background: '#727272',
-									color: 'white',
-									padding: '0.2em',
-								}}>
-								ABOUT US
-							</h1>
-							<Card.Body
-								style={{
-									fontSize: '0.8em',
-									width: '80%',
+									fontSize: '0.9em',
+									color: '#727272',
+									width: '100%',
 									alignItems: 'center',
 									justifyContent: 'center',
+									fontFamily: 'Montserrat',
+									textAlign: 'center',
 								}}>
 								<Card.Text>
 									{' '}
@@ -70,7 +65,7 @@ class Ourstory extends Component {
 								</Card.Text>
 								<Card.Text>
 									We can accommodate picnics as small as two guests and groups
-									of up to thirty. Whether you are looking to have a romantic
+									of up to fifty. Whether you are looking to have a romantic
 									picnic for two for a marriage proposal, milestone birthday, or
 									the Best Date Night EVER, POP-UP Picnics by WOW! Events will
 									design & create the perfect intimate picnic for you. For
@@ -92,37 +87,36 @@ class Ourstory extends Component {
 									to book, the Pricing tab for your options, and the FAQ’s tab
 									for any and all questions you may have
 								</Card.Text>
-							</Card.Body>
-						</Card>
-					</Col>
-					<Col
-						sm={12}
-						lg={6}
-						style={{
-							alignItems: 'center',
-							justifyContent: 'center',
-							textAlign: 'center',
-							marginTop: '10px',
-						}}>
-						<Image
-							src={groupShot}
-							style={{
-								width: '50%',
-								margin: '25px',
-								boxShadow: '5px 5px 10px rgba(0, 0, 0, 0.2)',
-							}}
-						/>
-
-						<Image
-							src={southSide}
-							style={{
-								width: '50%',
-								margin: '25px',
-								boxShadow: '5px 5px 10px rgba(0, 0, 0, 0.2)',
-							}}
-						/>
-					</Col>
-				</Row>
+							</div>
+						</Col>
+						<Col lg={6} xsm={12}>
+							<Container
+								fluid
+								style={{
+									marginTop: '50px',
+								}}>
+								<Row
+									style={{
+										alignItems: 'center',
+										justifyContent: 'center',
+										margin: '10px',
+									}}>
+									<Image src={groupShot} fluid className='ourStoryImage' />
+								</Row>
+							</Container>
+							<Container fluid>
+								<Row
+									style={{
+										alignItems: 'center',
+										justifyContent: 'center',
+										margin: '10px',
+									}}>
+									<Image Src={southSide} fluid className='ourStoryImage' />
+								</Row>
+							</Container>
+						</Col>
+					</Row>
+				</Container>
 			</div>
 		);
 	}

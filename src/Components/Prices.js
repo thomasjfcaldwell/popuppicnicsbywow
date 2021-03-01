@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 
 import { Row, Col, Card, CardImg, Nav, Navbar, Image } from 'react-bootstrap';
-import '../styles/sea.css';
 import '../App.css';
 import Addon from '../Components/Addon';
 

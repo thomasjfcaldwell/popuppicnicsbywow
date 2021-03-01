@@ -6,26 +6,12 @@ import anniversary from '../Images/Testimonals/anniversary.jpg';
 import proposal from '../Images/Testimonals/proposalnewzacpicnic.jpg';
 
 import '../App.css';
+import '../styles/locations.css';
 
 class Testimonals extends Component {
 	render() {
 		return (
 			<>
-				<Row>
-					<h1
-						className='text-center'
-						style={{
-							fontFamily: 'Montserrat',
-							fontWeight: '500',
-							letterSpacing: '0.1em',
-							margin: '0 auto',
-							background: '#727272',
-							color: 'white',
-							padding: '0.2em',
-						}}>
-						TESTIMONIALS
-					</h1>
-				</Row>
 				<Container
 					fluid
 					style={{
@@ -35,18 +21,17 @@ class Testimonals extends Component {
 					}}>
 					<Row>
 						<CardGroup>
-							<Card className='border-0 m-1 align-items-center'>
+							<Card className='border-0 align-items-center'>
 								<Card.Img
 									variant='top'
 									src={birthday}
 									style={{
 										width: '80%',
-										marginTop: '2em',
-										border: 'solid 0.19em #F78F1E',
-										boxShadow: '5px 5px 10px rgba(0, 0, 0, 0.5)',
+										border: 'solid 1px #F78F1E',
+										boxShadow: '5px 5px 5px rgba(0, 0, 0, 0.3)',
 									}}
 								/>
-								<h4
+								<p
 									className='text-center'
 									style={{
 										marginTop: '1em',
@@ -58,9 +43,16 @@ class Testimonals extends Component {
 										padding: '0.5em',
 									}}>
 									BIRTHDAY PARTY
-								</h4>
-								<Card.Body className='w-75 text-center'>
-									<Card.Text>
+								</p>
+								<Card.Body
+									style={{
+										fontSize: '0.8em',
+										width: '100%',
+										alignItems: 'center',
+										justifyContent: 'center',
+										textAlign: 'center',
+									}}>
+									<p>
 										I was looking for a unique idea for my sister’s bridal
 										shower when I stumbled upon WOW! Events Pop-Up Picnics. I
 										was so grateful to find an activity where we could all
@@ -73,7 +65,7 @@ class Testimonals extends Component {
 										décor. I have been telling all my friends and family about
 										WOW! Pop-Up Picnics and I am finding any excuse to do it
 										again!
-									</Card.Text>
+									</p>
 								</Card.Body>
 							</Card>
 							<Card className='border-0 align-items-center'>
@@ -82,12 +74,11 @@ class Testimonals extends Component {
 									src={anniversary}
 									style={{
 										width: '80%',
-										marginTop: '2em',
-										border: 'solid 0.19em #F78F1E',
-										boxShadow: '5px 5px 10px rgba(0, 0, 0, 0.5)',
+										border: 'solid 1px #F78F1E',
+										boxShadow: '5px 5px 5px rgba(0, 0, 0, 0.3)',
 									}}
 								/>
-								<h4
+								<p
 									className='text-center'
 									style={{
 										marginTop: '1em',
@@ -99,9 +90,16 @@ class Testimonals extends Component {
 										padding: '0.5em',
 									}}>
 									ANNIVERSARY
-								</h4>
-								<Card.Body className='w-75 text-center'>
-									<Card.Text>
+								</p>
+								<Card.Body
+									style={{
+										fontSize: '0.8em',
+										width: '100%',
+										alignItems: 'center',
+										justifyContent: 'center',
+										textAlign: 'center',
+									}}>
+									<p>
 										I wanted to plan something special for our 10-year wedding
 										anniversary. I proposed to my wife in a pretty awesome place
 										overlooking the ocean, I wanted to take her back there for
@@ -117,7 +115,7 @@ class Testimonals extends Component {
 										whole experience was really special. WOW! Events did an
 										amazing job and I have happily referred them to my friends
 										looking to surprise their spouses!
-									</Card.Text>
+									</p>
 								</Card.Body>
 							</Card>
 							<Card className='border-0 align-items-center'>
@@ -126,12 +124,11 @@ class Testimonals extends Component {
 									src={proposal}
 									style={{
 										width: '80%',
-										marginTop: '2em',
-										border: 'solid 0.19em #F78F1E',
-										boxShadow: '5px 5px 10px rgba(0, 0, 0, 0.5)',
+										border: 'solid 1px #F78F1E',
+										boxShadow: '5px 5px 5px rgba(0, 0, 0, 0.3)',
 									}}
 								/>
-								<h4
+								<p
 									className='text-center'
 									style={{
 										marginTop: '1em',
@@ -143,9 +140,16 @@ class Testimonals extends Component {
 										padding: '0.5em',
 									}}>
 									MARRIAGE PROPOSAL
-								</h4>
-								<Card.Body className='w-75 text-center'>
-									<Card.Text>
+								</p>
+								<Card.Body
+									style={{
+										fontSize: '0.8em',
+										width: '100%',
+										alignItems: 'center',
+										justifyContent: 'center',
+										textAlign: 'center',
+									}}>
+									<p>
 										Proposing is stressful enough, doing it during COVID added
 										even more pressure! I wanted to do something special,
 										original. It needed to be memorable (assuming she said
@@ -157,7 +161,7 @@ class Testimonals extends Component {
 										(she said YES!) fiancée. WOW! did a great job handling
 										everything (including my stress!), in fact I should call
 										them to see what they can do for our wedding!
-									</Card.Text>
+									</p>
 								</Card.Body>
 							</Card>
 						</CardGroup>

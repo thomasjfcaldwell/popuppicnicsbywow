@@ -11,7 +11,9 @@ function PicnicQuestions() {
 
 	return (
 		<>
-			<Button className='btn btn-primary custom-btn' onClick={handleShow}>
+			<Button className='btn btn-primary custom-btn' style={{width:'300px',
+			height:'50px',
+		}} onClick={handleShow}>
 				See FAQ Here
 			</Button>
 
