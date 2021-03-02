@@ -50,7 +50,6 @@ class ServiceOptions extends Component {
 									alignItems: 'center',
 									justifyContent: 'center',
 									textAlign: 'center',
-									height: '110px',
 									padding: '10px',
 								}}>
 								<p
@@ -113,9 +112,7 @@ class ServiceOptions extends Component {
 										color: '#727272',
 									}}>
 									Grab the Popcorn and have a private viewing of a film or
-									special events with your loved ones” and say ““Grab the
-									Popcorn and have a private viewing of a film or special events
-									with your loved ones or work colleagues
+									special events with your loved ones or work colleagues
 								</p>
 							</div>
 							<div
@@ -168,10 +165,8 @@ class ServiceOptions extends Component {
 									style={{
 										color: '#727272',
 									}}>
-									No Mess, No Stress when you order your food with us. Many
-									options and sizes available for delivery or pick up” and say
-									“Bring it to a Party, Enjoy at Home for Small & Large Groups
-									or Give as a Gift to Loved Ones, Employees or Clients”
+									Bring it to a Party, Enjoy at Home for Small & Large Groups or
+									Give as a Gift to Loved Ones, Employees or Clients”
 								</p>
 							</div>
 							<div
