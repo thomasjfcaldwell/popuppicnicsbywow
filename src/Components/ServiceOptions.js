@@ -10,9 +10,9 @@ import {
 	Button,
 } from 'react-bootstrap';
 
-import Picnic from '../Images/ServiceOptions/PicnicAfter.jpg';
-import backYard from '../Images/ServiceOptions/MoviesAfter.jpg';
-import Delivery from '../Images/ServiceOptions/DeliveryAfter.jpg';
+import Picnic from '../Images/ServiceOptions/PicnicBefore.jpg';
+import backYard from '../Images/ServiceOptions/MoviesBefore.jpg';
+import Delivery from '../Images/ServiceOptions/DeliveryBefore.jpg';
 import { NavLink } from 'react-router-dom';
 import '../App.css';
 
@@ -34,6 +34,19 @@ class ServiceOptions extends Component {
 									justifyContent: 'center',
 									textAlign: 'center',
 								}}>
+								<div className='locationsHeader'>
+									<h5
+										style={{
+											fontFamily: 'Montserrat',
+											fontWeight: '500',
+											letterSpacing: '0.1em',
+											background: '#f7901e',
+											color: 'white',
+											padding: '10px',
+										}}>
+										POP-UP PICNICS
+									</h5>
+								</div>
 								<Image
 									fluid
 									className='servicesImage'
@@ -88,6 +101,19 @@ class ServiceOptions extends Component {
 									justifyContent: 'center',
 									textAlign: 'center',
 								}}>
+								<div className='locationsHeader'>
+									<h5
+										style={{
+											fontFamily: 'Montserrat',
+											fontWeight: '500',
+											letterSpacing: '0.1em',
+											background: '#f7901e',
+											color: 'white',
+											padding: '10px',
+										}}>
+										MOVIE NIGHTS
+									</h5>
+								</div>
 								<Image
 									fluid
 									className='servicesImage'
@@ -143,6 +169,19 @@ class ServiceOptions extends Component {
 									justifyContent: 'center',
 									textAlign: 'center',
 								}}>
+								<div className='locationsHeader'>
+									<h5
+										style={{
+											fontFamily: 'Montserrat',
+											fontWeight: '500',
+											letterSpacing: '0.1em',
+											background: '#f7901e',
+											color: 'white',
+											padding: '10px',
+										}}>
+										CHARCUTERIE SERVICE
+									</h5>
+								</div>
 								<Image
 									fluid
 									className='servicesImage'

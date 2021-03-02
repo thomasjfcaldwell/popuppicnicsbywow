@@ -160,6 +160,29 @@ class Packages extends Component {
 					}}>
 					<PicnicFQA />
 				</div>
+				<Container>
+					<Row
+						style={{
+							alignItems: 'center',
+							justifyContent: 'center',
+							textAlign: 'center',
+						}}>
+						<div className='locationsHeader'>
+							<h5
+								style={{
+									marginTop: '1em',
+									fontFamily: 'Montserrat',
+									fontWeight: '500',
+									letterSpacing: '0.1em',
+									background: '#727272',
+									color: 'white',
+									padding: '0.4em',
+								}}>
+								STEP 4: BOOK YOUR PICNIC HERE
+							</h5>
+						</div>
+					</Row>
+				</Container>
 				<BookingForm />
 			</div>
 		);

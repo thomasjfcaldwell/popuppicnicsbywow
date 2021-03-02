@@ -206,7 +206,7 @@ function Charcuterie() {
 												style={{
 													backgroundColor: '#f7901e',
 												}}>
-												$45
+												$40
 											</h5>
 										</div>
 									</div>
@@ -307,6 +307,25 @@ function Charcuterie() {
 							</div>
 						</Card.Body>
 					</Col>
+				</Row>
+			</Container>
+			<Container>
+				<Row
+					style={{
+						alignItems: 'center',
+						justifyContent: 'center',
+						textAlign: 'center',
+					}}>
+					<p
+						style={{
+							fontFamily: 'Montserrat',
+							fontWeight: '500',
+							color: '#727272',
+							width: '75%',
+						}}>
+						20% Service Fee,Sales tax & Applicable Delivery Fee will be added to
+						Pricing
+					</p>
 				</Row>
 			</Container>
 
