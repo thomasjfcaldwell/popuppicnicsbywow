@@ -6,7 +6,7 @@ class BookingForm extends Component {
 		const script = document.createElement('script');
 		script.async = true;
 		script.src =
-			'https://formfacade.com/include/106160970742721697585/form/1FAIpQLSdAg2sqHt91EySEBVLrxr-Qf4zdai-dDmqVo0Lmaa_kLPXXsg/classic.js?div=ff-compose';
+			'https://formfacade.com/include/106160970742721697585/form/1FAIpQLSfkKe85AGMVE-Vr_8YGS8efGYtL7436deEehoYvYsSC3fDKSg/classic.js?div=ff-compose';
 		this.div.appendChild(script);
 	}
 	render() {
@@ -21,7 +21,7 @@ class BookingForm extends Component {
 				<script
 					async
 					defer
-					src='https://formfacade.com/include/106160970742721697585/form/1FAIpQLSdAg2sqHt91EySEBVLrxr-Qf4zdai-dDmqVo0Lmaa_kLPXXsg/classic.js?div=ff-compose'></script>
+					src='https://formfacade.com/include/106160970742721697585/form/1FAIpQLSfkKe85AGMVE-Vr_8YGS8efGYtL7436deEehoYvYsSC3fDKSg/classic.js?div=ff-compose'></script>
 			</div>
 		);
 	}
