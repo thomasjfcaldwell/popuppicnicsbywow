@@ -34,7 +34,12 @@ body {
 	.ourStory {
 		flex-direction: column;
 	}
+	.wowLogo {
+		width: 100px;
+		margin-right: 0;
+	}
 }
+
 .address {
 	margin: 10px;
 	color: white;

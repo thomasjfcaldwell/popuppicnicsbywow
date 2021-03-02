@@ -110,18 +110,21 @@ function App() {
 				</Container>
 				<Container fluid>
 					<Row className='backgroundfont'>
-						<Nav className='navbar navbar-expand-lg'>
-							<Image
-								lg={4}
-								sm={12}
-								className='navbar-brand'
-								src={wowlogo}
-								style={{
-									width: '15%',
-									padding: '10px',
-									margin: 'auto',
-								}}
-							/>
+						<Nav className='navbar-expand-lg'>
+							<Col lg={4} sm={12}>
+								<Nav.Link href='https://www.wowevents.com'>
+									<img
+										className='navbar-brand'
+										src={wowlogo}
+										alt='wowLogo'
+										style={{
+											width: '50%',
+											padding: '10px',
+											margin: 'auto',
+										}}
+									/>
+								</Nav.Link>
+							</Col>
 
 							<Navbar className='navbar-nav ml-auto' expand='lg'>
 								<Navbar.Toggle aria-controls='responsive-navbar-nav' />
