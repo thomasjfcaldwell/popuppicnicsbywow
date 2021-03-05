@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
-import { Row, Col, Card, Container, Image } from 'react-bootstrap';
-import wowlogo from '../Images/WowEvents_Logo_Orange_RGB.png';
+import { Row, Col, Container } from 'react-bootstrap';
 import '../App.css';
 
 class Contact extends Component {

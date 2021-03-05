@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { Row, Nav, Container, Navbar, Image } from 'react-bootstrap';
 import '../styles/grid.css';
 import '../App.css';
 import image1 from '../Images/Gallery/pinksetup.jpg';
@@ -11,8 +10,6 @@ import image6 from '../Images/Gallery/blueandredsetup.jpg';
 import image7 from '../Images/Gallery/tropicSetUp.jpg';
 import image8 from '../Images/Gallery/coupleonbeachgalleryimage1.jpg';
 import image9 from '../Images/Gallery/movienight.table.jpg';
-
-import wowlogo from '../Images/WowEvents_Logo_Orange_RGB.png';
 
 class BasicRows extends Component {
 	handleClick() {

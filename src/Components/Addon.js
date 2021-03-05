@@ -37,7 +37,7 @@ class Addon extends Component {
 									color: 'white',
 									padding: '0.4em',
 								}}>
-								STEP 3: SELECT ADDITIONAL OPTIONS
+								STEP 4: SELECT ADDITIONAL OPTIONS
 							</h5>
 						</div>
 					</Row>

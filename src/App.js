@@ -14,7 +14,6 @@ import {
 import wowlogo from './Images/WowEvents_Logo_Orange_RGB.png';
 import phone from './Images/Icons/smartphone.png';
 import email from './Images/Icons/email.png';
-import mails from './Images/Icons/destination.png';
 import facebook from './Images/Icons/facebook.png';
 import instagram from './Images/Icons/instagram.png';
 import twitter from './Images/Icons/twitter.png';
@@ -184,6 +183,7 @@ function App() {
 													fontSize: '0.6em',
 													color: 'white',
 													fontWeight: '100',
+													margin: '-15px',
 												}}>
 												<Dropdown.Item href='https://www.wowevents.com/full-service-event-planning/'>
 													Full Service Event Planning

@@ -18,7 +18,7 @@ class GalleryHome extends Component {
 				<div fluid className='gallery-block grid-gallery'>
 					<div className='container'>
 						<div className='row'>
-							 <div className='col-md-6 col-lg-4 item'>
+							<div className='col-md-6 col-lg-4 item'>
 								<a className='lightbox' href={image1}>
 									<img
 										className='img-fluid image scale-on-hover'
@@ -26,7 +26,7 @@ class GalleryHome extends Component {
 										alt='picnicsetup'
 									/>
 								</a>
-							</div> 
+							</div>
 							<div className='col-md-6 col-lg-4 item'>
 								<a className='lightbox' href={image2}>
 									<img
@@ -53,7 +53,7 @@ class GalleryHome extends Component {
 										alt='dessertpackage'
 									/>
 								</a>
-							</div> 
+							</div>
 							<div className='col-md-6 col-lg-4 item'>
 								<a className='lightbox' href={image4}>
 									<img

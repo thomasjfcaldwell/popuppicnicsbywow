@@ -7,7 +7,7 @@ import step3 from '../Images/Steps/step3.png';
 import step4 from '../Images/Steps/step4.png';
 
 import '../App.css';
-import '../styles/locations.css'
+import '../styles/locations.css';
 
 class Steps extends Component {
 	render() {
@@ -31,7 +31,7 @@ class Steps extends Component {
 						</div>
 					</Row>
 				</div>
-				<Container fluid >
+				<Container fluid>
 					<Row className='row align-items-center '>
 						<Col xs={6} sm={6} lg={3}>
 							<Image src={step1} className='img-fluid' alt='Responsive image' />

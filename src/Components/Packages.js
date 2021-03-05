@@ -7,6 +7,7 @@ import Footer from '../Components/Footer';
 import PicnicFQA from '../Components/Modals/PicnicFQA';
 import BandWPackage from '../Images/Packages/savvy.jpg';
 import simplySavvy from '../Images/Packages/simplysavvy.jpg';
+import Themes from '../Components/Themes';
 
 class Packages extends Component {
 	handleClick() {
@@ -141,6 +142,24 @@ class Packages extends Component {
 							style={{
 								fontFamily: 'Montserrat',
 								fontWeight: '500',
+								color: '#f7901e',
+								width: '75%',
+							}}>
+							Lower your per person price by inviting more guests
+						</p>
+					</Row>
+				</Container>
+				<Container>
+					<Row
+						style={{
+							alignItems: 'center',
+							justifyContent: 'center',
+							textAlign: 'center',
+						}}>
+						<p
+							style={{
+								fontFamily: 'Montserrat',
+								fontWeight: '500',
 								color: '#727272',
 								width: '75%',
 							}}>
@@ -149,6 +168,7 @@ class Packages extends Component {
 						</p>
 					</Row>
 				</Container>
+				<Themes />
 				<Footer />
 				<Addon />
 				<div
@@ -178,7 +198,7 @@ class Packages extends Component {
 									color: 'white',
 									padding: '0.4em',
 								}}>
-								STEP 4: BOOK YOUR PICNIC HERE
+								STEP 5: BOOK YOUR PICNIC HERE
 							</h5>
 						</div>
 					</Row>

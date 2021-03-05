@@ -6,6 +6,36 @@ body {
 	font-family: 'Montserrat';
 }
 
+.themesContainer {
+	font-family: 'Montserrat';
+	color: #727272;
+	justify-content: center;
+	align-items: center;
+}
+
+.themeImage {
+	width: 100%;
+}
+
+.themeTextBelow{
+	margin: 30px;
+}
+
+.themeText {
+	margin: 30px;
+	text-transform: uppercase;
+	color: white;
+	background-color: #f78f1e;
+	font-weight: 500;
+	letter-spacing: 0.1em;
+}
+
+.themeCol {
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
 .topText {
 	font-family: 'Montserrat';
 	font-weight: 100;

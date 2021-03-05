@@ -1,8 +1,7 @@
 import React, { Component } from 'react';
-import { Row, Card, Container, Image, Navbar, Nav } from 'react-bootstrap';
+import {  Card, Container,} from 'react-bootstrap';
 import Contact from '../Components/Contact';
 import '../styles/faq.css';
-import wowlogo from '../Images/WowEvents_Logo_Orange_RGB.png';
 
 class Faq extends Component {
 	handleClick() {
@@ -12,9 +11,7 @@ class Faq extends Component {
 	render() {
 		return (
 			<div>
-				<Container fluid >
-
-				</Container>
+				<Container fluid></Container>
 				<Container>
 					<Card className='border-0'>
 						<Card.Body
