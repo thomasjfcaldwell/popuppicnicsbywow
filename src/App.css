@@ -17,7 +17,7 @@ body {
 	width: 100%;
 }
 
-.themeTextBelow{
+.themeTextBelow {
 	margin: 30px;
 }
 
@@ -67,6 +67,9 @@ body {
 	.wowLogo {
 		width: 100px;
 		margin-right: 0;
+	}
+	.video-wrapper {
+		width: 300px;
 	}
 }
 

@@ -17,7 +17,12 @@ function Backyard() {
 	return (
 		<div className='body'>
 			<Container fluid>
-				<Row>
+				<Row
+					style={{
+						alignItems: 'center',
+						justifyContent: 'center',
+						textAlign: 'center',
+					}}>
 					<Col lg={6} sm={12}>
 						<div className='locationsHeader'>
 							<h5
@@ -34,43 +39,82 @@ function Backyard() {
 								MOVIE NIGHTS
 							</h5>
 						</div>
-						<p
-							style={{
-								fontSize: '0.8em',
-								fontWeight: '300',
-								textAlign: 'center',
-							}}>
-							Ready for a night at the movies? Enjoy a premiere showing of your
-							favorite Rom-Com, thriller, or whatever the kids get to choose in
-							the convenience and comfort of your own backyard. You’ll step out
-							into a theater under the stars, designed for you to have the best
-							seats available - wherever you’d like them set up! Our Premier
-							Package for Backyard Movie Night includes a 90” screen, projector
-							and two high quality speakers. It will be set up by our first-rate
-							WOW! Events Host for up to three hours of viewing fun. Reward your
-							family, celebrate a birthday, or offer a screening of your best
-							friend’s favorite movie in an award-winning experience on location
-							at your own home Spoiler alert! You’ll want to experience this
-							service again and again. If you are the type that prefers all the
-							“Bells & Whistles” of a VIP Movie Experience then you should
-							surprise your family and friends with Our Blockbuster Package for
-							Backyard Movie Night. You’ll be ushered into a theater of your own
-							design, complete with all the VIP amenities of your favorite
-							showplace. Special effects for your Blockbuster package include
-							exclusive seating, pillows, blankets, a Sweet & Savory Treats
-							Buffet and much more. You’ll be on the edge of your seat as your
-							special movie event comes to life in your very own backyard.
-							Whatever movie you choose, we guarantee an experience rated E for
-							EXTRAORDINARY and W for WOW! Contact us NOW to design your
-							scene-stealing event!
-						</p>
+						<Row>
+							<p
+								className='movieText'
+								style={{
+									fontWeight: '300',
+									width: '70ch',
+									margin: 'auto',
+									padding: '2px',
+								}}>
+								Ready for a night at the movies? Enjoy a premiere showing of
+								your favorite Rom-Com, thriller, or whatever the kids get to
+								choose in the convenience and comfort of your own backyard.
+								You’ll step out into a theater under the stars, designed for you
+								to have the best seats available - wherever you’d like them set
+								up! Our Premier Package for Backyard Movie Night includes a 90”
+								screen, projector and two high quality speakers. It will be set
+								up by our first-rate WOW! Events Host for up to three hours of
+								viewing fun. Reward your family, celebrate a birthday, or offer
+								a screening of your best friend’s favorite movie in an
+								award-winning experience on location at your own home Spoiler
+								alert! You’ll want to experience this service again and again.
+								If you are the type that prefers all the “Bells & Whistles” of a
+								VIP Movie Experience then you should surprise your family and
+								friends with Our Blockbuster Package for Backyard Movie Night.
+								You’ll be ushered into a theater of your own design, complete
+								with all the VIP amenities of your favorite showplace. Special
+								effects for your Blockbuster package include exclusive seating,
+								pillows, blankets, a Sweet & Savory Treats Buffet and much more.
+								You’ll be on the edge of your seat as your special movie event
+								comes to life in your very own backyard. Whatever movie you
+								choose, we guarantee an experience rated E for EXTRAORDINARY and
+								W for WOW! Contact us NOW to design your scene-stealing event!
+							</p>
+						</Row>
+						<Container fluid>
+							<Row className='m-5'>
+								<Col lg={4} sm={4}>
+									<Image
+										fluid
+										src={treats}
+										style={{
+											width: '100%',
+											margin: '5px',
+										}}
+									/>
+								</Col>
+								<Col lg={4} sm={4}>
+									<Image
+										fluid
+										src={sign}
+										style={{
+											width: '100%',
+											margin: '5px',
+										}}
+									/>
+								</Col>
+								<Col lg={4} sm={4}>
+									<Image
+										fluid
+										src={table}
+										style={{
+											width: '100%',
+											margin: '5px',
+										}}
+									/>
+								</Col>
+							</Row>
+						</Container>
 					</Col>
 					<Col lg={6} sm={12}>
 						<div
 							style={{
 								alignItems: 'center',
 								justifyContent: 'center',
-								margin: '40px',
+								maxWidth: '100%',
+								margin: '1em',
 							}}>
 							<MovieVideo />
 						</div>
@@ -137,37 +181,6 @@ function Backyard() {
 						</p>
 
 						<BellsWithBlockbuster />
-					</Col>
-				</Row>
-			</Container>
-			<Container>
-				<Row className='m-5'>
-					<Col lg={4} sm={4}>
-						<Image
-							fluid
-							src={treats}
-							style={{
-								width: '100%',
-							}}
-						/>
-					</Col>
-					<Col lg={4} sm={4}>
-						<Image
-							fluid
-							src={sign}
-							style={{
-								width: '100%',
-							}}
-						/>
-					</Col>
-					<Col lg={4} sm={4}>
-						<Image
-							fluid
-							src={table}
-							style={{
-								width: '100%',
-							}}
-						/>
 					</Col>
 				</Row>
 			</Container>

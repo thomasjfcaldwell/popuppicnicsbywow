@@ -1,12 +1,5 @@
 import React, { Component } from 'react';
-import {
-	Row,
-	Col,
-	Container,
-	Image,
-	Nav,
-	Button,
-} from 'react-bootstrap';
+import { Row, Col, Container, Image, Nav, Button } from 'react-bootstrap';
 
 import Picnic from '../Images/ServiceOptions/PicnicBefore.jpg';
 import backYard from '../Images/ServiceOptions/MoviesBefore.jpg';
@@ -62,10 +55,12 @@ class ServiceOptions extends Component {
 									justifyContent: 'center',
 									textAlign: 'center',
 									padding: '10px',
+									height: '100px',
 								}}>
 								<p
 									style={{
 										color: '#727272',
+										margin: '30px',
 									}}>
 									Luxury Picnics in your Backyard, Park or Beach, that create
 									lifelong memories
@@ -76,6 +71,7 @@ class ServiceOptions extends Component {
 									alignItems: 'center',
 									justifyContent: 'center',
 									textAlign: 'center',
+									margin: '30px',
 								}}>
 								<Nav.Link
 									href='/packages'
@@ -130,10 +126,12 @@ class ServiceOptions extends Component {
 									justifyContent: 'center',
 									textAlign: 'center',
 									padding: '10px',
+									height: '100px',
 								}}>
 								<p
 									style={{
 										color: '#727272',
+										margin: '30px',
 									}}>
 									Grab the Popcorn and have a private viewing of a film or
 									special events with your loved ones or work colleagues
@@ -144,6 +142,7 @@ class ServiceOptions extends Component {
 									alignItems: 'center',
 									justifyContent: 'center',
 									textAlign: 'center',
+									margin: '30px',
 								}}>
 								<Nav.Link
 									href='/backyardmovies'
@@ -197,10 +196,12 @@ class ServiceOptions extends Component {
 									justifyContent: 'center',
 									textAlign: 'center',
 									padding: '10px',
+									height: '100px',
 								}}>
 								<p
 									style={{
 										color: '#727272',
+										margin: '30px',
 									}}>
 									Bring it to a Party, Enjoy at Home for Small & Large Groups or
 									Give as a Gift to Loved Ones, Employees or Clients”
@@ -211,6 +212,7 @@ class ServiceOptions extends Component {
 									alignItems: 'center',
 									justifyContent: 'center',
 									textAlign: 'center',
+									margin: '30px',
 								}}>
 								<Nav.Link
 									href='/charcuterie'
