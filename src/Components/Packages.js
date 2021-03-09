@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Row, Col, Card, CardImg, Container } from 'react-bootstrap';
+import { Route, BrowserRouter as Router, Link } from 'react-router-dom';
 import '../App.css';
 import Addon from '../Components/Addon';
 import BookingForm from '../Components/BookingForm';

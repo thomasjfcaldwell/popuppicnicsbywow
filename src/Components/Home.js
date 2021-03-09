@@ -7,6 +7,7 @@ import Contact from '../Components/Contact';
 import GalleryHome from '../Components/GalleryHome';
 import '../styles/home.css';
 import ServiceOptions from './ServiceOptions';
+
 class Home extends Component {
 	render() {
 		return (
