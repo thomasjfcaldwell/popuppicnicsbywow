@@ -26,8 +26,14 @@ import { Route, BrowserRouter as Router, Link } from 'react-router-dom';
 import BookingForm from './Components/BookingForm';
 import '../src/App.css';
 import BasicRows from '../src/Components/BasicRows';
+import Aos from 'aos';
+import 'aos/dist/aos.css';
+import React, { useEffect } from 'react';
 
 function App() {
+	useEffect(() => {
+		Aos.init({ duration: 3000 });
+	}, []);
 	return (
 		<div className='body'>
 			<nav>
@@ -180,27 +186,35 @@ function App() {
 												style={{
 													backgroundColor: 'transparent',
 													border: 'none',
-													fontSize: '0.6em',
-													color: 'white',
-													fontWeight: '100',
-													margin: '-15px',
 												}}>
-												<Dropdown.Item href='https://www.wowevents.com/full-service-event-planning/'>
+												<Dropdown.Item
+													className='dropdownText'
+													href='https://www.wowevents.com/full-service-event-planning/'>
 													Full Service Event Planning
 												</Dropdown.Item>
-												<Dropdown.Item href='https://www.wowevents.com/decor-props/'>
+												<Dropdown.Item
+													className='dropdownText'
+													href='https://www.wowevents.com/decor-props/'>
 													Decor & Props
 												</Dropdown.Item>
-												<Dropdown.Item href='https://www.wowevents.com/entertainment-music/'>
+												<Dropdown.Item
+													className='dropdownText'
+													href='https://www.wowevents.com/entertainment-music/'>
 													Entertainment & Music
 												</Dropdown.Item>
-												<Dropdown.Item href='https://www.wowevents.com/rentals/'>
+												<Dropdown.Item
+													className='dropdownText'
+													href='https://www.wowevents.com/rentals/'>
 													Rental/Lounge Furniture
 												</Dropdown.Item>
-												<Dropdown.Item href='https://www.wowevents.com/event-catering/'>
+												<Dropdown.Item
+													className='dropdownText'
+													href='https://www.wowevents.com/event-catering/'>
 													Catering
 												</Dropdown.Item>
-												<Dropdown.Item href='https://www.wowevents.com/event-venues/'>
+												<Dropdown.Item
+													className='dropdownText'
+													href='https://www.wowevents.com/event-venues/'>
 													Event Venues
 												</Dropdown.Item>
 											</Dropdown.Menu>

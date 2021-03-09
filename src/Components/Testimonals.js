@@ -13,6 +13,7 @@ class Testimonals extends Component {
 		return (
 			<>
 				<Container
+					data-aos='fade-in'
 					fluid
 					style={{
 						marginTop: '4em',

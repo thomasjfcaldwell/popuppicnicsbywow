@@ -204,7 +204,7 @@ class ServiceOptions extends Component {
 										margin: '30px',
 									}}>
 									Bring it to a Party, Enjoy at Home for Small & Large Groups or
-									Give as a Gift to Loved Ones, Employees or Clients”
+									Give as a Gift to Loved Ones, Employees or Clients
 								</p>
 							</div>
 							<div

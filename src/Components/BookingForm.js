@@ -12,6 +12,7 @@ class BookingForm extends Component {
 	render() {
 		return (
 			<div
+				data-aos='fade-in'
 				className='App'
 				ref={(el) => (this.div = el)}
 				style={{

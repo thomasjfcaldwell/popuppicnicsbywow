@@ -19,7 +19,7 @@ const GalleryHome = () => {
 	// }, []);
 	return (
 		<div>
-			<div fluid className='gallery-block grid-gallery'>
+			<div fluid className='gallery-block grid-gallery' data-aos='fade-in'>
 				<div className='container'>
 					<div className='row'>
 						<div className='col-md-6 col-lg-4 item'>

@@ -13,7 +13,7 @@ class Themes extends Component {
 	render() {
 		return (
 			<div className='themesContainer'>
-				<Container>
+				<Container data-aos='fade-in'>
 					<Row
 						style={{
 							alignItems: 'center',
@@ -36,7 +36,7 @@ class Themes extends Component {
 						</div>
 					</Row>
 				</Container>
-				<Container fluid>
+				<Container fluid data-aos='fade-in'>
 					<Row>
 						<Col lg={3} md={6} sm={12} className='themeCol'>
 							<div className='themeText'>

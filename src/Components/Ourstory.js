@@ -9,9 +9,9 @@ import '../App.css';
 import '../styles/locations.css';
 
 const Ourstory = () => {
-	useEffect(() => {
-		Aos.init({ duration: 3000 });
-	}, []);
+	// useEffect(() => {
+	// 	Aos.init({ duration: 3000 });
+	// }, []);
 	return (
 		<div>
 			<Container fluid>
@@ -93,7 +93,7 @@ const Ourstory = () => {
 							</Card.Text>
 						</div>
 					</Col>
-					<Col lg={6} xsm={12} fluid data-aos='fade-in'>
+					<Col lg={6} xsm={12} fluid>
 						<Container
 							fluid
 							style={{

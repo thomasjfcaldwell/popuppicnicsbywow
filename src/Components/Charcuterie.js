@@ -43,8 +43,8 @@ function Charcuterie() {
 						</div>
 						<p
 							style={{
-								fontSize: '0.8em',
 								fontWeight: '300',
+								color: '#727272',
 							}}>
 							One of our newest services, Charcuterie by WOW! Events was born
 							during our worldwide pandemic when my Event Planning Company of 17
@@ -135,13 +135,18 @@ function Charcuterie() {
 												}}>
 												Heart Box
 											</h3>
-											<h4>Sweets Included</h4>
-											<p>(2)Mini fruit tart</p> <p>(2) mini cream brûlée</p>
-											<p>(2) mini lemon tarts</p> <p>(5) Macaroons </p>
-											<p>(2) mini strawberry Chau rings</p>
-											<p>(1) Fruit Tart</p>
-											<p>(1) Creme Brûlée </p>
-											<p>(1) Peach Tart</p>
+											<div
+												style={{
+													color: '#727272',
+												}}>
+												<h4>Sweets Included</h4>
+												<p>(2)Mini fruit tart</p> <p>(2) mini cream brûlée</p>
+												<p>(2) mini lemon tarts</p> <p>(5) Macaroons </p>
+												<p>(2) mini strawberry Chau rings</p>
+												<p>(1) Fruit Tart</p>
+												<p>(1) Creme Brûlée </p>
+												<p>(1) Peach Tart</p>
+											</div>
 										</div>
 										<div>
 											<h5
@@ -193,6 +198,7 @@ function Charcuterie() {
 											<div
 												style={{
 													height: '250px',
+													color: '#727272',
 												}}>
 												<h4>Sweets Included</h4>
 												<p>(16) Graham Crackers</p>{' '}

@@ -14,7 +14,7 @@ class Footer extends Component {
 	render() {
 		return (
 			<div className='locations'>
-				<Container>
+				<Container data-aos='fade-in'>
 					<Row
 						style={{
 							alignItems: 'center',

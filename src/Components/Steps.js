@@ -13,7 +13,9 @@ class Steps extends Component {
 	render() {
 		return (
 			<div>
-				<div className='d-flex align-items-center justify-content-center'>
+				<div
+					className='d-flex align-items-center justify-content-center'
+					data-aos='fade-in'>
 					<Row className='text-center'>
 						<div className='locationsHeader'>
 							<h5
