@@ -15,7 +15,7 @@ class Home extends Component {
 				<div
 					className='homePageWrappers'
 					style={{
-						marginTop: '6em',
+						marginTop: '5em',
 					}}>
 					<ServiceOptions />
 				</div>
