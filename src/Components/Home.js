@@ -12,7 +12,11 @@ class Home extends Component {
 	render() {
 		return (
 			<div>
-				<div className='homePageWrappers'>
+				<div
+					className='homePageWrappers'
+					style={{
+						marginTop: '6em',
+					}}>
 					<ServiceOptions />
 				</div>
 
