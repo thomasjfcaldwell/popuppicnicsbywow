@@ -4,7 +4,6 @@ import { Row, Col, Container, Image, Nav, Button } from 'react-bootstrap';
 import Picnic from '../Images/ServiceOptions/PicnicBefore.jpg';
 import backYard from '../Images/ServiceOptions/MoviesBefore.jpg';
 import Delivery from '../Images/ServiceOptions/DeliveryBefore.jpg';
-import { NavLink } from 'react-router-dom';
 import '../App.css';
 
 class ServiceOptions extends Component {

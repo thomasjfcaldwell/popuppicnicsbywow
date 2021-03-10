@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import ReactDOM from 'react-dom';
 import { Row, Col, Container } from 'react-bootstrap';
 import '../App.css';
 

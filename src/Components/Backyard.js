@@ -144,9 +144,11 @@ function Backyard() {
 					PACKAGES
 				</h4>
 			</div>
-			<Container fluid style={{
-				color:'#727272'
-			}}>
+			<Container
+				fluid
+				style={{
+					color: '#727272',
+				}}>
 				<Row>
 					<Col lg={4} md={4} sm={6} className='text-center w-100'>
 						<p>Premier Movie Night Package $225.00 +++</p>

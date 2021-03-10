@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import ReactDOM from 'react-dom';
 
 class BackYardBooking extends Component {
 	componentDidMount() {
@@ -13,10 +12,11 @@ class BackYardBooking extends Component {
 		return (
 			<div
 				className='App'
-				ref={(el) => (this.div = el)} sm={12} style={{
-					padding:'10px'
-				}}
-	>
+				ref={(el) => (this.div = el)}
+				sm={12}
+				style={{
+					padding: '10px',
+				}}>
 				<div id='ff-compose'></div>
 				<script
 					async

@@ -1,6 +1,4 @@
-import React, { Component, useEffect } from 'react';
-import Aos from 'aos';
-import 'aos/dist/aos.css';
+import React from 'react';
 import '../styles/grid.css';
 import '../App.css';
 import image1 from '../Images/Gallery/pinksetup.jpg';
