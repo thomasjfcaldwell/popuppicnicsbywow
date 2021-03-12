@@ -3,12 +3,12 @@ import '../styles/grid.css';
 import '../App.css';
 import image1 from '../Images/Gallery/pinksetup.jpg';
 import image2 from '../Images/Gallery/4personWeb.jpg';
-import image3 from '../Images/couple.sunset.jpg';
+import image3 from '../Images/Gallery/frozenSetUpTable.jpg';
 import image4 from '../Images/sayidoweb.jpg';
 import image5 from '../Images/Gallery/coupleonbeachgalleryimage.jpg';
 import image6 from '../Images/Gallery/blueandredsetup.jpg';
 import image7 from '../Images/Gallery/tropicSetUp.jpg';
-import image8 from '../Images/Gallery/coupleonbeachgalleryimage1.jpg';
+import image8 from '../Images/Gallery/frozensetUp.jpg';
 import image9 from '../Images/Gallery/movienight.table.jpg';
 
 const GalleryHome = () => {

@@ -13,8 +13,6 @@ import Charcuterie from './Components/Charcuterie';
 import { Route, BrowserRouter as Router } from 'react-router-dom';
 import BookingForm from './Components/BookingForm';
 import '../src/App.css';
-import BasicRows from '../src/Components/BasicRows';
-import Navigation from './Components/Navigation';
 import Toolbar from './Components/Toolbar';
 import SideDrawer from './Components/SideDrawer';
 import Backdrop from './Components/Backdrop';
@@ -57,7 +55,6 @@ class App extends Component {
 					<Router>
 						<Route exact path='/' component={Home} />
 						<Route exact path='/packages' component={Packages} />
-						<Route exact path='/gallery' component={BasicRows} />
 						<Route exact path='/faq' component={Faq} />
 						<Route exact path='/contact' component={Contact} />
 						<Route exact path='/bookings' component={BookingForm} />

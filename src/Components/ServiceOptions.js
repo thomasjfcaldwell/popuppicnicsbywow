@@ -59,7 +59,8 @@ class ServiceOptions extends Component {
 								<p
 									style={{
 										color: '#727272',
-										margin: '30px',
+										marginTop: '30px',
+										height: '50px',
 									}}>
 									Luxury Picnics in your Backyard, Park or Beach, that create
 									lifelong memories
@@ -130,7 +131,8 @@ class ServiceOptions extends Component {
 								<p
 									style={{
 										color: '#727272',
-										margin: '30px',
+										marginTop: '30px',
+										height: '50px',
 									}}>
 									Grab the Popcorn and have a private viewing of a film or
 									special events with your loved ones or work colleagues
@@ -200,7 +202,8 @@ class ServiceOptions extends Component {
 								<p
 									style={{
 										color: '#727272',
-										margin: '30px',
+										marginTop: '30px',
+										height: '50px',
 									}}>
 									Bring it to a Party, Enjoy at Home for Small & Large Groups or
 									Give as a Gift to Loved Ones, Employees or Clients
