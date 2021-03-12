@@ -40,7 +40,7 @@ class Themes extends Component {
 					<Row>
 						<Col lg={3} md={6} sm={12} className='themeCol'>
 							<div className='themeText'>
-								<p>Pretty in Pink</p>
+								<p className='themeText'>Pretty in Pink</p>
 							</div>
 							<div>
 								<Image fluid src={prettyInPink} className='themeImage' />
@@ -51,7 +51,7 @@ class Themes extends Component {
 						</Col>
 						<Col lg={3} md={6} sm={12} className='themeCol'>
 							<div className='themeText'>
-								<p>Nautical Chic</p>
+								<p className='themeText'>Nautical Chic</p>
 							</div>
 							<div>
 								<Image fluid src={nauticalChic} className='themeImage' />
@@ -62,7 +62,7 @@ class Themes extends Component {
 						</Col>
 						<Col lg={3} md={6} sm={12} className='themeCol'>
 							<div className='themeText'>
-								<p>Take me to Capri</p>
+								<p className='themeText'>Take me to Capri</p>
 							</div>
 							<div>
 								<Image fluid src={takeMeToCapri} className='themeImage' />
@@ -73,7 +73,7 @@ class Themes extends Component {
 						</Col>
 						<Col lg={3} md={6} sm={12} className='themeCol'>
 							<div className='themeText'>
-								<p>Natural Luxury</p>
+								<p className='themeText'>Natural Luxury</p>
 							</div>
 							<div>
 								<Image fluid src={NaturalLuxury} className='themeImage' />

@@ -10,7 +10,6 @@ import simplySavvy from '../Images/Packages/simplysavvy.jpg';
 import Themes from '../Components/Themes';
 
 class Packages extends Component {
-	
 	render() {
 		return (
 			<div>
@@ -41,11 +40,12 @@ class Packages extends Component {
 					<Row className='packages'>
 						<Col sm={12} lg={6}>
 							<div>
-								<Card className='border-0 m-5 text-center bg-transparent'>
+								<Card className='border-0 text-center bg-transparent'>
 									<h4
 										className='text-center'
 										style={{
 											marginTop: '1em',
+											marginBottom: '1em',
 											fontFamily: 'Montserrat',
 											fontWeight: '500',
 											letterSpacing: '0.1em',
@@ -55,11 +55,11 @@ class Packages extends Component {
 										}}>
 										SIMPLY SAVVY PACKAGE $160+++
 									</h4>
-									<div className='m-3'>
+									<div>
 										<CardImg
 											src={simplySavvy}
 											style={{
-												width: '100%',
+												width: '90%',
 												margin: '0 auto',
 												boxShadow: '5px 5px 10px rgba(0, 0, 0, 0.5)',
 											}}
@@ -83,11 +83,12 @@ class Packages extends Component {
 						</Col>
 						<Col sm={12} lg={6} style={{}}>
 							<div>
-								<Card className='border-0 m-5 text-center bg-transparent'>
+								<Card className='border-0 text-center bg-transparent'>
 									<h4
 										className='text-center'
 										style={{
 											marginTop: '1em',
+											marginBottom: '1em',
 											fontFamily: 'Montserrat',
 											fontWeight: '500',
 											letterSpacing: '0.1em',
@@ -97,13 +98,12 @@ class Packages extends Component {
 										}}>
 										THE BELLS & WHISTLES PACKAGE $260+++
 									</h4>
-									<div className='m-3'>
+									<div>
 										<CardImg
 											src={BandWPackage}
 											style={{
-												width: '100%',
+												width: '90%',
 												margin: '0 auto',
-
 												boxShadow: '5px 5px 10px rgba(0, 0, 0, 0.5)',
 											}}
 										/>
