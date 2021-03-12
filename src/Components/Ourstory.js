@@ -1,15 +1,17 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Col, Card, Image, Container, Row } from 'react-bootstrap';
 
 import groupShot from '../Images/Aboutus/aboutsus.1.jpg';
 import southSide from '../Images/Aboutus/aboutsus.2.jpg';
 import '../App.css';
 import '../styles/locations.css';
+import Aos from 'aos';
+import 'aos/dist/aos.css';
 
 const Ourstory = () => {
-	// useEffect(() => {
-	// 	Aos.init({ duration: 3000 });
-	// }, []);
+	useEffect(() => {
+		Aos.init({ duration: 3000 });
+	}, []);
 	return (
 		<div>
 			<Container fluid>

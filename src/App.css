@@ -40,7 +40,7 @@
 .topText {
 	font-family: 'Montserrat';
 	font-weight: 100;
-	margin: 2px;
+	padding: 5px;
 	color: #727272;
 }
 
@@ -204,8 +204,3 @@
 	margin-top: 50px;
 }
 
-@media only screen and (max-width: 600px) {
-	.navbar-brand {
-		min-width: 50%;
-	}
-}

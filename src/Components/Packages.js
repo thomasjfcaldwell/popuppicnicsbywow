@@ -10,10 +10,7 @@ import simplySavvy from '../Images/Packages/simplysavvy.jpg';
 import Themes from '../Components/Themes';
 
 class Packages extends Component {
-	handleClick() {
-		// do something meaningful, Promises, if/else, whatever, and then
-		window.location.assign('https://www.wowevents.com/');
-	}
+	
 	render() {
 		return (
 			<div>

@@ -16,8 +16,8 @@ class ServiceOptions extends Component {
 					fontSize: '0.8em',
 				}}>
 				<Container fluid>
-					<Row className='m-4'>
-						<Col lg={4} sm={4} className='serviceCols'>
+					<Row>
+						<Col lg={4} sm={12} className='serviceCols'>
 							<div
 								style={{
 									alignItems: 'center',
@@ -43,7 +43,7 @@ class ServiceOptions extends Component {
 									src={Picnic}
 									alt='picnicImage'
 									style={{
-										width: '80%',
+										width: '100%',
 										boxShadow: '5px 5px 10px rgba(0, 0, 0, 0.5)',
 									}}
 								/>
@@ -87,7 +87,7 @@ class ServiceOptions extends Component {
 								</Nav.Link>
 							</div>
 						</Col>
-						<Col lg={4} sm={4} className='serviceCols'>
+						<Col lg={4} sm={12} className='serviceCols'>
 							<div
 								style={{
 									alignItems: 'center',
@@ -113,7 +113,7 @@ class ServiceOptions extends Component {
 									src={backYard}
 									alt='BackYard Images'
 									style={{
-										width: '80%',
+										width: '100%',
 										boxShadow: '5px 5px 10px rgba(0, 0, 0, 0.5)',
 									}}
 								/>
@@ -158,7 +158,7 @@ class ServiceOptions extends Component {
 								</Nav.Link>
 							</div>
 						</Col>
-						<Col lg={4} sm={4} className='serviceCols'>
+						<Col lg={4} sm={12} className='serviceCols'>
 							<div
 								style={{
 									alignItems: 'center',
@@ -184,7 +184,7 @@ class ServiceOptions extends Component {
 									src={Delivery}
 									alt='Delivery Images'
 									style={{
-										width: '80%',
+										width: '100%',
 										boxShadow: '5px 5px 10px rgba(0, 0, 0, 0.5)',
 									}}
 								/>

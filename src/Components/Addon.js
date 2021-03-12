@@ -19,7 +19,7 @@ class Addon extends Component {
 	render() {
 		return (
 			<div className='addons'>
-				<Container data-aos='fade-in'>
+				<Container>
 					<Row
 						style={{
 							alignItems: 'center',
@@ -42,7 +42,7 @@ class Addon extends Component {
 						</div>
 					</Row>
 				</Container>
-				<Container fluid data-aos='fade-in'>
+				<Container fluid>
 					<Row
 						style={{
 							display: 'flex',
