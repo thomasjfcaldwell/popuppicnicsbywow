@@ -2,10 +2,11 @@
 
 .addonimg {
 	margin: auto 0;
+	width: 100%;
 }
-.pricing {
+/* .pricing {
 	margin: 5px;
-}
+} */
 
 .addons {
 	font-family: 'Montserrat';
@@ -20,8 +21,9 @@
 }
 
 .serviceHeader {
-	font-size: 0.8em;
-	height: 20px;
+	font-size: 0.9em;
+	height: 40px;
+	line-height: 1.1em;
 }
 
 @media screen and (max-width: 480px) {

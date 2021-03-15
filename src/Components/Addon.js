@@ -92,12 +92,12 @@ class Addon extends Component {
 							<p className='serviceHeader'>Dessert Platter </p>
 							<h5 className='pricing'>$40</h5>
 						</Col>
-						<Col xs={6} sm={6} md={4} lg={2} className='addonCol'>
+						<Col xs={6} sm={6} md={2} lg={2} className='addonCol'>
 							<Card.Img className='addonimg' src={cheeseBox} />
 							<p className='serviceHeader'>Cheese Charcuterie Box</p>
 							<h5 className='pricing'>$50</h5>
 						</Col>
-						<Col xs={6} sm={6} md={4} lg={2} className='addonCol'>
+						<Col xs={6} sm={6} md={2} lg={2} className='addonCol'>
 							<Card.Img className='addonimg' src={Multi} />
 							<p className='serviceHeader'>Vegan/Vegetarian Charcuterie Box</p>
 							<h5 className='pricing'>$45</h5>

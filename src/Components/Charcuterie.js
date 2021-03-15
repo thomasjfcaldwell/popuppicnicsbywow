@@ -88,13 +88,12 @@ function Charcuterie() {
 					alignItems: 'center',
 					justifyContent: 'center',
 					textAlign: 'center',
-					margin: '40px',
+					marginTop: '20px',
 				}}>
 				<h4
 					style={{
 						display: 'inline',
 						fontWeight: '300',
-						lineHeight: '1.2em',
 						background: '#f7901e',
 						color: 'white',
 						padding: '10px',
@@ -121,7 +120,7 @@ function Charcuterie() {
 									justifyContent: 'center',
 									textAlign: 'center',
 								}}>
-								<Col>
+								<Col sm={6}>
 									<div
 										style={{
 											alignItems: 'center',
@@ -181,7 +180,7 @@ function Charcuterie() {
 									justifyContent: 'center',
 									textAlign: 'center',
 								}}>
-								<Col>
+								<Col sm={6}>
 									<div
 										style={{
 											alignItems: 'center',
