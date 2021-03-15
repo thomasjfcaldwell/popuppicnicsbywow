@@ -72,6 +72,11 @@
 	.video-wrapper {
 		width: 300px;
 	}
+	.moviePackages p {
+		height: 50px;
+		font-size: 0.8em;
+		text-align: center;
+	}
 }
 
 .address {
@@ -204,3 +209,14 @@
 	margin-top: 50px;
 }
 
+.moviePackages {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	align-items: center;
+	margin: 1rem 0;
+}
+
+.moviePackages p {
+	height: 30px;
+}

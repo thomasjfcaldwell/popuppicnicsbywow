@@ -24,31 +24,26 @@ function Backyard() {
 						textAlign: 'center',
 					}}>
 					<Col lg={6} sm={12}>
-						<div className='locationsHeader'>
-							<h5
+						<div>
+							<h3
 								style={{
-									marginTop: '1em',
 									fontFamily: 'Montserrat',
 									fontWeight: '500',
 									letterSpacing: '0.1em',
 									background: '#727272',
 									color: 'white',
-									padding: '0.4em',
-									textTransform: 'uppercase',
+									margin: '50px',
+									padding: '10px',
 								}}>
 								MOVIE NIGHTS
-							</h5>
+							</h3>
 						</div>
 						<Row>
 							<p
 								className='movieText'
 								style={{
-									fontSize: '0.8em',
 									fontWeight: '300',
-									width: '90ch',
-									margin: 'auto',
-									padding: '2px',
-									lineHeight: '2em',
+									margin: '0 10px',
 								}}>
 								Ready for a night at the movies? Enjoy a premiere showing of
 								your favorite Rom-Com, thriller, or whatever the kids get to
@@ -135,7 +130,6 @@ function Backyard() {
 					style={{
 						display: 'inline',
 						fontWeight: '300',
-						lineHeight: '1.2em',
 						background: '#f7901e',
 						color: 'white',
 						padding: '10px',
@@ -150,23 +144,29 @@ function Backyard() {
 					color: '#727272',
 				}}>
 				<Row>
-					<Col lg={4} md={4} sm={6} className='text-center w-100'>
+					<Col lg={6} md={6} sm={12} className='moviePackages'>
 						<p>Premier Movie Night Package $225.00 +++</p>
 						<PremierMovieModal />
 					</Col>
-					<Col lg={4} md={4} sm={6} className='text-center w-100 border-1 '>
+					<Col lg={6} md={6} sm={12} className='moviePackages'>
 						<p>Blockbuster Movie Night Package $325.00 +++</p>
 						<BlockBusterModal />
 					</Col>
-					<Col lg={4} md={4} sm={6} className='text-center w-100 '>
+				</Row>
+			</Container>
+			<Container
+				fluid
+				style={{
+					color: '#727272',
+				}}>
+				<Row>
+					<Col lg={6} md={4} sm={6} className='moviePackages'>
 						<p>
 							Simply Savvy PUP Package + Premier Movie Night Package $385.00 +++
 						</p>
 						<SimplyWithPremier />
 					</Col>
-				</Row>
-				<Row>
-					<Col lg={4} md={4} sm={6} className='text-center w-100'>
+					<Col lg={6} md={4} sm={6} className='moviePackages'>
 						<p>
 							Simply Savvy PUP Package + Blockbuster Movie Night Package $485.00
 							+++
@@ -174,7 +174,9 @@ function Backyard() {
 
 						<SimplyWithBlockbuster />
 					</Col>
-					<Col lg={4} md={4} sm={6} className='text-center w-100'>
+				</Row>
+				<Row>
+					<Col lg={6} md={4} sm={6} className='moviePackages'>
 						<p>
 							Bells & Whistles PUP Package + Premier Movie Night Package $485.00
 							+++
@@ -182,7 +184,7 @@ function Backyard() {
 
 						<BellsWithPremier />
 					</Col>
-					<Col lg={4} md={4} sm={6} className='text-center w-100'>
+					<Col lg={6} md={4} sm={6} className='moviePackages'>
 						<p>
 							Bells & Whistles PUP Package + Blockbuster Movie Night Package
 							$585.00 +++
@@ -198,14 +200,14 @@ function Backyard() {
 						alignItems: 'center',
 						justifyContent: 'center',
 						textAlign: 'center',
-						margin: '100px',
+						margin: '2em 0',
 					}}>
 					<p
 						style={{
 							fontFamily: 'Montserrat',
 							fontWeight: '500',
 							color: '#727272',
-							width: '75%',
+							width: '100%',
 						}}>
 						20% Service Fee,Sales tax & Applicable Delivery Fee will be added to
 						Pricing

@@ -17,34 +17,30 @@ function Charcuterie() {
 		<div className='body'>
 			<Container fluid>
 				<Row
-					className='m-1'
 					style={{
 						alignItems: 'center',
 						justifyContent: 'center',
 						textAlign: 'center',
-						marginTop: '10px',
-						width: '100%',
 					}}>
 					<Col className='text-center' lg={6} sm={12}>
-						<div className='locationsHeader'>
-							<h5
+						<div>
+							<h3
 								style={{
-									marginTop: '1em',
 									fontFamily: 'Montserrat',
 									fontWeight: '500',
 									letterSpacing: '0.1em',
 									background: '#727272',
 									color: 'white',
-									padding: '0.4em',
-									textTransform: 'uppercase',
+									margin: '50px',
+									padding: '10px',
 								}}>
-								Charcuterie Delivery/Pick Up
-							</h5>
+								CHARCUTERIE DELIVERY/PICK UP
+							</h3>
 						</div>
 						<p
 							style={{
 								fontWeight: '300',
-								color: '#727272',
+								margin: '0 10px',
 							}}>
 							One of our newest services, Charcuterie by WOW! Events was born
 							during our worldwide pandemic when my Event Planning Company of 17
@@ -65,8 +61,7 @@ function Charcuterie() {
 							nights, wine tastings, wedding party snacks or casual gatherings.
 							We use fresh, seasonal ingredients, creating scrumptious boards to
 							suit your needs. WOW! Events is a certified woman owned small
-							business enterprise (W.O.S.B.E.). We look forward to serving and
-							creating a box or board just fo
+							business enterprise (W.O.S.B.E.).
 						</p>
 					</Col>
 					<Col lg={6} sm={12}>
