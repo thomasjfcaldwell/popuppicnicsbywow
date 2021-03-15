@@ -92,12 +92,10 @@ function Charcuterie() {
 				}}>
 				<h4
 					style={{
-						display: 'inline',
 						fontWeight: '300',
 						background: '#f7901e',
 						color: 'white',
 						padding: '10px',
-						marginTop: '100px',
 						textTransform: 'uppercase',
 					}}>
 					Delivery and Pick Up options
