@@ -24,6 +24,7 @@
 	font-size: 0.9em;
 	height: 40px;
 	line-height: 1.1em;
+	margin: 20px 0;
 }
 
 @media screen and (max-width: 480px) {
