@@ -71,8 +71,11 @@ function Backyard() {
 							</p>
 						</Row>
 						<Container fluid>
-							<Row className='m-5'>
-								<Col lg={4} sm={4}>
+							<Row
+								style={{
+									marginTop: '40px',
+								}}>
+								<Col>
 									<Image
 										fluid
 										src={treats}
@@ -82,7 +85,7 @@ function Backyard() {
 										}}
 									/>
 								</Col>
-								<Col lg={4} sm={4}>
+								<Col>
 									<Image
 										fluid
 										src={sign}
@@ -92,7 +95,7 @@ function Backyard() {
 										}}
 									/>
 								</Col>
-								<Col lg={4} sm={4}>
+								<Col>
 									<Image
 										fluid
 										src={table}
@@ -112,6 +115,7 @@ function Backyard() {
 								justifyContent: 'center',
 								maxWidth: '100%',
 								margin: '1em',
+								padding: '5em',
 							}}>
 							<MovieVideo />
 						</div>
@@ -124,7 +128,6 @@ function Backyard() {
 					alignItems: 'center',
 					justifyContent: 'center',
 					textAlign: 'center',
-					margin: '100px',
 				}}>
 				<h4
 					style={{

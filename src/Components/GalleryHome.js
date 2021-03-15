@@ -10,6 +10,9 @@ import image6 from '../Images/Gallery/yellowSetup.jpg';
 import image7 from '../Images/Gallery/tropicSetUp.jpg';
 import image8 from '../Images/Gallery/frozensetUp.jpg';
 import image9 from '../Images/Gallery/movienight.table.jpg';
+import { Container, Row } from 'react-bootstrap';
+
+// 'col-md-6 col-lg-4 item';
 
 const GalleryHome = () => {
 	// useEffect(() => {
@@ -18,9 +21,9 @@ const GalleryHome = () => {
 	return (
 		<div>
 			<div fluid className='gallery-block grid-gallery' data-aos='fade-in'>
-				<div className='container'>
-					<div className='row'>
-						<div className='col-md-6 col-lg-4 item'>
+				<Container fluid>
+					<Row>
+						<div className='col-xs-4 col-sm-4 col-md-4 col-lg-4 item'>
 							<a className='lightbox' href={image1}>
 								<img
 									className='img-fluid image scale-on-hover'
@@ -29,7 +32,7 @@ const GalleryHome = () => {
 								/>
 							</a>
 						</div>
-						<div className='col-md-6 col-lg-4 item'>
+						<div className='col-xs-4 col-sm-4 col-md-4 col-lg-4 item'>
 							<a className='lightbox' href={image2}>
 								<img
 									className='img-fluid image scale-on-hover'
@@ -38,7 +41,7 @@ const GalleryHome = () => {
 								/>
 							</a>
 						</div>
-						<div className='col-md-6 col-lg-4 item'>
+						<div className='col-xs-4 col-sm-4 col-md-4 col-lg-4 item'>
 							<a className='lightbox' href={image6}>
 								<img
 									className='img-fluid image scale-on-hover'
@@ -47,7 +50,7 @@ const GalleryHome = () => {
 								/>
 							</a>
 						</div>
-						<div className='col-md-6 col-lg-4 item'>
+						<div className='col-xs-4 col-sm-4 col-md-4 col-lg-4 item'>
 							<a className='lightbox' href={image5}>
 								<img
 									className='img-fluid image scale-on-hover'
@@ -56,7 +59,7 @@ const GalleryHome = () => {
 								/>
 							</a>
 						</div>
-						<div className='col-md-6 col-lg-4 item'>
+						<div className='col-xs-4 col-sm-4 col-md-4 col-lg-4 item'>
 							<a className='lightbox' href={image4}>
 								<img
 									className='img-fluid image scale-on-hover'
@@ -65,7 +68,7 @@ const GalleryHome = () => {
 								/>
 							</a>
 						</div>
-						<div className='col-md-6 col-lg-4 item'>
+						<div className='col-xs-4 col-sm-4 col-md-4 col-lg-4 item'>
 							<a className='lightbox' href={image8}>
 								<img
 									className='img-fluid image scale-on-hover'
@@ -74,7 +77,7 @@ const GalleryHome = () => {
 								/>
 							</a>
 						</div>
-						<div className='col-md-6 col-lg-4 item'>
+						<div className='col-xs-4 col-sm-4 col-md-4 col-lg-4 item'>
 							<a className='lightbox' href={image7}>
 								<img
 									className='img-fluid image scale-on-hover'
@@ -83,7 +86,7 @@ const GalleryHome = () => {
 								/>
 							</a>
 						</div>
-						<div className='col-md-6 col-lg-4 item'>
+						<div className='col-xs-4 col-sm-4 col-md-4 col-lg-4 item'>
 							<a className='lightbox' href={image3}>
 								<img
 									className='img-fluid image scale-on-hover'
@@ -92,7 +95,7 @@ const GalleryHome = () => {
 								/>
 							</a>
 						</div>
-						<div className='col-md-6 col-lg-4 item'>
+						<div className='col-xs-4 col-sm-4 col-md-4 col-lg-4 item'>
 							<a className='lightbox' href={image9}>
 								<img
 									className='img-fluid image scale-on-hover'
@@ -101,8 +104,8 @@ const GalleryHome = () => {
 								/>
 							</a>
 						</div>
-					</div>
-				</div>
+					</Row>
+				</Container>
 			</div>
 		</div>
 	);

@@ -35,17 +35,37 @@ class Steps extends Component {
 				</div>
 				<Container fluid>
 					<Row className='row align-items-center '>
-						<Col xs={6} sm={6} lg={3}>
-							<Image src={step1} className='img-fluid' alt='Responsive image' />
+						<Col xs={12} sm={6} lg={3}>
+							<Image
+								fluid
+								src={step1}
+								className='stepsImage'
+								alt='Responsive image'
+							/>
 						</Col>
-						<Col xs={6} sm={6} lg={3}>
-							<Image src={step2} className='img-fluid' alt='Responsive image' />
+						<Col xs={12} sm={6} lg={3}>
+							<Image
+								fluid
+								src={step2}
+								className='stepsImage'
+								alt='Responsive image'
+							/>
 						</Col>
-						<Col xs={6} sm={6} lg={3}>
-							<Image src={step3} className='img-fluid' alt='Responsive image' />
+						<Col xs={12} sm={6} lg={3}>
+							<Image
+								fluid
+								src={step3}
+								className='stepsImage'
+								alt='Responsive image'
+							/>
 						</Col>
-						<Col xs={6} sm={6} lg={3}>
-							<Image src={step4} className='img-fluid' alt='Responsive image' />
+						<Col xs={12} sm={6} lg={3}>
+							<Image
+								fluid
+								src={step4}
+								className='stepsImage'
+								alt='Responsive image'
+							/>
 						</Col>
 					</Row>
 				</Container>
