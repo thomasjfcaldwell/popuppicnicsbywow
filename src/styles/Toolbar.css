@@ -56,6 +56,11 @@
 	color: #fa923f;
 }
 
+.Dropdown {
+	color: #727272;
+	letter-spacing: 0.1em;
+}
+
 @media (max-width: 768px) {
 	.toolbar_navigation-items {
 		display: none;

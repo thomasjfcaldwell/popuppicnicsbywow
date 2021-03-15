@@ -1,6 +1,6 @@
 import React from 'react';
 import '../styles/Toolbar.css';
-import { Image } from 'react-bootstrap';
+import { Image, Dropdown } from 'react-bootstrap';
 
 import '../Components/DrawerToggleButton';
 import DrawerToggleButton from '../Components/DrawerToggleButton';
@@ -38,8 +38,64 @@ const Toolbar = (props) => (
 						<a href='/charcuterie'>CHARCUTERIE SERVICE</a>
 					</li>
 					<li>
-						<a href='/packages'> </a>
+						<a href='/contact'>CONTACT US</a>
 					</li>
+					<Dropdown>
+						<Dropdown.Toggle
+							style={{
+								backgroundColor: '#f7901e',
+								marginTop: '-5px',
+								border: 'none',
+								fontSize: '0.5em',
+							}}>
+							OTHER SERVICES
+						</Dropdown.Toggle>
+
+						<Dropdown.Menu>
+							<Dropdown.Item
+								style={{
+									color: '#727272',
+								}}
+								href='https://www.wowevents.com/full-service-event-planning/'>
+								Full Service Event Planning
+							</Dropdown.Item>
+							<Dropdown.Item
+								style={{
+									color: '#727272',
+								}}
+								href='https://www.wowevents.com/decor-props/'>
+								Decor & Props
+							</Dropdown.Item>
+							<Dropdown.Item
+								style={{
+									color: '#727272',
+								}}
+								href='https://www.wowevents.com/entertainment-music/'>
+								Entertainment & Music
+							</Dropdown.Item>
+							<Dropdown.Item
+								style={{
+									color: '#727272',
+								}}
+								href='https://www.wowevents.com/rentals/'>
+								Rentals/Lounge Furniture
+							</Dropdown.Item>
+							<Dropdown.Item
+								style={{
+									color: '#727272',
+								}}
+								href='https://www.wowevents.com/event-catering/'>
+								Catering
+							</Dropdown.Item>
+							<Dropdown.Item
+								style={{
+									color: '#727272',
+								}}
+								href='https://www.wowevents.com/event-venues/'>
+								Event Venues
+							</Dropdown.Item>
+						</Dropdown.Menu>
+					</Dropdown>
 				</ul>
 			</div>
 		</nav>

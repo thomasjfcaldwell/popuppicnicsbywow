@@ -17,7 +17,7 @@ const sideDrawer = (props) => {
 					alignItems: 'center',
 					justifyContent: 'center',
 					textAlign: 'center',
-					marginTop: '50px',
+					marginTop: '10px',
 				}}>
 				<a href='https://www.wowevents.com/'>
 					<Image
