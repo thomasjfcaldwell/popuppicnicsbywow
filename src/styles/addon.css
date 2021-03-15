@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;500;600;900&display=swap');
 
 .addonimg {
-	margin: auto 0;
-	width: 80%;
+	margin: 20px 0;
+	width: 60%;
 }
-/* .pricing {
-	margin: 5px;
-} */
+.pricing {
+	padding: 5px;
+}
 
 .addons {
 	font-family: 'Montserrat';
@@ -15,10 +15,10 @@
 	color: #727272;
 }
 
-.addonCol {
+/* .addonCol {
 	flex: 1;
 	margin-top: 10px;
-}
+} */
 
 .serviceHeader {
 	font-size: 0.9em;

@@ -176,7 +176,7 @@ class Addon extends Component {
 								fontWeight: '500',
 								color: '#727272',
 								width: '100%',
-								marginTop: '20px',
+								marginTop: '20px'
 							}}>
 							20% Service Fee,Sales tax & Applicable Delivery Fee will be added
 							to Pricing
