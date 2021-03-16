@@ -87,6 +87,7 @@ function Charcuterie() {
 				}}>
 				<h4
 					style={{
+						display: 'inline',
 						fontWeight: '300',
 						background: '#f7901e',
 						color: 'white',
@@ -144,6 +145,9 @@ function Charcuterie() {
 											<h5
 												style={{
 													backgroundColor: '#f7901e',
+													color: 'white',
+													display: 'inline',
+													padding: '5px',
 												}}>
 												$45
 											</h5>
@@ -203,6 +207,9 @@ function Charcuterie() {
 											<h5
 												style={{
 													backgroundColor: '#f7901e',
+													color: 'white',
+													display: 'inline',
+													padding: '5px',
 												}}>
 												$40
 											</h5>

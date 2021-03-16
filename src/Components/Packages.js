@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Row, Col, Card, CardImg, Container } from 'react-bootstrap';
+import { Row, Col, Card, Image, Container } from 'react-bootstrap';
 import '../App.css';
 import Addon from '../Components/Addon';
 import BookingForm from '../Components/BookingForm';
@@ -24,6 +24,7 @@ class Packages extends Component {
 							<h5
 								style={{
 									marginTop: '1em',
+									display: 'inline',
 									fontFamily: 'Montserrat',
 									fontWeight: '500',
 									letterSpacing: '0.1em',
@@ -39,91 +40,53 @@ class Packages extends Component {
 				<Container fluid>
 					<Row className='packages'>
 						<Col sm={12} lg={6}>
-							<div>
-								<Card className='border-0 text-center bg-transparent'>
-									<h4
-										className='text-center'
-										style={{
-											marginTop: '1em',
-											marginBottom: '1em',
-											fontFamily: 'Montserrat',
-											fontWeight: '500',
-											letterSpacing: '0.1em',
-											background: '#f7901e',
-											color: 'white',
-											padding: '0.2em',
-										}}>
-										SIMPLY SAVVY PACKAGE $160+++
-									</h4>
-									<div>
-										<CardImg
-											src={simplySavvy}
-											style={{
-												width: '90%',
-												margin: '0 auto',
-												boxShadow: '5px 5px 10px rgba(0, 0, 0, 0.5)',
-											}}
-										/>
-									</div>
-									<Card.Text>
-										<ul className='nobullets'>
-											<li>Two Hour POP-UP Picnic for 2 People</li>
-											<li>Personalized Welcome Sign</li>
-											<li>Hand Crafted Wooden table</li>{' '}
-											<li>Seat Pillow For Everyone</li>{' '}
-											<li>Flatware/Plates/White Cloth Napkins</li>{' '}
-											<li>Gold Metal Goblets</li> <li>Table Décor</li>{' '}
-											<li>Blanket or Rug (floor covering) </li>
-											<li>Add An Additional Person At $30</li>{' '}
-											<li>Each Additional Hour $75</li>
-										</ul>
-									</Card.Text>
-								</Card>
+							<div className='packagesContainer'>
+								<h4 className='packagesHeader'>SIMPLY SAVVY PACKAGE $160+++</h4>
+
+								<Image
+									className='packagesImage'
+									src={simplySavvy}
+									alt='simply Savvy package images'
+								/>
+
+								<ul className='nobullets'>
+									<li>Two Hour POP-UP Picnic for 2 People</li>
+									<li>Personalized Welcome Sign</li>
+									<li>Hand Crafted Wooden table</li>{' '}
+									<li>Seat Pillow For Everyone</li>{' '}
+									<li>Flatware/Plates/White Cloth Napkins</li>{' '}
+									<li>Gold Metal Goblets</li> <li>Table Décor</li>{' '}
+									<li>Blanket or Rug (floor covering) </li>
+									<li>Add An Additional Person At $30</li>{' '}
+									<li>Each Additional Hour $75</li>
+								</ul>
 							</div>
 						</Col>
-						<Col sm={12} lg={6} style={{}}>
-							<div>
-								<Card className='border-0 text-center bg-transparent'>
-									<h4
-										className='text-center'
-										style={{
-											marginTop: '1em',
-											marginBottom: '1em',
-											fontFamily: 'Montserrat',
-											fontWeight: '500',
-											letterSpacing: '0.1em',
-											background: '#f7901e',
-											color: 'white',
-											padding: '0.2em',
-										}}>
-										THE BELLS & WHISTLES PACKAGE $260+++
-									</h4>
-									<div>
-										<CardImg
-											src={BandWPackage}
-											style={{
-												width: '90%',
-												margin: '0 auto',
-												boxShadow: '5px 5px 10px rgba(0, 0, 0, 0.5)',
-											}}
-										/>
-									</div>
-									<Card.Text>
-										<ul className='nobullets'>
-											<li>Two Hour POP-UP Picnic for 2 People</li>
-											<li>All Items in the Simply Savvy Package Included</li>
-											<li>8x8 Cheese Charcuterie Box</li>{' '}
-											<li>Beverage Package for 2</li> <li>Bluetooth Speaker</li>{' '}
-											<li>
-												Choice of a Posh Umbrella with Tassels or Teepee Set-Up
-											</li>{' '}
-											<li>Hand Crafted Side Table</li>{' '}
-											<li>Floor & Perimeter Décor</li>
-											<li>Add An Additional Person At $30</li>{' '}
-											<li>Each Additional Hour $75</li>
-										</ul>
-									</Card.Text>
-								</Card>
+						<Col sm={12} lg={6}>
+							<div className='packagesContainer'>
+								<h4 className='packagesHeader'>
+									THE BELLS & WHISTLES PACKAGE $260+++
+								</h4>
+
+								<Image
+									src={BandWPackage}
+									className='packagesImage'
+									alt='Bells & Whistles Package Image'
+								/>
+
+								<ul className='nobullets'>
+									<li>Two Hour POP-UP Picnic for 2 People</li>
+									<li>All Items in the Simply Savvy Package Included</li>
+									<li>8x8 Cheese Charcuterie Box</li>{' '}
+									<li>Beverage Package for 2</li> <li>Bluetooth Speaker</li>{' '}
+									<li>
+										Choice of a Posh Umbrella with Tassels or Teepee Set-Up
+									</li>{' '}
+									<li>Hand Crafted Side Table</li>{' '}
+									<li>Floor & Perimeter Décor</li>
+									<li>Add An Additional Person At $30</li>{' '}
+									<li>Each Additional Hour $75</li>
+								</ul>
 							</div>
 						</Col>
 					</Row>
