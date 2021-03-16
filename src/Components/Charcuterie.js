@@ -31,7 +31,7 @@ function Charcuterie() {
 									letterSpacing: '0.1em',
 									background: '#727272',
 									color: 'white',
-									margin: '50px',
+									marginTop: '50px',
 									padding: '10px',
 								}}>
 								CHARCUTERIE DELIVERY/PICK UP
@@ -40,7 +40,7 @@ function Charcuterie() {
 						<p
 							style={{
 								fontWeight: '300',
-								margin: '0 10px',
+								margin: '20px 30px',
 							}}>
 							One of our newest services, Charcuterie by WOW! Events was born
 							during our worldwide pandemic when my Event Planning Company of 17

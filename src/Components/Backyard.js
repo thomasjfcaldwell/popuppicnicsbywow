@@ -32,7 +32,7 @@ function Backyard() {
 									letterSpacing: '0.1em',
 									background: '#727272',
 									color: 'white',
-									margin: '50px',
+									marginTop: '50px',
 									padding: '10px',
 								}}>
 								MOVIE NIGHTS
@@ -43,7 +43,7 @@ function Backyard() {
 								className='movieText'
 								style={{
 									fontWeight: '300',
-									margin: '0 10px',
+									margin: '20px 30px',
 								}}>
 								Ready for a night at the movies? Enjoy a premiere showing of
 								your favorite Rom-Com, thriller, or whatever the kids get to
