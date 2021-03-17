@@ -25,7 +25,7 @@ export default class TopComponent extends Component {
 								justifyContent: 'center',
 								alignItems: 'center',
 							}}>
-							<FaPhone />
+							<FaPhone size={20} />
 
 							<a className='topText' href='tel:714.848.9698'>
 								714.848.9698
@@ -40,7 +40,7 @@ export default class TopComponent extends Component {
 								justifyContent: 'center',
 								alignItems: 'center',
 							}}>
-							<BsFillEnvelopeFill />
+							<BsFillEnvelopeFill size={20} />
 
 							<a className='topText' href='mailto:hello@wowevents.com'>
 								hello@wowevents.com
@@ -61,7 +61,7 @@ export default class TopComponent extends Component {
 								}}>
 								<a href='https://www.facebook.com/popuppicnicsbywow'>
 									{' '}
-									<FaFacebook />
+									<FaFacebook size={25} />
 								</a>
 							</div>
 							<div
@@ -69,7 +69,7 @@ export default class TopComponent extends Component {
 									margin: '0 5px',
 								}}>
 								<a href='https://www.instagram.com/popuppicnicsbywow/'>
-									<FaInstagram />
+									<FaInstagram size={25} />
 								</a>
 							</div>
 							<div
@@ -77,7 +77,7 @@ export default class TopComponent extends Component {
 									margin: '0 5px',
 								}}>
 								<a href='https://twitter.com/WowPopUpPicnics'>
-									<FaTwitter />
+									<FaTwitter size={25} />
 								</a>
 							</div>
 						</Col>
