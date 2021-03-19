@@ -73,7 +73,7 @@ class Themes extends Component {
 						</Col>
 						<Col lg={3} md={6} sm={12} className='themeCol'>
 							<div className='themeText'>
-								<p className='themeText'>Natural Luxury</p>
+								<p className='themeText'>Bohemian Luxury</p>
 							</div>
 							<div>
 								<Image fluid src={NaturalLuxury} className='themeImage' />
