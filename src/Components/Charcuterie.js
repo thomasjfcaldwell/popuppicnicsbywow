@@ -25,7 +25,7 @@ function Charcuterie() {
 					}}>
 					<h3
 						style={{
-							display: 'inline',
+							// display: 'inline',
 							fontFamily: 'Montserrat',
 							fontWeight: '500',
 							letterSpacing: '0.1em',
@@ -187,7 +187,12 @@ function Charcuterie() {
 			</Container>
 			<Container>
 				<Row>
-					<Col lg={6} sm={12}>
+					<Col
+						lg={6}
+						sm={12}
+						style={{
+							marginBottom: '40px',
+						}}>
 						<div
 							style={{
 								alignItems: 'center',
@@ -197,21 +202,25 @@ function Charcuterie() {
 								style={{
 									backgroundColor: '#f7901e',
 									color: 'white',
-									display: 'inline',
+									// display: 'inline',
 									padding: '10px',
+									textAlign: 'center',
 								}}>
 								Heart Box
 							</h3>
-							<Image
-								fluid
-								src={Heart}
-								alt='heartBox'
-								style={{
-									width: '50%',
-									margin: '0 auto',
-									padding: '10px',
-								}}
-							/>
+							<div>
+								<Image
+									fluid
+									src={Heart}
+									alt='heartBox'
+									style={{
+										width: '50%',
+										padding: '10px',
+										margin: 'auto',
+										display: 'block',
+									}}
+								/>
+							</div>
 							<div
 								style={{
 									color: '#727272',
@@ -245,23 +254,27 @@ function Charcuterie() {
 							}}>
 							<h3
 								style={{
-									display: 'inline',
+									// display: 'inline',
 									backgroundColor: '#f7901e',
 									color: 'white',
 									padding: '10px',
+									textAlign: 'center',
 								}}>
 								Smores Bar Box
 							</h3>
-							<Image
-								fluid
-								src={treats}
-								alt='smoresBox'
-								style={{
-									width: '50%',
-									margin: 'auto',
-									padding: '10px',
-								}}
-							/>
+							<div>
+								<Image
+									fluid
+									src={treats}
+									alt='smoresBox'
+									style={{
+										width: '50%',
+										padding: '10px',
+										margin: 'auto',
+										display: 'block',
+									}}
+								/>
+							</div>
 							<div
 								style={{
 									height: '250px',
@@ -299,7 +312,7 @@ function Charcuterie() {
 							fontFamily: 'Montserrat',
 							fontWeight: '500',
 							color: '#f7901e',
-							width: '75%',
+							width: '100%',
 						}}>
 						20% Service Fee,Sales tax & Applicable Delivery Fee will be added to
 						Pricing

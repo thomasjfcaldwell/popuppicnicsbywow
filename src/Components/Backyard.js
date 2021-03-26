@@ -25,7 +25,7 @@ function Backyard() {
 				}}>
 				<h3
 					style={{
-						display: 'inline',
+						// display: 'inline',
 						fontFamily: 'Montserrat',
 						fontWeight: '500',
 						letterSpacing: '0.1em',
