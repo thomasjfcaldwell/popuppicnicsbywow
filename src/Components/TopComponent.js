@@ -27,7 +27,12 @@ export default class TopComponent extends Component {
 							}}>
 							<FaPhone size={20} />
 
-							<a className='topText' href='tel:714.848.9698'>
+							<a
+								className='topText'
+								href='tel:714.848.9698'
+								style={{
+									fontWeight: '400',
+								}}>
 								714.848.9698
 							</a>
 						</Col>
@@ -42,7 +47,12 @@ export default class TopComponent extends Component {
 							}}>
 							<BsFillEnvelopeFill size={20} />
 
-							<a className='topText' href='mailto:hello@wowevents.com'>
+							<a
+								className='topText'
+								href='mailto:hello@wowevents.com'
+								style={{
+									fontWeight: '400',
+								}}>
 								hello@wowevents.com
 							</a>
 						</Col>

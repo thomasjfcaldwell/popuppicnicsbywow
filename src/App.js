@@ -121,15 +121,15 @@ class App extends Component {
 								</a>
 
 								<a className='linkforpage' href='/packages'>
-									Picnics
+									Pop Up Picnics
 								</a>
 
 								<a className='linkforpage' href='/backyardmovies'>
-									Backyard Movie Night
+									Movie Night
 								</a>
 
 								<a className='linkforpage' href='/charcuterie'>
-									Charcuterie
+									Charcuterie Services
 								</a>
 							</Col>
 						</Row>

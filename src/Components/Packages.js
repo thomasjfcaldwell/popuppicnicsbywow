@@ -8,6 +8,7 @@ import PicnicFQA from '../Components/Modals/PicnicFQA';
 import BandWPackage from '../Images/Packages/savvy.jpg';
 import simplySavvy from '../Images/Packages/simplysavvy.jpg';
 import Themes from '../Components/Themes';
+import BasicBeauty from '../Images/Packages/basicBeauty.jpg';
 
 class Packages extends Component {
 	render() {
@@ -39,9 +40,31 @@ class Packages extends Component {
 				</Container>
 				<Container fluid>
 					<Row className='packages'>
-						<Col sm={12} lg={6}>
+						<Col sm={12} lg={4}>
 							<div className='packagesContainer'>
-								<h4 className='packagesHeader'>SIMPLY SAVVY PACKAGE $160+++</h4>
+								<p className='packagesHeader'>BASIC BEAUTY PACKAGE $150+++</p>
+
+								<Image
+									className='packagesImage'
+									src={BasicBeauty}
+									alt='Basic Beauty package images'
+								/>
+
+								<ul className='nobullets'>
+									<li>1 ½ Hour POP-UP Picnic for 2 People</li>{' '}
+									<li>Personalized Letterboard Sign</li>
+									<li>Small Hand Crafted Wood Table</li>{' '}
+									<li>Tapestry blanket</li> <li>Pillow Seating</li>{' '}
+									<li>
+										Flatware, Plates/White Cloth Napkins Gold Metal Goblets
+									</li>{' '}
+									<li>Table Decor</li> <li>(2) Wood Crate Side Tables</li>
+								</ul>
+							</div>
+						</Col>
+						<Col sm={12} lg={4}>
+							<div className='packagesContainer'>
+								<p className='packagesHeader'>SIMPLY SAVVY PACKAGE $180+++</p>
 
 								<Image
 									className='packagesImage'
@@ -62,11 +85,11 @@ class Packages extends Component {
 								</ul>
 							</div>
 						</Col>
-						<Col sm={12} lg={6}>
+						<Col sm={12} lg={4}>
 							<div className='packagesContainer'>
-								<h4 className='packagesHeader'>
-									THE BELLS & WHISTLES PACKAGE $260+++
-								</h4>
+								<p className='packagesHeader'>
+									THE BELLS & WHISTLES PACKAGE $280+++
+								</p>
 
 								<Image
 									src={BandWPackage}

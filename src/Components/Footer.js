@@ -49,7 +49,7 @@ class Footer extends Component {
 											letterSpacing: '0.1em',
 											background: '#f7901e',
 											color: 'white',
-											padding: '10px',
+											padding: '5px',
 										}}>
 										HUNTINGTON BEACH
 									</p>
@@ -77,7 +77,7 @@ class Footer extends Component {
 										letterSpacing: '0.1em',
 										background: '#f7901e',
 										color: 'white',
-										padding: '10px',
+										padding: '5px',
 									}}>
 									NEWPORT BEACHES/PARKS
 								</p>
@@ -103,7 +103,7 @@ class Footer extends Component {
 										letterSpacing: '0.1em',
 										background: '#f7901e',
 										color: 'white',
-										padding: '10px',
+										padding: '5px',
 									}}>
 									CORONA DEL MAR BEACH
 								</p>
@@ -128,7 +128,7 @@ class Footer extends Component {
 										letterSpacing: '0.1em',
 										background: '#f7901e',
 										color: 'white',
-										padding: '10px',
+										padding: '5px',
 									}}>
 									DANA POINT
 								</p>
@@ -157,7 +157,7 @@ class Footer extends Component {
 										letterSpacing: '0.1em',
 										background: '#f7901e',
 										color: 'white',
-										padding: '10px',
+										padding: '5px',
 									}}>
 									DOHENY BEACH/PARK
 								</p>
@@ -178,7 +178,7 @@ class Footer extends Component {
 										letterSpacing: '0.1em',
 										background: '#f7901e',
 										color: 'white',
-										padding: '10px',
+										padding: '5px',
 									}}>
 									LAGUNA BEACH/PARK
 								</p>
@@ -204,7 +204,7 @@ class Footer extends Component {
 										letterSpacing: '0.1em',
 										background: '#f7901e',
 										color: 'white',
-										padding: '10px',
+										padding: '5px',
 									}}>
 									SAN CLEMENTE
 								</p>
@@ -231,7 +231,7 @@ class Footer extends Component {
 										letterSpacing: '0.1em',
 										background: '#f7901e',
 										color: 'white',
-										padding: '10px',
+										padding: '5px',
 									}}>
 									SIGNAL HILL PARK
 								</p>

@@ -73,6 +73,9 @@
 		font-size: 0.8em;
 		text-align: center;
 	}
+	.videoContainer {
+		width: '100%';
+	}
 }
 
 .address {
@@ -224,7 +227,7 @@
 .packagesHeader {
 	display: inline;
 	font-family: 'Montserrat';
-	line-height: 2em;
+	font-size: 1.05em;
 	font-weight: 500;
 	letter-spacing: 0.1em;
 	background: #f7901e;
