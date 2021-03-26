@@ -227,8 +227,8 @@
 .packagesHeader {
 	display: inline;
 	font-family: 'Montserrat';
-	font-size: 1.05em;
 	font-weight: 500;
+	line-height: 1.8em;
 	letter-spacing: 0.1em;
 	background: #f7901e;
 	color: white;
