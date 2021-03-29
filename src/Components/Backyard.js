@@ -85,7 +85,7 @@ function Backyard() {
 								textAlign: 'center',
 							}}>
 							<Image
-								fluid
+								fluid ='true'
 								src={treats}
 								style={{
 									width: '81%',
@@ -102,7 +102,7 @@ function Backyard() {
 								textAlign: 'center',
 							}}>
 							<Image
-								fluid
+								fluid ='true'
 								src={sign}
 								style={{
 									width: '40%',
@@ -111,7 +111,7 @@ function Backyard() {
 							/>
 
 							<Image
-								fluid
+								fluid ='true'
 								src={table}
 								style={{
 									width: '40%',

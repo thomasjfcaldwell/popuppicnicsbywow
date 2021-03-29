@@ -40,47 +40,25 @@ class Footer extends Component {
 				<Container fluid>
 					<Row>
 						<Col lg={3}>
-							<Card className='border-0'>
-								<div className='locationsHeader'>
-									<p
-										style={{
-											fontFamily: 'Montserrat',
-											fontWeight: '500',
-											letterSpacing: '0.1em',
-											background: '#f7901e',
-											color: 'white',
-											padding: '5px',
-										}}>
-										HUNTINGTON BEACH
-									</p>
-								</div>
+							<div>
+								<p className='locationsText'>HUNTINGTON BEACH</p>
+							</div>
 
-								<Image
-									src={HuntState}
-									alt='huntington beach state beach'
-									className='images'
-								/>
-								<div className='locationDetails'>
-									<div>
-										<h5 className='locationPrice'>$30</h5>
-									</div>
+							<Image
+								src={HuntState}
+								alt='huntington beach state beach'
+								className='images'
+							/>
+							<div className='locationDetails'>
+								<div>
+									<h5 className='locationPrice'>$30</h5>
 								</div>
-							</Card>
+							</div>
 						</Col>
 
 						<Col lg={3}>
-							<div className='locationsHeader'>
-								<p
-									style={{
-										fontFamily: 'Montserrat',
-										fontWeight: '500',
-										letterSpacing: '0.1em',
-										background: '#f7901e',
-										color: 'white',
-										padding: '5px',
-									}}>
-									NEWPORT BEACHES/PARKS
-								</p>
+							<div>
+								<p className='locationsText'>NEWPORT BEACHES/PARKS</p>
 							</div>
 
 							<Image
@@ -95,18 +73,8 @@ class Footer extends Component {
 							</div>
 						</Col>
 						<Col lg={3}>
-							<div className='locationsHeader'>
-								<p
-									style={{
-										fontFamily: 'Montserrat',
-										fontWeight: '500',
-										letterSpacing: '0.1em',
-										background: '#f7901e',
-										color: 'white',
-										padding: '5px',
-									}}>
-									CORONA DEL MAR BEACH
-								</p>
+							<div>
+								<p className='locationsText'>CORONA DEL MAR BEACH</p>
 							</div>
 							<Image
 								src={Corona}
@@ -120,18 +88,8 @@ class Footer extends Component {
 							</div>
 						</Col>
 						<Col lg={3}>
-							<div className='locationsHeader'>
-								<p
-									style={{
-										fontFamily: 'Montserrat',
-										fontWeight: '500',
-										letterSpacing: '0.1em',
-										background: '#f7901e',
-										color: 'white',
-										padding: '5px',
-									}}>
-									DANA POINT
-								</p>
+							<div>
+								<p className='locationsText'>DANA POINT</p>
 							</div>
 							<Image
 								src={Saltcreek}
@@ -149,18 +107,8 @@ class Footer extends Component {
 				<Container fluid>
 					<Row>
 						<Col lg={3}>
-							<div className='locationsHeader'>
-								<p
-									style={{
-										fontFamily: 'Montserrat',
-										fontWeight: '500',
-										letterSpacing: '0.1em',
-										background: '#f7901e',
-										color: 'white',
-										padding: '5px',
-									}}>
-									DOHENY BEACH/PARK
-								</p>
+							<div>
+								<p className='locationsText'>DOHENY BEACH/PARK</p>
 							</div>
 							<Image src={Doheny} alt='Doheny State Beach' className='images' />
 							<div className='locationDetails'>
@@ -170,18 +118,8 @@ class Footer extends Component {
 							</div>
 						</Col>
 						<Col lg={3}>
-							<div className='locationsHeader'>
-								<p
-									style={{
-										fontFamily: 'Montserrat',
-										fontWeight: '500',
-										letterSpacing: '0.1em',
-										background: '#f7901e',
-										color: 'white',
-										padding: '5px',
-									}}>
-									LAGUNA BEACH/PARK
-								</p>
+							<div>
+								<p className='locationsText'>LAGUNA BEACH/PARK</p>
 							</div>
 							<Image
 								src={Heisler}

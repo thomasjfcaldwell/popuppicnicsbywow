@@ -6,6 +6,8 @@
 }
 .pricing {
 	padding: 5px;
+	color: white;
+	background-color: #727272;
 }
 
 .addons {
@@ -15,23 +17,20 @@
 	color: #727272;
 }
 
-/* .addonCol {
-	flex: 1;
+.addonCol {
+	display: flex;
+	flex-direction: column;
 	margin-top: 10px;
-} */
-
-.serviceHeader {
-	font-size: 0.9em;
-	height: 40px;
-	line-height: 1.5em;
-	margin: 20px 0;
+	justify-content: center;
+	align-items: center;
 }
 
-@media screen and (max-width: 480px) {
-	.serviceHeader {
-		height: 25px;
-	}
-	.pricing {
-		margin-top: 32px;
-	}
+.serviceHeader {
+	text-transform: uppercase;
+	font-size: 0.5rem;
+	padding: 5px;
+	color: white;
+	background-color: #f78f1e;
+	font-weight: 500;
+	letter-spacing: 0.1em;
 }

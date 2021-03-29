@@ -115,7 +115,7 @@ const Ourstory = () => {
 									justifyContent: 'center',
 									margin: '10px',
 								}}>
-								<Image Src={southSide} fluid className='ourStoryImage' />
+								<Image src={southSide} fluid className='ourStoryImage' />
 							</Row>
 						</Container>
 					</Col>
