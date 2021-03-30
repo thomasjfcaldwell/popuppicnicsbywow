@@ -134,18 +134,8 @@ class Footer extends Component {
 						</Col>
 
 						<Col lg={3}>
-							<div className='locationsHeader'>
-								<p
-									style={{
-										fontFamily: 'Montserrat',
-										fontWeight: '500',
-										letterSpacing: '0.1em',
-										background: '#f7901e',
-										color: 'white',
-										padding: '5px',
-									}}>
-									SAN CLEMENTE
-								</p>
+							<div>
+								<p className='locationsText'>SAN CLEMENTE</p>
 							</div>
 
 							<Image
@@ -161,18 +151,8 @@ class Footer extends Component {
 						</Col>
 
 						<Col lg={3}>
-							<div className='locationsHeader'>
-								<p
-									style={{
-										fontFamily: 'Montserrat',
-										fontWeight: '500',
-										letterSpacing: '0.1em',
-										background: '#f7901e',
-										color: 'white',
-										padding: '5px',
-									}}>
-									SIGNAL HILL PARK
-								</p>
+							<div>
+								<p className='locationsText'>SIGNAL HILL PARK</p>
 							</div>
 							<Image
 								src={Hilltop}

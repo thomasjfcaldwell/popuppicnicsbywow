@@ -2,7 +2,8 @@
 
 .addonimg {
 	margin: 20px 0;
-	width: 60%;
+	width: 80%;
+	box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
 }
 .pricing {
 	padding: 5px;
@@ -33,4 +34,11 @@
 	background-color: #f78f1e;
 	font-weight: 500;
 	letter-spacing: 0.1em;
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
+	.serviceHeader {
+		height: 30px;
+		padding: 2px;
+	}
 }
