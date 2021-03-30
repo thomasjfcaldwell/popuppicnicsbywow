@@ -166,6 +166,7 @@ class Addon extends Component {
 					</Row>
 					<Row
 						style={{
+							display: 'flex',
 							alignItems: 'center',
 							justifyContent: 'center',
 							textAlign: 'center',
@@ -174,9 +175,8 @@ class Addon extends Component {
 							style={{
 								fontFamily: 'Montserrat',
 								fontWeight: '500',
-								color: '#727272',
-								width: '100%',
-								marginTop: '20px'
+								color: '#f7901e',
+								marginTop: '20px',
 							}}>
 							20% Service Fee,Sales tax & Applicable Delivery Fee will be added
 							to Pricing

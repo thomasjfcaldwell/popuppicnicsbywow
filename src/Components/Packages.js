@@ -143,7 +143,7 @@ class Packages extends Component {
 							style={{
 								fontFamily: 'Montserrat',
 								fontWeight: '500',
-								color: '#727272',
+								color: '#f7901e',
 								width: '75%',
 							}}>
 							Location Fee, 20% Service Fee and Sales tax will be added to
@@ -159,7 +159,7 @@ class Packages extends Component {
 						alignItems: 'center',
 						justifyContent: 'center',
 						textAlign: 'center',
-						margin: '50px',
+						margin: '40px 0',
 					}}>
 					<PicnicFQA />
 				</div>

@@ -178,7 +178,7 @@ class Footer extends Component {
 							style={{
 								fontFamily: 'Montserrat',
 								fontWeight: '500',
-								color: '#727272',
+								color: '#f7901e',
 								width: '75%',
 							}}>
 							20% Service Fee and Sales tax will be added to Pricing
