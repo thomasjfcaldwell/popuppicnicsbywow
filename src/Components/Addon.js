@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Row, Col, Card, Container, Image } from 'react-bootstrap';
 import '../styles/addon.css';
 import blanket from '../Images/Packages/blankets.jpg';
-import Beverages from '../Images/Packages/beveragepackagefor2.jpg';
+import Beverages from '../Images/Packages/beveragepackage3.31.2021.jpg';
 import Teepee from '../Images/Packages/TeePee for site.jpg';
 import Umbrella from '../Images/Packages/UmbrellaForWeb.jpg';
 import Dessert from '../Images/Packages/dessertBox.jpg';
