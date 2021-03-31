@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import { Col, Card, Image, Container, Row } from 'react-bootstrap';
 
 import groupShot from '../Images/Aboutus/aboutsus.1.jpg';
-import southSide from '../Images/Aboutus/aboutsus.2.jpg';
+import melTiff from '../Images/Aboutus/aboutusMel.Tiff.jpg';
 import '../App.css';
 import '../styles/locations.css';
 import Aos from 'aos';
@@ -94,30 +94,28 @@ const Ourstory = () => {
 						</div>
 					</Col>
 					<Col lg={6} xsm={12} fluid>
-						<Container
-							fluid
+						<div
 							style={{
-								marginTop: '50px',
+								display: 'flex',
+								flexDirection: 'column',
+								alignItems: 'center',
+								justifyContent: 'center',
+								
 							}}>
-							<Row
-								style={{
-									alignItems: 'center',
-									justifyContent: 'center',
-									margin: '10px',
-								}}>
-								<Image src={groupShot} fluid className='ourStoryImage' />
-							</Row>
-						</Container>
-						<Container>
-							<Row
-								style={{
-									alignItems: 'center',
-									justifyContent: 'center',
-									margin: '10px',
-								}}>
-								<Image src={southSide} fluid className='ourStoryImage' />
-							</Row>
-						</Container>
+							<Image
+								src={groupShot}
+								fluid
+								alt='Picnic at Huntington Beach'
+								className='ourStoryImage'
+							/>
+
+							<Image
+								src={melTiff}
+								fluid
+								alt='Photo of Melissa Caldwell & Tiffany Brown'
+								className='ourStoryImage'
+							/>
+						</div>
 					</Col>
 				</Row>
 			</Container>
