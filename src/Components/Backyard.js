@@ -10,6 +10,8 @@ import SimplyWithPremier from './Modals/SimplyWithPremier';
 import SimplyWithBlockbuster from './Modals/SimplyWithBlockbuster';
 import BellsWithPremier from './Modals/BellsWithPremier';
 import BellsWithBlockbuster from './Modals/BellsWithBlockbuster';
+import BasicWithPremier from './Modals/BasicWithPremier';
+import BasicWithBlockBuster from './Modals/BasicWithBlockBuster';
 import MovieVideo from './MovieVideo';
 import '../App.css';
 
@@ -38,13 +40,17 @@ function Backyard() {
 				</h3>
 			</div>
 			<Container fluid>
-				<Row>
+				<Row
+					style={{
+						justifyItems: 'center',
+					}}>
 					<Col lg={6}>
 						<p
 							className='movieText'
 							style={{
 								fontWeight: '300',
-								margin: '30px 0 40px 10px',
+								width: '100%',
+								margin: '60px 0 40px 10px',
 							}}>
 							Ready for a night at the movies? Enjoy a premiere showing of your
 							favorite Rom-Com, thriller, or whatever the kids get to choose in
@@ -123,6 +129,7 @@ function Backyard() {
 				</Row>
 			</Container>
 			<Container
+				fluid
 				className='videoContainer'
 				style={{
 					width: '50%',
@@ -133,7 +140,7 @@ function Backyard() {
 						justifyContent: 'center',
 						margin: '2em',
 					}}>
-					<MovieVideo />
+					<MovieVideo fluid />
 				</div>
 			</Container>
 
@@ -170,22 +177,33 @@ function Backyard() {
 						<BlockBusterModal />
 					</Col>
 				</Row>
-			</Container>
-			<Container
-				fluid
-				style={{
-					color: '#727272',
-				}}>
 				<Row>
 					<Col lg={6} md={4} sm={6} className='moviePackages'>
 						<p>
-							Simply Savvy PUP Package + Premier Movie Night Package $385.00 +++
+							Basic Beauty PUP Package + Premier Movie Night Package $375.00 +++
+						</p>
+						<BasicWithPremier />
+					</Col>
+					<Col lg={6} md={4} sm={6} className='moviePackages'>
+						<p>
+							Basic Beauty PUP Package + Blockbuster Movie Night Package $475.00
+							+++
+						</p>
+
+						<BasicWithBlockBuster />
+					</Col>
+				</Row>
+
+				<Row>
+					<Col lg={6} md={4} sm={6} className='moviePackages'>
+						<p>
+							Simply Savvy PUP Package + Premier Movie Night Package $405.00 +++
 						</p>
 						<SimplyWithPremier />
 					</Col>
 					<Col lg={6} md={4} sm={6} className='moviePackages'>
 						<p>
-							Simply Savvy PUP Package + Blockbuster Movie Night Package $485.00
+							Simply Savvy PUP Package + Blockbuster Movie Night Package $505.00
 							+++
 						</p>
 
@@ -195,7 +213,7 @@ function Backyard() {
 				<Row>
 					<Col lg={6} md={4} sm={6} className='moviePackages'>
 						<p>
-							Bells & Whistles PUP Package + Premier Movie Night Package $485.00
+							Bells & Whistles PUP Package + Premier Movie Night Package $505.00
 							+++
 						</p>
 
@@ -204,7 +222,7 @@ function Backyard() {
 					<Col lg={6} md={4} sm={6} className='moviePackages'>
 						<p>
 							Bells & Whistles PUP Package + Blockbuster Movie Night Package
-							$585.00 +++
+							$605.00 +++
 						</p>
 
 						<BellsWithBlockbuster />

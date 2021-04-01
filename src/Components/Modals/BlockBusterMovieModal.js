@@ -11,13 +11,17 @@ function Example() {
 
 	return (
 		<>
-			<Button className='btn btn-primary custom-btn' onClick={handleShow}>
+			<Button
+				size='sm'
+				className='btn btn-primary custom-btn'
+				onClick={handleShow}>
 				Whats Included
 			</Button>
 
 			<Modal
 				show={show}
 				onHide={handleClose}
+				scrollable={true}
 				backdrop='static'
 				keyboard={false}>
 				<Modal.Header closeButton>
@@ -66,7 +70,10 @@ function Example() {
 					</ul>
 				</Modal.Body>
 				<Modal.Footer>
-					<Button className='button' onClick={handleClose}>
+					<Button
+						size='sm'
+						className='btn btn-primary custom-btn'
+						onClick={handleClose}>
 						Close
 					</Button>
 				</Modal.Footer>

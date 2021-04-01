@@ -19,28 +19,22 @@ function Example() {
 			</Button>
 
 			<Modal
-				animation={true}
 				show={show}
+				scrollable={true}
 				onHide={handleClose}
 				backdrop='static'
-				scrollable={true}
 				keyboard={false}>
 				<Modal.Header closeButton>
 					<Modal.Title>What's Included</Modal.Title>
 				</Modal.Header>
-				<Modal.Body scrollable={true}>
-					<ul>
-						Bells & Whistles Picnic Package: <li>Two Hour POP-UP Picnic </li>{' '}
-						<li>Personalized Welcome Sign</li>
-						<li>Hand Crafted Wooden table</li>
-						<li>Seat Pillow For Everyone</li>{' '}
-						<li>Flatware/Plates/White Cloth Napkins</li>{' '}
-						<li>Metal Goblets Table</li>
-						<li>Décor Blanket or Rug (floor covering)</li>{' '}
-						<li>8X8 Cheese Charcuterie Box</li> <li>Beverage Package for 2</li>
-						<li>Bluetooth Speaker</li>
-						<li>Decorative Umbrella or Styled Teepee Corner</li>{' '}
-						<li>Side Table or Storage Area Perimeter Decor</li>
+				<Modal.Body scrollable='true'>
+					<ul className='nobullets'>
+						<li>1 ½ Hour POP-UP Picnic for 2 People</li>{' '}
+						<li>Personalized Letterboard Sign</li>
+						<li>Small Hand Crafted Wood Table</li> <li>Tapestry blanket</li>{' '}
+						<li>Pillow Seating</li>{' '}
+						<li>Flatware, Plates/White Cloth Napkins Gold Metal Goblets</li>{' '}
+						<li>Table Decor</li> <li>(2) Wood Crate Side Tables</li>
 					</ul>
 					<ul>
 						Blockbuster Movie Package:

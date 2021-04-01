@@ -3,7 +3,6 @@ import { React, useState } from 'react';
 
 import { Button } from 'react-bootstrap';
 
-
 function Example() {
 	const [show, setShow] = useState(false);
 
@@ -13,7 +12,7 @@ function Example() {
 	return (
 		<>
 			<Button
-				// variant='primary'
+				size='sm'
 				className='btn btn-primary custom-btn'
 				onClick={handleShow}>
 				Whats Included
@@ -48,7 +47,10 @@ function Example() {
 					</ul>
 				</Modal.Body>
 				<Modal.Footer>
-					<Button className='button' onClick={handleClose}>
+					<Button
+						size='sm'
+						className='btn btn-primary custom-btn'
+						onClick={handleClose}>
 						Close
 					</Button>
 				</Modal.Footer>

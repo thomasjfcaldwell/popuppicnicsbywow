@@ -72,11 +72,11 @@
 	}
 	.moviePackages p {
 		height: 50px;
-		font-size: 0.8em;
+		font-size: 0.9em;
 		text-align: center;
 	}
 	.videoContainer {
-		width: '100%';
+		min-width: 100%;
 	}
 }
 
@@ -220,6 +220,7 @@
 
 .moviePackages p {
 	height: 30px;
+	font-size: 0.8em;
 }
 .packages {
 	font-family: 'Montserrat';
@@ -249,3 +250,7 @@
 	justify-content: center;
 	text-align: center;
 }
+
+/* MODALS */
+
+

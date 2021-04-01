@@ -3,7 +3,6 @@ import { React, useState } from 'react';
 
 import { Button } from 'react-bootstrap';
 
-
 function Example() {
 	const [show, setShow] = useState(false);
 
@@ -27,8 +26,17 @@ function Example() {
 				<Modal.Header closeButton>
 					<Modal.Title>What's Included</Modal.Title>
 				</Modal.Header>
-				<Modal.Body>
+				<Modal.Body scrollable='true'>
+					<ul className='nobullets'>
+						<li>1 ½ Hour POP-UP Picnic for 2 People</li>{' '}
+						<li>Personalized Letterboard Sign</li>
+						<li>Small Hand Crafted Wood Table</li> <li>Tapestry blanket</li>{' '}
+						<li>Pillow Seating</li>{' '}
+						<li>Flatware, Plates/White Cloth Napkins Gold Metal Goblets</li>{' '}
+						<li>Table Decor</li> <li>(2) Wood Crate Side Tables</li>
+					</ul>
 					<ul>
+						Premier Movie Package:
 						<li>Three Hour Movie Night</li>
 						<li>2 x 12” Speakers with Bluetooth System </li>
 						<li>MP3/USB/SD/FM Radio/AUX/INPUT.</li>{' '}
