@@ -5,7 +5,7 @@ import Addon from '../Components/Addon';
 import BookingForm from '../Components/BookingForm';
 import Footer from '../Components/Footer';
 import PicnicFQA from '../Components/Modals/PicnicFQA';
-import BandWPackage from '../Images/Packages/savvy.jpg';
+import BandWPackage from '../Images/Packages/bellsandwhistles.jpg';
 import simplySavvy from '../Images/Packages/simplysavvy.jpg';
 import Themes from '../Components/Themes';
 import BasicBeauty from '../Images/Packages/basicBeauty.jpg';

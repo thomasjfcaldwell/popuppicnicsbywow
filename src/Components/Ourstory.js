@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import { Col, Card, Image, Container, Row } from 'react-bootstrap';
 
-import groupShot from '../Images/Aboutus/aboutsus.1.jpg';
+import groupShot from '../Images/Aboutus/aboutsus.2.jpg';
 import melTiff from '../Images/Aboutus/aboutusMel.Tiff.jpg';
 import '../App.css';
 import '../styles/locations.css';
