@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Row, Col, Card, Image, Container } from 'react-bootstrap';
+import { Row, Col, Image, Container } from 'react-bootstrap';
 import HuntState from '../Images/Locations/HuntingtonStateWeb.jpg';
 import '../styles/locations.css';
 
@@ -58,7 +58,7 @@ class Footer extends Component {
 
 						<Col lg={3}>
 							<div>
-								<p className='locationsText'>NEWPORT BEACHES/PARKS</p>
+								<p className='locationsText'>NEWPORT BEACHES</p>
 							</div>
 
 							<Image
@@ -108,7 +108,7 @@ class Footer extends Component {
 					<Row>
 						<Col lg={3}>
 							<div>
-								<p className='locationsText'>DOHENY BEACH/PARK</p>
+								<p className='locationsText'>DOHENY BEACH</p>
 							</div>
 							<Image src={Doheny} alt='Doheny State Beach' className='images' />
 							<div className='locationDetails'>
@@ -119,7 +119,7 @@ class Footer extends Component {
 						</Col>
 						<Col lg={3}>
 							<div>
-								<p className='locationsText'>LAGUNA BEACH/PARK</p>
+								<p className='locationsText'>LAGUNA BEACH</p>
 							</div>
 							<Image
 								src={Heisler}

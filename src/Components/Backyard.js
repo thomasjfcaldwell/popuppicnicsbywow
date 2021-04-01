@@ -85,7 +85,7 @@ function Backyard() {
 								textAlign: 'center',
 							}}>
 							<Image
-								fluid ='true'
+								fluid='true'
 								src={treats}
 								style={{
 									width: '81%',
@@ -102,7 +102,7 @@ function Backyard() {
 								textAlign: 'center',
 							}}>
 							<Image
-								fluid ='true'
+								fluid='true'
 								src={sign}
 								style={{
 									width: '40%',
@@ -111,7 +111,7 @@ function Backyard() {
 							/>
 
 							<Image
-								fluid ='true'
+								fluid='true'
 								src={table}
 								style={{
 									width: '40%',
@@ -122,7 +122,8 @@ function Backyard() {
 					</Col>
 				</Row>
 			</Container>
-			<Container className='videoContainer'
+			<Container
+				className='videoContainer'
 				style={{
 					width: '50%',
 				}}>
