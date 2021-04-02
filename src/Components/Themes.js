@@ -31,7 +31,7 @@ class Themes extends Component {
 									color: 'white',
 									padding: '0.4em',
 								}}>
-								STEP 2: CHOOSE A THEME
+								STEP 2: CHOOSE A DESIGN THEME
 							</h5>
 						</div>
 					</Row>
