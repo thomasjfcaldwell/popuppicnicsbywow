@@ -51,25 +51,25 @@ class Addon extends Component {
 							textAlign: 'center',
 						}}>
 						<Col xs={6} sm={6} md={3} lg={3} className='addonCol'>
-							<Image className='addonimg' src={blanket} />
 							<p className='serviceHeader'>Cozy Blanket Basket</p>
+							<Image className='addonimg' src={blanket} />
 							<h5 className='pricing'> $25</h5>
 						</Col>
 						<Col xs={6} sm={6} md={3} lg={3} className='addonCol'>
-							<Image className='addonimg' src={Beverages} />
 							<p className='serviceHeader'>Beverage Package for 2</p>
+							<Image className='addonimg' src={Beverages} />
 							<h5 className='pricing'>$30</h5>
 						</Col>
 						<Col xs={6} sm={6} md={3} lg={3} className='addonCol'>
-							<Image className='addonimg' src={Beverages1} />
 							<p className='serviceHeader'>
 								Additional Beverages for One Guest
 							</p>
+							<Image className='addonimg' src={Beverages1} />
 							<h5 className='pricing'>$5</h5>
 						</Col>
 						<Col xs={6} sm={6} md={3} lg={3} className='addonCol'>
-							<Image className='addonimg' src={Teepee} />
 							<p className='serviceHeader'>Teepee Set-Up</p>
+							<Image className='addonimg' src={Teepee} />
 							<h5 className='pricing'>$40</h5>
 						</Col>
 					</Row>
@@ -83,23 +83,23 @@ class Addon extends Component {
 							textAlign: 'center',
 						}}>
 						<Col xs={6} sm={6} md={3} lg={3} className='addonCol'>
-							<Image className='addonimg' src={Umbrella} />
 							<p className='serviceHeader'>Posh Umbrella with Tassels</p>
+							<Image className='addonimg' src={Umbrella} />
 							<h5 className='pricing'>$45</h5>
 						</Col>
 						<Col xs={6} sm={6} md={3} lg={3} className='addonCol'>
-							<Image className='addonimg' src={Dessert} />
 							<p className='serviceHeader'>Dessert Platter </p>
+							<Image className='addonimg' src={Dessert} />
 							<h5 className='pricing'>$40</h5>
 						</Col>
 						<Col xs={6} sm={6} md={3} lg={3} className='addonCol'>
-							<Image className='addonimg' src={cheeseBox} />
 							<p className='serviceHeader'>Cheese Charcuterie Box</p>
+							<Image className='addonimg' src={cheeseBox} />
 							<h5 className='pricing'>$50</h5>
 						</Col>
 						<Col xs={6} sm={6} md={3} lg={3} className='addonCol'>
-							<Image className='addonimg' src={Multi} />
 							<p className='serviceHeader'>Vegan/Vegetarian Charcuterie Box</p>
+							<Image className='addonimg' src={Multi} />
 							<h5 className='pricing'>$45</h5>
 						</Col>
 					</Row>
@@ -113,23 +113,23 @@ class Addon extends Component {
 							textAlign: 'center',
 						}}>
 						<Col xs={6} sm={6} md={4} lg={3} className='addonCol'>
-							<Image className='addonimg' src={MeatCheese} />
 							<p className='serviceHeader'>Meat & Cheese Charcutier Box</p>
+							<Image className='addonimg' src={MeatCheese} />
 							<h5 className='pricing'>$55</h5>
 						</Col>
 						<Col xs={6} sm={6} md={4} lg={3} className='addonCol'>
-							<Image className='addonimg' src={Music} />
 							<p className='serviceHeader'>Live Music Entertainment</p>
+							<Image className='addonimg' src={Music} />
 							<h5 className='pricing'>$300+</h5>
 						</Col>
 						<Col xs={6} sm={6} md={4} lg={3} className='addonCol'>
-							<Image className='addonimg' src={extraHour} />
 							<p className='serviceHeader'>Additional Hour for Picnic</p>
+							<Image className='addonimg' src={extraHour} />
 							<h5 className='pricing'>$75</h5>
 						</Col>
 						<Col xs={6} sm={6} md={4} lg={3} className='addonCol'>
-							<Image className='addonimg' src={speaker} />
 							<p className='serviceHeader'>BlueTooth Speaker</p>
+							<Image className='addonimg' src={speaker} />
 							<h5 className='pricing'>$10</h5>
 						</Col>
 					</Row>
@@ -158,9 +158,10 @@ class Addon extends Component {
 								width: '100%',
 							}}>
 							<Card className='border-0 text-center'>
-								<Card.Text className='m-1'>
-									One Balloon Garland for Teepee Set-Up (approx. 5 feet)= $225
-								</Card.Text>
+								<p className='serviceHeader'>
+									One Balloon Garland for Teepee Set-Up (approx. 5 feet)
+								</p>
+								<h5 className='pricing'>$225</h5>
 							</Card>
 						</Col>
 					</Row>
