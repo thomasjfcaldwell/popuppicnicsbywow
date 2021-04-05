@@ -118,6 +118,7 @@ function Charcuterie() {
 						margin: 'auto',
 					}}>
 					<Col className='deliveryCard' lg={2} md={4} sm={6}>
+						<p className='optionsTitle'>Meat & Cheese Box</p>
 						<Card.Img
 							variant='top'
 							src={MeatCheese}
@@ -125,7 +126,6 @@ function Charcuterie() {
 							className='deliveryImg'
 						/>
 						<Card.Body>
-							<p className='optionsTitle'>Meat & Cheese Box</p>
 							<div className='optionsContainer'>
 								<p className='options'>8x8 inches - $55.00</p>
 								<p className='options'>10x10 inches - $80.00</p>
@@ -134,9 +134,9 @@ function Charcuterie() {
 						</Card.Body>
 					</Col>
 					<Col className='deliveryCard' lg={2} md={4} sm={6}>
+						<p className='optionsTitle'>Cheese Box</p>
 						<Card.Img variant='top' src={cheeseBox} />
 						<Card.Body>
-							<p className='optionsTitle'>Cheese Box</p>
 							<div className='optionsContainer'>
 								<p className='options'>8x8 inches - $50.00</p>
 								<p className='options'>10x10 inches - $75.00</p>
@@ -145,9 +145,9 @@ function Charcuterie() {
 						</Card.Body>
 					</Col>
 					<Col className='deliveryCard' lg={2} md={4} sm={6}>
+						<p className='optionsTitle'>Veggie/Vegan Box</p>
 						<Card.Img variant='top' src={Multi} />
 						<Card.Body>
-							<p className='optionsTitle'>Veggie/Vegan Box</p>
 							<div className='optionsContainer'>
 								<p className='options'>8x8 inches - $45.00</p>
 								<p className='options'>10x10 inches - $70.00</p>
@@ -156,9 +156,9 @@ function Charcuterie() {
 						</Card.Body>
 					</Col>
 					<Col className='deliveryCard' lg={2} md={4} sm={6}>
+						<p className='optionsTitle'>Dessert Box</p>
 						<Card.Img variant='top' src={Dessert} />
 						<Card.Body>
-							<p className='optionsTitle'>Dessert Box</p>
 							<div className='optionsContainer'>
 								<p className='options'>6x6 inches - $30.00</p>
 								<p className='options'>8x8 inches - $40.00</p>
@@ -166,18 +166,18 @@ function Charcuterie() {
 						</Card.Body>
 					</Col>
 					<Col className='deliveryCard' lg={2} md={4} sm={6}>
+						<p className='optionsTitle'>Charcutie Fluties</p>
 						<Card.Img variant='top' src={Flutes} />
 						<Card.Body>
-							<p className='optionsTitle'>Charcutie Fluties</p>
 							<div className='optionsContainer'>
 								<p className='options'>Order in Multiples of 10 - $90.00</p>
 							</div>
 						</Card.Body>
 					</Col>
 					<Col className='deliveryCard'>
+						<p className='optionsTitle'>Jarcuterie</p>
 						<Card.Img variant='top' src={Jarcuterie4} />
 						<Card.Body>
-							<p className='optionsTitle'>Jarcuterie</p>
 							<div className='optionsContainer'>
 								<p className='options'>Order in Multiples of 10 - $100.00</p>
 							</div>
@@ -198,16 +198,16 @@ function Charcuterie() {
 								alignItems: 'center',
 								justifyContent: 'center',
 							}}>
-							<h3
+							<p
 								style={{
 									backgroundColor: '#f7901e',
 									color: 'white',
 									// display: 'inline',
-									padding: '10px',
+									padding: '5px',
 									textAlign: 'center',
 								}}>
 								Heart Box
-							</h3>
+							</p>
 							<div>
 								<Image
 									fluid
@@ -225,14 +225,18 @@ function Charcuterie() {
 								style={{
 									color: '#727272',
 									textAlign: 'center',
+									fontSize: '0.5em',
+									// marginTop:'-10px'
 								}}>
 								<h4>Sweets Included</h4>
-								<p>(2)Mini fruit tart</p> <p>(2) mini cream brûlée</p>
-								<p>(2) mini lemon tarts</p> <p>(5) Macaroons </p>
-								<p>(2) mini strawberry Chau rings</p>
-								<p>(1) Fruit Tart</p>
-								<p>(1) Creme Brûlée </p>
-								<p>(1) Peach Tart</p>
+								<p className='sweetsText'>(2)Mini fruit tart</p>{' '}
+								<p className='sweetsText'>(2) mini cream brûlée</p>
+								<p className='sweetsText'>(2) mini lemon tarts</p>{' '}
+								<p className='sweetsText'>(5) Macaroons </p>
+								<p className='sweetsText'>(2) mini strawberry Chau rings</p>
+								<p className='sweetsText'>(1) Fruit Tart</p>
+								<p className='sweetsText'>(1) Creme Brûlée </p>
+								<p className='sweetsText'>(1) Peach Tart</p>
 								<h5
 									style={{
 										backgroundColor: '#f7901e',
@@ -252,16 +256,16 @@ function Charcuterie() {
 								alignItems: 'center',
 								justifyContent: 'center',
 							}}>
-							<h3
+							<p
 								style={{
 									// display: 'inline',
 									backgroundColor: '#f7901e',
 									color: 'white',
-									padding: '10px',
+									padding: '5px',
 									textAlign: 'center',
 								}}>
 								Smores Bar Box
-							</h3>
+							</p>
 							<div>
 								<Image
 									fluid
@@ -280,11 +284,15 @@ function Charcuterie() {
 									height: '250px',
 									color: '#727272',
 									textAlign: 'center',
+									fontSize: '0.5em',
 								}}>
 								<h4>Sweets Included</h4>
-								<p>(16) Graham Crackers</p>{' '}
-								<p>(6) Hershey’s Milk Chocolate Bars</p>
-								<p>(4) Reese’s Peanut Butter Cups</p> <p>(30) Marshmallows</p>
+								<p className='sweetsText'>(16) Graham Crackers</p>{' '}
+								<p className='sweetsText'>(6) Hershey’s Milk Chocolate Bars</p>
+								<p className='sweetsText'>
+									(4) Reese’s Peanut Butter Cups
+								</p>{' '}
+								<p className='sweetsText'>(30) Marshmallows</p>
 								<h5
 									style={{
 										backgroundColor: '#f7901e',
