@@ -300,7 +300,7 @@ function Charcuterie() {
 										display: 'inline',
 										padding: '5px',
 									}}>
-									$40
+									$50
 								</h5>
 							</div>
 						</div>
