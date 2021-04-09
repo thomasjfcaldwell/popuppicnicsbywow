@@ -13,7 +13,8 @@ import Music from '../Images/Packages/livemusic.jpg';
 import speaker from '../Images/Packages/BlueTooth for site.jpg';
 import Beverages1 from '../Images/Packages/beveragepackage1.jpg';
 import extraHour from '../Images/Packages/extrahour.jpg';
-import ballons from '../Images/Packages/balloons.jpg';
+import ballons from '../Images/Packages/ballonGarland.4.9.2021.jpg';
+import smores from '../Images/Packages/smores.4.9.201.jpg';
 
 class Addon extends Component {
 	render() {
@@ -148,21 +149,41 @@ class Addon extends Component {
 								src={ballons}
 								alt='balloons'
 								className='balloonImage'
-								style={{ width: '75%' }}
+								style={{ width: '75%', margin: '5px' }}
 							/>
+							<p className='serviceHeader'>
+								One Balloon Garland for Teepee Set-Up (approx. 5 feet)
+								<span>* TeePee not included</span>
+							</p>
+							<h5 className='pricing'>$225</h5>
 						</Col>
-						<Col
-							sm={12}
-							lg={6}
-							style={{
-								width: '100%',
-							}}>
-							<Card className='border-0 text-center'>
-								<p className='serviceHeader'>
-									One Balloon Garland for Teepee Set-Up (approx. 5 feet)
-								</p>
-								<h5 className='pricing'>$225</h5>
-							</Card>
+						<Col sm={12} lg={6}>
+							<Image
+								fluid
+								src={smores}
+								alt='balloons'
+								className='balloonImage'
+								style={{ width: '75%', margin: '5px' }}
+							/>
+							<p className='serviceHeader'>Smores Boxes</p>
+							<h5 className='pricing'>
+								$50{' '}
+								<span
+									style={{
+										color: 'white',
+										fontSize: '0.5em',
+									}}>
+									(serves up to 4 guests)
+								</span>{' '}
+								$150{' '}
+								<span
+									style={{
+										color: 'white',
+										fontSize: '0.5em',
+									}}>
+									(serves up to 12 guests)
+								</span>
+							</h5>
 						</Col>
 					</Row>
 					<Row

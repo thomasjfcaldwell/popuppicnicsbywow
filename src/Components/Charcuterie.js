@@ -300,7 +300,29 @@ function Charcuterie() {
 										display: 'inline',
 										padding: '5px',
 									}}>
-									$50
+									$50{' '}
+									<span
+										style={{
+											fontSize: '0.5em',
+										}}>
+										(Size serves up to 4 guests)
+									</span>
+								</h5>
+								<h5
+									style={{
+										backgroundColor: '#f7901e',
+										color: 'white',
+										display: 'inline',
+										padding: '5px',
+										margin: '2px',
+									}}>
+									$150{' '}
+									<span
+										style={{
+											fontSize: '0.5em',
+										}}>
+										(Size serves up to 12 guests)
+									</span>
 								</h5>
 							</div>
 						</div>

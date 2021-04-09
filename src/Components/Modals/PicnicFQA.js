@@ -94,7 +94,7 @@ function PicnicQuestions() {
 									<Card.Text className='text'>
 										A: We do require a minimum order of $600 (Before Tax and
 										Service Charge) for Saturday and Sunday Picnics in April -
-										September. All USA Hoilday Weekends require a minimum order
+										September. All USA Holiday Weekends require a minimum order
 										of $1000 (Before Tax and Service Charge)
 									</Card.Text>
 									<Card.Title className='title'>
