@@ -11,9 +11,10 @@ function PicnicQuestions() {
 
 	return (
 		<>
-			<Button className='btn btn-primary custom-btn' style={{width:'300px',
-			height:'50px',
-		}} onClick={handleShow}>
+			<Button
+				className='btn btn-primary custom-btn'
+				style={{ width: '300px', height: '50px' }}
+				onClick={handleShow}>
 				See FAQ Here
 			</Button>
 
@@ -91,8 +92,18 @@ function PicnicQuestions() {
 										Q: IS THERE A MINIMUM ORDER REQUIRED FOR A POP-UP PICNIC?
 									</Card.Title>
 									<Card.Text className='text'>
-										A: We do require a minimum order of $600 for Saturday and
-										Sunday Picnics in June- September.
+										A: We do require a minimum order of $600 (Before Tax and
+										Service Charge) for Saturday and Sunday Picnics in April -
+										September. All USA Hoilday Weekends require a minimum order
+										of $1000 (Before Tax and Service Charge)
+									</Card.Text>
+									<Card.Title className='title'>
+										Q: WHAT WEEKENDS ARE CONSIDERED HOLIDAY WEEKENDS?
+									</Card.Title>
+									<Card.Text className='text'>
+										A:Memorial Day Weekend, Independence Day Weekend, Labor Day
+										Weekend - September ,Thanksgiving Weekend – November,
+										Christmas Weekend December, New Year's Weekend – December
 									</Card.Text>
 									<Card.Title className='title'>
 										Q: WHAT FORM OF PAYMENT DO YOU ACCEPT?
@@ -107,7 +118,7 @@ function PicnicQuestions() {
 									<Card.Text className='text'>
 										A: All Packages include a Picnic Table, Beach Blanket,
 										Pillows, Table and Floor Décor, Plates, service ware,
-										Napkins, Delivery, Set-Up and Clean-Up……………. The “Bells and
+										Napkins, Delivery, Set-Up and Clean-Up. The “Bells and
 										Whistles” Package also includes Umbrella or Teepee, Small
 										Cheese Box, Bucket of Ice with scoop, Beverage Package and
 										Blanket Basket.
@@ -124,9 +135,7 @@ function PicnicQuestions() {
 										requests, we promise to do our best. When dealing with steep
 										or rough terrain, sand,, etc. we may not be able to navigate
 										with all of our equipment, so we try to keep our locations
-										within 35 yards of delivery vehicle access. Our Popular
-										Preferred Picnics Locations can be viewed here (Include link
-										to google earth for each of our Preferred Picnic sites)
+										within 35 yards of delivery vehicle access.
 									</Card.Text>
 									<Card.Title className='title'>
 										Q: CAN WE BRING OUR OWN FOOD AND BEVERAGES?
@@ -191,10 +200,10 @@ function PicnicQuestions() {
 									</Card.Title>
 									<Card.Text className='text'>
 										A: That depends on the location, number of guests and a few
-										other factors. POP-UP Picnics Packages offered include any
-										required permits. If you request a special picnic site, not
-										offered on our website, we will let you know if you will
-										need a permit and can help you with the process.
+										other factors. POP Up Picnics packages do not include
+										permits but we are happy to help you with the permit
+										process. Please note- most state and city beaches parks will
+										require at least 3 weeks for a permit to be approved.
 									</Card.Text>
 									<Card.Title className='title'>
 										Q: WHAT ARE THE FOOD AND BEVERAGE OPTIONS?
@@ -228,7 +237,7 @@ function PicnicQuestions() {
 											style={{
 												color: '#F78F1E',
 											}}
-											href='https://drive.google.com/file/d/1hMFH8QIacQqcMDuuAaMUssqPi2dhXsLH/view?usp=sharing'>
+											href='https://drive.google.com/file/d/1xp0-6ZsewfpNO__w8tI-xYyPg6Me_afA/view?usp=sharing'>
 											HERE{' '}
 										</a>
 									</Card.Text>
