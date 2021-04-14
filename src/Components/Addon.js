@@ -15,6 +15,7 @@ import Beverages1 from '../Images/Packages/beveragepackage1.jpg';
 import extraHour from '../Images/Packages/extrahour.jpg';
 import ballons from '../Images/Packages/ballonGarland.4.9.2021.jpg';
 import smores from '../Images/Packages/smores.4.9.201.jpg';
+import Heart from '../Images/Charcuterie/VDay Dessert Box2.jpg';
 
 class Addon extends Component {
 	render() {
@@ -143,7 +144,7 @@ class Addon extends Component {
 							textAlign: 'center',
 							marginTop: '20px',
 						}}>
-						<Col sm={12} lg={6}>
+						<Col sm={12} lg={4}>
 							<Image
 								fluid
 								src={ballons}
@@ -157,7 +158,7 @@ class Addon extends Component {
 							</p>
 							<h5 className='pricing'>$225</h5>
 						</Col>
-						<Col sm={12} lg={6}>
+						<Col sm={12} lg={4}>
 							<Image
 								fluid
 								src={smores}
@@ -184,6 +185,17 @@ class Addon extends Component {
 									(serves up to 12 guests)
 								</span>
 							</h5>
+						</Col>
+						<Col sm={12} lg={4}>
+							<Image
+								fluid
+								src={Heart}
+								alt='Heart Shaped Box'
+								className='balloonImage'
+								style={{ width: '75%', margin: '5px' }}
+							/>
+							<p className='serviceHeader'>Heart Shaped Box</p>
+							<h5 className='pricing'>$45</h5>
 						</Col>
 					</Row>
 					<Row
