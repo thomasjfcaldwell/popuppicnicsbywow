@@ -229,14 +229,12 @@ function Charcuterie() {
 									// marginTop:'-10px'
 								}}>
 								<h4>Sweets Included</h4>
-								<p className='sweetsText'>(2)Mini fruit tart</p>{' '}
-								<p className='sweetsText'>(2) mini cream brûlée</p>
-								<p className='sweetsText'>(2) mini lemon tarts</p>{' '}
-								<p className='sweetsText'>(5) Macaroons </p>
+								<p className='sweetsText'>(1)Mini fruit tart</p>{' '}
+								<p className='sweetsText'>(1) mini cream brûlée</p>
+								<p className='sweetsText'>(8) Macaroons </p>
 								<p className='sweetsText'>(2) mini strawberry Chau rings</p>
-								<p className='sweetsText'>(1) Fruit Tart</p>
-								<p className='sweetsText'>(1) Creme Brûlée </p>
-								<p className='sweetsText'>(1) Peach Tart</p>
+								<p className='sweetsText'>Chocolate Covered Pretzels</p>
+								<p className='sweetsText'>Chocolate Covered Acai Balls</p>
 								<h5
 									style={{
 										backgroundColor: '#f7901e',
