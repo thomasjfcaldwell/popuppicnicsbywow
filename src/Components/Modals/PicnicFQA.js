@@ -104,6 +104,8 @@ function PicnicQuestions() {
 										A:Memorial Day Weekend, Independence Day Weekend, Labor Day
 										Weekend - September ,Thanksgiving Weekend – November,
 										Christmas Weekend December, New Year's Weekend – December
+										Mother’s Day – May 8th-9th Father’s Day – June 19th-20th
+										Valentine’s Day – February 12th-14th 2022
 									</Card.Text>
 									<Card.Title className='title'>
 										Q: WHAT FORM OF PAYMENT DO YOU ACCEPT?

@@ -169,24 +169,24 @@ function Backyard() {
 				}}>
 				<Row>
 					<Col lg={6} md={6} sm={12} className='moviePackages'>
-						<p>Premier Movie Night Package $225.00 +++</p>
+						<p>Premier Movie Night Package $250.00 +++</p>
 						<PremierMovieModal />
 					</Col>
 					<Col lg={6} md={6} sm={12} className='moviePackages'>
-						<p>Blockbuster Movie Night Package $325.00 +++</p>
+						<p>Blockbuster Movie Night Package $475.00 +++</p>
 						<BlockBusterModal />
 					</Col>
 				</Row>
 				<Row>
 					<Col lg={6} md={4} sm={6} className='moviePackages'>
 						<p>
-							Basic Beauty PUP Package + Premier Movie Night Package $375.00 +++
+							Basic Beauty PUP Package + Premier Movie Night Package $400.00 +++
 						</p>
 						<BasicWithPremier />
 					</Col>
 					<Col lg={6} md={4} sm={6} className='moviePackages'>
 						<p>
-							Basic Beauty PUP Package + Blockbuster Movie Night Package $475.00
+							Basic Beauty PUP Package + Blockbuster Movie Night Package $625.00
 							+++
 						</p>
 
@@ -197,13 +197,13 @@ function Backyard() {
 				<Row>
 					<Col lg={6} md={4} sm={6} className='moviePackages'>
 						<p>
-							Simply Savvy PUP Package + Premier Movie Night Package $405.00 +++
+							Simply Savvy PUP Package + Premier Movie Night Package $430.00 +++
 						</p>
 						<SimplyWithPremier />
 					</Col>
 					<Col lg={6} md={4} sm={6} className='moviePackages'>
 						<p>
-							Simply Savvy PUP Package + Blockbuster Movie Night Package $505.00
+							Simply Savvy PUP Package + Blockbuster Movie Night Package $655.00
 							+++
 						</p>
 
@@ -213,7 +213,7 @@ function Backyard() {
 				<Row>
 					<Col lg={6} md={4} sm={6} className='moviePackages'>
 						<p>
-							Bells & Whistles PUP Package + Premier Movie Night Package $505.00
+							Bells & Whistles PUP Package + Premier Movie Night Package $530.00
 							+++
 						</p>
 
@@ -222,10 +222,126 @@ function Backyard() {
 					<Col lg={6} md={4} sm={6} className='moviePackages'>
 						<p>
 							Bells & Whistles PUP Package + Blockbuster Movie Night Package
-							$605.00 +++
+							$755.00 +++
 						</p>
 
 						<BellsWithBlockbuster />
+					</Col>
+				</Row>
+			</Container>
+			<Container fluid>
+				<Row
+					style={{
+						margin: '50px 0px',
+					}}>
+					<Col
+						lg={4}
+						sm={12}
+						style={{
+							display: 'flex',
+							flexDirection: 'column',
+							justifyItems: 'center',
+						}}>
+						<h5
+							style={{
+								display: 'inline',
+								fontWeight: '300',
+								background: '#f7901e',
+								color: 'white',
+								padding: '2px',
+								textAlign: 'center',
+								margin: '0 150px',
+							}}>
+							ADD ONS
+						</h5>
+						<div
+							className='m-3'
+							style={{
+								fontSize: '0.8em',
+							}}>
+							<p>
+								There will be a $30 charge for each Additional Guest over the 4
+								Included
+							</p>
+							<p>
+								Upgrade from Soda Beverage Package to Flavored Sparkling &
+								Flat-Water Beverage Package for 2 = $5
+							</p>
+							<p>Additional Beverages for One guest= $5 (sodas)</p>
+							<p>Additional Beverages for One guest= $7 (Waters)</p>
+						</div>
+					</Col>
+					<Col
+						lg={4}
+						sm={12}
+						style={{
+							display: 'flex',
+							flexDirection: 'column',
+							justifyItems: 'center',
+						}}>
+						<h5
+							style={{
+								display: 'inline',
+								fontWeight: '300',
+								background: '#f7901e',
+								color: 'white',
+								padding: '2px',
+								textAlign: 'center',
+								margin: '0 150px',
+							}}>
+							OTHER FEES
+						</h5>
+						<div
+							className='m-3'
+							style={{
+								fontSize: '0.8em',
+							}}>
+							<p>Delivery Fee (up to 15 miles round trip from HB pier)= $50</p>
+							<p>
+								Travel Fee (over 15 miles round trip from HB Pier)= $1 per mile
+							</p>
+							<p>Additional Hour for Movie Night= $100</p>
+						</div>
+					</Col>
+					<Col
+						lg={4}
+						sm={12}
+						style={{
+							display: 'flex',
+							flexDirection: 'column',
+							justifyItems: 'center',
+						}}>
+						<h5
+							style={{
+								display: 'inline',
+								fontWeight: '300',
+								background: '#f7901e',
+								color: 'white',
+								padding: '2px',
+								textAlign: 'center',
+								margin: '0 50px',
+								textTransform: 'uppercase',
+							}}>
+							Minimums and Service Fees
+						</h5>
+						<div
+							className='m-3'
+							style={{
+								fontSize: '0.8em',
+							}}>
+							<p>
+								$500 Minimum Required for Saturdays & Sundays in April through
+								September
+							</p>
+							<p>
+								$1000 Minimum Required for US & Other Holiday Weekends (prior to
+								service fee & tax)
+							</p>
+							<p>
+								Additional 10% added to Service Fee For Bookings Under the 7 Day
+								Minimum
+							</p>
+						</div>
 					</Col>
 				</Row>
 			</Container>
