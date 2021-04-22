@@ -18,10 +18,11 @@ class BackYardBooking extends Component {
 					padding: '10px',
 				}}>
 				<div id='ff-compose'></div>
-				<script
+				<iframe
+					title='booking form for movie night'
 					async
 					defer
-					src='https://formfacade.com/include/106160970742721697585/form/1FAIpQLSdAg2sqHt91EySEBVLrxr-Qf4zdai-dDmqVo0Lmaa_kLPXXsg/classic.js?div=ff-compose'></script>
+					src='https://formfacade.com/include/106160970742721697585/form/1FAIpQLSdAg2sqHt91EySEBVLrxr-Qf4zdai-dDmqVo0Lmaa_kLPXXsg/classic.js?div=ff-compose'></iframe>
 			</div>
 		);
 	}
