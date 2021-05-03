@@ -59,6 +59,7 @@ class Home extends Component {
 				<div className='homePageWrappers'>
 					<Testimonals />
 				</div>
+				
 				<Contact />
 			</div>
 		);

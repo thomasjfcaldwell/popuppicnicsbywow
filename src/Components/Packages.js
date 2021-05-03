@@ -15,7 +15,6 @@ class Packages extends Component {
 		return (
 			<div>
 				<Container>
-					
 					<Row
 						style={{
 							alignItems: 'center',
@@ -187,6 +186,10 @@ class Packages extends Component {
 						</div>
 					</Row>
 				</Container>
+				<Container>
+					
+				</Container>
+
 				<BookingForm />
 			</div>
 		);
