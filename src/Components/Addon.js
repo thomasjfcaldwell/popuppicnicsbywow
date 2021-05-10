@@ -152,10 +152,14 @@ class Addon extends Component {
 								className='balloonImage'
 								style={{ width: '75%', margin: '5px' }}
 							/>
+
 							<p className='serviceHeader'>
-								One Balloon Garland for Teepee Set-Up (approx. 5 feet)
-								<span>* TeePee not included</span>
+								One Balloon Garland for Teepee Set-Up
+								<span style={{
+									fontSize:'0.7em',
+								}}>(Teepee not included)</span>
 							</p>
+
 							<h5 className='pricing'>$225</h5>
 						</Col>
 						<Col sm={12} lg={4}>
