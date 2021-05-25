@@ -51,14 +51,14 @@ class Packages extends Component {
 								/>
 
 								<ul className='nobullets'>
-									<li>1 ½ Hour POP-UP Picnic for 2 People</li>{' '}
-									<li>Personalized Letterboard Sign</li>
-									<li>Small Hand Crafted Wood Table</li>{' '}
-									<li>Tapestry blanket</li> <li>Pillow Seating</li>{' '}
-									<li>
-										Flatware, Plates/White Cloth Napkins Gold Metal Goblets
-									</li>{' '}
-									<li>Table Decor</li> <li>(2) Wood Crate Side Tables</li>
+									<li>½ Hour POP-UP Picnic for 2 Guests</li>{' '}
+									<li>Personalized Letter board</li>
+									<li>Sign Small Hand Crafted Wood Table</li>{' '}
+									<li>Tapestry blanket (floor covering) </li>
+									<li>Pillow Seating for Guests </li>
+									<li>Flatware, Plates/Cloth Napkins</li>
+									<li>Gold Metal Goblets</li>
+									<li>Table Decor Two Wood Crates</li>
 								</ul>
 							</div>
 						</Col>
@@ -73,15 +73,13 @@ class Packages extends Component {
 								/>
 
 								<ul className='nobullets'>
-									<li>Two Hour POP-UP Picnic for 2 People</li>
-									<li>Personalized Welcome Sign</li>
-									<li>Hand Crafted Wooden table</li>{' '}
-									<li>Seat Pillow For Everyone</li>{' '}
-									<li>Flatware/Plates/White Cloth Napkins</li>{' '}
-									<li>Gold Metal Goblets</li> <li>Table Décor</li>{' '}
-									<li>Blanket or Rug (floor covering) </li>
-									<li>Add An Additional Person At $30</li>{' '}
-									<li>Each Additional Hour $75</li>
+									<li>Two Hour POP-UP Picnic for 2 Guests</li>{' '}
+									<li>Personalized Letter Board</li>
+									<li>Sign Hand Crafted Wood Picnic Table</li>{' '}
+									<li>Pillow Seating for Guests</li>
+									<li>Flatware/Plates/Cloth Napkins</li>
+									<li>Gold Metal Goblets</li> <li>Table Décor</li>
+									<li>Blanket or Rug (floor covering)</li>
 								</ul>
 							</div>
 						</Col>
@@ -98,17 +96,19 @@ class Packages extends Component {
 								/>
 
 								<ul className='nobullets'>
-									<li>Two Hour POP-UP Picnic for 2 People</li>
-									<li>All Items in the Simply Savvy Package Included</li>
-									<li>8x8 Cheese Charcuterie Box</li>{' '}
-									<li>Beverage Package for 2</li> <li>Bluetooth Speaker</li>{' '}
-									<li>
-										Choice of a Posh Umbrella with Tassels or Teepee Set-Up
-									</li>{' '}
-									<li>Hand Crafted Side Table</li>{' '}
+									<li>Two Hour POP-UP Picnic for 2 Guests</li>{' '}
+									<li>Personalized Letter Board Sign</li>
+									<li>Hand Crafted Wood Picnic Table</li>{' '}
+									<li>Pillow Seating for Guests</li>
+									<li>Flatware/Plates/Cloth Napkins</li>
+									<li>Gold Metal Goblets</li> <li>Table Décor </li>
+									<li>Blanket or Rug (floor covering) </li>
+									<li>8x8 Cheese Charcuterie Box </li>
+									<li>Beverage Package for 2 Guests</li>{' '}
+									<li>Bluetooth Speaker for Music </li>
+									<li>Choice of Posh Umbrella with Tassels or Teepee Set-Up</li>
+									<li>Small Hand Crafted Wood Table</li>
 									<li>Floor & Perimeter Décor</li>
-									<li>Add An Additional Person At $30</li>{' '}
-									<li>Each Additional Hour $75</li>
 								</ul>
 							</div>
 						</Col>
@@ -186,9 +186,7 @@ class Packages extends Component {
 						</div>
 					</Row>
 				</Container>
-				<Container>
-					
-				</Container>
+				<Container></Container>
 
 				<BookingForm />
 			</div>

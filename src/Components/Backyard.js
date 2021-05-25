@@ -250,7 +250,6 @@ function Backyard() {
 								color: 'white',
 								padding: '2px',
 								textAlign: 'center',
-								margin: '0 150px',
 							}}>
 							ADD ONS
 						</h5>
@@ -281,13 +280,11 @@ function Backyard() {
 						}}>
 						<h5
 							style={{
-								display: 'inline',
 								fontWeight: '300',
 								background: '#f7901e',
 								color: 'white',
 								padding: '2px',
 								textAlign: 'center',
-								margin: '0 150px',
 							}}>
 							OTHER FEES
 						</h5>
