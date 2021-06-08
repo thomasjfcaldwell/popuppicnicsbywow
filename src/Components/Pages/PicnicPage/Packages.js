@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Row, Col, Image, Container } from 'react-bootstrap';
-import 'src/App.css';
+import '../../../App.css';
 import Addon from './Addon';
 import BookingForm from './BookingForm';
 import Footer from './Footer';

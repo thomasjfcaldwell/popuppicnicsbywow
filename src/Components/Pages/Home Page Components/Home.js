@@ -5,7 +5,7 @@ import Testimonals from './Testimonals';
 import Steps from './Steps';
 import Contact from '../../Contact';
 import GalleryHome from './GalleryHome';
-import '/Users/thomascaldwell/wow/popuppicnics/src/styles/home.css';
+import '../../../styles/home.css';
 import ServiceOptions from './ServiceOptions';
 
 class Home extends Component {

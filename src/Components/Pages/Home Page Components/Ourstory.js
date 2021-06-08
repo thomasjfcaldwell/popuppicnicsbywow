@@ -3,8 +3,8 @@ import { Col, Card, Image, Container, Row } from 'react-bootstrap';
 
 import groupShot from '/Users/thomascaldwell/wow/popuppicnics/src/Images/Aboutus/aboutsus.2.jpg';
 import melTiff from '/Users/thomascaldwell/wow/popuppicnics/src/Images/Aboutus/aboutusMel.Tiff.jpg';
-import '/Users/thomascaldwell/wow/popuppicnics/src/App.css';
-import '/Users/thomascaldwell/wow/popuppicnics/src/styles/locations.css';
+import '../../../App.css';
+import '../../../styles/locations.css';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
 

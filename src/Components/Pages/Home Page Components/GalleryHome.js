@@ -1,6 +1,6 @@
 import React from 'react';
-import '/Users/thomascaldwell/wow/popuppicnics/src/styles/grid.css';
-import '/Users/thomascaldwell/wow/popuppicnics/src/App.css';
+import '../../../styles/grid.css';
+import '../../../App.css';
 import image1 from '/Users/thomascaldwell/wow/popuppicnics/src/Images/Gallery/pinksetup.jpg';
 import image2 from '/Users/thomascaldwell/wow/popuppicnics/src/Images/Gallery/nauticalChicForGallery.jpg';
 import image3 from '/Users/thomascaldwell/wow/popuppicnics/src/Images/Gallery/frozenSetUpTable.jpg';
