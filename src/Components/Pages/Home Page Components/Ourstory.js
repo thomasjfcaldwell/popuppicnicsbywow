@@ -1,10 +1,10 @@
 import React, { useEffect } from 'react';
 import { Col, Card, Image, Container, Row } from 'react-bootstrap';
 
-import groupShot from '../Images/Aboutus/aboutsus.2.jpg';
-import melTiff from '../Images/Aboutus/aboutusMel.Tiff.jpg';
-import '../App.css';
-import '../styles/locations.css';
+import groupShot from '/Users/thomascaldwell/wow/popuppicnics/src/Images/Aboutus/aboutsus.2.jpg';
+import melTiff from '/Users/thomascaldwell/wow/popuppicnics/src/Images/Aboutus/aboutusMel.Tiff.jpg';
+import '/Users/thomascaldwell/wow/popuppicnics/src/App.css';
+import '/Users/thomascaldwell/wow/popuppicnics/src/styles/locations.css';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
 
@@ -42,10 +42,10 @@ const Ourstory = () => {
 								textAlign: 'center',
 							}}>
 							<Card.Text>
-								{' '}
+								
 								What happens when you take a group of talented, busy, passionate
 								event planners and you introduce them to a world wide
-								pandemic…………{' '}
+								pandemic…………
 							</Card.Text>
 							<Card.Text>
 								Well, our group of girls took a deep breath, had a brainstorming
@@ -93,14 +93,13 @@ const Ourstory = () => {
 							</Card.Text>
 						</div>
 					</Col>
-					<Col lg={6} xsm={12} fluid>
+					<Col lg={6} xsm={12}>
 						<div
 							style={{
 								display: 'flex',
 								flexDirection: 'column',
 								alignItems: 'center',
 								justifyContent: 'center',
-								
 							}}>
 							<Image
 								src={groupShot}
@@ -112,7 +111,7 @@ const Ourstory = () => {
 							<Image
 								src={melTiff}
 								fluid
-								alt='Photo of Melissa Caldwell & Tiffany Brown'
+								alt='Photo of Melissa Caldwell and Tiffany Brown'
 								className='ourStoryImage'
 							/>
 						</div>

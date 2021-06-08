@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 import { Row, Col, Container, Image } from 'react-bootstrap';
 
-import step1 from '../Images/Steps/step1.png';
-import step2 from '../Images/Steps/step2.png';
-import step3 from '../Images/Steps/step3.png';
-import step4 from '../Images/Steps/step4.png';
+import step1 from '/Users/thomascaldwell/wow/popuppicnics/src/Images/Steps/step1.png';
+import step2 from '/Users/thomascaldwell/wow/popuppicnics/src/Images/Steps/step2.png';
+import step3 from '/Users/thomascaldwell/wow/popuppicnics/src/Images/Steps/step3.png';
+import step4 from '/Users/thomascaldwell/wow/popuppicnics/src/Images/Steps/step4.png';
 
-import '../App.css';
-import '../styles/locations.css';
+import '/Users/thomascaldwell/wow/popuppicnics/src/App.css';
+import '/Users/thomascaldwell/wow/popuppicnics/src/styles/locations.css';
 
 class Steps extends Component {
 	render() {

@@ -102,7 +102,7 @@
 	flex-direction: row;
 	align-items: center;
 }
-.nobullets {
+.no_bullets {
 	list-style-type: none;
 	padding: 2em;
 	font-size: 0.8em;

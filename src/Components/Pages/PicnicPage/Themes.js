@@ -2,12 +2,12 @@ import React, { Component } from 'react';
 
 import { Container, Row, Col, Image } from 'react-bootstrap';
 
-import prettyInPink from '../Images/Themes/prettyinPink.jpg';
-import nauticalChic from '../Images/Themes/nauticalChic.jpg';
-import takeMeToCapri from '../Images/Themes/takemetoCapri.jpg';
-import NaturalLuxury from '../Images/Themes/naturalLuxury.jpg';
+import prettyInPink from '/Users/thomascaldwell/wow/popuppicnics/src/Images/Themes/prettyinPink.jpg';
+import nauticalChic from '/Users/thomascaldwell/wow/popuppicnics/src/Images/Themes/nauticalChic.jpg';
+import takeMeToCapri from '/Users/thomascaldwell/wow/popuppicnics/src/Images/Themes/takemetoCapri.jpg';
+import NaturalLuxury from '/Users/thomascaldwell/wow/popuppicnics/src/Images/Themes/naturalLuxury.jpg';
 
-import '../App.css';
+import '/Users/thomascaldwell/wow/popuppicnics/src/App.css';
 
 class Themes extends Component {
 	render() {

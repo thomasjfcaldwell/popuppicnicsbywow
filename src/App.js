@@ -1,6 +1,6 @@
 import './App.css';
-import Home from '../src/Components/Home';
-import Packages from './Components/Packages';
+import Home from './Components/Pages/Home Page Components/Home';
+import Packages from './Components/Pages/PicnicPage/Packages';
 import { Row, Col, Image, Container } from 'react-bootstrap';
 
 import TopComponent from './Components/TopComponent';
@@ -8,10 +8,10 @@ import TopComponent from './Components/TopComponent';
 import wowlogo from './Images/WowEvents_Logo_Orange_RGB.png';
 import Faq from './Components/Faq';
 import Contact from './Components/Contact';
-import Backyard from './Components/Backyard';
-import Charcuterie from './Components/Charcuterie';
+import Backyard from './Components/Pages/MovieNightPage/Backyard';
+import Charcuterie from './Components/Pages/CharcuteriePage/Charcuterie';
 import { Route, BrowserRouter as Router } from 'react-router-dom';
-import BookingForm from './Components/BookingForm';
+import BookingForm from './Components//Pages/PicnicPage/BookingForm';
 import '../src/App.css';
 import Toolbar from './Components/Toolbar';
 import SideDrawer from './Components/SideDrawer';
@@ -40,7 +40,7 @@ class App extends Component {
 		}
 
 		return (
-			<div
+			<body
 				style={{
 					height: '100%',
 				}}>
@@ -50,7 +50,7 @@ class App extends Component {
 					<SideDrawer show={this.state.sideDrawerOpen} />
 					{backdrop}
 				</nav>
-				<body>
+				<main>
 					<Router>
 						<Route exact path='/' component={Home} />
 						<Route exact path='/packages' component={Packages} />
@@ -60,7 +60,7 @@ class App extends Component {
 						<Route exact path='/backyardmovies' component={Backyard} />
 						<Route exact path='/charcuterie' component={Charcuterie} />
 					</Router>
-				</body>
+				</main>
 				<footer className='footer'>
 					<Container fluid className='footerContainer'>
 						<Row>
@@ -144,7 +144,7 @@ class App extends Component {
 						</Container>
 					</div>
 				</footer>
-			</div>
+			</body>
 		);
 	}
 }

@@ -1,14 +1,14 @@
 import React, { Component } from 'react';
 import { Row, Col, Image, Container } from 'react-bootstrap';
-import HuntState from '../Images/Locations/HuntingtonStateWeb.jpg';
-import '../styles/locations.css';
+import HuntState from '/Users/thomascaldwell/wow/popuppicnics/src/Images/Locations/HuntingtonStateWeb.jpg';
+import '/Users/thomascaldwell/wow/popuppicnics/src/styles/locations.css';
 
-import Doheny from '../Images/Locations/doheneyBeachWeb.jpg';
-import Saltcreek from '../Images/Locations/saltcreekbeachWeb.jpg';
-import Bstreet from '../Images/Locations/BstreetWeb.jpg';
-import Corona from '../Images/Locations/coronaDelMarWeb.jpg';
-import Hilltop from '../Images/Locations/HillTopParkWeb.jpg';
-import Heisler from '../Images/Locations/heislerpark.jpg';
+import Doheny from '/Users/thomascaldwell/wow/popuppicnics/src/Images/Locations/doheneyBeachWeb.jpg';
+import Saltcreek from '/Users/thomascaldwell/wow/popuppicnics/src/Images/Locations/saltcreekbeachWeb.jpg';
+import Bstreet from '/Users/thomascaldwell/wow/popuppicnics/src/Images/Locations/BstreetWeb.jpg';
+import Corona from '/Users/thomascaldwell/wow/popuppicnics/src/Images/Locations/coronaDelMarWeb.jpg';
+import Hilltop from '/Users/thomascaldwell/wow/popuppicnics/src/Images/Locations/HillTopParkWeb.jpg';
+import Heisler from '/Users/thomascaldwell/wow/popuppicnics/src/Images/Locations/heislerpark.jpg';
 
 class Footer extends Component {
 	render() {

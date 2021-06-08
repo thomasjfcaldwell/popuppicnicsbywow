@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 import { Row, Col, Nav, Container } from 'react-bootstrap';
-import Ourstory from '../Components/Ourstory';
-import Testimonals from '../Components/Testimonals';
-import Steps from '../Components/Steps';
-import Contact from '../Components/Contact';
-import GalleryHome from '../Components/GalleryHome';
-import '../styles/home.css';
+import Ourstory from './Ourstory';
+import Testimonals from './Testimonals';
+import Steps from './Steps';
+import Contact from '../../Contact';
+import GalleryHome from './GalleryHome';
+import '/Users/thomascaldwell/wow/popuppicnics/src/styles/home.css';
 import ServiceOptions from './ServiceOptions';
 
 class Home extends Component {

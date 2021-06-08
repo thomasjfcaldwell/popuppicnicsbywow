@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { Row, Col, Container } from 'react-bootstrap';
 import '../App.css';
 
 class Contact extends Component {
@@ -61,7 +60,5 @@ class Contact extends Component {
 	// 	);
 	// }
 }
-
-
 
 export default Contact;

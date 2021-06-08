@@ -1,23 +1,23 @@
 import React from 'react';
 import { Row, Col, Image, Container } from 'react-bootstrap';
-import table from '../Images/MovieNight/movienightTable.jpg';
-import sign from '../Images/MovieNight/movienightsign.jpg';
-import treats from '../Images/MovieNight/movienightTreats.jpg';
+import table from '/Users/thomascaldwell/wow/popuppicnics/src/Images/MovieNight/movienightTable.jpg';
+import sign from '/Users/thomascaldwell/wow/popuppicnics/src/Images/MovieNight/movienightsign.jpg';
+import treats from '/Users/thomascaldwell/wow/popuppicnics/src/Images/MovieNight/movienightTreats.jpg';
 import BackYardBooking from './BackYardBooking';
-import PremierMovieModal from './Modals/PremierMovieModal';
-import BlockBusterModal from './Modals/BlockBusterMovieModal';
-import SimplyWithPremier from './Modals/SimplyWithPremier';
-import SimplyWithBlockbuster from './Modals/SimplyWithBlockbuster';
-import BellsWithPremier from './Modals/BellsWithPremier';
-import BellsWithBlockbuster from './Modals/BellsWithBlockbuster';
-import BasicWithPremier from './Modals/BasicWithPremier';
-import BasicWithBlockBuster from './Modals/BasicWithBlockBuster';
+import PremierMovieModal from '../../Modals/PremierMovieModal';
+import BlockBusterModal from '../../Modals/BlockBusterMovieModal';
+import SimplyWithPremier from '../../Modals/SimplyWithPremier';
+import SimplyWithBlockbuster from '../../Modals/SimplyWithBlockbuster';
+import BellsWithPremier from '../../Modals/BellsWithPremier';
+import BellsWithBlockbuster from '../../Modals/BellsWithBlockbuster';
+import BasicWithPremier from '../../Modals/BasicWithPremier';
+import BasicWithBlockBuster from '../../Modals/BasicWithBlockBuster';
 import MovieVideo from './MovieVideo';
-import '../App.css';
+import '/Users/thomascaldwell/wow/popuppicnics/src/App.css';
 
 function Backyard() {
 	return (
-		<div className='body'>
+		<div>
 			<div
 				style={{
 					margin: '2em',

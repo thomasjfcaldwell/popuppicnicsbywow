@@ -1,14 +1,14 @@
 import React, { Component } from 'react';
-import { Row, Col, Card, Image, Container } from 'react-bootstrap';
-import '../App.css';
-import Addon from '../Components/Addon';
-import BookingForm from '../Components/BookingForm';
-import Footer from '../Components/Footer';
-import PicnicFQA from '../Components/Modals/PicnicFQA';
-import BandWPackage from '../Images/Packages/bellsandwhistles.jpg';
-import simplySavvy from '../Images/Packages/simplysavvy.jpg';
-import Themes from '../Components/Themes';
-import BasicBeauty from '../Images/Packages/basicBeauty.jpg';
+import { Row, Col, Image, Container } from 'react-bootstrap';
+import '/Users/thomascaldwell/wow/popuppicnics/src/App.css';
+import Addon from './Addon';
+import BookingForm from './BookingForm';
+import Footer from './Footer';
+import PicnicFQA from '../../Modals/PicnicFQA';
+import BandWPackage from '/Users/thomascaldwell/wow/popuppicnics/src/Images/Packages/bellsandwhistles.jpg';
+import simplySavvy from '/Users/thomascaldwell/wow/popuppicnics/src/Images/Packages/simplysavvy.jpg';
+import Themes from './Themes';
+import BasicBeauty from '/Users/thomascaldwell/wow/popuppicnics/src/Images/Packages/basicBeauty.jpg';
 
 class Packages extends Component {
 	render() {
@@ -50,7 +50,7 @@ class Packages extends Component {
 									alt='Basic Beauty package images'
 								/>
 
-								<ul className='nobullets'>
+								<ul className='no_bullets'>
 									<li>½ Hour POP-UP Picnic for 2 Guests</li>{' '}
 									<li>Personalized Letter board</li>
 									<li>Sign Small Hand Crafted Wood Table</li>{' '}
@@ -72,7 +72,7 @@ class Packages extends Component {
 									alt='simply Savvy package images'
 								/>
 
-								<ul className='nobullets'>
+								<ul className='no_bullets'>
 									<li>Two Hour POP-UP Picnic for 2 Guests</li>{' '}
 									<li>Personalized Letter Board</li>
 									<li>Sign Hand Crafted Wood Picnic Table</li>{' '}
@@ -95,7 +95,7 @@ class Packages extends Component {
 									alt='Bells & Whistles Package Image'
 								/>
 
-								<ul className='nobullets'>
+								<ul className='no_bullets'>
 									<li>Two Hour POP-UP Picnic for 2 Guests</li>{' '}
 									<li>Personalized Letter Board Sign</li>
 									<li>Hand Crafted Wood Picnic Table</li>{' '}

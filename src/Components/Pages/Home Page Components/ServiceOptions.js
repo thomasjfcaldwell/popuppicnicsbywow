@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 import { Row, Col, Container, Image, Nav, Button } from 'react-bootstrap';
 
-import Picnic from '../Images/ServiceOptions/PicnicBefore.jpg';
-import backYard from '../Images/ServiceOptions/MoviesBefore.jpg';
-import Delivery from '../Images/ServiceOptions/DeliveryBefore.jpg';
-import '../App.css';
+import Picnic from '/Users/thomascaldwell/wow/popuppicnics/src/Images/ServiceOptions/PicnicBefore.jpg';
+import backYard from '/Users/thomascaldwell/wow/popuppicnics/src/Images/ServiceOptions/MoviesBefore.jpg';
+import Delivery from '/Users/thomascaldwell/wow/popuppicnics/src/Images/ServiceOptions/DeliveryBefore.jpg';
+import '/Users/thomascaldwell/wow/popuppicnics/src/App.css';
 
 class ServiceOptions extends Component {
 	state = {};
