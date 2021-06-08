@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Row, Col, Image, Container } from 'react-bootstrap';
-import '/Users/thomascaldwell/wow/popuppicnics/src/App.css';
+import 'src/App.css';
 import Addon from './Addon';
 import BookingForm from './BookingForm';
 import Footer from './Footer';
@@ -186,7 +186,6 @@ class Packages extends Component {
 						</div>
 					</Row>
 				</Container>
-				<Container></Container>
 
 				<BookingForm />
 			</div>
