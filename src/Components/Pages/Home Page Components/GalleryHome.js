@@ -1,15 +1,15 @@
 import React from 'react';
 import '../../../styles/grid.css';
 import '../../../App.css';
-import image1 from '/Users/thomascaldwell/wow/popuppicnics/src/Images/Gallery/pinksetup.jpg';
-import image2 from '/Users/thomascaldwell/wow/popuppicnics/src/Images/Gallery/nauticalChicForGallery.jpg';
-import image3 from '/Users/thomascaldwell/wow/popuppicnics/src/Images/Gallery/frozenSetUpTable.jpg';
-import image4 from '/Users/thomascaldwell/wow/popuppicnics/src/Images/Gallery/basicbeautyforGallery.jpg';
-import image5 from '/Users/thomascaldwell/wow/popuppicnics/src/Images/Gallery/coupleonbeachgalleryimage.jpg';
-import image6 from '/Users/thomascaldwell/wow/popuppicnics/src/Images/Gallery/yellowSetup.jpg';
-import image7 from '/Users/thomascaldwell/wow/popuppicnics/src/Images/Gallery/tropicSetUp.jpg';
-import image8 from '/Users/thomascaldwell/wow/popuppicnics/src/Images/Gallery/frozensetUp.jpg';
-import image9 from '/Users/thomascaldwell/wow/popuppicnics/src/Images/Gallery/movienight.table.jpg';
+import image1 from '../../../Images/Gallery/pinksetup.jpg';
+import image2 from '../../../Images/Gallery/nauticalChicForGallery.jpg';
+import image3 from '../../../Images/Gallery/frozenSetUpTable.jpg';
+import image4 from '../../../Images/Gallery/basicbeautyforGallery.jpg';
+import image5 from '../../../Images/Gallery/coupleonbeachgalleryimage.jpg';
+import image6 from '../../../Images/Gallery/yellowSetup.jpg';
+import image7 from '../../../Images/Gallery/tropicSetUp.jpg';
+import image8 from '../../../Images/Gallery/frozensetUp.jpg';
+import image9 from '../../../Images/Gallery/movienight.table.jpg';
 import { Container, Row } from 'react-bootstrap';
 
 // 'col-md-6 col-lg-4 item';

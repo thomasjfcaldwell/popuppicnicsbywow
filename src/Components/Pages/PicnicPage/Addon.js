@@ -1,21 +1,21 @@
 import React, { Component } from 'react';
 import { Row, Col,  Container, Image } from 'react-bootstrap';
-import '/Users/thomascaldwell/wow/popuppicnics/src/styles/addon.css';
-import blanket from '/Users/thomascaldwell/wow/popuppicnics/src/Images/Packages/blankets.jpg';
-import Beverages from '/Users/thomascaldwell/wow/popuppicnics/src/Images/Packages/beveragepackage3.31.2021.jpg';
-import Teepee from '/Users/thomascaldwell/wow/popuppicnics/src/Images/Packages/TeePee for site.jpg';
-import Umbrella from '/Users/thomascaldwell/wow/popuppicnics/src/Images/Packages/UmbrellaForWeb.jpg';
-import Dessert from '/Users/thomascaldwell/wow/popuppicnics/src/Images/Packages/dessertBox.jpg';
-import Multi from '/Users/thomascaldwell/wow/popuppicnics/src/Images/Packages/veggieBox.jpg';
-import cheeseBox from '/Users/thomascaldwell/wow/popuppicnics/src/Images/Packages/cheeseBox.jpg';
-import MeatCheese from '/Users/thomascaldwell/wow/popuppicnics/src/Images/Packages/meatChesseBox.jpg';
-import Music from '/Users/thomascaldwell/wow/popuppicnics/src/Images/Packages/livemusic.jpg';
-import speaker from '/Users/thomascaldwell/wow/popuppicnics/src/Images/Packages/BlueTooth for site.jpg';
-import Beverages1 from '/Users/thomascaldwell/wow/popuppicnics/src/Images/Packages/beveragepackage1.jpg';
-import extraHour from '/Users/thomascaldwell/wow/popuppicnics/src/Images/Packages/extrahour.jpg';
-import ballons from '/Users/thomascaldwell/wow/popuppicnics/src/Images/Packages/ballonGarland.4.9.2021.jpg';
-import smores from '/Users/thomascaldwell/wow/popuppicnics/src/Images/Packages/smores.4.9.201.jpg';
-import Heart from '/Users/thomascaldwell/wow/popuppicnics/src/Images/Charcuterie/VDay Dessert Box2.jpg';
+import '../../../styles/addon.css';
+import blanket from '../../../Images/Packages/blankets.jpg';
+import Beverages from '../../../Images/Packages/beveragepackage3.31.2021.jpg';
+import Teepee from '../../../Images/Packages/TeePee for site.jpg';
+import Umbrella from '../../../Images/Packages/UmbrellaForWeb.jpg';
+import Dessert from '../../../Images/Packages/dessertBox.jpg';
+import Multi from '../../../Images/Packages/veggieBox.jpg';
+import cheeseBox from '../../../Images/Packages/cheeseBox.jpg';
+import MeatCheese from '../../../Images/Packages/meatChesseBox.jpg';
+import Music from '../../../Images/Packages/livemusic.jpg';
+import speaker from '../../../Images/Packages/BlueTooth for site.jpg';
+import Beverages1 from '../../../Images/Packages/beveragepackage1.jpg';
+import extraHour from '../../../Images/Packages/extrahour.jpg';
+import ballons from '../../../Images/Packages/ballonGarland.4.9.2021.jpg';
+import smores from '../../../Images/Packages/smores.4.9.201.jpg';
+import Heart from '../../../Images/Charcuterie/VDay Dessert Box2.jpg';
 
 class Addon extends Component {
 	render() {

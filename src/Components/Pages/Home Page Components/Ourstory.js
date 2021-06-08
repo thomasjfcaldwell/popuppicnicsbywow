@@ -1,8 +1,8 @@
 import React, { useEffect } from 'react';
 import { Col, Card, Image, Container, Row } from 'react-bootstrap';
 
-import groupShot from '/Users/thomascaldwell/wow/popuppicnics/src/Images/Aboutus/aboutsus.2.jpg';
-import melTiff from '/Users/thomascaldwell/wow/popuppicnics/src/Images/Aboutus/aboutusMel.Tiff.jpg';
+import groupShot from '../../../Images/Aboutus/aboutsus.2.jpg';
+import melTiff from '../../../Images/Aboutus/aboutusMel.Tiff.jpg';
 import '../../../App.css';
 import '../../../styles/locations.css';
 import Aos from 'aos';

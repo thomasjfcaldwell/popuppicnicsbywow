@@ -5,10 +5,10 @@ import Addon from './Addon';
 import BookingForm from './BookingForm';
 import Footer from './Footer';
 import PicnicFQA from '../../Modals/PicnicFQA';
-import BandWPackage from '/Users/thomascaldwell/wow/popuppicnics/src/Images/Packages/bellsandwhistles.jpg';
-import simplySavvy from '/Users/thomascaldwell/wow/popuppicnics/src/Images/Packages/simplysavvy.jpg';
+import BandWPackage from '../../../Images/Packages/bellsandwhistles.jpg';
+import simplySavvy from '../../../Images/Packages/simplysavvy.jpg';
 import Themes from './Themes';
-import BasicBeauty from '/Users/thomascaldwell/wow/popuppicnics/src/Images/Packages/basicBeauty.jpg';
+import BasicBeauty from '../../../Images/Packages/basicBeauty.jpg';
 
 class Packages extends Component {
 	render() {

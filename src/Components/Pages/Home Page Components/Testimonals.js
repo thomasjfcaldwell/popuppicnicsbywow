@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
 import { Row, Card, CardGroup, Container } from 'react-bootstrap';
 
-import birthday from '/Users/thomascaldwell/wow/popuppicnics/src/Images/Testimonals/template.jpg';
-import anniversary from '/Users/thomascaldwell/wow/popuppicnics/src/Images/Testimonals/anniversary.jpg';
-import proposal from '/Users/thomascaldwell/wow/popuppicnics/src/Images/Testimonals/proposalnewzacpicnic.jpg';
+import birthday from '../../../Images/Testimonals/template.jpg';
+import anniversary from '../../../Images/Testimonals/anniversary.jpg';
+import proposal from '../../../Images/Testimonals/proposalnewzacpicnic.jpg';
 
-import '/Users/thomascaldwell/wow/popuppicnics/src/App.css';
-import '/Users/thomascaldwell/wow/popuppicnics/src/styles/locations.css';
+import '../../../App.css';
+import '../../../styles/locations.css';
 
 class Testimonals extends Component {
 	render() {

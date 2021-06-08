@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import ReactPlayer from 'react-player';
-import '/Users/thomascaldwell/wow/popuppicnics/src/App.css';
+import '../../../App.css';
 
 class MovieVideo extends Component {
 	render() {

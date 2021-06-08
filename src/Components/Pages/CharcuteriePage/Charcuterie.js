@@ -1,16 +1,16 @@
 import React from 'react';
 import { Row, Col, Image, Card, Container } from 'react-bootstrap';
-import DeliveryBox from '/Users/thomascaldwell/wow/popuppicnics/src/Images/Charcuterie/Charcuterie Box with Menu (outside view)1 copy.jpg';
-import Flutes from '/Users/thomascaldwell/wow/popuppicnics/src/Images/Charcuterie/flutes.jpg';
-import Jarcuterie4 from '/Users/thomascaldwell/wow/popuppicnics/src/Images/Charcuterie/Jarcuterie4.jpg';
-import Heart from '/Users/thomascaldwell/wow/popuppicnics/src/Images/Charcuterie/VDay Dessert Box2.jpg';
+import DeliveryBox from '../../../Images/Charcuterie/Charcuterie Box with Menu (outside view)1 copy.jpg';
+import Flutes from '../../../Images/Charcuterie/flutes.jpg';
+import Jarcuterie4 from '../../../Images/Charcuterie/Jarcuterie4.jpg';
+import Heart from '../../../Images/Charcuterie/VDay Dessert Box2.jpg';
 import CharcuterieBookingForm from './CharcuterieBookingForm';
-import Dessert from '/Users/thomascaldwell/wow/popuppicnics/src/Images/Packages/dessertBox.jpg';
-import Multi from '/Users/thomascaldwell/wow/popuppicnics/src/Images/Packages/veggieBox.jpg';
-import cheeseBox from '/Users/thomascaldwell/wow/popuppicnics/src/Images/Packages/cheeseBox.jpg';
-import MeatCheese from '/Users/thomascaldwell/wow/popuppicnics/src/Images/Packages/meatChesseBox.jpg';
-import treats from '/Users/thomascaldwell/wow/popuppicnics/src/Images/Charcuterie/Smores Bar Box5.jpg';
-import '/Users/thomascaldwell/wow/popuppicnics/src/styles/Charcuterie.css';
+import Dessert from '../../../Images/Packages/dessertBox.jpg';
+import Multi from '../../../Images/Packages/veggieBox.jpg';
+import cheeseBox from '../../../Images/Packages/cheeseBox.jpg';
+import MeatCheese from '../../../Images/Packages/meatChesseBox.jpg';
+import treats from '../../../Images/Charcuterie/Smores Bar Box5.jpg';
+import '../../../styles/Charcuterie.css';
 
 function Charcuterie() {
 	return (

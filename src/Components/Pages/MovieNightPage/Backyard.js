@@ -1,8 +1,8 @@
 import React from 'react';
 import { Row, Col, Image, Container } from 'react-bootstrap';
-import table from '/Users/thomascaldwell/wow/popuppicnics/src/Images/MovieNight/movienightTable.jpg';
-import sign from '/Users/thomascaldwell/wow/popuppicnics/src/Images/MovieNight/movienightsign.jpg';
-import treats from '/Users/thomascaldwell/wow/popuppicnics/src/Images/MovieNight/movienightTreats.jpg';
+import table from '../../../Images/MovieNight/movienightTable.jpg';
+import sign from '../../../Images/MovieNight/movienightsign.jpg';
+import treats from '../../../Images/MovieNight/movienightTreats.jpg';
 import BackYardBooking from './BackYardBooking';
 import PremierMovieModal from '../../Modals/PremierMovieModal';
 import BlockBusterModal from '../../Modals/BlockBusterMovieModal';
@@ -13,7 +13,7 @@ import BellsWithBlockbuster from '../../Modals/BellsWithBlockbuster';
 import BasicWithPremier from '../../Modals/BasicWithPremier';
 import BasicWithBlockBuster from '../../Modals/BasicWithBlockBuster';
 import MovieVideo from './MovieVideo';
-import '/Users/thomascaldwell/wow/popuppicnics/src/App.css';
+import '../../../App.css';
 
 function Backyard() {
 	return (
