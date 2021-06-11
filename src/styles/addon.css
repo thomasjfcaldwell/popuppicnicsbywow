@@ -1,31 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;500;600;900&display=swap');
 
-.addonimg {
-	margin: 20px 0;
-	width: 80%;
-	box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
-}
-.pricing {
-	padding: 5px;
-	color: white;
-	background-color: #727272;
-}
-
-.addons {
-	font-family: 'Montserrat';
-	text-align: center;
-	align-items: center;
-	color: #727272;
-}
-
-.addonCol {
-	display: flex;
-	flex-direction: column;
-	margin-top: 10px;
-	justify-content: center;
-	align-items: center;
-}
-
 .serviceHeader {
 	text-transform: uppercase;
 	height: 20px;
@@ -35,6 +9,55 @@
 	background-color: #f78f1e;
 	font-weight: 500;
 	letter-spacing: 0.1em;
+}
+
+.headerContainer {
+	align-items: center;
+	justify-content: center;
+	text-align: 'center';
+}
+
+.addon__card {
+	text-align: center;
+	font-family: 'Montserrat';
+	border: none;
+}
+
+.addon__title {
+	background-color: #f7901e;
+	color: white;
+	width: 80%;
+	margin: 3em auto;
+	letter-spacing: 0.1em;
+	padding: 0.5em;
+	font-size: 0.55em;
+	border: none;
+}
+
+.addon__price {
+	background-color: #727272;
+	color: white;
+	width: 20%;
+	margin: 1.5em auto;
+	font-size: 1.2em;
+	font-weight: 600;
+	border: none;
+}
+
+.addon__image {
+	height: 15em;
+	width: 15em;
+	margin: 0 1em;
+	border-radius: 1em;
+	box-shadow: 0.2em 0.2em 0.6em rgba(0, 0, 0, 0.5);
+	border: none;
+}
+.addon__description {
+	font-size: 0.75em;
+	width: 50%;
+	margin: 0 auto;
+	height: 7.2em;
+	border: none;
 }
 
 @media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
