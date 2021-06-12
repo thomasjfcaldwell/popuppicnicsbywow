@@ -51,7 +51,7 @@ const Addon = () => {
 												/>
 											</div>
 											<p className='addon__price'>${data.price}</p>
-											<p className='addon__description'>{data.description}</p>
+											{/* <p className='addon__description'>{data.description}</p> */}
 										</Card>
 									</div>
 								);
