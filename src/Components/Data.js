@@ -57,7 +57,7 @@ export const addOnData = [
 		image: 'https://i.ibb.co/CKvqyLc/veggie-Box.jpg',
 		description:
 			'Vegan charcuterie box with a mixture of different meats,cheeses, crackers and fruits',
-		price: 55,
+		price: 45,
 	},
 	{
 		id: '9',
@@ -65,7 +65,7 @@ export const addOnData = [
 		image: 'https://i.ibb.co/MSC4JT0/meat-Chesse-Box.jpg',
 		description:
 			'Meat and Cheese charcuterie box with a mixture of different veggies, crackers and fruits',
-		price: 45,
+		price: 55,
 	},
 	{
 		id: '10',
