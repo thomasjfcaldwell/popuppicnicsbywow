@@ -127,6 +127,17 @@ function Charcuterie() {
 						/>
 						<Card.Body>
 							<div className='optionsContainer'>
+								<p className='options'>8x8 inches - $60.00</p>
+								<p className='options'>10x10 inches - $85.00</p>
+								<p className='options'>12x12 inches - $110.00</p>
+							</div>
+						</Card.Body>
+					</Col>
+					<Col className='deliveryCard' lg={2} md={4} sm={6}>
+						<p className='optionsTitle'>Cheese Box</p>
+						<Card.Img variant='top' src={cheeseBox} />
+						<Card.Body>
+							<div className='optionsContainer'>
 								<p className='options'>8x8 inches - $55.00</p>
 								<p className='options'>10x10 inches - $80.00</p>
 								<p className='options'>12x12 inches - $105.00</p>
@@ -134,8 +145,8 @@ function Charcuterie() {
 						</Card.Body>
 					</Col>
 					<Col className='deliveryCard' lg={2} md={4} sm={6}>
-						<p className='optionsTitle'>Cheese Box</p>
-						<Card.Img variant='top' src={cheeseBox} />
+						<p className='optionsTitle'>Veggie/Vegan Box</p>
+						<Card.Img variant='top' src={Multi} />
 						<Card.Body>
 							<div className='optionsContainer'>
 								<p className='options'>8x8 inches - $50.00</p>
@@ -145,23 +156,12 @@ function Charcuterie() {
 						</Card.Body>
 					</Col>
 					<Col className='deliveryCard' lg={2} md={4} sm={6}>
-						<p className='optionsTitle'>Veggie/Vegan Box</p>
-						<Card.Img variant='top' src={Multi} />
-						<Card.Body>
-							<div className='optionsContainer'>
-								<p className='options'>8x8 inches - $45.00</p>
-								<p className='options'>10x10 inches - $70.00</p>
-								<p className='options'>12x12 inches - $95.00</p>
-							</div>
-						</Card.Body>
-					</Col>
-					<Col className='deliveryCard' lg={2} md={4} sm={6}>
 						<p className='optionsTitle'>Dessert Box</p>
 						<Card.Img variant='top' src={Dessert} />
 						<Card.Body>
 							<div className='optionsContainer'>
-								<p className='options'>6x6 inches - $30.00</p>
-								<p className='options'>8x8 inches - $40.00</p>
+								<p className='options'>6x6 inches - $35.00</p>
+								<p className='options'>8x8 inches - $45.00</p>
 							</div>
 						</Card.Body>
 					</Col>
@@ -170,16 +170,7 @@ function Charcuterie() {
 						<Card.Img variant='top' src={Flutes} />
 						<Card.Body>
 							<div className='optionsContainer'>
-								<p className='options'>Order in Multiples of 10 - $90.00</p>
-							</div>
-						</Card.Body>
-					</Col>
-					<Col className='deliveryCard'>
-						<p className='optionsTitle'>Jarcuterie</p>
-						<Card.Img variant='top' src={Jarcuterie4} />
-						<Card.Body>
-							<div className='optionsContainer'>
-								<p className='options'>Order in Multiples of 10 - $100.00</p>
+								<p className='options'>Order in Multiples of 20 - $200.00</p>
 							</div>
 						</Card.Body>
 					</Col>
@@ -242,7 +233,7 @@ function Charcuterie() {
 										display: 'inline',
 										padding: '5px',
 									}}>
-									$45
+									$50
 								</h5>
 							</div>
 						</div>
@@ -298,7 +289,7 @@ function Charcuterie() {
 										display: 'inline',
 										padding: '5px',
 									}}>
-									$50{' '}
+									$60{' '}
 									<span
 										style={{
 											fontSize: '0.5em',
@@ -314,7 +305,7 @@ function Charcuterie() {
 										padding: '5px',
 										margin: '2px',
 									}}>
-									$150{' '}
+									$180{' '}
 									<span
 										style={{
 											fontSize: '0.5em',

@@ -42,7 +42,7 @@ class Packages extends Component {
 					<Row className='packages'>
 						<Col sm={12} lg={4}>
 							<div className='packagesContainer'>
-								<p className='packagesHeader'>BASIC BEAUTY PACKAGE $150+++</p>
+								<p className='packagesHeader'>BASIC BEAUTY PACKAGE $155+++</p>
 
 								<Image
 									className='packagesImage'
@@ -51,20 +51,20 @@ class Packages extends Component {
 								/>
 
 								<ul className='no_bullets'>
-									<li>½ Hour POP-UP Picnic for 2 Guests</li>{' '}
+									<li>1 ½ Hour POP-UP Picnic for 2 Guests maximum</li>{' '}
 									<li>Personalized Letter board</li>
-									<li>Sign Small Hand Crafted Wood Table</li>{' '}
+									<li>Small Hand Crafted Wood Table(approx 16x16in)</li>{' '}
 									<li>Tapestry blanket (floor covering) </li>
 									<li>Pillow Seating for Guests </li>
-									<li>Flatware, Plates/Cloth Napkins</li>
+									<li>Flatware, small Plates/Cloth Napkins</li>
 									<li>Gold Metal Goblets</li>
-									<li>Table Decor Two Wood Crates</li>
+									<li>Tapestry Blanket/Floor covering</li>
 								</ul>
 							</div>
 						</Col>
 						<Col sm={12} lg={4}>
 							<div className='packagesContainer'>
-								<p className='packagesHeader'>SIMPLY SAVVY PACKAGE $180+++</p>
+								<p className='packagesHeader'>SIMPLY SAVVY PACKAGE $195+++</p>
 
 								<Image
 									className='packagesImage'
@@ -74,19 +74,18 @@ class Packages extends Component {
 
 								<ul className='no_bullets'>
 									<li>Two Hour POP-UP Picnic for 2 Guests</li>{' '}
-									<li>Personalized Letter Board</li>
 									<li>Sign Hand Crafted Wood Picnic Table</li>{' '}
 									<li>Pillow Seating for Guests</li>
 									<li>Flatware/Plates/Cloth Napkins</li>
-									<li>Gold Metal Goblets</li> <li>Table Décor</li>
-									<li>Blanket or Rug (floor covering)</li>
+									<li>Metal Goblets</li> <li>Table Décor</li>
+									<li>Rug/floor covering</li>
 								</ul>
 							</div>
 						</Col>
 						<Col sm={12} lg={4}>
 							<div className='packagesContainer'>
 								<p className='packagesHeader'>
-									THE BELLS & WHISTLES PACKAGE $280+++
+									THE BELLS & WHISTLES PACKAGE $295+++
 								</p>
 
 								<Image
@@ -101,13 +100,15 @@ class Packages extends Component {
 									<li>Hand Crafted Wood Picnic Table</li>{' '}
 									<li>Pillow Seating for Guests</li>
 									<li>Flatware/Plates/Cloth Napkins</li>
-									<li>Gold Metal Goblets</li> <li>Table Décor </li>
-									<li>Blanket or Rug (floor covering) </li>
-									<li>8x8 Cheese Charcuterie Box </li>
-									<li>Beverage Package for 2 Guests</li>{' '}
+									<li>Metal Goblets</li> <li>Table Décor </li>
+									<li>Rug/floor covering </li>
+									<li>
+										Beverage Package for 2 Guests(2 Sparking flavored Perrier, 2
+										Fiji water, Ice & Ice bucket
+									</li>{' '}
 									<li>Bluetooth Speaker for Music </li>
 									<li>Choice of Posh Umbrella with Tassels or Teepee Set-Up</li>
-									<li>Small Hand Crafted Wood Table</li>
+									<li>Small Hand Crafted Wood side Table</li>
 									<li>Floor & Perimeter Décor</li>
 								</ul>
 							</div>
