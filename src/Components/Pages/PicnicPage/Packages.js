@@ -51,7 +51,16 @@ class Packages extends Component {
 								/>
 
 								<ul className='no_bullets'>
-									<li>1 ½ Hour POP-UP Picnic for 2 Guests maximum</li>{' '}
+									<li>
+										1 ½ Hour POP-UP Picnic for{' '}
+										<span
+											style={{
+												fontWeight: '600',
+												color: '727289',
+											}}>
+											2 Guests maximum
+										</span>
+									</li>{' '}
 									<li>Personalized Letter board</li>
 									<li>Small Hand Crafted Wood Table(approx 16x16in)</li>{' '}
 									<li>Tapestry blanket (floor covering) </li>
@@ -103,8 +112,14 @@ class Packages extends Component {
 									<li>Metal Goblets</li> <li>Table Décor </li>
 									<li>Rug/floor covering </li>
 									<li>
-										Beverage Package for 2 Guests(2 Sparking flavored Perrier, 2
-										Fiji water, Ice & Ice bucket
+										Beverage Package for 2 Guests{' '}
+										<span
+											style={{
+												fontSize: '0.6em',
+											}}>
+											(2 Sparking flavored Perrier, 2 Fiji water, Ice & Ice
+											bucket)
+										</span>
 									</li>{' '}
 									<li>Bluetooth Speaker for Music </li>
 									<li>Choice of Posh Umbrella with Tassels or Teepee Set-Up</li>

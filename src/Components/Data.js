@@ -19,7 +19,7 @@ export const addOnData = [
 		title: 'ADDITIONAL BEVERAGES FOR ONE GUEST',
 		image: 'https://i.ibb.co/vZDHCWH/beveragepackage1.jpg',
 		description: 'Extra 2 beverages for an additional guest',
-		price: 7.50,
+		price: 7.5,
 	},
 	{
 		id: '4',
@@ -97,7 +97,7 @@ export const addOnData = [
 		image: 'https://i.ibb.co/SKQyDQ8/ballon-Garland-4-9-2021.jpg',
 		description:
 			'Decorate a TeePee with a balloon garland.(teepee not included)',
-		price: 275,
+		price: 375,
 	},
 	{
 		id: '14',

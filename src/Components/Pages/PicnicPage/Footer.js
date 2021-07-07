@@ -68,7 +68,14 @@ class Footer extends Component {
 							/>
 							<div className='locationDetails'>
 								<div>
-									<h5 className='locationPrice'>$55</h5>
+									<h5 className='locationPrice'>$55 </h5>
+									<span
+										style={{
+											color: 'red',
+											fontSize: '0.6em',
+										}}>
+										**Beach Picnics Not Allowed**
+									</span>
 								</div>
 							</div>
 						</Col>
