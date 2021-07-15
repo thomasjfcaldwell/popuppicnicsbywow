@@ -36,7 +36,7 @@ function Example() {
 						<li>Flatware/Plates/White Cloth Napkins</li>{' '}
 						<li>Metal Goblets Table</li>
 						<li>Décor Blanket or Rug (floor covering)</li>{' '}
-						<li>8X8 Cheese Charcuterie Box</li> <li>Beverage Package for 2</li>
+						<li>Beverage Package for 2</li>
 						<li>Bluetooth Speaker</li>
 						<li>Decorative Umbrella or Styled Teepee Corner</li>{' '}
 						<li>Side Table or Storage Area Perimeter Decor</li>
