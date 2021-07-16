@@ -17,7 +17,6 @@ class BookingForm extends Component {
 					margin: '50px',
 				}}>
 				<div id='ff-compose'></div>
-				<div id='ff-compose'></div>
 				<script
 					async
 					defer
