@@ -4,7 +4,6 @@ import { Col, Card, Image, Container, Row } from 'react-bootstrap';
 import groupShot from '../../../Images/Aboutus/aboutsus.2.jpg';
 import melTiff from '../../../Images/Aboutus/aboutusMel.Tiff.jpg';
 import '../../../App.css';
-import '../../../styles/locations.css';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
 
@@ -18,31 +17,10 @@ const Ourstory = () => {
 				<Row>
 					<Col data-aos='flip-right' lg={6} md={12} sm={12}>
 						<div className='locationsHeader'>
-							<h5
-								style={{
-									marginTop: '1em',
-									fontFamily: 'Montserrat',
-									fontWeight: '500',
-									letterSpacing: '0.1em',
-									background: '#727272',
-									color: 'white',
-									padding: '0.4em',
-								}}>
-								ABOUT US
-							</h5>
+							<h5>ABOUT US</h5>
 						</div>
-						<div
-							style={{
-								fontSize: '0.9em',
-								color: '#727272',
-								width: '100%',
-								alignItems: 'center',
-								justifyContent: 'center',
-								fontFamily: 'Montserrat',
-								textAlign: 'center',
-							}}>
+						<div>
 							<Card.Text>
-								
 								What happens when you take a group of talented, busy, passionate
 								event planners and you introduce them to a world wide
 								pandemic…………
@@ -94,13 +72,7 @@ const Ourstory = () => {
 						</div>
 					</Col>
 					<Col lg={6} xsm={12}>
-						<div
-							style={{
-								display: 'flex',
-								flexDirection: 'column',
-								alignItems: 'center',
-								justifyContent: 'center',
-							}}>
+						<div>
 							<Image
 								src={groupShot}
 								fluid

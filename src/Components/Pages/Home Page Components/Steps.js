@@ -5,9 +5,7 @@ import step1 from '../../../Images/Steps/step1.png';
 import step2 from '../../../Images/Steps/step2.png';
 import step3 from '../../../Images/Steps/step3.png';
 import step4 from '../../../Images/Steps/step4.png';
-
 import '../../../App.css';
-import '../../../styles/locations.css';
 
 class Steps extends Component {
 	render() {
@@ -18,18 +16,7 @@ class Steps extends Component {
 					data-aos='fade-in'>
 					<Row className='text-center'>
 						<div className='locationsHeader'>
-							<h5
-								style={{
-									marginTop: '1em',
-									fontFamily: 'Montserrat',
-									fontWeight: '500',
-									letterSpacing: '0.1em',
-									background: '#727272',
-									color: 'white',
-									padding: '0.4em',
-								}}>
-								WOW! POP-UP PICNICS PROCESS
-							</h5>
+							<h5>WOW! POP-UP PICNICS PROCESS</h5>
 						</div>
 					</Row>
 				</div>

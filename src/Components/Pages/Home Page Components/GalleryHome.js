@@ -1,5 +1,4 @@
 import React from 'react';
-import '../../../styles/grid.css';
 import '../../../App.css';
 import image1 from '../../../Images/Gallery/pinksetup.jpg';
 import image2 from '../../../Images/Gallery/nauticalChicForGallery.jpg';
@@ -12,12 +11,7 @@ import image8 from '../../../Images/Gallery/frozensetUp.jpg';
 import image9 from '../../../Images/Gallery/movienight.table.jpg';
 import { Container, Row } from 'react-bootstrap';
 
-// 'col-md-6 col-lg-4 item';
-
 const GalleryHome = () => {
-	// useEffect(() => {
-	// 	Aos.init({ duration: 4000 });
-	// }, []);
 	return (
 		<div>
 			<div fluid className='gallery-block grid-gallery' data-aos='fade-in'>

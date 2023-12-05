@@ -2,52 +2,23 @@ import React from 'react';
 import { Row, Col, Image, Card, Container } from 'react-bootstrap';
 import DeliveryBox from '../../../Images/Charcuterie/Charcuterie Box with Menu (outside view)1 copy.jpg';
 import Flutes from '../../../Images/Charcuterie/flutes.jpg';
-import Jarcuterie4 from '../../../Images/Charcuterie/Jarcuterie4.jpg';
 import Heart from '../../../Images/Charcuterie/VDay Dessert Box2.jpg';
-import CharcuterieBookingForm from './CharcuterieBookingForm';
 import Dessert from '../../../Images/Packages/dessertBox.jpg';
 import Multi from '../../../Images/Packages/veggieBox.jpg';
 import cheeseBox from '../../../Images/Packages/cheeseBox.jpg';
 import MeatCheese from '../../../Images/Packages/meatChesseBox.jpg';
 import treats from '../../../Images/Charcuterie/Smores Bar Box5.jpg';
-import '../../../styles/Charcuterie.css';
 
 function Charcuterie() {
 	return (
 		<div className='body'>
 			<Container fluid>
-				<div
-					style={{
-						margin: '2em',
-						alignItems: 'center',
-						justifyContent: 'center',
-						textAlign: 'center',
-					}}>
-					<h3
-						style={{
-							// display: 'inline',
-							fontFamily: 'Montserrat',
-							fontWeight: '500',
-							letterSpacing: '0.1em',
-							background: '#727272',
-							color: 'white',
-							marginTop: '50px',
-							padding: '10px',
-						}}>
-						CHARCUTERIE DELIVERY/PICK UP
-					</h3>
+				<div>
+					<h3>CHARCUTERIE DELIVERY/PICK UP</h3>
 				</div>
-				<Row
-					style={{
-						alignItems: 'center',
-						justifyContent: 'center',
-					}}>
+				<Row>
 					<Col lg={6} sm={12}>
-						<p
-							style={{
-								fontWeight: '300',
-								margin: '20px 30px',
-							}}>
+						<p>
 							One of our newest services, Charcuterie by WOW! Events was born
 							during our worldwide pandemic when my Event Planning Company of 17
 							years, was forced to stop doing business in March of 2020. Events
@@ -71,52 +42,16 @@ function Charcuterie() {
 						</p>
 					</Col>
 					<Col lg={6} sm={12}>
-						<Image
-							fluid
-							src={DeliveryBox}
-							alt='deliveryBox'
-							style={{
-								width: '100%',
-								margin: '0 auto',
-								padding: '10px',
-							}}
-						/>
+						<Image fluid src={DeliveryBox} alt='deliveryBox' />
 					</Col>
 				</Row>
 			</Container>
-			<div
-				style={{
-					alignItems: 'center',
-					justifyContent: 'center',
-					textAlign: 'center',
-				}}>
-				<h4
-					style={{
-						display: 'inline-block',
-						fontWeight: '300',
-						color: 'white',
-						textAlign: 'center',
-						backgroundColor: '#f7901e',
-						textTransform: 'uppercase',
-						padding: '8px',
-					}}>
-					Delivery and Pick Up options
-				</h4>
+			<div>
+				<h4>Delivery and Pick Up options</h4>
 			</div>
 
-			<Container
-				fluid
-				style={{
-					marginTop: '30px',
-				}}>
-				<Row
-					style={{
-						width: '100%',
-						justifyContent: 'center',
-						textAlign: 'center',
-						marginTop: '100px',
-						margin: 'auto',
-					}}>
+			<Container fluid>
+				<Row>
 					<Col className='deliveryCard' lg={2} md={4} sm={6}>
 						<p className='optionsTitle'>Meat & Cheese Box</p>
 						<Card.Img
@@ -178,47 +113,13 @@ function Charcuterie() {
 			</Container>
 			<Container>
 				<Row>
-					<Col
-						lg={6}
-						sm={12}
-						style={{
-							marginBottom: '40px',
-						}}>
-						<div
-							style={{
-								alignItems: 'center',
-								justifyContent: 'center',
-							}}>
-							<p
-								style={{
-									backgroundColor: '#f7901e',
-									color: 'white',
-									// display: 'inline',
-									padding: '5px',
-									textAlign: 'center',
-								}}>
-								Heart Box
-							</p>
+					<Col lg={6} sm={12}>
+						<div>
+							<p>Heart Box</p>
 							<div>
-								<Image
-									fluid
-									src={Heart}
-									alt='heartBox'
-									style={{
-										width: '50%',
-										padding: '10px',
-										margin: 'auto',
-										display: 'block',
-									}}
-								/>
+								<Image fluid src={Heart} alt='heartBox' />
 							</div>
-							<div
-								style={{
-									color: '#727272',
-									textAlign: 'center',
-									fontSize: '0.5em',
-									// marginTop:'-10px'
-								}}>
+							<div>
 								<h4>Sweets Included</h4>
 								<p className='sweetsText'>(1)Mini fruit tart</p>{' '}
 								<p className='sweetsText'>(1) mini cream brûlée</p>
@@ -226,55 +127,17 @@ function Charcuterie() {
 								<p className='sweetsText'>(2) mini strawberry Chau rings</p>
 								<p className='sweetsText'>Chocolate Covered Pretzels</p>
 								<p className='sweetsText'>Chocolate Covered Acai Balls</p>
-								<h5
-									style={{
-										backgroundColor: '#f7901e',
-										color: 'white',
-										display: 'inline',
-										padding: '5px',
-									}}>
-									$50
-								</h5>
+								<h5>$50</h5>
 							</div>
 						</div>
 					</Col>
-
 					<Col lg={6} sm={12}>
-						<div
-							style={{
-								alignItems: 'center',
-								justifyContent: 'center',
-							}}>
-							<p
-								style={{
-									// display: 'inline',
-									backgroundColor: '#f7901e',
-									color: 'white',
-									padding: '5px',
-									textAlign: 'center',
-								}}>
-								Smores Bar Box
-							</p>
+						<div>
+							<p>Smores Bar Box</p>
 							<div>
-								<Image
-									fluid
-									src={treats}
-									alt='smoresBox'
-									style={{
-										width: '50%',
-										padding: '10px',
-										margin: 'auto',
-										display: 'block',
-									}}
-								/>
+								<Image fluid src={treats} alt='smoresBox' />
 							</div>
-							<div
-								style={{
-									height: '250px',
-									color: '#727272',
-									textAlign: 'center',
-									fontSize: '0.5em',
-								}}>
+							<div>
 								<h4>Sweets Included</h4>
 								<p className='sweetsText'>(16) Graham Crackers</p>{' '}
 								<p className='sweetsText'>(6) Hershey’s Milk Chocolate Bars</p>
@@ -282,36 +145,11 @@ function Charcuterie() {
 									(4) Reese’s Peanut Butter Cups
 								</p>{' '}
 								<p className='sweetsText'>(30) Marshmallows</p>
-								<h5
-									style={{
-										backgroundColor: '#f7901e',
-										color: 'white',
-										display: 'inline',
-										padding: '5px',
-									}}>
-									$60{' '}
-									<span
-										style={{
-											fontSize: '0.5em',
-										}}>
-										(Size serves up to 4 guests)
-									</span>
+								<h5>
+									$60 <span>(Size serves up to 4 guests)</span>
 								</h5>
-								<h5
-									style={{
-										backgroundColor: '#f7901e',
-										color: 'white',
-										display: 'inline',
-										padding: '5px',
-										margin: '2px',
-									}}>
-									$180{' '}
-									<span
-										style={{
-											fontSize: '0.5em',
-										}}>
-										(Size serves up to 12 guests)
-									</span>
+								<h5>
+									$180 <span>(Size serves up to 12 guests)</span>
 								</h5>
 							</div>
 						</div>
@@ -319,26 +157,13 @@ function Charcuterie() {
 				</Row>
 			</Container>
 			<Container>
-				<Row
-					style={{
-						alignItems: 'center',
-						justifyContent: 'center',
-						textAlign: 'center',
-						margin: '50px',
-					}}>
-					<p
-						style={{
-							fontFamily: 'Montserrat',
-							fontWeight: '500',
-							color: '#f7901e',
-							width: '100%',
-						}}>
+				<Row>
+					<p>
 						20% Service Fee,Sales tax & Applicable Delivery Fee will be added to
 						Pricing
 					</p>
 				</Row>
 			</Container>
-			<CharcuterieBookingForm />
 		</div>
 	);
 }

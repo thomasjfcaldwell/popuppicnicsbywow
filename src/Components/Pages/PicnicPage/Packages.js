@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import { Row, Col, Image, Container } from 'react-bootstrap';
 import '../../../App.css';
 import Addon from './Addon';
-import BookingForm from './BookingForm';
 import Footer from './Footer';
 import PicnicFQA from '../../Modals/PicnicFQA';
 import BandWPackage from '../../../Images/Packages/bellsandwhistles.jpg';
@@ -15,26 +14,9 @@ class Packages extends Component {
 		return (
 			<div>
 				<Container>
-					<Row
-						style={{
-							alignItems: 'center',
-							justifyContent: 'center',
-							textAlign: 'center',
-						}}>
+					<Row>
 						<div className='locationsHeader'>
-							<h5
-								style={{
-									marginTop: '1em',
-									display: 'inline',
-									fontFamily: 'Montserrat',
-									fontWeight: '500',
-									letterSpacing: '0.1em',
-									background: '#727272',
-									color: 'white',
-									padding: '0.4em',
-								}}>
-								STEP 1: SELECT A PICNIC PACKAGE
-							</h5>
+							<h5>STEP 1: SELECT A PICNIC PACKAGE</h5>
 						</div>
 					</Row>
 				</Container>
@@ -52,14 +34,7 @@ class Packages extends Component {
 
 								<ul className='no_bullets'>
 									<li>
-										1 ½ Hour POP-UP Picnic for{' '}
-										<span
-											style={{
-												fontWeight: '600',
-												color: '727289',
-											}}>
-											2 Guests maximum
-										</span>
+										1 ½ Hour POP-UP Picnic for <span>2 Guests maximum</span>
 									</li>{' '}
 									<li>Personalized Letter board</li>
 									<li>Small Hand Crafted Wood Table(approx 16x16in)</li>{' '}
@@ -113,10 +88,7 @@ class Packages extends Component {
 									<li>Rug/floor covering </li>
 									<li>
 										Beverage Package for 2 Guests{' '}
-										<span
-											style={{
-												fontSize: '0.6em',
-											}}>
+										<span>
 											(2 Sparking flavored Perrier, 2 Fiji water, Ice & Ice
 											bucket)
 										</span>
@@ -131,37 +103,13 @@ class Packages extends Component {
 					</Row>
 				</Container>
 				<Container>
-					<Row
-						style={{
-							alignItems: 'center',
-							justifyContent: 'center',
-							textAlign: 'center',
-						}}>
-						<p
-							style={{
-								fontFamily: 'Montserrat',
-								fontWeight: '500',
-								color: '#f7901e',
-								width: '75%',
-							}}>
-							Lower your per person price by inviting more guests
-						</p>
+					<Row>
+						<p>Lower your per person price by inviting more guests</p>
 					</Row>
 				</Container>
 				<Container>
-					<Row
-						style={{
-							alignItems: 'center',
-							justifyContent: 'center',
-							textAlign: 'center',
-						}}>
-						<p
-							style={{
-								fontFamily: 'Montserrat',
-								fontWeight: '500',
-								color: '#f7901e',
-								width: '75%',
-							}}>
+					<Row>
+						<p>
 							Location Fee, 20% Service Fee and Sales tax will be added to
 							Pricing
 						</p>
@@ -170,40 +118,16 @@ class Packages extends Component {
 				<Themes />
 				<Footer />
 				<Addon />
-				<div
-					style={{
-						alignItems: 'center',
-						justifyContent: 'center',
-						textAlign: 'center',
-						margin: '40px 0',
-					}}>
+				<div>
 					<PicnicFQA />
 				</div>
 				<Container>
-					<Row
-						style={{
-							alignItems: 'center',
-							justifyContent: 'center',
-							textAlign: 'center',
-						}}>
+					<Row>
 						<div className='locationsHeader'>
-							<h5
-								style={{
-									marginTop: '1em',
-									fontFamily: 'Montserrat',
-									fontWeight: '500',
-									letterSpacing: '0.1em',
-									background: '#727272',
-									color: 'white',
-									padding: '0.4em',
-								}}>
-								STEP 5: BOOK YOUR PICNIC HERE
-							</h5>
+							<h5>STEP 5: BOOK YOUR PICNIC HERE</h5>
 						</div>
 					</Row>
 				</Container>
-
-				<BookingForm />
 			</div>
 		);
 	}

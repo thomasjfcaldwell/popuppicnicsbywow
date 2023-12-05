@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
-
 import { Container, Row, Col, Image } from 'react-bootstrap';
-
 import prettyInPink from '../../../Images/Themes/prettyinPink.jpg';
 import nauticalChic from '../../../Images/Themes/nauticalChic.jpg';
 import takeMeToCapri from '../../../Images/Themes/takemetoCapri.jpg';
@@ -14,25 +12,9 @@ class Themes extends Component {
 		return (
 			<div className='themesContainer'>
 				<Container>
-					<Row
-						style={{
-							alignItems: 'center',
-							justifyContent: 'center',
-							textAlign: 'center',
-						}}>
+					<Row>
 						<div className='locationsHeader'>
-							<h5
-								style={{
-									marginTop: '1em',
-									fontFamily: 'Montserrat',
-									fontWeight: '500',
-									letterSpacing: '0.1em',
-									background: '#727272',
-									color: 'white',
-									padding: '0.4em',
-								}}>
-								STEP 2: CHOOSE A DESIGN THEME
-							</h5>
+							<h5>STEP 2: CHOOSE A DESIGN THEME</h5>
 						</div>
 					</Row>
 				</Container>

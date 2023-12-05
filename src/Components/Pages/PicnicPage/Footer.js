@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
 import { Row, Col, Image, Container } from 'react-bootstrap';
 import HuntState from '../../../Images/Locations/HuntingtonStateWeb.jpg';
-import '../../../styles/locations.css';
-
 import Doheny from '../../../Images/Locations/doheneyBeachWeb.jpg';
 import Saltcreek from '../../../Images/Locations/saltcreekbeachWeb.jpg';
 import Bstreet from '../../../Images/Locations/BstreetWeb.jpg';

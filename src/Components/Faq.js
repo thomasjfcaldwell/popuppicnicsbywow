@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
-import {  Card, Container,} from 'react-bootstrap';
+import { Card, Container } from 'react-bootstrap';
 import Contact from '../Components/Contact';
-import '../styles/faq.css';
 
 class Faq extends Component {
 	handleClick() {
@@ -14,11 +13,7 @@ class Faq extends Component {
 				<Container fluid></Container>
 				<Container>
 					<Card className='border-0'>
-						<Card.Body
-							className='mt-5'
-							style={{
-								fontFamily: 'Montserrat',
-							}}>
+						<Card.Body className='mt-5'>
 							<Card.Title className='title'>
 								Q: WHAT IS YOUR CANCELLATION POLICY?
 							</Card.Title>
@@ -202,11 +197,7 @@ class Faq extends Component {
 							</Card.Text>
 							<Card.Text className='text-center font-weight-bold mt-5'>
 								SEE OUR FULL TERMS AND CONDITIONS OF SERVICE{' '}
-								<a
-									style={{
-										color: '#F78F1E',
-									}}
-									href='https://drive.google.com/file/d/1hMFH8QIacQqcMDuuAaMUssqPi2dhXsLH/view?usp=sharing'>
+								<a href='https://drive.google.com/file/d/1hMFH8QIacQqcMDuuAaMUssqPi2dhXsLH/view?usp=sharing'>
 									HERE{' '}
 								</a>
 							</Card.Text>

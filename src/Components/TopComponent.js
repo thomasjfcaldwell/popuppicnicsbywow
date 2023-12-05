@@ -7,85 +7,34 @@ import { Row, Col, Container } from 'react-bootstrap';
 export default class TopComponent extends Component {
 	render() {
 		return (
-			<div>
+			<>
 				<Container fluid>
-					<Row
-						style={{
-							justifyContent: 'center',
-							alignItems: 'center',
-							margin: '10px',
-							alignContent: 'center',
-						}}>
-						<Col
-							lg={4}
-							sm={4}
-							style={{
-								display: 'flex',
-								flexDirection: 'row',
-								justifyContent: 'center',
-								alignItems: 'center',
-							}}>
+					<Row>
+						<Col lg={4} sm={4}>
 							<FaPhone size={20} />
-
-							<a
-								className='topText'
-								href='tel:714.848.9698'
-								style={{
-									fontWeight: '400',
-								}}>
+							<a className='topText' href='tel:714.848.9698'>
 								714.848.9698
 							</a>
 						</Col>
-						<Col
-							lg={4}
-							sm={4}
-							style={{
-								display: 'flex',
-								flexDirection: 'row',
-								justifyContent: 'center',
-								alignItems: 'center',
-							}}>
+						<Col lg={4} sm={4}>
 							<BsFillEnvelopeFill size={20} />
-
-							<a
-								className='topText'
-								href='mailto:hello@wowevents.com'
-								style={{
-									fontWeight: '400',
-								}}>
+							<a className='topText' href='mailto:hello@wowevents.com'>
 								hello@wowevents.com
 							</a>
 						</Col>
-						<Col
-							lg={4}
-							sm={4}
-							style={{
-								display: 'flex',
-								flexDirection: 'row',
-								justifyContent: 'center',
-								alignItems: 'center',
-							}}>
-							<div
-								style={{
-									margin: '0 5px',
-								}}>
+						<Col lg={4} sm={4}>
+							<div>
 								<a href='https://www.facebook.com/popuppicnicsbywow'>
 									{' '}
 									<FaFacebook size={25} />
 								</a>
 							</div>
-							<div
-								style={{
-									margin: '0 5px',
-								}}>
+							<div>
 								<a href='https://www.instagram.com/popuppicnicsbywow/'>
 									<FaInstagram size={25} />
 								</a>
 							</div>
-							<div
-								style={{
-									margin: '0 5px',
-								}}>
+							<div>
 								<a href='https://twitter.com/WowPopUpPicnics'>
 									<FaTwitter size={25} />
 								</a>
@@ -93,7 +42,7 @@ export default class TopComponent extends Component {
 						</Col>
 					</Row>
 				</Container>
-			</div>
+			</>
 		);
 	}
 }

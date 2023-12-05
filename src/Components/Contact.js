@@ -1,15 +1,7 @@
 import React, { Component } from 'react';
 import '../App.css';
-import { Row, Col, Container } from 'react-bootstrap';
 
 class Contact extends Component {
-	componentDidMount() {
-		const script = document.createElement('script');
-		script.async = true;
-		script.src =
-			'https://formfacade.com/include/106160970742721697585/form/1FAIpQLScj4ukKgFyRHGmluWBoJnVHSan1sGfk_Cc26ZyfUl1uceHYsA/classic.js?div=ff-compose';
-		this.div.appendChild(script);
-	}
 	render() {
 		return (
 			<div
@@ -17,13 +9,7 @@ class Contact extends Component {
 				ref={(el) => (this.div = el)}
 				style={{
 					margin: '50px',
-				}}>
-				<div id='ff-compose'></div>
-				<script
-					async
-					defer
-					src='https://formfacade.com/include/106160970742721697585/form/1FAIpQLScj4ukKgFyRHGmluWBoJnVHSan1sGfk_Cc26ZyfUl1uceHYsA/classic.js?div=ff-compose'></script>
-			</div>
+				}}></div>
 		);
 	}
 	// 	componentDidMount() {

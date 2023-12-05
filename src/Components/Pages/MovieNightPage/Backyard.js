@@ -3,7 +3,6 @@ import { Row, Col, Image, Container } from 'react-bootstrap';
 import table from '../../../Images/MovieNight/movienightTable.jpg';
 import sign from '../../../Images/MovieNight/movienightsign.jpg';
 import treats from '../../../Images/MovieNight/movienightTreats.jpg';
-import BackYardBooking from './BackYardBooking';
 import PremierMovieModal from '../../Modals/PremierMovieModal';
 import BlockBusterModal from '../../Modals/BlockBusterMovieModal';
 import SimplyWithPremier from '../../Modals/SimplyWithPremier';
@@ -12,46 +11,18 @@ import BellsWithPremier from '../../Modals/BellsWithPremier';
 import BellsWithBlockbuster from '../../Modals/BellsWithBlockbuster';
 import BasicWithPremier from '../../Modals/BasicWithPremier';
 import BasicWithBlockBuster from '../../Modals/BasicWithBlockBuster';
-import MovieVideo from './MovieVideo';
 import '../../../App.css';
 
 function Backyard() {
 	return (
 		<div>
-			<div
-				style={{
-					margin: '2em',
-					alignItems: 'center',
-					justifyContent: 'center',
-					textAlign: 'center',
-				}}>
-				<h3
-					style={{
-						// display: 'inline',
-						fontFamily: 'Montserrat',
-						fontWeight: '500',
-						letterSpacing: '0.1em',
-						background: '#727272',
-						color: 'white',
-						marginTop: '50px',
-						padding: '10px',
-					}}>
-					MOVIE NIGHTS
-				</h3>
+			<div>
+				<h3>MOVIE NIGHTS</h3>
 			</div>
 			<Container fluid>
-				<Row
-					style={{
-						justifyItems: 'center',
-					}}>
+				<Row>
 					<Col lg={6}>
-						<p
-							className='movieText'
-							style={{
-								fontWeight: '300',
-								width: '100%',
-								margin: '60px 0 40px 10px',
-							}}>
+						<p className='movieText'>
 							Ready for a night at the movies? Enjoy a premiere showing of your
 							favorite Rom-Com, thriller, or whatever the kids get to choose in
 							the convenience and comfort of your own backyard. You’ll step out
@@ -77,96 +48,22 @@ function Backyard() {
 							scene-stealing event!
 						</p>
 					</Col>
-					<Col
-						lg={6}
-						style={{
-							alignItems: 'center',
-							justifyContent: 'center',
-							textAlign: 'center',
-						}}>
-						<Row
-							style={{
-								alignItems: 'center',
-								justifyContent: 'center',
-								textAlign: 'center',
-							}}>
-							<Image
-								fluid='true'
-								src={treats}
-								style={{
-									width: '81%',
-									margin: '5px',
-								}}
-							/>
+					<Col lg={6}>
+						<Row>
+							<Image fluid='true' src={treats} />
 						</Row>
-						<Row
-							style={{
-								display: 'flex',
-								flexDirection: 'row',
-								alignItems: 'center',
-								justifyContent: 'center',
-								textAlign: 'center',
-							}}>
-							<Image
-								fluid='true'
-								src={sign}
-								style={{
-									width: '40%',
-									margin: '5px',
-								}}
-							/>
-
-							<Image
-								fluid='true'
-								src={table}
-								style={{
-									width: '40%',
-									margin: '5px',
-								}}
-							/>
+						<Row>
+							<Image fluid='true' src={sign} />
+							<Image fluid='true' src={table} />
 						</Row>
 					</Col>
 				</Row>
 			</Container>
-			<Container
-				fluid
-				className='videoContainer'
-				style={{
-					width: '50%',
-				}}>
-				<div
-					style={{
-						alignItems: 'center',
-						justifyContent: 'center',
-						margin: '2em',
-					}}>
-					<MovieVideo fluid />
-				</div>
-			</Container>
-
-			<div
-				style={{
-					alignItems: 'center',
-					justifyContent: 'center',
-					textAlign: 'center',
-				}}>
-				<h4
-					style={{
-						display: 'inline',
-						fontWeight: '300',
-						background: '#f7901e',
-						color: 'white',
-						padding: '10px',
-						marginTop: '100px',
-					}}>
-					PACKAGES
-				</h4>
+			<Container fluid className='videoContainer'></Container>
+			<div>
+				<h4>PACKAGES</h4>
 			</div>
-			<Container
-				fluid
-				style={{
-					color: '#727272',
-				}}>
+			<Container fluid>
 				<Row>
 					<Col lg={6} md={6} sm={12} className='moviePackages'>
 						<p>Premier Movie Night Package $250.00 +++</p>
@@ -224,40 +121,15 @@ function Backyard() {
 							Bells & Whistles PUP Package + Blockbuster Movie Night Package
 							$755.00 +++
 						</p>
-
 						<BellsWithBlockbuster />
 					</Col>
 				</Row>
 			</Container>
 			<Container fluid>
-				<Row
-					style={{
-						margin: '50px 0px',
-					}}>
-					<Col
-						lg={4}
-						sm={12}
-						style={{
-							display: 'flex',
-							flexDirection: 'column',
-							justifyItems: 'center',
-						}}>
-						<h5
-							style={{
-								display: 'inline',
-								fontWeight: '300',
-								background: '#f7901e',
-								color: 'white',
-								padding: '2px',
-								textAlign: 'center',
-							}}>
-							ADD ONS
-						</h5>
-						<div
-							className='m-3'
-							style={{
-								fontSize: '0.8em',
-							}}>
+				<Row>
+					<Col lg={4} sm={12}>
+						<h5>ADD ONS</h5>
+						<div>
 							<p>
 								There will be a $30 charge for each Additional Guest over the 4
 								Included
@@ -270,29 +142,9 @@ function Backyard() {
 							<p>Additional Beverages for One guest= $7 (Waters)</p>
 						</div>
 					</Col>
-					<Col
-						lg={4}
-						sm={12}
-						style={{
-							display: 'flex',
-							flexDirection: 'column',
-							justifyItems: 'center',
-						}}>
-						<h5
-							style={{
-								fontWeight: '300',
-								background: '#f7901e',
-								color: 'white',
-								padding: '2px',
-								textAlign: 'center',
-							}}>
-							OTHER FEES
-						</h5>
-						<div
-							className='m-3'
-							style={{
-								fontSize: '0.8em',
-							}}>
+					<Col lg={4} sm={12}>
+						<h5>OTHER FEES</h5>
+						<div>
 							<p>Delivery Fee (up to 15 miles round trip from HB pier)= $50</p>
 							<p>
 								Travel Fee (over 15 miles round trip from HB Pier)= $1 per mile
@@ -300,32 +152,9 @@ function Backyard() {
 							<p>Additional Hour for Movie Night= $100</p>
 						</div>
 					</Col>
-					<Col
-						lg={4}
-						sm={12}
-						style={{
-							display: 'flex',
-							flexDirection: 'column',
-							justifyItems: 'center',
-						}}>
-						<h5
-							style={{
-								display: 'inline',
-								fontWeight: '300',
-								background: '#f7901e',
-								color: 'white',
-								padding: '2px',
-								textAlign: 'center',
-								margin: '0 50px',
-								textTransform: 'uppercase',
-							}}>
-							Minimums and Service Fees
-						</h5>
-						<div
-							className='m-3'
-							style={{
-								fontSize: '0.8em',
-							}}>
+					<Col lg={4} sm={12}>
+						<h5>Minimums and Service Fees</h5>
+						<div>
 							<p>
 								$500 Minimum Required for Saturdays & Sundays in April through
 								September
@@ -343,26 +172,13 @@ function Backyard() {
 				</Row>
 			</Container>
 			<Container>
-				<Row
-					style={{
-						alignItems: 'center',
-						justifyContent: 'center',
-						textAlign: 'center',
-						margin: '2em 0',
-					}}>
-					<p
-						style={{
-							fontFamily: 'Montserrat',
-							fontWeight: '500',
-							color: '#727272',
-							width: '100%',
-						}}>
+				<Row>
+					<p>
 						20% Service Fee,Sales tax & Applicable Delivery Fee will be added to
 						Pricing
 					</p>
 				</Row>
 			</Container>
-			<BackYardBooking />
 		</div>
 	);
 }

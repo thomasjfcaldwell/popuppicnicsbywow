@@ -6,53 +6,18 @@ import anniversary from '../../../Images/Testimonals/anniversary.jpg';
 import proposal from '../../../Images/Testimonals/proposalnewzacpicnic.jpg';
 
 import '../../../App.css';
-import '../../../styles/locations.css';
 
 class Testimonals extends Component {
 	render() {
 		return (
 			<>
-				<Container
-					data-aos='fade-in'
-					fluid
-					style={{
-						marginTop: '4em',
-						fontFamily: 'Montserrat',
-						color: '#727272',
-					}}>
+				<Container data-aos='fade-in' fluid>
 					<Row>
 						<CardGroup>
 							<Card className='border-0 align-items-center'>
-								<Card.Img
-									variant='top'
-									src={birthday}
-									style={{
-										width: '80%',
-										border: 'solid 1px #F78F1E',
-										boxShadow: '5px 5px 5px rgba(0, 0, 0, 0.3)',
-									}}
-								/>
-								<p
-									className='text-center'
-									style={{
-										marginTop: '1em',
-										fontFamily: 'Montserrat',
-										fontWeight: '500',
-										letterSpacing: '0.1em',
-										background: '#727272',
-										color: 'white',
-										padding: '0.5em',
-									}}>
-									BIRTHDAY PARTY
-								</p>
-								<Card.Body
-									style={{
-										fontSize: '0.8em',
-										width: '100%',
-										alignItems: 'center',
-										justifyContent: 'center',
-										textAlign: 'center',
-									}}>
+								<Card.Img variant='top' src={birthday} />
+								<p className='text-center'>BIRTHDAY PARTY</p>
+								<Card.Body>
 									<p>
 										I was looking for a unique idea for my sister’s bridal
 										shower when I stumbled upon WOW! Events Pop-Up Picnics. I
@@ -70,36 +35,9 @@ class Testimonals extends Component {
 								</Card.Body>
 							</Card>
 							<Card className='border-0 align-items-center'>
-								<Card.Img
-									variant='top'
-									src={anniversary}
-									style={{
-										width: '80%',
-										border: 'solid 1px #F78F1E',
-										boxShadow: '5px 5px 5px rgba(0, 0, 0, 0.3)',
-									}}
-								/>
-								<p
-									className='text-center'
-									style={{
-										marginTop: '1em',
-										fontFamily: 'Montserrat',
-										fontWeight: '500',
-										letterSpacing: '0.1em',
-										background: '#727272',
-										color: 'white',
-										padding: '0.5em',
-									}}>
-									ANNIVERSARY
-								</p>
-								<Card.Body
-									style={{
-										fontSize: '0.8em',
-										width: '100%',
-										alignItems: 'center',
-										justifyContent: 'center',
-										textAlign: 'center',
-									}}>
+								<Card.Img variant='top' src={anniversary} />
+								<p className='text-center'>ANNIVERSARY</p>
+								<Card.Body>
 									<p>
 										I wanted to plan something special for our 10-year wedding
 										anniversary. I proposed to my wife in a pretty awesome place
@@ -120,36 +58,9 @@ class Testimonals extends Component {
 								</Card.Body>
 							</Card>
 							<Card className='border-0 align-items-center'>
-								<Card.Img
-									variant='top'
-									src={proposal}
-									style={{
-										width: '80%',
-										border: 'solid 1px #F78F1E',
-										boxShadow: '5px 5px 5px rgba(0, 0, 0, 0.3)',
-									}}
-								/>
-								<p
-									className='text-center'
-									style={{
-										marginTop: '1em',
-										fontFamily: 'Montserrat',
-										fontWeight: '500',
-										letterSpacing: '0.1em',
-										background: '#727272',
-										color: 'white',
-										padding: '0.5em',
-									}}>
-									MARRIAGE PROPOSAL
-								</p>
-								<Card.Body
-									style={{
-										fontSize: '0.8em',
-										width: '100%',
-										alignItems: 'center',
-										justifyContent: 'center',
-										textAlign: 'center',
-									}}>
+								<Card.Img variant='top' src={proposal} />
+								<p>MARRIAGE PROPOSAL</p>
+								<Card.Body>
 									<p>
 										Proposing is stressful enough, doing it during COVID added
 										even more pressure! I wanted to do something special,
