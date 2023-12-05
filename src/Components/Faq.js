@@ -1,10 +1,8 @@
 import React, { Component } from 'react';
 import { Card, Container } from 'react-bootstrap';
-import Contact from '../Components/Contact';
 
 class Faq extends Component {
 	handleClick() {
-		// do something meaningful, Promises, if/else, whatever, and then
 		window.location.assign('https://www.wowevents.com/');
 	}
 	render() {
@@ -204,7 +202,6 @@ class Faq extends Component {
 						</Card.Body>
 					</Card>
 				</Container>
-				<Contact />
 			</div>
 		);
 	}

@@ -1,7 +1,6 @@
 import React from 'react';
 import { Image, Dropdown } from 'react-bootstrap';
-
-import wowlogo from '../Images/WowEvents_Logo_Orange_RGB.png';
+import wowlogo from '../../Images/WowEvents_Logo_Orange_RGB.png';
 
 const Toolbar = (props) => (
 	<header className='toolbar'>
