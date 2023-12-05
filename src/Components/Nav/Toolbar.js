@@ -33,30 +33,6 @@ const Toolbar = (props) => (
 					<li>
 						<a href='/contact'>CONTACT US</a>
 					</li>
-					<Dropdown>
-						<Dropdown.Toggle>OTHER SERVICES</Dropdown.Toggle>
-
-						<Dropdown.Menu>
-							<Dropdown.Item href='https://www.wowevents.com/full-service-event-planning/'>
-								Full Service Event Planning
-							</Dropdown.Item>
-							<Dropdown.Item href='https://www.wowevents.com/decor-props/'>
-								Decor & Props
-							</Dropdown.Item>
-							<Dropdown.Item href='https://www.wowevents.com/entertainment-music/'>
-								Entertainment & Music
-							</Dropdown.Item>
-							<Dropdown.Item href='https://www.wowevents.com/rentals/'>
-								Rentals/Lounge Furniture
-							</Dropdown.Item>
-							<Dropdown.Item href='https://www.wowevents.com/event-catering/'>
-								Catering
-							</Dropdown.Item>
-							<Dropdown.Item href='https://www.wowevents.com/event-venues/'>
-								Event Venues
-							</Dropdown.Item>
-						</Dropdown.Menu>
-					</Dropdown>
 				</ul>
 			</div>
 		</nav>
