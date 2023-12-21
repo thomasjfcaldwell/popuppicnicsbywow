@@ -1,11 +1,9 @@
-import './App.css';
 import Home from './Components/Pages/Home Page Components/Home';
 import Packages from './Components/Pages/PicnicPage/Packages';
 import Faq from './Components/Faq';
 import Backyard from './Components/Pages/MovieNightPage/Backyard';
 import Charcuterie from './Components/Pages/CharcuteriePage/Charcuterie';
 import { Route, BrowserRouter as Router } from 'react-router-dom';
-import '../src/App.css';
 import { Component } from 'react';
 import Footer from './Components/Footer/Footer';
 import Nav from './Components/Nav/Nav';
