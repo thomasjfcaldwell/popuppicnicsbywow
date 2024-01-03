@@ -1,7 +1,4 @@
-import { Modal } from 'react-bootstrap';
 import { React, useState } from 'react';
-
-import { Button } from 'react-bootstrap';
 
 function Example() {
 	const [show, setShow] = useState(false);
@@ -10,24 +7,20 @@ function Example() {
 	const handleShow = () => setShow(true);
 
 	return (
-		<>
-			<Button
-				size='sm'
-				className='btn btn-primary custom-btn'
-				onClick={handleShow}>
+		<div className='blockbuster_movie'>
+			<button size='sm' onClick={handleShow}>
 				Whats Included
-			</Button>
-
-			<Modal
+			</button>
+			<div
 				show={show}
 				onHide={handleClose}
 				scrollable={true}
 				backdrop='static'
 				keyboard={false}>
-				<Modal.Header closeButton>
-					<Modal.Title>What's Included</Modal.Title>
-				</Modal.Header>
-				<Modal.Body>
+				<div closebutton>
+					<h5>What's Included</h5>
+				</div>
+				<div>
 					<ul>
 						<li>Three Hour Movie Night for Up to Four Guests</li>{' '}
 						<li>2 x 12” Speakers with Bluetooth System</li>{' '}
@@ -68,17 +61,14 @@ function Example() {
 							<li>Cocktail Size Napkins</li> <li>Small Trash Can</li>
 						</ul>
 					</ul>
-				</Modal.Body>
-				<Modal.Footer>
-					<Button
-						size='sm'
-						className='btn btn-primary custom-btn'
-						onClick={handleClose}>
+				</div>
+				<div>
+					<button size='sm' onClick={handleClose}>
 						Close
-					</Button>
-				</Modal.Footer>
-			</Modal>
-		</>
+					</button>
+				</div>
+			</div>
+		</div>
 	);
 }
 

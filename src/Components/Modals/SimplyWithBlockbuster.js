@@ -1,33 +1,28 @@
-import { Modal } from 'react-bootstrap';
 import { React, useState } from 'react';
-
-import { Button } from 'react-bootstrap';
 
 function Example() {
 	const [show, setShow] = useState(false);
-
 	const handleClose = () => setShow(false);
 	const handleShow = () => setShow(true);
-
 	return (
-		<>
-			<Button
+		<div className='simply_with_blockbuster'>
+			<button
 				size='sm'
 				className='btn btn-primary custom-btn'
 				onClick={handleShow}>
 				Whats Included
-			</Button>
+			</button>
 
-			<Modal
+			<div
 				show={show}
 				onHide={handleClose}
 				backdrop='static'
 				scrollable={true}
 				keyboard={false}>
-				<Modal.Header closeButton>
-					<Modal.Title>What's Included</Modal.Title>
-				</Modal.Header>
-				<Modal.Body>
+				<div closeButton>
+					<h5>What's Included</h5>
+				</div>
+				<div>
 					<ul>
 						Simply Savvy Picnic Package:
 						<li>Two Hour POP-UP Picnic</li>
@@ -78,17 +73,17 @@ function Example() {
 							<li>Cocktail Size Napkins</li> <li>Small Trash Can</li>
 						</ul>
 					</ul>
-				</Modal.Body>
-				<Modal.Footer>
-					<Button
+				</div>
+				<div>
+					<button
 						size='sm'
 						className='btn btn-primary custom-btn'
 						onClick={handleClose}>
 						Close
-					</Button>
-				</Modal.Footer>
-			</Modal>
-		</>
+					</button>
+				</div>
+			</div>
+		</div>
 	);
 }
 

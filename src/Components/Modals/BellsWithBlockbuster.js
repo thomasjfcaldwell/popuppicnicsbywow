@@ -1,7 +1,4 @@
-import { Modal } from 'react-bootstrap';
 import { React, useState } from 'react';
-
-import { Button } from 'react-bootstrap';
 
 function Example() {
 	const [show, setShow] = useState(false);
@@ -10,25 +7,21 @@ function Example() {
 	const handleShow = () => setShow(true);
 
 	return (
-		<>
-			<Button
-				size='sm'
-				className='btn btn-primary custom-btn'
-				onClick={handleShow}>
+		<div>
+			<button size='sm' onClick={handleShow}>
 				Whats Included
-			</Button>
-
-			<Modal
+			</button>
+			<div
 				animation={true}
 				show={show}
 				onHide={handleClose}
 				backdrop='static'
 				scrollable={true}
 				keyboard={false}>
-				<Modal.Header closeButton>
-					<Modal.Title>What's Included</Modal.Title>
-				</Modal.Header>
-				<Modal.Body scrollable={true}>
+				<div closeButton>
+					<h5>What's Included</h5>
+				</div>
+				<div scrollable={true}>
 					<ul>
 						Bells & Whistles Picnic Package: <li>Two Hour POP-UP Picnic </li>{' '}
 						<li>Personalized Welcome Sign</li>
@@ -83,17 +76,14 @@ function Example() {
 							<li>Cocktail Size Napkins</li> <li>Small Trash Can</li>
 						</ul>
 					</ul>
-				</Modal.Body>
-				<Modal.Footer>
-					<Button
-						size='sm'
-						className='btn btn-primary custom-btn'
-						onClick={handleClose}>
+				</div>
+				<div>
+					<button size='sm' onClick={handleClose}>
 						Close
-					</Button>
-				</Modal.Footer>
-			</Modal>
-		</>
+					</button>
+				</div>
+			</div>
+		</div>
 	);
 }
 

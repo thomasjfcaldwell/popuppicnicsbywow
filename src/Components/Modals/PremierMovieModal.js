@@ -1,8 +1,4 @@
-import { Modal } from 'react-bootstrap';
 import { React, useState } from 'react';
-
-import { Button } from 'react-bootstrap';
-
 
 function Example() {
 	const [show, setShow] = useState(false);
@@ -11,23 +7,18 @@ function Example() {
 	const handleShow = () => setShow(true);
 
 	return (
-		<>
-			<Button
+		<div className='premier_movie_modal'>
+			<button
 				size='sm'
 				className='btn btn-primary custom-btn'
 				onClick={handleShow}>
 				Whats Included
-			</Button>
-
-			<Modal
-				show={show}
-				onHide={handleClose}
-				backdrop='static'
-				keyboard={false}>
-				<Modal.Header closeButton>
-					<Modal.Title>What's Included</Modal.Title>
-				</Modal.Header>
-				<Modal.Body>
+			</button>
+			<div show={show} onHide={handleClose} backdrop='static' keyboard={false}>
+				<div closeButton>
+					<h5>What's Included</h5>
+				</div>
+				<div>
 					<ul>
 						<li>Three Hour Movie Night</li>
 						<li>2 x 12” Speakers with Bluetooth System </li>
@@ -36,17 +27,17 @@ function Example() {
 						<li>1 x Outdoor Movie Projector</li>{' '}
 						<li>1 x Rolling Cart for Projector</li>
 					</ul>
-				</Modal.Body>
-				<Modal.Footer>
-					<Button
+				</div>
+				<div>
+					<button
 						size='sm'
 						className='btn btn-primary custom-btn'
 						onClick={handleClose}>
 						Close
-					</Button>
-				</Modal.Footer>
-			</Modal>
-		</>
+					</button>
+				</div>
+			</div>
+		</div>
 	);
 }
 
