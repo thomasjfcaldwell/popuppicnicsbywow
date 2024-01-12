@@ -150,7 +150,7 @@ export default function Faq() {
 					picnic to discuss your options. There is no cancellation charge due to
 					bad weather
 				</p>
-				<p className='text-center font-weight-bold mt-5'>
+				<p>
 					SEE OUR FULL TERMS AND CONDITIONS OF SERVICE{' '}
 					<a href='https://drive.google.com/file/d/1hMFH8QIacQqcMDuuAaMUssqPi2dhXsLH/view?usp=sharing'>
 						HERE{' '}

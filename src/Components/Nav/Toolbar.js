@@ -1,7 +1,7 @@
 import React from 'react';
 import wowlogo from '../../Images/WowEvents_Logo_Orange_RGB.png';
 
-export default function Toolbar() {
+export default function Toolbar(theme) {
 	return (
 		<div className='tool_bar'>
 			<div>

@@ -2,7 +2,6 @@ import React from 'react';
 import Picnic from '../../../Images/ServiceOptions/PicnicBefore.jpg';
 import backYard from '../../../Images/ServiceOptions/MoviesBefore.jpg';
 import Delivery from '../../../Images/ServiceOptions/DeliveryBefore.jpg';
-import '../../../App.css';
 
 export default function ServiceOptions() {
 	return (
