@@ -1,58 +1,35 @@
 import React from 'react';
-import Picnic from '../../../Images/ServiceOptions/PicnicBefore.jpg';
-import backYard from '../../../Images/ServiceOptions/MoviesBefore.jpg';
-import Delivery from '../../../Images/ServiceOptions/DeliveryBefore.jpg';
+import { styled } from '@mui/material';
+import { serviceData } from './HomePageData';
+import Card from '@mui/material/Card';
+import Link from '@mui/material/Link';
 
 export default function ServiceOptions() {
 	return (
-		<section className='service_options'>
-			<div>
-				<div className='locationsHeader'>
-					<h5>POP-UP PICNICS</h5>
-				</div>
-				<img className='servicesImage' src={Picnic} alt='picnicImage' />
-			</div>
-			<div>
-				<p>
-					Luxury Picnics in your Backyard, Park or Beach, that create lifelong
-					memories
-				</p>
-			</div>
-			<div>
-				<a href='/packages'>See More</a>
-			</div>
-
-			<div>
-				<div className='locationsHeader'>
-					<h5>MOVIE NIGHTS</h5>
-				</div>
-				<img className='servicesImage' src={backYard} alt='BackYard Images' />
-			</div>
-			<div className='serviceText'>
-				<p>
-					Grab the Popcorn and have a private viewing of a film or special
-					events with your loved ones or work colleagues
-				</p>
-			</div>
-			<div>
-				<a href='/backyardmovies'>See More</a>
-			</div>
-
-			<div>
-				<div className='locationsHeader'>
-					<h5>CHARCUTERIE SERVICE</h5>
-				</div>
-				<img className='servicesImage' src={Delivery} alt='Delivery Images' />
-			</div>
-			<div>
-				<p>
-					Bring it to a Party, Enjoy at Home for Small & Large Groups or Give as
-					a Gift to Loved Ones, Employees or Clients
-				</p>
-			</div>
-			<div>
-				<a href='/charcuterie'>See More</a>
-			</div>
-		</section>
+		<TypesOfService className='service_options'>
+			{serviceData.map((data, key) => {
+				return (
+					<Card key={key}>
+						<ServiceHeader>{data.title}</ServiceHeader>
+						<Img className='servicesImage' src={data.image} alt='picnicImage' />
+						<ServiceDescription>{data.description}</ServiceDescription>
+						<Link href={data.link} />
+					</Card>
+				);
+			})}
+		</TypesOfService>
 	);
 }
+const TypesOfService = styled('section')({
+	backgroundColor: 'blue',
+});
+const ServiceHeader = styled('h5')({
+	fontSize: '150px',
+	margin: '0',
+});
+const ServiceDescription = styled('p')({
+	color: 'green',
+});
+const Img = styled('img')({
+	width: '300px',
+});

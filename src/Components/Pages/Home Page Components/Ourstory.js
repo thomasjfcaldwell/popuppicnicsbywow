@@ -1,5 +1,4 @@
 import React from 'react';
-
 import groupShot from '../../../Images/Aboutus/aboutsus.2.jpg';
 import melTiff from '../../../Images/Aboutus/aboutusMel.Tiff.jpg';
 
@@ -60,7 +59,6 @@ export default function Ourstory() {
 
 			<div>
 				<img src={groupShot} alt='Picnic at Huntington Beach' />
-
 				<img src={melTiff} alt='Melissa Caldwell and Tiffany Brown' />
 			</div>
 		</section>

@@ -6,7 +6,7 @@ export default function Toolbar(theme) {
 		<div className='tool_bar'>
 			<div>
 				<a href='https://www.wowevents.com/'>
-					<img src={wowlogo} alt='logo' />
+					<img src={wowlogo} alt='logo' height={'20px'} />
 				</a>
 			</div>
 			<ul>
