@@ -18,14 +18,14 @@ const HeroSubHeader = styled('h4')({
 
 export default function Hero() {
 	return (
-		<Container minWidth='xl'>
+		<Container maxWidth='xl' style={{ margin: '0', padding: '0' }}>
 			<Card
 				style={{
 					backgroundImage: `url(${'https://res.cloudinary.com/djjqsmlei/image/upload/v1705450713/newSlideImage1_copy_xuyf5i.jpg'})`,
 					backgroundRepeat: 'no-repeat',
 					backgroundPosition: 'center bottom',
 					height: '100vh',
-					width: '100%',
+					maxWidth: '100%',
 					display: 'flex',
 					justifyContent: 'center',
 				}}>

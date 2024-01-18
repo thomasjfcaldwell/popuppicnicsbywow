@@ -1,69 +1,89 @@
 import React from 'react';
-import birthday from '../../../Images/Testimonals/template.jpg';
-import anniversary from '../../../Images/Testimonals/anniversary.jpg';
-import proposal from '../../../Images/Testimonals/proposalnewzacpicnic.jpg';
+import Box from '@mui/material/Box';
+import MobileStepper from '@mui/material/MobileStepper';
+import Paper from '@mui/material/Paper';
+import Typography from '@mui/material/Typography';
+import Button from '@mui/material/Button';
+import KeyboardArrowLeft from '@mui/icons-material/KeyboardArrowLeft';
+import KeyboardArrowRight from '@mui/icons-material/KeyboardArrowRight';
 
-export default function Testimonals() {
+const images = [
+	{
+		label: 'San Francisco – Oakland Bay Bridge, United States',
+		imgPath:
+			'https://images.unsplash.com/photo-1537944434965-cf4679d1a598?auto=format&fit=crop&w=400&h=250&q=60',
+	},
+	{
+		label: 'Bird',
+		imgPath:
+			'https://images.unsplash.com/photo-1538032746644-0212e812a9e7?auto=format&fit=crop&w=400&h=250&q=60',
+	},
+	{
+		label: 'Bali, Indonesia',
+		imgPath:
+			'https://images.unsplash.com/photo-1537996194471-e657df975ab4?auto=format&fit=crop&w=400&h=250',
+	},
+	{
+		label: 'Goč, Serbia',
+		imgPath:
+			'https://images.unsplash.com/photo-1512341689857-198e7e2f3ca8?auto=format&fit=crop&w=400&h=250&q=60',
+	},
+];
+
+export default function Testimonals(theme) {
+	const [activeStep, setActiveStep] = React.useState(0);
+	const maxSteps = images.length;
+
+	const handleNext = () => {
+		setActiveStep((prevActiveStep) => prevActiveStep + 1);
+	};
+
+	const handleBack = () => {
+		setActiveStep((prevActiveStep) => prevActiveStep - 1);
+	};
+
 	return (
-		<section className='testimonals'>
-			<div>
-				<img src={birthday} alt='birthday' />
-				<p>BIRTHDAY PARTY</p>
-				<div>
-					<p>
-						I was looking for a unique idea for my sister’s bridal shower when I
-						stumbled upon WOW! Events Pop-Up Picnics. I was so grateful to find
-						an activity where we could all celebrate the bride as a family while
-						being socially distant. WOW! worked with me to choose the perfect
-						menu and ambiance for our event. We settled on a pop-up bridal
-						shower at the beach with charcuterie and desert! I really
-						appreciated how easy they were to communicate with and the attention
-						to detail that they provided on the setup and décor. I have been
-						telling all my friends and family about WOW! Pop-Up Picnics and I am
-						finding any excuse to do it again!
-					</p>
-				</div>
-			</div>
-			<div>
-				<img src={anniversary} alt='anniversary' />
-				<p>ANNIVERSARY</p>
-				<div>
-					<p>
-						I wanted to plan something special for our 10-year wedding
-						anniversary. I proposed to my wife in a pretty awesome place
-						overlooking the ocean, I wanted to take her back there for our 10-
-						year anniversary but didn’t want to do it with a plain old picnic
-						basket and bottle of champagne. Boring. A friend suggested calling
-						WOW! Events to do a Pop-Up Picnic. So I did, and they put together
-						an amazing set-up in the perfect location. We showed up (my wife
-						thought I was taking her there for a quick moment before going to
-						dinner) and when we got there she was completely surprised to see a
-						pop-up picnic already set up and ready to go. From fancy gold
-						goblets to tasty food and even our favorite songs, the whole
-						experience was really special. WOW! Events did an amazing job and I
-						have happily referred them to my friends looking to surprise their
-						spouses!
-					</p>
-				</div>
-			</div>
-			<div>
-				<img src={proposal} alt='proposal' />
-				<p>MARRIAGE PROPOSAL</p>
-				<div>
-					<p>
-						Proposing is stressful enough, doing it during COVID added even more
-						pressure! I wanted to do something special, original. It needed to
-						be memorable (assuming she said YES!). And I’m not the most creative
-						person in the world, so I started looking for ideas and came across
-						Pop-Up Picnics by WOW! Events. I called them up, explained what I
-						wanted to do, they came up with some great ideas and put together an
-						amazing Pop-Up Picnic for my very surprised, and very happy (she
-						said YES!) fiancée. WOW! did a great job handling everything
-						(including my stress!), in fact I should call them to see what they
-						can do for our wedding!
-					</p>
-				</div>
-			</div>
-		</section>
+		<Box sx={{ maxWidth: 1000, flexGrow: 1 }}>
+			<Paper
+				square
+				elevation={0}
+				sx={{
+					display: 'flex',
+					alignItems: 'center',
+					height: 50,
+					pl: 2,
+				}}>
+				<Typography>{images[activeStep].label}</Typography>
+			</Paper>
+
+			<MobileStepper
+				steps={maxSteps}
+				position='static'
+				activeStep={activeStep}
+				nextButton={
+					<Button
+						size='small'
+						onClick={handleNext}
+						disabled={activeStep === maxSteps - 1}>
+						Next
+						{theme.direction === 'rtl' ? (
+							<KeyboardArrowLeft />
+						) : (
+							<KeyboardArrowRight />
+						)}
+					</Button>
+				}
+				backButton={
+					<Button size='small' onClick={handleBack} disabled={activeStep === 0}>
+						{theme.direction === 'rtl' ? (
+							<KeyboardArrowRight />
+						) : (
+							<KeyboardArrowLeft />
+						)}
+						Back
+					</Button>
+				}
+			/>
+		</Box>
 	);
 }

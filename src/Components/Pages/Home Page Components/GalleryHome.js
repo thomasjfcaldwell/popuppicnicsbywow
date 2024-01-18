@@ -1,46 +1,84 @@
 import React from 'react';
-import image1 from '../../../Images/Gallery/pinksetup.jpg';
-import image2 from '../../../Images/Gallery/nauticalChicForGallery.jpg';
-import image3 from '../../../Images/Gallery/frozenSetUpTable.jpg';
-import image4 from '../../../Images/Gallery/basicbeautyforGallery.jpg';
-import image5 from '../../../Images/Gallery/coupleonbeachgalleryimage.jpg';
-import image6 from '../../../Images/Gallery/yellowSetup.jpg';
-import image7 from '../../../Images/Gallery/tropicSetUp.jpg';
-import image8 from '../../../Images/Gallery/frozensetUp.jpg';
-import image9 from '../../../Images/Gallery/movienight.table.jpg';
+import ImageList from '@mui/material/ImageList';
+import ImageListItem from '@mui/material/ImageListItem';
+
+function srcset(image, size, rows = 3, cols = 5) {
+	return {
+		src: `${image}?w=${size * cols}&h=${size * rows}&fit=crop&auto=format`,
+		srcSet: `${image}?w=${size * cols}&h=${
+			size * rows
+		}&fit=crop&auto=format&dpr=2 2x`,
+	};
+}
+
+const itemData = [
+	{
+		id: 1,
+		img: 'https://res.cloudinary.com/djjqsmlei/image/upload/v1705530173/Gallery/galleryOne.jpg',
+		title: 'Picnic At Pasea',
+		rows: 3,
+		cols: 3,
+	},
+	{
+		id: 2,
+		img: 'https://res.cloudinary.com/djjqsmlei/image/upload/v1705530173/Gallery/galleryTwo.jpg',
+		title: 'Basic Beauty Set Up',
+		rows: 1,
+		cols: 1,
+	},
+	{
+		id: 3,
+		img: 'https://res.cloudinary.com/djjqsmlei/image/upload/v1705530173/Gallery/galleryThree.jpg',
+		title: 'Jarcuterie',
+		cols: 1,
+	},
+	{
+		id: 4,
+		img: 'https://res.cloudinary.com/djjqsmlei/image/upload/v1705530174/Gallery/galleryFour.jpg',
+		title: 'Back Yard Set Up',
+		cols: 1,
+	},
+	{
+		id: 5,
+		img: 'https://res.cloudinary.com/djjqsmlei/image/upload/v1705530172/Gallery/galleryFive.jpg',
+		title: 'Beach Set Up for kids party',
+		cols: 3,
+	},
+	{
+		id: 6,
+		img: 'https://res.cloudinary.com/djjqsmlei/image/upload/v1705530175/Gallery/gallerySix.jpg',
+		title: 'Simply Savvy Set Up',
+		cols: 1,
+	},
+	{
+		id: 7,
+		img: 'https://res.cloudinary.com/djjqsmlei/image/upload/v1705530176/Gallery/gallerySeven.jpg',
+		title: 'Bells & Whistles Set Up',
+		cols: 2,
+	},
+];
 
 export default function GalleryHome() {
 	return (
 		<section className='gallery'>
-			<div>
-				<div>
-					<img src={image1} alt='picnicsetup' />
-				</div>
-				<div>
-					<img src={image2} alt='beachpicnicsetup' />
-				</div>
-				<div>
-					<img src={image6} alt='4personsetup' />
-				</div>
-				<div>
-					<img src={image5} alt='dessertpackage' />
-				</div>
-				<div>
-					<img src={image4} alt='sayidosign' />
-				</div>
-				<div>
-					<img src={image8} alt='picnicsetup' />
-				</div>
-				<div>
-					<img src={image7} alt='more food pics' />
-				</div>
-				<div>
-					<img src={image3} alt='picnicsetuponhuntingtonbeach' />
-				</div>
-				<div>
-					<img src={image9} alt='couple on beach' />
-				</div>
-			</div>
+			<ImageList
+				sx={{ width: 1440, height: 1024 }}
+				variant='quilted'
+				cols={6}
+				rowHeight={350}>
+				{itemData.map((item) => (
+					<ImageListItem
+						key={item.img}
+						cols={item.cols || 1}
+						rows={item.rows || 1}>
+						<img
+							{...srcset(item.img, 121, item.rows, item.cols)}
+							alt={item.title}
+							loading='lazy'
+						/>
+					</ImageListItem>
+				))}
+			</ImageList>
 		</section>
 	);
 }
