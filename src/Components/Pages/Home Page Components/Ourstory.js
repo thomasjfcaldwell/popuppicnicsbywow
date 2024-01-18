@@ -1,14 +1,14 @@
 import React from 'react';
-import groupShot from '../../../Images/Aboutus/aboutsus.2.jpg';
-import melTiff from '../../../Images/Aboutus/aboutusMel.Tiff.jpg';
+// import groupShot from '../../../Images/Aboutus/aboutsus.2.jpg';
+// import melTiff from '../../../Images/Aboutus/aboutusMel.Tiff.jpg';
+import { Box } from '@mui/material';
+import SectionHeader from '../../Reusable/SectionHeader';
 
 export default function Ourstory() {
 	return (
-		<section className='our_story'>
-			<div>
-				<h5>ABOUT US</h5>
-			</div>
-			<div>
+		<Box component='section' className='our_story'>
+			<SectionHeader text='More About us' />
+			{/* <div>
 				<p>
 					What happens when you take a group of talented, busy, passionate event
 					planners and you introduce them to a world wide pandemic…………
@@ -60,7 +60,7 @@ export default function Ourstory() {
 			<div>
 				<img src={groupShot} alt='Picnic at Huntington Beach' />
 				<img src={melTiff} alt='Melissa Caldwell and Tiffany Brown' />
-			</div>
-		</section>
+			</div> */}
+		</Box>
 	);
 }
