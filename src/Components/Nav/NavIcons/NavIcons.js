@@ -6,7 +6,7 @@ import PintestestIcon from './PinterestIcon';
 
 export default function NavIcons() {
 	return (
-		<Box gap={4}>
+		<Box sx={{ display: 'flex', gap: '10px' }}>
 			<FacebookIcon />
 			<InstagramIcon />
 			<PintestestIcon />

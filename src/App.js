@@ -6,14 +6,19 @@ import Charcuterie from './Components/Pages/CharcuteriePage/Charcuterie';
 import { Route, BrowserRouter as Router } from 'react-router-dom';
 import { Component } from 'react';
 // import Footer from './Components/Footer/Footer';
-import Nav from './Components/Nav/Nav';
+// import Nav from './Components/Nav/Nav';
 import './App.css';
+import styled from '@emotion/styled';
+
+const AppContainer = styled('div')({
+	backgroundColor: '#FFF3E5',
+});
 
 class App extends Component {
 	render() {
 		return (
-			<div className='App'>
-				<Nav />
+			<AppContainer>
+				{/* <Nav /> */}
 				<Router>
 					<Route exact path='/' component={Home} />
 					<Route exact path='/packages' component={Packages} />
@@ -22,7 +27,7 @@ class App extends Component {
 					<Route exact path='/charcuterie' component={Charcuterie} />
 				</Router>
 				{/* <Footer /> */}
-			</div>
+			</AppContainer>
 		);
 	}
 }

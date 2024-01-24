@@ -1,43 +1,36 @@
-import { Button, Card, CardContent, Container } from '@mui/material';
+import { Box, Button, Paper, Typography } from '@mui/material';
 import React from 'react';
-import styled from '@emotion/styled';
-
-const HeroHeader = styled('h1')({
-	fontSize: '65px',
-	fontStyle: 'normal',
-	fontWeight: '400',
-	lineHeight: 'normal',
-	marginTop: '50px',
-});
-const HeroSubHeader = styled('h4')({
-	fontSize: '24px',
-	fontStyle: 'normal',
-	fontWeight: '600',
-	lineHeight: 'normal',
-});
 
 export default function Hero() {
 	return (
-		<Container maxWidth='xl' style={{ margin: '0', padding: '0' }}>
-			<Card
-				style={{
+		<Box sx={{ margin: '0', padding: '0' }}>
+			<Paper
+				sx={{
 					backgroundImage: `url(${'https://res.cloudinary.com/djjqsmlei/image/upload/v1705450713/newSlideImage1_copy_xuyf5i.jpg'})`,
 					backgroundRepeat: 'no-repeat',
-					backgroundPosition: 'center bottom',
+					// backgroundPosition: 'center bottom',
+					backgroundPosition: 'center center',
 					height: '100vh',
 					maxWidth: '100%',
 					display: 'flex',
 					justifyContent: 'center',
 				}}>
-				<CardContent>
-					<HeroHeader>Luxury Picnics Alfresco</HeroHeader>
-					<HeroSubHeader>
+				<Box
+					sx={{
+						display: 'flex',
+						flexDirection: 'column',
+						alignItems: 'center',
+						marginTop: '200px',
+						gap: '2rem',
+					}}>
+					<Typography variant='h1'>Luxury Picnics Alfresco</Typography>
+					<Typography variant='h2'>
 						Wow Pop Up Picnics - Orange Country & Los Angeles Premier Picnic
 						Hosts
-					</HeroSubHeader>
-					<Button>Get Started</Button>
-				</CardContent>
-			</Card>
-		</Container>
+					</Typography>
+					<Button variant='contained'>Get Started</Button>
+				</Box>
+			</Paper>
+		</Box>
 	);
 }

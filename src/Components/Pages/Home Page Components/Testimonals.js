@@ -1,47 +1,52 @@
 import React from 'react';
 import Box from '@mui/material/Box';
 import SectionHeader from '../../Reusable/SectionHeader';
-// import MobileStepper from '@mui/material/MobileStepper';
-// import Paper from '@mui/material/Paper';
-// import Typography from '@mui/material/Typography';
-// import Button from '@mui/material/Button';
-// import KeyboardArrowLeft from '@mui/icons-material/KeyboardArrowLeft';
-// import KeyboardArrowRight from '@mui/icons-material/KeyboardArrowRight';
+import MobileStepper from '@mui/material/MobileStepper';
+import Typography from '@mui/material/Typography';
+import Button from '@mui/material/Button';
+import KeyboardArrowLeft from '@mui/icons-material/KeyboardArrowLeft';
+import KeyboardArrowRight from '@mui/icons-material/KeyboardArrowRight';
+import StarIcon from '@mui/icons-material/Star';
+import { Card, CardMedia, Stack } from '@mui/material';
 
-// const images = [
-// 	{
-// 		label: 'San Francisco – Oakland Bay Bridge, United States',
-// 		imgPath:
-// 			'https://images.unsplash.com/photo-1537944434965-cf4679d1a598?auto=format&fit=crop&w=400&h=250&q=60',
-// 	},
-// 	{
-// 		label: 'Bird',
-// 		imgPath:
-// 			'https://images.unsplash.com/photo-1538032746644-0212e812a9e7?auto=format&fit=crop&w=400&h=250&q=60',
-// 	},
-// 	{
-// 		label: 'Bali, Indonesia',
-// 		imgPath:
-// 			'https://images.unsplash.com/photo-1537996194471-e657df975ab4?auto=format&fit=crop&w=400&h=250',
-// 	},
-// 	{
-// 		label: 'Goč, Serbia',
-// 		imgPath:
-// 			'https://images.unsplash.com/photo-1512341689857-198e7e2f3ca8?auto=format&fit=crop&w=400&h=250&q=60',
-// 	},
-// ];
+const customers = [
+	{
+		label: 'Birthday Party',
+		imgPath:
+			'https://res.cloudinary.com/djjqsmlei/image/upload/v1706058743/anniversary_3_uy3rgr.jpg',
+		intro:
+			'I was looking for a unique idea for my sister’s bridal shower when I stumbled upon WOW! Events Pop-Up Picnics.',
+		text: 'WOW! worked with me to choose the perfect menu and ambiance for our event. We settled on a pop-up bridal shower at the beach with charcuterie and desert! I really appreciated how easy they were to communicate with and the attention to detail that they provided on the setup and décor',
+	},
+	{
+		label: 'Anniversary',
+		imgPath:
+			'https://res.cloudinary.com/djjqsmlei/image/upload/v1706058743/anniversary_2_rvpbx8.jpg',
+		intro:
+			'I proposed to my wife in a pretty awesome place overlooking the ocean, I wanted to take her back there for our 10- year anniversary but didn’t want to do it with a plain old picnic basket and bottle of champagne. Boring.',
+		text: 'A friend suggested calling WOW! Events to do a Pop-Up Picnic. So I did, From fancy gold goblets to tasty food and even our favorite songs, the whole experience was really special. WOW! Events did an amazing job and I have happily referred them to my friends looking to surprise their spouses!',
+	},
+	{
+		label: 'Proposal',
+		imgPath:
+			'https://res.cloudinary.com/djjqsmlei/image/upload/v1706058743/anniversary_1_rtkvld.jpg',
+		intro:
+			'Proposing is stressful ,I wanted to do something special, original. It needed to be memorable I’m not the most creative person in the world, so I started looking for ideas and came across Pop-Up Picnics by WOW! Events.',
+		text: 'I called them up, explained what I wanted to do, they came up with some great ideas and put together an amazing Pop-Up Picnic for my very surprised, and very happy (she said YES!) fiancée. Thank you for making our day so special! Cant wait for the next one',
+	},
+];
 
 export default function Testimonals(theme) {
-	// const [activeStep, setActiveStep] = React.useState(0);
-	// const maxSteps = images.length;
+	const [activeStep, setActiveStep] = React.useState(0);
+	const maxSteps = customers.length;
 
-	// const handleNext = () => {
-	// 	setActiveStep((prevActiveStep) => prevActiveStep + 1);
-	// };
+	const handleNext = () => {
+		setActiveStep((prevActiveStep) => prevActiveStep + 1);
+	};
 
-	// const handleBack = () => {
-	// 	setActiveStep((prevActiveStep) => prevActiveStep - 1);
-	// };
+	const handleBack = () => {
+		setActiveStep((prevActiveStep) => prevActiveStep - 1);
+	};
 
 	return (
 		<Box
@@ -49,17 +54,28 @@ export default function Testimonals(theme) {
 			className='testimonals'
 			sx={{ maxWidth: 1000, flexGrow: 1 }}>
 			<SectionHeader text='Testimonals' />
-			{/* <Paper
-				square
-				elevation={0}
-				sx={{
-					display: 'flex',
-					alignItems: 'center',
-					height: 50,
-					pl: 2,
-				}}>
-				<Typography>{images[activeStep].label}</Typography>
-			</Paper>
+			<Card>
+				<CardMedia
+					sx={{ height: 400 }}
+					image={customers[activeStep].imgPath}
+					title='green iguana'
+				/>
+				<Stack direction='row' spacing={1} backgroundColor='orange'>
+					<Typography>{customers[activeStep].label}</Typography>
+					<Stack direction='row' spacing={1}>
+						{Array.from({ length: 5 }, (_, index) => (
+							<StarIcon
+								key={index}
+								sx={{
+									color: 'yellow',
+								}}
+							/>
+						))}
+					</Stack>
+				</Stack>
+				<Typography variant='p'>{customers[activeStep].intro}</Typography>
+				<Typography variant='p'>{customers[activeStep].text}</Typography>
+			</Card>
 
 			<MobileStepper
 				steps={maxSteps}
@@ -88,7 +104,7 @@ export default function Testimonals(theme) {
 						Back
 					</Button>
 				}
-			/> */}
+			/>
 		</Box>
 	);
 }

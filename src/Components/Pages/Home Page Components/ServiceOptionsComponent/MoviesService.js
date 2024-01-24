@@ -1,7 +1,8 @@
 import React from 'react';
-import { Card, CardMedia, Typography } from '@mui/material';
+import { Button, Card, CardMedia, Typography } from '@mui/material';
 import Box from '@mui/material/Box';
 import Grid2 from '@mui/material/Unstable_Grid2/Grid2';
+import ServiceOptionsHeader from './ServiceOptionsHeader';
 
 export default function MoviesService() {
 	return (
@@ -20,7 +21,18 @@ export default function MoviesService() {
 					</Card>
 				</Grid2>
 				<Grid2 xs={6}>
-					<Typography>Movie Night</Typography>
+					<ServiceOptionsHeader title='Movie Nights' />
+					<Box>
+						<Typography variant='p'>
+							Indulge in a stress-free cinematic experience under the stars.
+							Choose your ideal movie as you relax on luxury furniture
+							surrounded by carefully provided equipment. Elevate the fun with
+							our thoughtful extras for a perfect outdoor movie night.
+						</Typography>
+					</Box>
+					<Box>
+						<Button>Book Now</Button>
+					</Box>
 				</Grid2>
 			</Grid2>
 		</Box>

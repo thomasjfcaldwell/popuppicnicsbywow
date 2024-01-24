@@ -3,15 +3,15 @@ import styled from '@emotion/styled';
 import NavIcons from './NavIcons/NavIcons';
 import NavLinks from '../Reusable/NavLinks';
 import logo from '../../Images/WowEvents_Logo_Orange_RGB.png';
-import { Button, Stack } from '@mui/material';
+import { Box, Button, Stack } from '@mui/material';
 
-const Navigation = styled('nav')({
+const Navigation = styled('div')({
 	display: 'flex',
 	alignItems: 'center',
 	position: 'absolute',
-	justify: 'space-between',
-	gap: '80px',
-	padding: '14px',
+	justifyContent: 'space-around',
+	minWidth: '100%',
+	marginTop: '1em',
 });
 
 export default function Nav() {
@@ -19,13 +19,13 @@ export default function Nav() {
 		<Navigation className='nav'>
 			<NavIcons />
 			<Stack direction='row'>
-				<NavLinks link='' title='Home' />
-				<NavLinks link='picnics' title='Picnics' />
-				<NavLinks link='movie_night' title='Movie Nights' />
-				<NavLinks link='charcuterie' title='Charcuterie' />
+				<NavLinks link='/' title='Home' />
+				<NavLinks link='/picnics' title='Picnics' />
+				<NavLinks link='/movie_night' title='Movie Nights' />
+				<NavLinks link='/charcuterie' title='Charcuterie' />
 			</Stack>
 			<div>
-				<img alt='logo' src={logo} width='150px' />
+				<img alt='logo' src={logo} width='100px' />
 			</div>
 			<Stack direction='row'>
 				<NavLinks link='gallery' title='Gallery' />
@@ -33,9 +33,9 @@ export default function Nav() {
 				<NavLinks link='news' title='News' />
 				<NavLinks link='about_us' title='About Us' />
 			</Stack>
-			<div>
-				<Button>Book Now</Button>
-			</div>
+			<Box>
+				<Button variant='contained'>Book Now</Button>
+			</Box>
 		</Navigation>
 	);
 }
