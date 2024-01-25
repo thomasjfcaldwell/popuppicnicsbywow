@@ -23,9 +23,26 @@ export const theme = createTheme({
 			fontSize: '65px',
 			color: '#171923',
 		},
+		h4: {
+			fontFamily: 'Montserrat, sans-serif',
+			color: '#171923',
+			lineHeight: '28px',
+			fontSize: '20px',
+		},
 		p: {
 			fontFamily: 'Montserrat, sans-serif',
 			color: '#6C757D',
+			lineHeight: '28px',
+			fontSize: '14px',
+		},
+		pSmall: {
+			fontFamily: 'Montserrat, sans-serif',
+			fontSize: '12px',
+			fontStyle: 'normal',
+			fontWeight: '400',
+			lineHeight: 'normal',
+			color: '#ADB5BD',
+			textAlign: 'center',
 		},
 	},
 });

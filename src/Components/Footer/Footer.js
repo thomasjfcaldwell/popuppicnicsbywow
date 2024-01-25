@@ -1,33 +1,104 @@
+import { Box, Container, Link, Typography } from '@mui/material';
 import React from 'react';
-import wowlogo from '../../Images/WowEvents_Logo_Orange_RGB.png';
+import FacebookIcon from '@mui/icons-material/Facebook';
+import InstagramIcon from '@mui/icons-material/Instagram';
+import PinterestIcon from '@mui/icons-material/Pinterest';
+
+const bottomLink = {
+	textDecoration: 'none',
+	fontFamily: 'Montserrat, sans-serif',
+	fontSize: '12px',
+	fontStyle: 'normal',
+	fontWeight: '400',
+	lineHeight: 'normal',
+	color: '#ADB5BD',
+	textAlign: 'center',
+};
 
 export default function Footer() {
 	return (
-		<section className='footer'>
-			<div className='footer_logo'>
-				<img src={wowlogo} className='w-50' alt='logo' />
-			</div>
-			<div className='wow_address'>
-				<p>419 Main St Suite 433 Huntington Beach, CA 92648</p>
-				<a href='tel:714.848.9698'>714.848.9698</a>
-				<a href='mailto:hello@wowevents.com'>hello@wowevents.com</a>
-			</div>
-			<div className='footer_links'>
-				<a className='linkforpage' href='/'>
-					Home
-				</a>
-				<a className='linkforpage' href='/packages'>
-					Pop Up Picnics
-				</a>
-				<a className='linkforpage' href='/backyardmovies'>
-					Movie Night
-				</a>
-				<a className='linkforpage' href='/charcuterie'>
-					Charcuterie Services
-				</a>
-			</div>
-
-			<p>© 2021 Copyright Wow! Events</p>
-		</section>
+		<Box component={'footer'} className='footer' height={200}>
+			<Container
+				sx={{
+					display: 'flex',
+					justifyContent: 'space-between',
+					alignItems: 'center',
+					height: '200px',
+				}}>
+				<Box>
+					<Box
+						gap={2}
+						sx={{
+							display: 'flex',
+							alignItems: ' center',
+						}}>
+						<img
+							src={
+								'https://res.cloudinary.com/djjqsmlei/image/upload/v1706142166/WowEvents_Logo_Orange_RGB_ugbykx.png'
+							}
+							alt='logo'
+							height='50px'
+						/>
+						<Typography fontSize={'28px'}>Picnics</Typography>
+					</Box>
+					<Box
+						sx={{
+							display: 'flex',
+							marginTop: '10px',
+						}}
+						gap={2}>
+						<Box>
+							<Typography variant='pSmall'>
+								© 2021 Copyright Wow! Events
+							</Typography>
+						</Box>
+						<Box>
+							<Typography variant='pSmall'>Terms</Typography>
+						</Box>
+						<Box>
+							<Typography variant='pSmall'>Privacy</Typography>
+						</Box>
+					</Box>
+				</Box>
+				<Box>
+					<Box
+						gap={2}
+						sx={{
+							display: 'flex',
+						}}>
+						<Box>
+							<FacebookIcon />
+						</Box>
+						<Box>
+							<InstagramIcon />
+						</Box>
+						<Box>
+							<PinterestIcon />
+						</Box>
+					</Box>
+					<Box
+						gap={1}
+						sx={{
+							display: 'flex',
+						}}>
+						<Box>
+							<Link sx={bottomLink} href='/'>
+								About
+							</Link>
+						</Box>
+						<Box>
+							<Link sx={bottomLink} href='/packages'>
+								Faq
+							</Link>
+						</Box>
+						<Box>
+							<Link sx={bottomLink} href='/backyardmovies'>
+								Contact
+							</Link>
+						</Box>
+					</Box>
+				</Box>
+			</Container>
+		</Box>
 	);
 }

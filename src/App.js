@@ -5,7 +5,7 @@ import Backyard from './Components/Pages/MovieNightPage/Backyard';
 import Charcuterie from './Components/Pages/CharcuteriePage/Charcuterie';
 import { Route, BrowserRouter as Router } from 'react-router-dom';
 import { Component } from 'react';
-// import Footer from './Components/Footer/Footer';
+import Footer from './Components/Footer/Footer';
 // import Nav from './Components/Nav/Nav';
 import './App.css';
 import styled from '@emotion/styled';
@@ -26,7 +26,7 @@ class App extends Component {
 					<Route exact path='/backyardmovies' component={Backyard} />
 					<Route exact path='/charcuterie' component={Charcuterie} />
 				</Router>
-				{/* <Footer /> */}
+				<Footer />
 			</AppContainer>
 		);
 	}
