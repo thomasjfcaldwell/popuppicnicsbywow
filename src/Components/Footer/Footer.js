@@ -13,6 +13,9 @@ const bottomLink = {
 	lineHeight: 'normal',
 	color: '#ADB5BD',
 	textAlign: 'center',
+	'&:hover': {
+		color: 'green',
+	},
 };
 
 export default function Footer() {

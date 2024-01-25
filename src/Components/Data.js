@@ -1,3 +1,62 @@
+export const locationsData = [
+	{
+		id: '1',
+		location: 'Huntington Beach',
+		image: '#',
+		alt: 'Huntington State Beach',
+		price: '35',
+	},
+	{
+		id: '2',
+		location: 'Newport Beach',
+		image: '#',
+		alt: 'Newport State Beach',
+		price: '55',
+	},
+	{
+		id: '3',
+		location: 'Corona Del Mar',
+		image: '#',
+		alt: 'Corona Del Mar',
+		price: '55',
+	},
+	{
+		id: '4',
+		location: 'Dana Point',
+		image: '#',
+		alt: 'Dana Point',
+		price: '55',
+	},
+	{
+		id: '5',
+		location: 'Doheny Beach',
+		image: '#',
+		alt: 'Doheny Beach',
+		price: '55',
+	},
+	{
+		id: '6',
+		location: 'Laguna Beach',
+		image: '#',
+		alt: 'Laguna Beach',
+		price: '55',
+	},
+	{
+		id: '7',
+		location: 'San Clemente',
+		image: '#',
+		alt: 'San Clemente',
+		price: '55',
+	},
+	{
+		id: '8',
+		location: 'Signal Hill',
+		image: '#',
+		alt: 'Signal Hill',
+		price: '55',
+	},
+];
+
 export const addOnData = [
 	{
 		id: '1',

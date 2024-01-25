@@ -10,120 +10,89 @@ import BellsWithPremier from '../../Modals/BellsWithPremier';
 import BellsWithBlockbuster from '../../Modals/BellsWithBlockbuster';
 import BasicWithPremier from '../../Modals/BasicWithPremier';
 import BasicWithBlockBuster from '../../Modals/BasicWithBlockBuster';
+import { Box, Container, Typography } from '@mui/material';
 
 export default function Backyard() {
 	return (
-		<div>
-			<div>
-				<h3>MOVIE NIGHTS</h3>
-			</div>
-			<p>
-				Ready for a night at the movies? Enjoy a premiere showing of your
-				favorite Rom-Com, thriller, or whatever the kids get to choose in the
-				convenience and comfort of your own backyard. You’ll step out into a
-				theater under the stars, designed for you to have the best seats
-				available - wherever you’d like them set up! Our Premier Package for
-				Backyard Movie Night includes a 90” screen, projector and two high
-				quality speakers. It will be set up by our first-rate WOW! Events Host
-				for up to three hours of viewing fun. Reward your family, celebrate a
-				birthday, or offer a screening of your best friend’s favorite movie in
-				an award-winning experience on location at your own home Spoiler alert!
-				You’ll want to experience this service again and again. If you are the
-				type that prefers all the “Bells & Whistles” of a VIP Movie Experience
-				then you should surprise your family and friends with Our Blockbuster
-				Package for Backyard Movie Night. You’ll be ushered into a theater of
-				your own design, complete with all the VIP amenities of your favorite
-				showplace. Special effects for your Blockbuster package include
-				exclusive seating, pillows, blankets, a Sweet & Savory Treats Buffet and
-				much more. You’ll be on the edge of your seat as your special movie
-				event comes to life in your very own backyard. Whatever movie you
-				choose, we guarantee an experience rated E for EXTRAORDINARY and W for
-				WOW! Contact us NOW to design your scene-stealing event!
-			</p>
-			<img src={treats} alt='treat' />
-			<img src={sign} alt='sign' />
-			<img src={table} alt='table' />
-			<div>
-				<h4>PACKAGES</h4>
-			</div>
-
-			<p>Premier Movie Night Package $250.00 +++</p>
-			<PremierMovieModal />
-
-			<p>Blockbuster Movie Night Package $475.00 +++</p>
-			<BlockBusterModal />
-
-			<p>Basic Beauty PUP Package + Premier Movie Night Package $400.00 +++</p>
-			<BasicWithPremier />
-
-			<p>
+		<Container>
+			<Box>
+				<Typography variant='h5'>MOVIE NIGHTS</Typography>
+			</Box>
+			<Typography variant='p'>
+				Experience a backyard movie night like never before with our Premier
+				Package. Enjoy a 90” screen, projector, and high-quality speakers,
+				expertly set up for three hours of viewing fun by our WOW! Events Host.
+				For VIP treatment, choose our Blockbuster Package with exclusive
+				seating, treats, and more. Contact us for your extraordinary event!
+			</Typography>
+			<Box>
+				<img src={treats} alt='treat' width={'375px'} />
+				<img src={sign} alt='sign' width={'375px'} />
+				<img src={table} alt='table' width={'375px'} />
+			</Box>
+			<Box>
+				<Typography>PACKAGES</Typography>
+			</Box>
+			<Typography>Premier Movie Night Package $250.00 +++</Typography>
+			{/* <PremierMovieModal /> */}
+			<Typography>Blockbuster Movie Night Package $475.00 +++</Typography>
+			{/* <BlockBusterModal /> */}
+			<Typography>
+				Basic Beauty PUP Package + Premier Movie Night Package $400.00 +++
+			</Typography>
+			{/* <BasicWithPremier /> */}
+			<Typography>
 				Basic Beauty PUP Package + Blockbuster Movie Night Package $625.00 +++
-			</p>
-
-			<BasicWithBlockBuster />
-
-			<p>Simply Savvy PUP Package + Premier Movie Night Package $430.00 +++</p>
-			<SimplyWithPremier />
-
-			<p>
+			</Typography>
+			{/* <BasicWithBlockBuster /> */}
+			<Typography>
+				Simply Savvy PUP Package + Premier Movie Night Package $430.00 +++
+			</Typography>
+			{/* <SimplyWithPremier /> */}
+			<Typography>
 				Simply Savvy PUP Package + Blockbuster Movie Night Package $655.00 +++
-			</p>
-
-			<SimplyWithBlockbuster />
-
-			<p>
+			</Typography>
+			{/* <SimplyWithBlockbuster /> */}
+			<Typography>
 				Bells & Whistles PUP Package + Premier Movie Night Package $530.00 +++
-			</p>
-
-			<BellsWithPremier />
-
-			<p>
+			</Typography>
+			{/* <BellsWithPremier /> */}
+			<Typography>
 				Bells & Whistles PUP Package + Blockbuster Movie Night Package $755.00
 				+++
-			</p>
-			<BellsWithBlockbuster />
-
-			<h5>ADD ONS</h5>
-			<div>
-				<p>
-					There will be a $30 charge for each Additional Guest over the 4
-					Included
-				</p>
-				<p>
-					Upgrade from Soda Beverage Package to Flavored Sparkling & Flat-Water
-					Beverage Package for 2 = $5
-				</p>
-				<p>Additional Beverages for One guest= $5 (sodas)</p>
-				<p>Additional Beverages for One guest= $7 (Waters)</p>
-			</div>
-
-			<h5>OTHER FEES</h5>
-			<div>
-				<p>Delivery Fee (up to 15 miles round trip from HB pier)= $50</p>
-				<p>Travel Fee (over 15 miles round trip from HB Pier)= $1 per mile</p>
-				<p>Additional Hour for Movie Night= $100</p>
-			</div>
-
-			<h5>Minimums and Service Fees</h5>
-			<div>
-				<p>
+			</Typography>
+			{/* <BellsWithBlockbuster /> */}
+			<Typography>OTHER FEES</Typography>
+			<Box>
+				<Typography variant='p'>
+					Delivery Fee (up to 15 miles round trip from HB pier)= $50
+				</Typography>
+				<Typography variant='p'>
+					Travel Fee (over 15 miles round trip from HB Pier)= $1 per mile
+				</Typography>
+				<Typography variant='p'>
+					Additional Hour for Movie Night= $100
+				</Typography>
+			</Box>
+			<Typography>Minimums and Service Fees</Typography>
+			<Box>
+				<Typography variant='p'>
 					$500 Minimum Required for Saturdays & Sundays in April through
 					September
-				</p>
-				<p>
+				</Typography>
+				<Typography variant='p'>
 					$1000 Minimum Required for US & Other Holiday Weekends (prior to
 					service fee & tax)
-				</p>
-				<p>
+				</Typography>
+				<Typography variant='p'>
 					Additional 10% added to Service Fee For Bookings Under the 7 Day
 					Minimum
-				</p>
-			</div>
-
-			<p>
+				</Typography>
+			</Box>
+			<Typography variant='p'>
 				20% Service Fee,Sales tax & Applicable Delivery Fee will be added to
 				Pricing
-			</p>
-		</div>
+			</Typography>
+		</Container>
 	);
 }
