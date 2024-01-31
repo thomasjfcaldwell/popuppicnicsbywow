@@ -1,6 +1,6 @@
 import React from 'react';
 import { addOnData } from '../../Data';
-import { Box, Container, Typography, Card } from '@mui/material';
+import { Box, Container, Typography, Card, CardMedia } from '@mui/material';
 
 export default function Addon() {
 	return (
@@ -8,20 +8,25 @@ export default function Addon() {
 			<Box>
 				<Typography>STEP 4: SELECT ADDITIONAL OPTIONS</Typography>
 			</Box>
-			<Box flexDirection={'row'}>
+			<Box
+				display='flex'
+				flexWrap={'wrap'}
+				gap={3}
+				justifyContent={'space-between'}>
 				{addOnData.map((data, key) => {
 					return (
-						<Card key={key}>
-							<Typography className='addon__title'>{data.title}</Typography>
-							<Box>
-								<img
-									className='addon__image'
-									src={data.image}
-									alt={data.alt}
-									width='20px'
-								/>
-							</Box>
-							<Typography className='addon__price'>${data.price}</Typography>
+						<Card
+							key={key}
+							sx={{
+								width: 200,
+								display: 'flex',
+								flexDirection: 'column',
+								alignItems: 'stretch',
+							}}>
+							<CardMedia sx={{ height: 172.5 }} image={data.image} />
+							<Typography sx={{ fontSize: '10px' }}>{data.title}</Typography>
+
+							<Typography>${data.price}</Typography>
 						</Card>
 					);
 				})}
