@@ -20,7 +20,7 @@ class App extends Component {
 			<AppContainer>
 				{/* <Nav /> */}
 				<Router>
-					<Route exact path='/' component={Packages} />
+					<Route exact path='/' component={Home} />
 					<Route exact path='/packages' component={Faq} />
 					<Route exact path='/faq' component={Backyard} />
 					<Route exact path='/backyardmovies' component={Home} />

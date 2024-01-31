@@ -32,7 +32,7 @@ export const theme = createTheme({
 		p: {
 			fontFamily: 'Montserrat, sans-serif',
 			color: '#6C757D',
-			lineHeight: '28px',
+			lineHeight: '20px',
 			fontSize: '14px',
 		},
 		pSmall: {

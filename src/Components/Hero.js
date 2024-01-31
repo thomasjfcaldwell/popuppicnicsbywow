@@ -14,6 +14,7 @@ export default function Hero() {
 					maxWidth: '100%',
 					display: 'flex',
 					justifyContent: 'center',
+					borderRadius: '0',
 				}}>
 				<Box
 					sx={{
