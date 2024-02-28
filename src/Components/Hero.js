@@ -25,7 +25,7 @@ export default function Hero() {
 						gap: '2rem',
 					}}>
 					<Typography variant='h1'>Luxury Picnics Alfresco</Typography>
-					<Typography variant='h2'>
+					<Typography variant='h2' padding={3}>
 						Wow Pop Up Picnics - Orange Country & Los Angeles Premier Picnic
 						Hosts
 					</Typography>

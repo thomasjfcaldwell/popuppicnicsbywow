@@ -11,16 +11,25 @@ export const theme = createTheme({
 		h1: {
 			fontFamily: 'Playfair Display SC, serif',
 			fontSize: '65px',
+			'@media (max-width:768px)': {
+				fontSize: '1.5rem',
+			},
 			color: '#FFF3E5',
 		},
 		h2: {
 			fontSize: '20px',
+			'@media (max-width:768px)': {
+				fontSize: '1rem',
+			},
 			color: '#FFF3E5',
 			fontWeight: '500',
 		},
 		h3: {
 			fontFamily: 'Playfair Display SC, serif',
-			fontSize: '65px',
+			fontSize: '40px',
+			'@media (max-width:768px)': {
+				fontSize: '1rem',
+			},
 			color: '#171923',
 		},
 		h4: {

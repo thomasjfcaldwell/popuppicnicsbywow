@@ -7,10 +7,7 @@ import CharcuterieService from './ServiceOptionsComponent/CharcuterieService';
 
 export default function ServiceOptions() {
 	return (
-		<Box
-			component='section'
-			className='service_options'
-			sx={{ padding: '2em' }}>
+		<Box component='section' className='service_options'>
 			<SectionHeader text='Types of Services' />
 			<PicnicService />
 			<CharcuterieService />

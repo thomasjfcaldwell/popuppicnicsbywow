@@ -4,7 +4,9 @@ import React from 'react';
 export default function SectionHeader(props) {
 	return (
 		<Box>
-			<Typography>{props.text}</Typography>
+			<Typography padding={4} backgroundColor={'blue.200'}>
+				{props.text}
+			</Typography>
 		</Box>
 	);
 }

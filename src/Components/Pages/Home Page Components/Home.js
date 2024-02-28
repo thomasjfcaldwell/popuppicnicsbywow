@@ -13,9 +13,9 @@ export default function Home() {
 			<Hero />
 			<ServiceOptions />
 			{/* <Ourstory /> */}
-			<GalleryHome />
+			{/* <GalleryHome /> */}
 			<Steps />
-			<Testimonals />
+			{/* <Testimonals /> */}
 		</Box>
 	);
 }

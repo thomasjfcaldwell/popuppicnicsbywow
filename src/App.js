@@ -12,6 +12,9 @@ import styled from '@emotion/styled';
 
 const AppContainer = styled('div')({
 	backgroundColor: '#FFF3E5',
+	width: '100%',
+	maxWidth: '1440px',
+	minWidth: '300px',
 });
 
 class App extends Component {

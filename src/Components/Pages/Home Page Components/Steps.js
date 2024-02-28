@@ -11,18 +11,15 @@ export default function Steps() {
 			<Box
 				sx={{
 					display: 'flex',
+					flexDirection: ['column', 'column', 'row'],
 					alignItems: 'stretch',
 					justifyContent: 'space-evenly',
 					backgroundColor: '#fff',
+					gap: '1em',
 				}}>
 				{stepsData.map((data, key) => {
 					return (
-						<Box
-							key={key}
-							backgroundColor={'#FFF3E5'}
-							width={'260px'}
-							height={'260'}
-							margin={'50px'}>
+						<Box key={key} backgroundColor={'#FFF3E5'} height={'260'}>
 							<Box
 								margin={1}
 								backgroundColor={'#fff'}

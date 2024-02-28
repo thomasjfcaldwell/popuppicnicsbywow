@@ -6,10 +6,10 @@ import ServiceOptionsHeader from './ServiceOptionsHeader';
 
 export default function MoviesService() {
 	return (
-		<Box>
-			<Grid2 container spacing={2}>
-				<Grid2 xs={6}>
-					<Card>
+		<Box padding={1}>
+			<Grid2 container gap={2}>
+				<Grid2 xs={12} md={6}>
+					<Card gap={1}>
 						<CardMedia
 							sx={{ height: 220 }}
 							image='https://res.cloudinary.com/djjqsmlei/image/upload/v1705522010/movie_t0ohsu.jpg'
@@ -20,7 +20,7 @@ export default function MoviesService() {
 						/>
 					</Card>
 				</Grid2>
-				<Grid2 xs={6}>
+				<Grid2 xs={12} md={6}>
 					<ServiceOptionsHeader title='Movie Nights' />
 					<Box>
 						<Typography variant='p'>

@@ -7,19 +7,19 @@ import PicnicPackage from './PicnicPackage';
 
 export default function PicnicService() {
 	return (
-		<Box padding={2}>
-			<Grid2 container spacing={4}>
-				<Grid2 xs={12} md={6}>
-					<Card>
+		<Grid xs={12}>
+			<Grid2 container backgroundcolor='red'>
+				<Grid2 xs={12} md={6} p={1}>
+					<Card backgroundcolor='pink'>
 						<CardMedia
-							sx={{ height: 625 }}
+							sx={{ height: [345, 700] }}
 							image='https://res.cloudinary.com/djjqsmlei/image/upload/v1705521146/picnicServiceImage_excech.jpg'
 						/>
 					</Card>
 				</Grid2>
-				<Grid2 container xs={6} spacing={4}>
+				<Grid2 container xs={12} md={6} bgcolor='yellow' padding={1}>
 					<ServiceOptionsHeader title='Picnics' />
-					<Box>
+					<Box backgroundColor='lightblue'>
 						<Typography variant='p'>
 							Tailored for intimate dates or grand celebrations. Our
 							meticulously designed picnics, suitable for beach, park, or
@@ -27,8 +27,8 @@ export default function PicnicService() {
 							a memorable experience.
 						</Typography>
 					</Box>
-					<Grid2 container spacing={2} justifyContent={'space-between'}>
-						<Grid>
+					<Grid2 container gap={2} margin={'0'}>
+						<Grid item>
 							<PicnicPackage
 								component='item'
 								image='https://res.cloudinary.com/djjqsmlei/image/upload/v1706048870/simplysavvy_nz0pme.png'
@@ -37,7 +37,7 @@ export default function PicnicService() {
 								description='A delightful picnic package for two, creating the perfect setting for a romantic lunch outdoors.'
 							/>
 						</Grid>
-						<Grid>
+						<Grid item>
 							<PicnicPackage
 								component='item'
 								title='Bells & Whistles'
@@ -47,14 +47,14 @@ export default function PicnicService() {
 							/>
 						</Grid>
 					</Grid2>
-					<Box>
-						<Typography variant='p'>
+					{/* <Box>
+						<Typography variant='p' backgroundColor='purple'>
 							Start your luxury picnic today, remember you can add extras such
 							as food and games on the booking page
 						</Typography>
-					</Box>
+					</Box> */}
 				</Grid2>
 			</Grid2>
-		</Box>
+		</Grid>
 	);
 }

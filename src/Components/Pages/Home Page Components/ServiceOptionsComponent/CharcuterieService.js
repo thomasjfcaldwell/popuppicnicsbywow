@@ -8,10 +8,13 @@ import ServiceOptionsHeader from './ServiceOptionsHeader';
 export default function CharcuterieService() {
 	return (
 		<Box>
-			<Grid2 display={'flex'} justifyContent={'space-around'}>
-				<Grid2 xs={6}>
+			<Grid2
+				display={'flex'}
+				justifyContent={'space-around'}
+				flexDirection={['column']}>
+				<Grid2>
 					<ServiceOptionsHeader title='Charcuterie' />
-					<Box width={'700px'}>
+					<Box>
 						<Typography variant='p'>
 							Elevate your picnic experience with our artisanal Charcuterie
 							service. Immerse yourself in the finest selection of cured meats,
@@ -25,7 +28,7 @@ export default function CharcuterieService() {
 					</Box>
 				</Grid2>
 				<Grid2 xs={6}>
-					<ImageList cols={2} rowHeight={250}>
+					<ImageList cols={[1, 2]} rowHeight={250}>
 						<ImageListItem>
 							<img
 								loading='lazy'
