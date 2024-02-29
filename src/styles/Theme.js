@@ -46,12 +46,11 @@ export const theme = createTheme({
 		},
 		pSmall: {
 			fontFamily: 'Montserrat, sans-serif',
-			fontSize: '12px',
+			fontSize: '10px',
 			fontStyle: 'normal',
 			fontWeight: '400',
 			lineHeight: 'normal',
 			color: '#ADB5BD',
-			textAlign: 'center',
 		},
 	},
 });

@@ -1,7 +1,6 @@
 import React from 'react';
 import {
 	Box,
-	Container,
 	Typography,
 	Card,
 	CardMedia,
@@ -15,18 +14,14 @@ import { locationsData } from '../../Data';
 
 export default function Locations() {
 	return (
-		<Container>
-			<Box className='locationsHeader'>
+		<Box>
+			<Box className='locationsHeader' paddingBlock={1}>
 				<Typography>STEP 3: SELECT A PREFERRED PICNIC LOCATION</Typography>
 			</Box>
-			<Box
-				display='flex'
-				flexWrap={'wrap'}
-				gap={3}
-				justifyContent={'space-between'}>
+			<Box display='flex' flexDirection={'column'}>
 				{locationsData.map((data, key) => {
 					return (
-						<Card key={key} sx={{ width: 250 }}>
+						<Card key={key}>
 							<CardMedia
 								sx={{ height: 100 }}
 								image={data.image}
@@ -54,6 +49,6 @@ export default function Locations() {
 					20% Service Fee and Sales tax will be added to Pricing
 				</Typography>
 			</Box>
-		</Container>
+		</Box>
 	);
 }

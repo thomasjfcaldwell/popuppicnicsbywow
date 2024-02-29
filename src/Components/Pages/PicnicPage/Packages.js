@@ -14,39 +14,38 @@ import {
 	RadioGroup,
 	Radio,
 	FormControlLabel,
+	CardContent,
+	CardHeader,
+	CardMedia,
 } from '@mui/material';
 
 import { packagesData } from '../../Data';
 
 export default function Packages() {
 	return (
-		<Container sx={{ padding: '3rem' }}>
-			<Box sx={{ margin: '1rem' }}>
+		<Container padding={1} maxWidth={'1440px'}>
+			<Box paddingBlock={1}>
 				<Typography>STEP 1: SELECT A PICNIC PACKAGE</Typography>
 			</Box>
-			<Stack direction='row' spacing={4} justifyContent={'space-evenly'}>
+			<Stack direction={{ base: 'column', md: 'row' }} gap={4}>
 				{packagesData.map((data, key) => {
 					return (
-						<Card key={key} sx={{ display: 'flex', flexDirection: 'column' }}>
-							<Box display='flex' justifyContent={'center'} margin={2}>
-								<img src={data.image} alt={'sjjs'} height={'240px'} />
-							</Box>
-							<Box padding={2}>
-								<Typography variant='h4' component='h2'>
-									{data.title}
+						<Card key={key}>
+							<CardMedia
+								component='img'
+								height='200'
+								image={data.image}
+								alt={'lllxlx'}
+							/>
+							<CardContent>
+								<CardHeader>{data.title}</CardHeader>
+								<Typography variant='p' component='p'>
+									{data.description}
 								</Typography>
-								<Box width={'400px'}>
-									<Typography variant='p' component='p'>
-										{data.description}
-									</Typography>
-								</Box>
 								<List>
 									{data.included.map((item, key) => {
 										return (
-											<ListItemText
-												disableTypography={true}
-												sx={{ fontSize: '12px' }}
-												key={key}>
+											<ListItemText variant='p' component='p' key={key}>
 												{item}
 											</ListItemText>
 										);
@@ -61,7 +60,7 @@ export default function Packages() {
 										/>
 									</RadioGroup>
 								</FormControl>
-							</Box>
+							</CardContent>
 						</Card>
 					);
 				})}

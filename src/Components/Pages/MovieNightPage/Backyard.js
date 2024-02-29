@@ -1,18 +1,23 @@
-import React from 'react';
+import React, { useState } from 'react';
 import table from '../../../Images/MovieNight/movienightTable.jpg';
 import sign from '../../../Images/MovieNight/movienightsign.jpg';
 import treats from '../../../Images/MovieNight/movienightTreats.jpg';
-import PremierMovieModal from '../../Modals/PremierMovieModal';
-import BlockBusterModal from '../../Modals/BlockBusterMovieModal';
-import SimplyWithPremier from '../../Modals/SimplyWithPremier';
-import SimplyWithBlockbuster from '../../Modals/SimplyWithBlockbuster';
-import BellsWithPremier from '../../Modals/BellsWithPremier';
-import BellsWithBlockbuster from '../../Modals/BellsWithBlockbuster';
-import BasicWithPremier from '../../Modals/BasicWithPremier';
-import BasicWithBlockBuster from '../../Modals/BasicWithBlockBuster';
-import { Box, Container, Typography } from '@mui/material';
+
+import {
+	Box,
+	Container,
+	Typography,
+	Button,
+	List,
+	ListItemText,
+} from '@mui/material';
+import { backyardData } from '../../Data';
 
 export default function Backyard() {
+	const [showMore, setShowMore] = useState(false);
+	const handleShowMoreClick = () => {
+		setShowMore(!showMore);
+	};
 	return (
 		<Container>
 			<Box>
@@ -25,7 +30,7 @@ export default function Backyard() {
 				For VIP treatment, choose our Blockbuster Package with exclusive
 				seating, treats, and more. Contact us for your extraordinary event!
 			</Typography>
-			<Box>
+			<Box width={'100%'} overflow={'hidden'}>
 				<img src={treats} alt='treat' width={'375px'} />
 				<img src={sign} alt='sign' width={'375px'} />
 				<img src={table} alt='table' width={'375px'} />
@@ -33,37 +38,33 @@ export default function Backyard() {
 			<Box>
 				<Typography>PACKAGES</Typography>
 			</Box>
-			<Typography>Premier Movie Night Package $250.00 +++</Typography>
-			{/* <PremierMovieModal /> */}
-			<Typography>Blockbuster Movie Night Package $475.00 +++</Typography>
-			{/* <BlockBusterModal /> */}
-			<Typography>
-				Basic Beauty PUP Package + Premier Movie Night Package $400.00 +++
-			</Typography>
-			{/* <BasicWithPremier /> */}
-			<Typography>
-				Basic Beauty PUP Package + Blockbuster Movie Night Package $625.00 +++
-			</Typography>
-			{/* <BasicWithBlockBuster /> */}
-			<Typography>
-				Simply Savvy PUP Package + Premier Movie Night Package $430.00 +++
-			</Typography>
-			{/* <SimplyWithPremier /> */}
-			<Typography>
-				Simply Savvy PUP Package + Blockbuster Movie Night Package $655.00 +++
-			</Typography>
-			{/* <SimplyWithBlockbuster /> */}
-			<Typography>
-				Bells & Whistles PUP Package + Premier Movie Night Package $530.00 +++
-			</Typography>
-			{/* <BellsWithPremier /> */}
-			<Typography>
-				Bells & Whistles PUP Package + Blockbuster Movie Night Package $755.00
-				+++
-			</Typography>
-			{/* <BellsWithBlockbuster /> */}
-			<Typography>OTHER FEES</Typography>
+			{backyardData.map((data, key) => {
+				return (
+					<Box key={key}>
+						<Typography>{data.name}</Typography>
+						<Typography>{data.price}</Typography>
+						<Box>
+							<List sx={{ display: showMore ? 'block' : 'none' }}>
+								{data.included.map((item, key) => {
+									return (
+										<ListItemText
+											disableTypography={true}
+											sx={{ fontSize: '12px' }}
+											key={key}>
+											{item}
+										</ListItemText>
+									);
+								})}
+							</List>
+							<Button variant='outlined' onClick={handleShowMoreClick}>
+								{data.id === key && showMore ? 'Show Less' : 'Show More'}
+							</Button>
+						</Box>
+					</Box>
+				);
+			})}
 			<Box>
+				<Typography>OTHER FEES</Typography>
 				<Typography variant='p'>
 					Delivery Fee (up to 15 miles round trip from HB pier)= $50
 				</Typography>
@@ -74,8 +75,8 @@ export default function Backyard() {
 					Additional Hour for Movie Night= $100
 				</Typography>
 			</Box>
-			<Typography>Minimums and Service Fees</Typography>
 			<Box>
+				<Typography>Minimums and Service Fees</Typography>
 				<Typography variant='p'>
 					$500 Minimum Required for Saturdays & Sundays in April through
 					September

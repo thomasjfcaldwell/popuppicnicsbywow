@@ -1,18 +1,24 @@
 import React from 'react';
 import DeliveryBox from '../../../Images/Charcuterie/Charcuterie Box with Menu (outside view)1 copy.jpg';
 import Flutes from '../../../Images/Charcuterie/flutes.jpg';
-import Dessert from '../../../Images/Packages/dessertBox.jpg';
-import Multi from '../../../Images/Packages/veggieBox.jpg';
-import cheeseBox from '../../../Images/Packages/cheeseBox.jpg';
-import MeatCheese from '../../../Images/Packages/meatChesseBox.jpg';
-import { Box, Container, Typography } from '@mui/material';
+
+import {
+	Box,
+	Card,
+	CardContent,
+	Container,
+	Typography,
+	CardMedia,
+	Paper,
+} from '@mui/material';
+import { charcuterieData } from '../../Data';
 
 export default function Charcuterie() {
 	return (
-		<Container>
-			<Box>
+		<Container width={'100%'} maxWidth={'1440px'}>
+			<Box overflow={'hidden'} display={'flex'} flexDirection={'column'}>
 				<Typography>CHARCUTERIE DELIVERY/PICK UP</Typography>
-				<Typography>
+				<Typography variant='p'>
 					During the pandemic, WOW! Events pivoted, introducing Charcuterie
 					services. Our team crafted delectable, made-to-order Cheese, Meat,
 					Veggie/Vegan, and Dessert Charcuterie Boxes for delivery, curbside
@@ -20,44 +26,45 @@ export default function Charcuterie() {
 					birthdays, holidays, weddings, or corporate events, our offerings
 					showcase fresh, seasonal ingredients for a WOW! experience.
 				</Typography>
-				<img fluid src={DeliveryBox} alt='deliveryBox' />
+				<img
+					fluid='true'
+					src={DeliveryBox}
+					alt='deliveryBox'
+					height={'160px'}
+				/>
 			</Box>
-
 			<Typography>Delivery and Pick Up options</Typography>
-			<Typography>Meat & Cheese Box</Typography>
-			<img src={MeatCheese} alt='cheeseBox' width={'50px'} />
 			<Box>
-				<Typography>8x8 inches - $60.00</Typography>
-				<Typography>10x10 inches - $85.00</Typography>
-				<Typography>12x12 inches - $110.00</Typography>
+				{charcuterieData.map((data, key) => {
+					return (
+						<Box
+							key={key}
+							display={'grid'}
+							gridTemplateColumns={'1fr 1fr'}
+							backgroundColor={'white'}>
+							<Box>
+								<Card>
+									<CardContent width={'100%'}>
+										<CardMedia
+											sx={{ height: 50, width: 50 }}
+											image={data.image}
+										/>
+										<Typography>{data.name}</Typography>
+									</CardContent>
+								</Card>
+							</Box>
+							<Box>
+								<Typography>8x8 {data.eightPrice}</Typography>
+								<Typography>10x10 {data.tenPrice}</Typography>
+								<Typography>12x12 {data.twelvePrice}</Typography>
+							</Box>
+						</Box>
+					);
+				})}
 			</Box>
-
-			<Typography>Cheese Box</Typography>
-			<img src={cheeseBox} alt='deliveryB' width={'50px'} />
 			<Box>
-				<Typography>8x8 inches - $55.00</Typography>
-				<Typography>10x10 inches - $80.00</Typography>
-				<Typography>12x12 inches - $105.00</Typography>
-			</Box>
-
-			<Typography>Veggie/Vegan Box</Typography>
-			<img src={Multi} alt='deliveryBox' width={'50px'} />
-			<Box>
-				<Typography>8x8 inches - $50.00</Typography>
-				<Typography>10x10 inches - $75.00</Typography>
-				<Typography>12x12 inches - $100.00</Typography>
-			</Box>
-
-			<Typography>Dessert Box</Typography>
-			<img src={Dessert} alt='deliveryBox' width={'50px'} />
-			<Box>
-				<Typography>6x6 inches - $35.00</Typography>
-				<Typography>8x8 inches - $45.00</Typography>
-			</Box>
-
-			<Typography>Charcuterie Fluties</Typography>
-			<img src={Flutes} alt='deliveryBox' width={'50px'} />
-			<Box>
+				<Typography>Charcuterie Fluties</Typography>
+				<img fluid='true' src={Flutes} alt='deliveryBox' width={'50px'} />
 				<Typography>Order in Multiples of 20 - $200.00</Typography>
 			</Box>
 

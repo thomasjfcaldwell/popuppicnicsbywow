@@ -17,9 +17,9 @@ const answerStyles = {
 
 const questionStyles = {
 	fontFamily: 'Montserrat, sans-serif',
-	fontSize: '14px',
+	fontSize: '10px',
 	fontStyle: 'normal',
-	fontWeight: '600',
+	fontWeight: '200',
 	lineHeight: 'normal',
 	color: '#054950',
 	margin: '0',
@@ -46,8 +46,8 @@ export default function Faq() {
 				);
 			})}
 			<Box>
-				<Typography>
-					SEE OUR FULL TERMS AND CONDITIONS OF SERVICE{' '}
+				<Typography variant='p'>
+					See all of our terms and conditions{' '}
 					<a href='https://drive.google.com/file/d/1hMFH8QIacQqcMDuuAaMUssqPi2dhXsLH/view?usp=sharing'>
 						HERE{' '}
 					</a>

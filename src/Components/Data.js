@@ -227,3 +227,57 @@ export const picnicThemesData = [
 		quote: 'Extravagant - Rustic - Comfortable',
 	},
 ];
+
+export const backyardData = [
+	{
+		id: '1',
+		name: 'Premier Movie Night',
+		price: 400,
+		included: ['Teapot'],
+	},
+	{
+		id: '2',
+		name: 'Blockbuster Movie Night',
+		price: 400,
+		included: [['bummy'], ['poo']],
+	},
+];
+
+export const charcuterieData = [
+	{
+		id: '1',
+		name: 'Meat & Cheese',
+		eightPrice: 60,
+		tenPrice: 85,
+		twelvePrice: 110,
+		image:
+			'https://res.cloudinary.com/djjqsmlei/image/upload/v1709161606/meatChesseBox_opmovs.jpg',
+	},
+	{
+		id: '2',
+		name: 'Cheese',
+		eightPrice: 55,
+		tenPrice: 80,
+		twelvePrice: 100,
+		image:
+			'https://res.cloudinary.com/djjqsmlei/image/upload/v1709161606/cheeseBox_axmqvs.jpg',
+	},
+	{
+		id: '3',
+		name: 'Veggie/Vegan',
+		eightPrice: 50,
+		tenPrice: 75,
+		twelvePrice: 100,
+		image:
+			'https://res.cloudinary.com/djjqsmlei/image/upload/v1709161608/veggieBox_lolz9l.jpg',
+	},
+	{
+		id: '4',
+		name: 'Dessert Box',
+		eightPrice: 60,
+		tenPrice: 85,
+		twelvePrice: 110,
+		image:
+			'https://res.cloudinary.com/djjqsmlei/image/upload/v1709161606/dessertBox_mobxi0.jpg',
+	},
+];

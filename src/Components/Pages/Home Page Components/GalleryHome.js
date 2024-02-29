@@ -68,15 +68,19 @@ const itemData = [
 export default function GalleryHome() {
 	return (
 		<Container
+			backgroundColor='green'
 			component='section'
 			className='gallery'
-			sx={{ display: 'flex', justifyContent: 'center' }}>
+			flexDirection='column'
+			alignContent='center'
+			sx={{
+				display: 'flex',
+				'@media (max-width: 426px)': {
+					display: 'none',
+				},
+			}}>
 			<SectionHeader text='Gallery' />
-			<ImageList
-				sx={{ width: 1000, margin: '1rem 0' }}
-				variant='quilted'
-				cols={6}
-				rowHeight={250}>
+			<ImageList variant='quilted' cols={6} rowHeight={250}>
 				{itemData.map((item) => (
 					<ImageListItem
 						key={item.img}

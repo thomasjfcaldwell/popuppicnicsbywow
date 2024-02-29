@@ -1,5 +1,5 @@
 import React from 'react';
-// import Ourstory from './Ourstory';
+import Ourstory from './Ourstory';
 import Testimonals from './Testimonals';
 import Steps from './Steps';
 import GalleryHome from './GalleryHome';
@@ -12,10 +12,10 @@ export default function Home() {
 		<Box component='section' className='main'>
 			<Hero />
 			<ServiceOptions />
-			{/* <Ourstory /> */}
-			{/* <GalleryHome /> */}
+			<Ourstory />
+			<GalleryHome />
 			<Steps />
-			{/* <Testimonals /> */}
+			<Testimonals />
 		</Box>
 	);
 }

@@ -53,11 +53,12 @@ export default function Testimonals(theme) {
 			component='section'
 			className='testimonals'
 			sx={{
+				width: '100%',
 				maxWidth: 1440,
 				flexGrow: 1,
 				display: 'flex',
-				padding: '1em',
 				justifyContent: 'center',
+				flexDirection: { xs: 'column', md: 'row' },
 			}}>
 			<SectionHeader text='Testimonals' />
 			<Paper
@@ -65,24 +66,21 @@ export default function Testimonals(theme) {
 					display: 'flex',
 					flexDirection: 'column',
 					alignItems: 'center',
-					width: '50%',
 					gap: '15px',
-					margin: '2em',
 				}}>
 				<Stack
 					sx={{
 						display: 'flex',
 						justifyContent: 'center',
 						width: '95%',
-						padding: '1.5em',
 					}}>
 					<CardMedia
-						sx={{ height: 300 }}
+						sx={{ height: 175 }}
 						image={customers[activeStep].imgPath}
 					/>
 				</Stack>
 				<Stack
-					direction='row'
+					direction={{ xs: 'column', md: 'row' }}
 					alignItems={'center'}
 					spacing={3}
 					backgroundColor='#FFF3E5'
@@ -101,7 +99,7 @@ export default function Testimonals(theme) {
 					</Stack>
 				</Stack>
 
-				<Stack paddingInline={2} height={'200px'}>
+				<Stack paddingInline={2}>
 					<Typography variant='p'>{customers[activeStep].intro}</Typography>
 					<Typography variant='p' marginTop={1}>
 						{customers[activeStep].text}
