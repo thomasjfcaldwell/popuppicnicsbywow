@@ -6,7 +6,7 @@ import Charcuterie from './Components/Pages/CharcuteriePage/Charcuterie';
 import { Route, BrowserRouter as Router } from 'react-router-dom';
 import { Component } from 'react';
 // import Footer from './Components/Footer/Footer';
-// import Nav from './Components/Nav/Nav';
+import Nav from './Components/Nav/Nav';
 import './App.css';
 import styled from '@emotion/styled';
 
@@ -21,10 +21,10 @@ class App extends Component {
 	render() {
 		return (
 			<AppContainer>
-				{/* <Nav /> */}
+				<Nav />
 				<Router>
-					<Route exact path='/' component={Packages} />
-					<Route exact path='/packages' component={Faq} />
+					<Route exact path='/' component={Home} />
+					<Route exact path='/packages' component={Packages} />
 					<Route exact path='/faq' component={Faq} />
 					<Route exact path='/backyardmovies' component={Backyard} />
 					<Route exact path='/charcuterie' component={Charcuterie} />

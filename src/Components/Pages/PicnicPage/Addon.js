@@ -1,6 +1,6 @@
 import React from 'react';
 import { addOnData } from '../../Data';
-import { Box, Typography, Card, CardMedia } from '@mui/material';
+import { Box, Typography, Card, CardMedia, Grid } from '@mui/material';
 
 export default function Addon() {
 	return (
@@ -10,23 +10,45 @@ export default function Addon() {
 			</Box>
 			<Box
 				display='flex'
-				flexDirection={{ xs: 'column' }}
-				alignItems={'center'}>
-				{addOnData.map((data, key) => {
+				alignItems={'stretch'}
+				flexWrap={'wrap'}
+				justifyContent={'space-between'}
+				rowGap={2}>
+				{addOnData.map((data, item) => {
 					return (
-						<Card
-							key={key}
-							sx={{
-								width: 280,
-								display: 'flex',
-								flexDirection: 'column',
-								alignItems: 'stretch',
-							}}>
-							<CardMedia sx={{ height: 280 }} image={data.image} />
-							<Typography sx={{ fontSize: '5px' }}>{data.title}</Typography>
-
-							<Typography>${data.price}</Typography>
-						</Card>
+						<Grid
+							item
+							key={item}
+							xs={12}
+							md={4}
+							lg={3}
+							sx={{ flex: '1 0 calc(33.333% - 16px)', margin: '8px' }}>
+							<Card
+								sx={{
+									display: 'flex',
+									flexDirection: 'column',
+									alignItems: 'stretch',
+									minWidth: '120px',
+									maxWidth: '600px',
+									width: '100%',
+									height: '200px',
+								}}>
+								<CardMedia sx={{ height: 100 }} image={data.image} />
+								<Box display='flex' alignItems='stretch' flexDirection='column'>
+									<Box>
+										<Typography sx={{ fontSize: '8px' }}>
+											{data.title}
+										</Typography>
+									</Box>
+									<Box>
+										<Typography fontSize='10px'>{data.description}</Typography>
+									</Box>
+									<Box>
+										<Typography fontSize='10px'>${data.price}</Typography>
+									</Box>
+								</Box>
+							</Card>
+						</Grid>
 					);
 				})}
 			</Box>

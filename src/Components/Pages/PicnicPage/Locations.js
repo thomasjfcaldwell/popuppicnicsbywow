@@ -18,18 +18,29 @@ export default function Locations() {
 			<Box className='locationsHeader' paddingBlock={1}>
 				<Typography>STEP 3: SELECT A PREFERRED PICNIC LOCATION</Typography>
 			</Box>
-			<Box display='flex' flexDirection={'column'}>
+			<Box display='flex' flexDirection={'column'} gap={2}>
 				{locationsData.map((data, key) => {
 					return (
 						<Card key={key}>
-							<CardMedia
-								sx={{ height: 100 }}
-								image={data.image}
-								title={data.alt}
-							/>
+							<Box p={1}>
+								<CardMedia
+									lazy='true'
+									sx={{ height: 100 }}
+									image={data.image}
+									title={data.alt}
+								/>
+							</Box>
 							<CardContent>
-								<Typography>{data.location}</Typography>
-								<Typography>{data.price}</Typography>
+								<Box
+									display='flex'
+									justifyContent={'center'}
+									paddingBlock={2}
+									bgcolor={'navy'}>
+									<Typography variant='p'>{data.location}</Typography>
+								</Box>
+								<Box>
+									<Typography variant='p'>{data.price}</Typography>
+								</Box>
 								<FormControl>
 									<RadioGroup>
 										<FormControlLabel
@@ -45,7 +56,7 @@ export default function Locations() {
 				})}
 			</Box>
 			<Box>
-				<Typography>
+				<Typography variant='p'>
 					20% Service Fee and Sales tax will be added to Pricing
 				</Typography>
 			</Box>

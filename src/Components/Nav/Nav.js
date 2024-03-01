@@ -3,6 +3,7 @@ import styled from '@emotion/styled';
 import NavIcons from './NavIcons/NavIcons';
 import NavLinks from '../Reusable/NavLinks';
 import logo from '../../Images/WowEvents_Logo_Orange_RGB.png';
+import Packages from '../Pages/PicnicPage/Packages';
 import { Box, Button, Stack } from '@mui/material';
 
 const Navigation = styled('div')({
@@ -20,8 +21,8 @@ export default function Nav() {
 			<NavIcons />
 			<Stack direction='row'>
 				<NavLinks link='/' title='Home' />
-				<NavLinks link='/picnics' title='Picnics' />
-				<NavLinks link='/movie_night' title='Movie Nights' />
+				<NavLinks link='/packages' title='Picnics' />
+				<NavLinks link='/backyardmovies' title='Movie Nights' />
 				<NavLinks link='/charcuterie' title='Charcuterie' />
 			</Stack>
 			<div>

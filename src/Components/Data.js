@@ -71,7 +71,8 @@ export const addOnData = [
 		title: 'COZY BLANKET BASKET',
 		image:
 			'https://res.cloudinary.com/djjqsmlei/image/upload/v1706659560/blankets_hxnemx.jpg',
-		description: '3 cozy blankets for the warm but fresh Californian evenings',
+		description:
+			'3 cozy blankets for those californian breezy days or evenings',
 		price: 30,
 	},
 	{
@@ -80,7 +81,7 @@ export const addOnData = [
 		image:
 			'https://res.cloudinary.com/djjqsmlei/image/upload/v1706659562/beveragepackage1_xdy4s8.jpg',
 		alt: 'beveragepackagefor2',
-		description: '4 beverages for 2 people to share',
+		description: 'Four non-alcoholic beverages for 2 people to share',
 		price: 40,
 	},
 	{
@@ -88,7 +89,7 @@ export const addOnData = [
 		title: 'ADDITIONAL BEVERAGES',
 		image:
 			'https://res.cloudinary.com/djjqsmlei/image/upload/v1706659555/beveragepackagefor2_ufiabs.jpg',
-		description: 'Extra 2 beverages for an additional guest',
+		description: 'Extra two non-alcoholic beverages for an additional guest',
 		price: 7.5,
 	},
 	{
@@ -96,12 +97,12 @@ export const addOnData = [
 		title: 'TEEPEE SET-UP',
 		image:
 			'https://res.cloudinary.com/djjqsmlei/image/upload/v1706659560/TeePee_jwyskw.jpg',
-		description: 'A decorated Teepee which includes pillows',
+		description: 'An amazingly decorated Teepee which includes pillows',
 		price: 50,
 	},
 	{
 		id: '5',
-		title: 'POSH UMBRELLA WITH TASSELS',
+		title: 'UMBRELLA WITH TASSELS',
 		image:
 			'https://res.cloudinary.com/djjqsmlei/image/upload/v1706659561/UmbrellaForWeb_meooyz.jpg',
 		description:
@@ -114,7 +115,7 @@ export const addOnData = [
 		image:
 			'https://res.cloudinary.com/djjqsmlei/image/upload/v1706659555/livemusic_qnglp5.jpg',
 		description:
-			'We can help bring a musical vibe to your picnic with live music! Prices start at $300 for a live performance at your picnic',
+			'We can help bring a musical vibe to your picnic with live music!',
 		price: 300,
 	},
 	{
@@ -123,7 +124,7 @@ export const addOnData = [
 		image:
 			'https://res.cloudinary.com/djjqsmlei/image/upload/v1706659560/extrahour_csoax4.jpg',
 		description:
-			'The duration of our picnics are 2 hours and 1.5 for the Basic Beauty package. Not long enough for you add an extra or 2 at $75 per hour',
+			'What the fun to carry on!?! Add an extra or 2 at $75 per hour',
 		price: 150,
 	},
 	{
@@ -132,7 +133,7 @@ export const addOnData = [
 		image:
 			'https://res.cloudinary.com/djjqsmlei/image/upload/v1706659555/BlueTooth_qmdng9.jpg',
 		description:
-			'Have a special soundtrack or music you would like to listen to during your picnic. Add a bluetooth speaker to make that happen',
+			'Have a special soundtrack?Add a bluetooth speaker to make that happen',
 		price: 15,
 	},
 	{
@@ -214,7 +215,7 @@ export const picnicThemesData = [
 		id: '3',
 		name: 'Take Me to Capri',
 		image:
-			'https://res.cloudinary.com/djjqsmlei/image/upload/v1706655558/nauticalChic_goplkn.jpg',
+			'https://res.cloudinary.com/djjqsmlei/image/upload/v1706655560/takemetoCapri_pyz2ud.jpg',
 		alt: 'Take Me to Capri',
 		quote: 'Dream - Happy - Paradise',
 	},
